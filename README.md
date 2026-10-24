@@ -2,7 +2,7 @@
 
 The 10 most likely acquirers for a ~$200M healthcare services company (mid-market, private, regional, strong margins), each with a cited one-page rationale, plus a bench of the next buyers and every decision behind the list.
 
-**Sample output:** [`samples/default_target/report.md`](samples/default_target/report.md) · more under [Samples](#samples) · **Demo:** Loom link to be added.
+**Sample output:** [`samples/default_target/report.md`](samples/default_target/report.md) · more under [Samples](#samples) · **Demo:** [Loom walkthrough](https://www.loom.com/share/30623c04184349d4a00d1b4f56d7908a)
 
 | Summary page | A buyer one-pager |
 |---|---|
