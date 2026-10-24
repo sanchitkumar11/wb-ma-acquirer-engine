@@ -1,0 +1,143 @@
+{
+ "pages": 10,
+ "jargon_hits_first_draft": 0,
+ "pass_before_repair": 1,
+ "pass_after_repair": 10,
+ "repairs": 9,
+ "first_draft_problems": {
+  "Numbers not in the fact pack (copy numbers exactly, compute nothing)": 7,
+  "The one-pager never names the buyer": 2,
+  "valuation_context needs 2-3 bullets, not 4": 1
+ },
+ "thesis_overlap_max": 0.364,
+ "thesis_overlap_mean": 0.1,
+ "most_similar_pair": "Evolent Health / Privia Health",
+ "conviction": {
+  "High": 3,
+  "Medium": 5,
+  "Low": 2
+ },
+ "generic_hits_first_draft": 0,
+ "generic_hits_final": 0,
+ "words_per_page": {
+  "Evolent Health": 500,
+  "Blackstone": 521,
+  "Epic Systems": 457,
+  "Francisco Partners": 514,
+  "Aledade": 498,
+  "Privia Health": 492,
+  "TPG Capital": 507,
+  "Warburg Pincus": 518,
+  "McKesson": 490,
+  "Advent International": 537
+ },
+ "pages_within_length_targets": 5,
+ "lengths": {
+  "Evolent Health": {
+   "headline": 23,
+   "sections": {
+    "acquirer_overview": 51,
+    "strategic_fit_thesis": 66,
+    "precedent_activity": 41,
+    "valuation_context": 65
+   },
+   "page": 500
+  },
+  "Blackstone": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 61,
+    "strategic_fit_thesis": 61,
+    "precedent_activity": 48,
+    "valuation_context": 67
+   },
+   "page": 521
+  },
+  "Epic Systems": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 52,
+    "strategic_fit_thesis": 59,
+    "precedent_activity": 45,
+    "valuation_context": 65
+   },
+   "page": 457
+  },
+  "Francisco Partners": {
+   "headline": 19,
+   "sections": {
+    "acquirer_overview": 58,
+    "strategic_fit_thesis": 69,
+    "precedent_activity": 51,
+    "valuation_context": 66
+   },
+   "page": 514
+  },
+  "Aledade": {
+   "headline": 23,
+   "sections": {
+    "acquirer_overview": 51,
+    "strategic_fit_thesis": 71,
+    "precedent_activity": 39,
+    "valuation_context": 70
+   },
+   "page": 498
+  },
+  "Privia Health": {
+   "headline": 21,
+   "sections": {
+    "acquirer_overview": 55,
+    "strategic_fit_thesis": 72,
+    "precedent_activity": 43,
+    "valuation_context": 64
+   },
+   "page": 492
+  },
+  "TPG Capital": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 60,
+    "strategic_fit_thesis": 80,
+    "precedent_activity": 50,
+    "valuation_context": 63
+   },
+   "page": 507
+  },
+  "Warburg Pincus": {
+   "headline": 21,
+   "sections": {
+    "acquirer_overview": 70,
+    "strategic_fit_thesis": 74,
+    "precedent_activity": 49,
+    "valuation_context": 70
+   },
+   "page": 518
+  },
+  "McKesson": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 49,
+    "strategic_fit_thesis": 68,
+    "precedent_activity": 50,
+    "valuation_context": 64
+   },
+   "page": 490
+  },
+  "Advent International": {
+   "headline": 23,
+   "sections": {
+    "acquirer_overview": 61,
+    "strategic_fit_thesis": 70,
+    "precedent_activity": 52,
+    "valuation_context": 65
+   },
+   "page": 537
+  }
+ },
+ "input_tokens": 33252,
+ "output_tokens": 12146,
+ "usd": 0.188,
+ "usd_per_page": 0.0188,
+ "llm_calls": 4,
+ "wall_clock_seconds": 47.5
+}

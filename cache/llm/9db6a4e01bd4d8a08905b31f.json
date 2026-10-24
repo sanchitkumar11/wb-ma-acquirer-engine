@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3637,
+  "output_tokens": 744,
+  "usd": 0.01471388345,
+  "cached": false,
+  "seconds": 5.776200541993603
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Blackstone",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Blackstone:deals"
+    ],
+    "reason": "Median deal size of $342M is roughly ten times the $32M target. Only 8 of 23 deals are in provider services and none are in the Southeast, so the target is unlikely to fit its scale or footprint."
+   },
+   {
+    "buyer": "Universal Health Services",
+    "action": "promote",
+    "code": "ARCHETYPE_FIT",
+    "fact_ids": [
+     "F:Universal Health Services:deals"
+    ],
+    "reason": "All 4 of its deals are in provider services, the median of $59M is close to the target's size, and one deal is in the Southeast. A strategic provider with this profile is a better fit for a Southeast behavioral health target than a generalist sponsor."
+   }
+  ]
+ }
+}

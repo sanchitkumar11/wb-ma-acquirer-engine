@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8370,
+  "output_tokens": 4251,
+  "usd": 0.059249706390000004,
+  "cached": false,
+  "seconds": 30.662442624976393
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Blackstone has bought three Health IT companies and runs an open platform in the sub-sector, making the $300M target a natural add-on.",
+  "differentiator": "Largest deal record on the priority list at 25 deals. Among the sponsors listed it pays the highest median multiple (17.1x), and its $342M median deal sits closest to the target's size.",
+  "why_them": "Add-on to its open Health IT platform; size fit",
+  "acquirer_overview": {
+   "title": "Large-cap sponsor with a 25-deal, ten-year record",
+   "points": [
+    "25 deals from 2015 to 2024, of which 22 closed (88%); 23 of 25 were control deals rather than minority stakes [T:record, K:closed_share, K:control_share].",
+    "Median deal of $342M, in a range from $10M to $14,354M; 11 of 25 deals sit in the $150M-$600M size band [T:record, K:size_band].",
+    "Private Equity segment holds $416.4 billion of Total Assets Under Management as of December 31, 2025 [P:1]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open Health IT platform, backed by sub-sector precedent",
+   "points": [
+    "Three past deals in the target's own sub-sector, and an open platform there makes the target an add-on rather than a new bet [T:record, A:angles].",
+    "Platform Build is a stated motive in 9 of 25 deals, consistent with buying onto an existing platform [M:platform_build].",
+    "Past deal count is a modest factor for it; deal size and region fit are slight factors [S:activity, S:not_smaller, S:geo_fit]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three Health IT deals at 20.2x to 23.5x, all smaller than the target",
+   "points": [
+    "Nexus Clinical Analytics: $71M bolt-on in 2020 at 23.5x EV/EBITDA, the closest add-on precedent [D:MA-2020-0384].",
+    "Standard Revenue Cycle ($26M leveraged buyout, 2022, 20.2x) and Lake Clinical Analytics ($21M recapitalization, 2017, 21.1x) [D:MA-2022-0080, D:MA-2017-0305].",
+    "Neighbouring sector at scale: Sterling Revenue Cycle, a $458M bolt-on in 2023 at 16.2x [D:MA-2023-0378]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Median of comparables is defensible, with headroom up to $356M",
+   "points": [
+    "13 comparable deals: 19.4x at the 25th percentile, 21.4x median, 23.3x at the 75th percentile [V:comps].",
+    "Margin of 25.0% is above the comparables' median of 22.2% but not in their top quarter, so the 50th percentile anchors; its own median paid is 17.1x [V:comps].",
+    "At 5.0x leverage, IRR at the ask is 25.3% against a 20% target; maximum price is $356M on a $239M equity cheque [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin Health IT focus",
+    "concern": "Only 3 of 25 deals are in Health IT, and home sub-sector is Health Insurance [T:record, B:buyer].",
+    "mitigant": "Its three Health IT deals priced at 20.2x to 23.5x, and the open platform gives an add-on route [D:MA-2020-0384, A:angles].",
+    "reality": "Sub-sector record is real but small; all three deals were well below the target's size [D:MA-2022-0080, D:MA-2017-0305]."
+   },
+   {
+    "title": "Price discipline versus comparables",
+    "concern": "Its median paid of 17.1x is below the comparables' 25th percentile of 19.4x [V:comps].",
+    "mitigant": "IRR at the ask is 25.3% against a 20% target, with a maximum price of $356M [V:lbo].",
+    "reality": "It would need to pay above its usual level, but the returns math allows it [V:comps, V:lbo]."
+   },
+   {
+    "title": "Auction experience and strategic rivals",
+    "concern": "Being used to competitive auctions counts slightly against it, and one 2024 deal was withdrawn [S:bidder_exp, D:MA-2024-0347].",
+    "mitigant": "22 of its 25 deals closed (88%) [K:closed_share].",
+    "reality": "Execution is strong, but strategics on the priority list have paid higher median multiples [S:bidder_exp, K:closed_share]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Three deals in the target's own sub-sector, an open platform offering the add-on route, and position 2 on the priority list of 10 support the call [T:record, A:angles, R:rank]."
+  }
+ }
+}

@@ -1,0 +1,13 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: KKR
+buyer_type: Financial Sponsor
+facts:
+- kind: aum
+  value: 'Private Equity business line: $229 billion of AUM as of December 31, 2025'
+  as_of: '2026-02-27'
+  source: https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm
+  accessed: '2026-10-23'
+  accession: 0001404912-26-000007
+  amount_usd_mm: 229000
+not_researched:
+- mandate

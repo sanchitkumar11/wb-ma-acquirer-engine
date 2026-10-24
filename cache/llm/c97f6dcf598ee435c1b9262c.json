@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Dental365",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6843,
+  "output_tokens": 3761,
+  "usd": 0.051295757100000006,
+  "cached": false,
+  "seconds": 25.86411250004312
+ },
+ "output": {
+  "buyer": "Dental365",
+  "headline": "Dental specialist that has closed all three deals in the target's own sub-sector, but has not transacted since 2018.",
+  "differentiator": "All 3 deals in the target's own sub-sector and all closed, matching Heartland and Aspen on completion. Median deal of $68M sits close to the $80M target.",
+  "why_them": "Pure dental buyer with a 100% close record",
+  "acquirer_overview": {
+   "title": "A dental-only buyer with a short, fully closed record",
+   "points": [
+    "Strategic buyer with 3 deals between 2016 and 2018, all closed, all control deals, all in the target's sub-sector [T:record, K:closed_share, K:control_share].",
+    "Deals ranged from $22M to $73M with a median of $68M; 2 of 3 fall in the comparable size band of $40M-$160M [T:record, K:size_band].",
+    "No deals since 2022. Profile and buyer revenue were not researched [K:recent, V:synergy]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector focus is the strongest factor behind its ranking",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; target margin close to what it usually buys is a modest factor [S:sector_share, S:margin_fit].",
+    "Growth was the motive in 2 of 3 deals (High Growth), against 41% of all deals in the file, which suits the target's 8.0% growth [M:high_growth, X:target].",
+    "Ranks 8th on the priority list of 10, with a likelihood of 4.8% across 107 buyers scored; no Southeast deal to date [R:rank, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three dental precedents at 14.0x to 16.1x, latest in 2018",
+   "points": [
+    "Crown Dental Care: $73M Strategic Acquisition in the Midwest, 2018, at 14.5x EBITDA, the closest in size to the target [D:MA-2018-0442].",
+    "Peak Dental Management: $68M Management Buyout, 2016, at 16.1x, its highest multiple paid [D:MA-2016-0178].",
+    "Keystone Oral Health: $22M Leveraged Buyout, 2018, at 14.0x; well below the target's size [D:MA-2018-0011]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Target supports upper-quartile pricing; buyer's history sits just below",
+   "points": [
+    "Comparable range is 11.0x to 15.4x EV/EBITDA, median 13.7x, across 63 deals in the $40M-$160M band [V:comps].",
+    "Target margin of 18.0% beats the comps median of 12.4% and exceeds 92% of comps, so the 75th percentile is defensible [V:comps].",
+    "Its median paid is 14.5x. Cost synergy headroom is $5M-$9M, but buyer revenue was not researched, so ability to pay is unconfirmed [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Dormant acquirer",
+    "concern": "No deal since 2018, and none since 2022; deals in recent years count slightly against it [K:recent, S:recency].",
+    "mitigant": "All 3 deals closed, so execution is proven when it does transact [K:closed_share].",
+    "reality": "Appetite today is unverified and should be tested early on the call [T:record]."
+   },
+   {
+    "title": "No Southeast footprint",
+    "concern": "No prior deal in the target's region; its deals were Multi-Regional, National and Midwest [T:record, K:by_region].",
+    "mitigant": "Geographic expansion motivated 2 of 3 deals, though the tag is common across the file [M:geographic_expansion].",
+    "reality": "The target would be a first Southeast position, not an extension of an existing one [T:record]."
+   },
+   {
+    "title": "Unconfirmed capacity",
+    "concern": "Buyer revenue was not researched, so funding an $80M deal cannot be assessed [V:synergy, X:target].",
+    "mitigant": "Its largest deal was $73M and its median paid is 14.5x, within the comparable range [T:record, V:comps].",
+    "reality": "Synergy headroom of $5M-$9M helps, but financing capacity remains open [V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Three deals in the target's own sub-sector and none in adjacent provider sub-sectors support the fit, but no deal in the target's region leaves that factor neutral [C:conviction]."
+  }
+ }
+}

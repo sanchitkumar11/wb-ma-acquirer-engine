@@ -1,0 +1,46 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 5977,
+  "output_tokens": 1127,
+  "usd": 0.023223809420000005,
+  "cached": false,
+  "seconds": 8.223786832997575
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "UPMC",
+    "action": "demote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "P:UPMC:2",
+     "F:UPMC:deals"
+    ],
+    "reason": "Hospitals are in Pennsylvania, Maryland and New York, and none of its 3 deals were in the Midwest. There is no overlap with a Midwest target."
+   },
+   {
+    "buyer": "Intermountain Health",
+    "action": "demote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "P:Intermountain Health:2",
+     "F:Intermountain Health:deals"
+    ],
+    "reason": "Footprint is Utah, Colorado, Idaho and Montana, it left Kansas in 2024, and its single deal was outside the Midwest. It has no Midwest presence to build on."
+   },
+   {
+    "buyer": "Bon Secours Mercy Health",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "P:Bon Secours Mercy Health:2",
+     "F:Bon Secours Mercy Health:deals"
+    ],
+    "reason": "It is headquartered in Cincinnati with hospitals in Ohio, so it has a Midwest base. Its $212M median deal size is in line with a $200M target."
+   }
+  ]
+ }
+}

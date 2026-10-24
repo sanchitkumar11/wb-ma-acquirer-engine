@@ -1,0 +1,57 @@
+{
+ "purpose": "W3 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6586,
+  "output_tokens": 5460,
+  "usd": 0.06777174782,
+  "cached": false,
+  "seconds": 40.2827556670527
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "Advent can add this $200M Midwest asset to an open Healthcare Services platform and recapitalized a $304M Core peer in 2024.",
+  "differentiator": "Advent combines an open platform in the sub-sector with a 2024 Core Healthcare Services recapitalization (Crest Care Partners, $304M) [A:angles, D:MA-2024-0120]. Its median paid of 15.5x is above the comparable 75th percentile of 15.3x [V:comps]. Nordic Capital and Welsh Carson also offer the add-on route, but they compete as provider specialists. Advent's edge is a record of paying upper-quartile prices.",
+  "acquirer_overview": {
+   "title": "Advent is a large, active sponsor with a Behavioral Health home and a size-relevant record",
+   "body": "Advent International is a financial sponsor. Its home sub-sector is Behavioral Health and its closest ring to the target is Core [B:buyer]. Its Global Private Equity X fund is about $25 billion (2022 vintage) [P:1], and AUM is approximately $100 billion as of November 2025 [P:2]. It has done 18 deals from 2016 to 2024, with a median of $124M and a range of $14M to $5,537M [T:record]. 17 of 18 were control deals, 8 of 18 sit in the $100M-$400M band, and 5 came since 2022 [K:control_share, K:size_band, K:recent]. It ranks 9th in Tier 1 and 13th of 107 buyers scored, at a likelihood of 3.7% [R:rank]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The fit is an add-on to an open platform, backed by Behavioral Health and Core precedents",
+   "body": "Advent has an open platform in the target's sub-sector, so this would be an add-on rather than a new bet [A:angles]. Deals in this or neighbouring sub-sectors are its strongest signal, at x1.11 [S:sector_rel]. Its Core deal is Crest Care Partners, a $304M Healthcare Services recapitalization in 2024 at 9.3x [D:MA-2024-0120]. Ring 1 adds Crown Addiction Treatment (2023, $123M, 14.6x) and Principal Counseling (2021, $163M, 13.2x) [D:MA-2023-0108, D:MA-2021-0341]. A $200M deal is not smaller than its usual range, at x1.09 [S:not_smaller]. Its only Midwest deal is Summit DSO, a $303M merger of equals in 2018 [D:MA-2018-0184]."
+  },
+  "precedent_activity": {
+   "title": "Eighteen deals with a Ring 1 weighting, a high close rate and one Midwest precedent",
+   "body": "Of 18 deals, 1 is Core, 7 are Ring 1 and 10 are outer ring [T:record]. 15 of 18 closed (83%) [K:closed_share]. Sub-sector spread: Behavioral Health, Dental, Health Insurance and Revenue Cycle have 3 deals each, and Healthcare Services has 1 [K:by_sub_sector]. Deal types are led by 4 recapitalizations, 3 leveraged buyouts and 3 mergers of equals [T:record]. Recent comparable deals include Crest Care Partners (2024, $304M, 9.3x) and Crown Addiction Treatment (2023, $123M, 14.6x) [D:MA-2024-0120, D:MA-2023-0108]. Earlier: Madison Behavioral Health (2019, $95M, 12.3x) [D:MA-2019-0027]. Only 1 of 18 deals was in the Midwest [T:record]."
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and Advent has paid at that level before",
+   "body": "The 70 comparable deals show 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th [V:comps]. The target's 16.8% margin is above the comps' median of 12.9% and above 87% of comps, which supports the 75th percentile [V:comps]. At $200M, that implies EBITDA of $13.1M at the 75th percentile versus $15.6M at the median [V:comps]. Advent's own median paid is 15.5x, with a closed-deal median of 3.19x EV/Revenue [V:comps, K:median_ev_revenue]. Ability to pay: at 5.0x leverage and an 8.5% rate, the equity cheque is $128M and the IRR at the ask is 18.7% against a 20% target [V:lbo]. The maximum price is $193M on the same exit and $216M on a 15.0x platform exit [V:lbo]."
+  },
+  "risk_flags": [
+   {
+    "title": "Return gap at the ask",
+    "concern": "IRR at the ask of 18.7% is below the 20% target, and the $193M maximum price on the same exit is below the $200M EV.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, above the $200M EV.",
+    "reality": "The price only works if Advent underwrites the add-on route and a 15.0x platform exit. A straight same-exit case does not clear the target return [V:lbo]."
+   },
+   {
+    "title": "Thin Core and regional record",
+    "concern": "Advent has one Core deal and one Midwest deal. Having bought in this or a neighbouring region is a negative signal, at x0.96.",
+    "mitigant": "Seven Ring 1 deals and an open platform in the sub-sector give it the same business model and an add-on route.",
+    "reality": "The Midwest precedent is Summit DSO from 2018, in Dental, and the Core precedent is Crest Care Partners in the Southeast [T:record, S:geo_fit, D:MA-2018-0184, D:MA-2024-0120, A:angles]."
+   },
+   {
+    "title": "Crowded process and modest likelihood",
+    "concern": "Advent ranks 9th in Tier 1 with a likelihood of 3.7%. Nordic Capital and Welsh Carson also offer an open-platform add-on and a provider-specialist record.",
+    "mitigant": "Advent's pricing history is the counter: a median paid of 15.5x, above the 75th-percentile comp of 15.3x.",
+    "reality": "Advent is a credible bidder rather than the front-runner. Its provider deals are 8 of 18 [R:rank, A:angles, V:comps]. 15 of 18 deals closed, so 3 did not complete [K:closed_share]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "The basis is 1 deal in the target's own sub-sector and 7 in Ring 1 (same business model), plus an open platform in the sub-sector as the add-on route [C:conviction, T:record, A:angles]. The weaker points are the return gap at the ask and thin regional history, covered above [V:lbo, S:geo_fit]."
+  }
+ }
+}

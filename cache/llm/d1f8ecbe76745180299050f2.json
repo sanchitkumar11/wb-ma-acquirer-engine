@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3230,
+  "output_tokens": 871,
+  "usd": 0.01516989439,
+  "cached": false,
+  "seconds": 7.931284083984792
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "MB2 Dental",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:MB2 Dental:deals"
+    ],
+    "reason": "Only one deal on record, with a $504M median that is far above the $38M target. Its model likelihood is 0.1%. The card gives no archetype, strategy or platform evidence that supports Tier 1 for a physician group."
+   },
+   {
+    "buyer": "Warburg Pincus",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Warburg Pincus:deals"
+    ],
+    "reason": "10 of its 16 deals are in provider services, and 2 are in the Southwest. That is the same Southwest count as the strongest Tier 1 sponsors and more than Tier 1 peers such as Bain, Vista and General Atlantic, which have none. Its $91M median is also near the target's scale."
+   }
+  ]
+ }
+}

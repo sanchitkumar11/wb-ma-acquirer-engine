@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write McKesson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6384,
+  "output_tokens": 3347,
+  "usd": 0.04623777501,
+  "cached": false,
+  "seconds": 25.209868125035428
+ },
+ "output": {
+  "buyer": "McKesson",
+  "headline": "McKesson's one deal was a Health IT bolt-on at 25.1x, so it can pay up for this asset, but its record is thin.",
+  "differentiator": "Its median multiple paid, 25.1x, is the highest on the priority list, though from a single deal. Its sub-sector share and margin fit are strong signals.",
+  "why_them": "Prior Health IT bolt-on buyer that paid a premium multiple",
+  "acquirer_overview": {
+   "title": "A strategic buyer with one Health IT deal on file",
+   "points": [
+    "McKesson is a strategic buyer whose home sub-sector is Health IT, the same as the target's [B:buyer].",
+    "One deal on file, closed in 2017, and none since 2022, so there is no recent activity [T:record, K:recent].",
+    "Its profile is not researched and buyer revenue is not researched, so its scale is unconfirmed [V:synergy]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector and margin fit are strong; recency and depth are not",
+   "points": [
+    "Share of its deals in the target's sub-sector is the strongest factor; margin close to what it usually buys is a strong factor [S:sector_share, S:margin_fit].",
+    "Its one deal carried the Technology Capability tag, found on only 10% of deals in the file, and Platform Build (1 of 1) [M:technology_capability, M:platform_build].",
+    "The $300M target is not bigger than any deal it has done, a slight factor in its favour [S:not_bigger]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One $405M bolt-on in 2017 is the only precedent",
+   "points": [
+    "Southeast Medical Informatics: $405M Health IT bolt-on, 2017, at 25.1x EBITDA and 5.40x revenue; it closed [D:MA-2017-0106].",
+    "That deal sits in the comparable size band of $150M-$600M (1 of 1) [K:size_band].",
+    "It was in the Southwest; McKesson has no deal in the target's National region [T:record, K:by_region]."
+   ]
+  },
+  "valuation_context": {
+   "title": "The median is the anchor; McKesson's past multiple sits above it",
+   "points": [
+    "13 comparable same-sub-sector deals of $150M-$600M: 19.4x at the 25th percentile, 21.4x median, 23.3x at the 75th [V:comps].",
+    "The target's 25.0% margin beats the comps' median of 22.2% but not their top quarter, so the 50th percentile is defensible [V:comps].",
+    "McKesson paid 25.1x in its one deal. Cost-synergy headroom is $14M-$23M; buyer revenue is not researched [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin record",
+    "concern": "Only one deal, in 2017, and none since 2022.",
+    "mitigant": "That deal was a same-sub-sector bolt-on that closed.",
+    "reality": "One data point supports the 25.1x price marker but not a pattern [T:record, K:recent, D:MA-2017-0106]."
+   },
+   {
+    "title": "No regional footprint",
+    "concern": "No deal in the target's National region; its one deal was in the Southwest.",
+    "mitigant": "Region is a neutral point, not a signal against.",
+    "reality": "Region fit is unproven, and its profile and revenue are not researched [T:record, V:synergy]."
+   },
+   {
+    "title": "Weak position in the process",
+    "concern": "It ranks 10th of 10 on the priority list, with a likelihood of 3.7%.",
+    "mitigant": "Its sub-sector share is the strongest factor in its favour.",
+    "reality": "Having bought from this kind of seller is a slight factor against it [R:rank, S:sector_share, S:own_fit_s]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Low because only 1 deal sits in the target's own sub-sector and none in its region. Sub-sector share and margin fit favour McKesson, but a single 2017 deal is thin evidence [C:conviction, T:record]."
+  }
+ }
+}

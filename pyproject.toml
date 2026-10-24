@@ -1,0 +1,81 @@
+# The engine as an installable package (src/ layout), its command, and the tool settings.
+# Exact versions live in requirements.txt (the lock: every package pinned from a clean resolve);
+# the ranges here say what the code needs and why, so an upgrade knows what it may break.
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acquirer-engine"
+version = "2.0.0"
+description = "Most likely acquirers for a mid-market healthcare target, with cited one-page rationales"
+readme = "README.md"
+requires-python = "~=3.12.0"   # the tested interpreter; 3.13+ not yet run through the test suite
+dependencies = [
+    "altair>=6,<7",             # per-buyer football field in the app
+    "httpx>=0.28,<1",           # SEC EDGAR client
+    "kaleido>=1.5,<2",          # PNG export of the report charts; needs a Chromium browser (BROWSER_PATH)
+    "langchain-core>=1.7,<2",   # model-agnostic message types and tools for the LLM layer
+    "langgraph>=1.2,<2",        # the one-pager pipeline (fan-out per buyer, write, validate, repair)
+    "numpy>=2.5,<3",
+    "pandas>=3.1,<4",           # 3.x: copy-on-write semantics the signals rely on
+    "plotly>=7.1,<8",           # report figures
+    "pydantic>=2.14,<3",        # one-pager and summary schemas, validated on every LLM reply
+    "pyyaml>=6,<7",             # targets, profiles, prompts, price table
+    "scipy>=1.18,<2",           # L-BFGS-B for the sign-locked logistic fit
+    "streamlit>=1.66,<2",       # the app; 1.66 for st.navigation, popover and toggle
+    "tenacity>=9,<10",          # EDGAR retry with backoff
+]
+
+[project.optional-dependencies]
+# Live LLM calls only (replay needs none of these); exact pins in requirements-llm.txt
+llm = ["databricks-langchain==0.21.0", "langchain-anthropic==1.7.6"]
+dev = ["pytest>=9,<10", "ruff>=0.17,<0.18"]
+
+[project.scripts]
+acquirer-engine = "acquirer_engine.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# ---------------------------------------------------------------------------
+# Lint and format
+# ---------------------------------------------------------------------------
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+# experiments/ are dated one-off scripts (they may break when the package changes); edgar/ is reused
+# unchanged from an earlier project, so it stays identical to that source
+extend-exclude = ["references", "experiments", "research/eda", "src/acquirer_engine/edgar"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "N", "RUF", "ANN", "TC"]
+ignore = [
+    "ANN401",   # Any is the honest type for JSON-shaped fact packs and LangChain message content
+    "RUF001",   # ambiguous unicode in strings: none intended; ASCII is enforced by tests/test_repo.py
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["ANN"]   # test functions are documented by their names and docstrings
+
+[tool.ruff.lint.isort]
+known-first-party = ["acquirer_engine"]
+
+# ---------------------------------------------------------------------------
+# Tests
+# ---------------------------------------------------------------------------
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers -m 'not slow'"
+markers = [
+    "slow: reruns experiments/review.py and refits the model (about 3 minutes); run with -m slow",
+]
+
+[tool.coverage.run]
+source = ["acquirer_engine"]
+
+[tool.coverage.report]
+fail_under = 70

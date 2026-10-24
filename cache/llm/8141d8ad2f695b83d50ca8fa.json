@@ -1,0 +1,63 @@
+{
+ "purpose": "W3 write Welsh Carson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6714,
+  "output_tokens": 4765,
+  "usd": 0.06107775093000001,
+  "cached": false,
+  "seconds": 32.29961520800134
+ },
+ "output": {
+  "buyer": "Welsh Carson",
+  "headline": "Welsh Carson can add this $200M Midwest target to an open platform, backed by a provider-heavy record and a prior Midwest Core deal.",
+  "differentiator": "It is the only sponsor on the list with all three angles: add-on to an open platform, provider specialist and size fit [A:angles]. Nordic Capital and Advent have the add-on route, and General Atlantic and GTCR have the provider and size angles, but none has all three. It also has a Midwest Core precedent in Jefferson Ambulatory Care [D:MA-2021-0083].",
+  "acquirer_overview": {
+   "title": "A provider-focused sponsor with 23 deals and a $172M median ticket",
+   "body": "Welsh Carson is a financial sponsor whose home sub-sector is Behavioral Health [B:buyer]. Its stated mandate is technology and healthcare, with US$8 billion of capital raised devoted to healthcare (2016 figure) [P:1]. A July 2023 headline reports its largest private equity fund to date, at over $5 billion [P:2]. It has 23 deals from 2017 to 2023, with a median deal of $172M and a range of $6M to $4,212M [T:record]. Of these, 9 sit in the $100M-$400M band and 21 of 23 (91%) are control deals [K:size_band, K:control_share]. It is sixth of the Tier 1 buyers, with a 4.3% likelihood across 107 buyers scored [R:rank]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The fit is an add-on to an open platform, backed by a Midwest Core precedent",
+   "body": "Deals in this or neighbouring sub-sectors are its strongest signal, at x1.16 [S:sector_rel]. Its Core deal is Jefferson Ambulatory Care, a $75M Midwest management buyout in 2021 at 17.8x [D:MA-2021-0083]. Midwest is its top region, with 6 deals [T:record]. It also pursued Clearwater Mental Health, a $398M Midwest recapitalization in 2023 [D:MA-2023-0166]. It has an open platform in the sub-sector, so the target would be an add-on, and 16 of its 23 deals are provider deals [A:angles]. It has 15 Ring 1 deals, so the business model is familiar [T:record]."
+  },
+  "precedent_activity": {
+   "title": "Eight deals since 2022, with repeat pricing in the mid-to-high teens",
+   "body": "Welsh Carson has done 8 deals since 2022 [K:recent]. Recent closed examples include Southeast Home Health, a $114M SPAC merger in 2022 at 16.3x [D:MA-2022-0107], and Alliance DSO, a $57M leveraged buyout in 2023 at 16.1x [D:MA-2023-0354]. Woodland PACE, a $204M management buyout in 2021 at 17.6x, is the closest in size to the target [D:MA-2021-0025]. Its median EV/Revenue on closed deals is 3.10x [K:median_ev_revenue]. Management buyouts (7) and recapitalizations (5) are its most common deal types [T:record]. Its last deal year in the data is 2023 [T:record]."
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and Welsh Carson has paid at that level",
+   "body": "Across 70 comparable deals, EV/EBITDA runs from 10.7x at the 25th percentile to 12.8x at the median and 15.3x at the 75th [V:comps]. The target's 16.8% margin is above the comps' 12.9% median and above 87% of comps, which supports the 75th percentile [V:comps]. At that level the target needs $13.1M of EBITDA [V:comps]. Welsh Carson's median paid is 16.2x [T:record]. On ability to pay, it assumes 5.0x leverage at 8.5% and a $128M equity cheque. IRR at the ask is 18.7% against a 20% target. The maximum price is $193M on the same exit and $216M on a platform exit at 15.0x [V:lbo]."
+  },
+  "risk_flags": [
+   {
+    "title": "Return gap at the ask",
+    "concern": "IRR at the ask of 18.7% is below the 20% target, and the $193M maximum price on the same exit is below the $200M EV.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, above the $200M EV.",
+    "reality": "The price only works if Welsh Carson underwrites the add-on route and a platform exit at 15.0x. A straight same-exit case does not clear its target return [V:lbo]."
+   },
+   {
+    "title": "Execution record",
+    "concern": "Not every approach completes. 18 of 23 deals closed (78%), and the close-rate signal counts against it at x0.96 [K:closed_share, S:close_rate_s].",
+    "mitigant": "Its closed deals include Midwest and Great Plains buyouts, such as Jefferson Ambulatory Care and Woodland PACE [D:MA-2021-0083, D:MA-2021-0025].",
+    "reality": "Clearwater Mental Health, its Midwest deal of $398M in 2023, was withdrawn, as was Delta Multispecialty Group in 2022 [D:MA-2023-0166, D:MA-2022-0024]. We should test its appetite and financing early."
+   },
+   {
+    "title": "Crowded add-on field",
+    "concern": "Nordic Capital and Advent International also have open platforms and High conviction, so Welsh Carson is not the only add-on route.",
+    "mitigant": "Welsh Carson is the only one of the three with the provider, size and add-on angles together [A:angles].",
+    "reality": "Its model rank is 10 and its likelihood is 4.3%, so it is a credible bidder rather than the favourite [R:rank]."
+   },
+   {
+    "title": "Thin Core history",
+    "concern": "Only 1 of its 23 deals is in the target's own sub-sector, and its last deal year in the data is 2023 [T:record].",
+    "mitigant": "It has 15 Ring 1 deals with the same business model [T:record].",
+    "reality": "The thesis rests on adjacent experience plus one Core Midwest precedent [D:MA-2021-0083]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "The basis is 1 deal in the target's own sub-sector and 15 in Ring 1, plus an open platform in the sub-sector that gives it an add-on route [C:conviction, T:record, A:angles]. The return gap and the withdrawn deals are the main reasons it is not a certainty [V:lbo, K:closed_share]."
+  }
+ }
+}

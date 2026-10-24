@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7205,
+  "output_tokens": 5292,
+  "usd": 0.06732973093000001,
+  "cached": false,
+  "seconds": 34.94904333300656
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "An open platform in the target's sub-sector and a 2024 deal there make Advent a natural add-on buyer at $200M.",
+  "differentiator": "One of three sponsors on the priority list with an open platform in the sub-sector (with Nordic Capital and Welsh Carson), and it pays a higher median multiple than Nordic Capital. [A:angles, T:record]",
+  "acquirer_overview": {
+   "title": "An established healthcare sponsor with a nine-year record and deep capital",
+   "points": [
+    "18 deals from 2016 to 2024, 15 closed (83%), across 9 active years; 17 of 18 (94%) were control deals. [T:record, K:closed_share, K:years_active, K:control_share]",
+    "Median deal of $124M, with 8 of 18 deals in the $100M-$400M size band that frames the target. [T:record, K:size_band]",
+    "Fund X of about $25 billion (2022 vintage) and approximately $100 billion AUM as of November 2025 give ample capacity. [P:1, P:2]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor in its likelihood; deal count and size within its usual range are slight factors in favour. [S:sector_rel, S:activity, S:not_smaller]",
+    "Bought Crest Care Partners ($304M, 2024) in the target's own sub-sector, plus 7 deals in adjacent provider sub-sectors, 3 of them in Behavioral Health. [D:MA-2024-0120, T:record, K:by_sub_sector]",
+    "The open platform makes the target an add-on rather than a new bet; limited Midwest history is the one signal against. [A:angles, S:geo_fit]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Recent same-sub-sector and behavioral health deals at comparable size",
+   "points": [
+    "Crest Care Partners: $304M Recapitalization in 2024, closed, in the target's own sub-sector at 9.3x EV/EBITDA. [D:MA-2024-0120]",
+    "Crown Addiction Treatment ($123M Recapitalization, 2023, 14.6x) and Principal Counseling ($163M minority investment, 2021, 13.2x), both Behavioral Health. [D:MA-2023-0108, D:MA-2021-0341]",
+    "Summit DSO, a $303M Midwest Merger of Equals in 2018 at 11.7x; 5 deals since 2022 show continued activity. [D:MA-2018-0184, K:recent]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible and within Advent's own range",
+   "points": [
+    "70 comparable deals price at 10.7x EV/EBITDA (25th percentile), 12.8x (median) and 15.3x (75th percentile). [V:comps]",
+    "The target's 16.8% margin beats the comparables' 12.9% median and sits above 87% of them, justifying the 75th percentile. [V:comps]",
+    "Its median paid is 15.5x; IRR at the ask is 18.7% against a 20% target, and a platform exit supports up to $216M. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "The same-exit maximum is $193M, below the $200M target, so the bid needs the add-on exit. [V:lbo, X:target]"
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Only 1 deal in the target's region, and geography is a slight signal against. [T:record, S:geo_fit]",
+    "mitigant": "That deal was Summit DSO, $303M in 2018, and Great Plains adds 3 deals. [D:MA-2018-0184, K:by_region]",
+    "reality": "Regional familiarity is limited; the case rests on sub-sector fit and the platform. [A:angles]"
+   },
+   {
+    "title": "Crowded process",
+    "concern": "Ranks 9th on the priority list of 10, with a likelihood of 3.7%. [R:rank]",
+    "mitigant": "The open platform add-on route and 5 deals since 2022 show intent. [A:angles, K:recent]",
+    "reality": "Nordic Capital and Welsh Carson also hold open platforms and have more adjacent provider deals. [R:rank]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 1 deal in the target's own sub-sector, 7 in adjacent provider sub-sectors, and an open platform add-on route. Its low list position reflects limited Midwest history, not weaker fit. [C:conviction, R:rank]"
+  }
+ }
+}

@@ -1,0 +1,12 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Steward Health Care
+buyer_type: Strategic
+facts:
+- kind: status
+  value: Filed for Chapter 11 bankruptcy; hospitals since sold or closed and the company liquidated
+  as_of: '2024-05-06'
+  source: https://en.wikipedia.org/wiki/Steward_Health_Care
+  accessed: '2026-10-23'
+  status: defunct
+not_researched:
+- revenue (private)

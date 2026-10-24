@@ -1,0 +1,987 @@
+<title>Healthcare M&amp;A Data Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column (max 1120px) of numbered findings; figures sit in quiet panels, tables scroll in their own frames. */
+:root {
+  --bg: #f5f6f7;
+  --panel: #ffffff;
+  --ink: #0f1317;
+  --ink-2: #454c55;
+  --muted: #747b85;
+  --line: #e0e3e7;
+  --line-2: #c8cdd3;
+  --accent: #0d5c63;
+  --accent-soft: #9fcfd2;
+  --accent-wash: #e4f0f1;
+  --sponsor: #2a78d6;
+  --strategic: #eb6834;
+  --other: #c3c2b7;
+  --heat-lo: #eef3fa;
+  --heat-hi: #104281;
+  --good: #0ca30c; --good-ink: #006300; --good-wash: #e6f4e6;
+  --warn: #fab219; --warn-ink: #7a5000; --warn-wash: #fdf3dc;
+  --bad: #d03b3b; --bad-ink: #9c2424; --bad-wash: #fbe7e7;
+  --font-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1012; --panel: #171a1d; --ink: #eef0f2; --ink-2: #c2c7cd; --muted: #8b929b;
+    --line: #2a2e33; --line-2: #3b4046; --accent: #63b7bd; --accent-soft: #2c5d61; --accent-wash: #15292b;
+    --sponsor: #3987e5; --strategic: #d95926; --other: #4b4b47; --heat-lo: #1c2531; --heat-hi: #86b6ef;
+    --good-ink: #3fc23f; --good-wash: #13261a; --warn-ink: #fab219; --warn-wash: #2b2410; --bad-ink: #ee7b7b; --bad-wash: #2e1617;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1012; --panel: #171a1d; --ink: #eef0f2; --ink-2: #c2c7cd; --muted: #8b929b;
+  --line: #2a2e33; --line-2: #3b4046; --accent: #63b7bd; --accent-soft: #2c5d61; --accent-wash: #15292b;
+  --sponsor: #3987e5; --strategic: #d95926; --other: #4b4b47; --heat-lo: #1c2531; --heat-hi: #86b6ef;
+  --good-ink: #3fc23f; --good-wash: #13261a; --warn-ink: #fab219; --warn-wash: #2b2410; --bad-ink: #ee7b7b; --bad-wash: #2e1617;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 96px; }
+h1, h2 { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.01em; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(32px, 5vw, 46px); line-height: 1.08; }
+h2 { font-size: clamp(24px, 3.2vw, 30px); line-height: 1.15; }
+h3 { font-size: 16px; font-weight: 600; margin: 0; text-wrap: balance; }
+p { margin: 0; max-width: 70ch; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible, tr:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.lede { font-size: 17px; color: var(--ink-2); max-width: 66ch; }
+.meta { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.stack { display: flex; flex-direction: column; gap: 14px; }
+.stack-lg { display: flex; flex-direction: column; gap: 24px; }
+header.top { display: flex; flex-direction: column; gap: 14px; padding-bottom: 28px; }
+nav.toc { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; }
+nav.toc a { color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--line-2); }
+nav.toc a:hover { color: var(--accent); border-color: var(--accent); }
+section { border-top: 1px solid var(--line); padding-block: 44px; display: flex; flex-direction: column; gap: 22px; }
+.sec-head { display: flex; flex-direction: column; gap: 8px; }
+.sec-num { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.answers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; }
+.answer { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.answer .q { font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: 0.02em; }
+.answer p { font-size: 14px; }
+.answer a { font-size: 13px; }
+.answer.key { background: var(--accent-wash); border-color: transparent; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; }
+.kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
+.kpi .label { font-size: 12px; color: var(--muted); }
+.kpi .value { font-size: 28px; font-weight: 600; line-height: 1.15; }
+.kpi .sub { font-size: 13px; color: var(--ink-2); }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 18px; }
+.fig { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.fig .cap { font-size: 13px; color: var(--ink-2); }
+.fig .note { font-size: 12px; color: var(--muted); }
+.chart { width: 100%; min-width: 0; }
+.scroll { overflow-x: auto; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.sw.line { height: 2px; width: 14px; border-radius: 1px; }
+.sw-sponsor { background: var(--sponsor); } .sw-strategic { background: var(--strategic); } .sw-other { background: var(--other); }
+.sw-accent { background: var(--accent); } .sw-muted { background: var(--muted); } .sw-soft { background: var(--accent-soft); }
+.seg { display: inline-flex; border: 1px solid var(--line-2); border-radius: 8px; overflow: hidden; flex-wrap: wrap; }
+.seg button { font: inherit; font-size: 13px; padding: 6px 12px; border: 0; background: transparent; color: var(--ink-2); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line-2); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--panel); }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+input[type="search"] { font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid var(--line-2); border-radius: 8px; background: var(--panel); color: var(--ink); min-width: 0; width: min(280px, 100%); }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+th.sortable { cursor: pointer; user-select: none; }
+th.sortable:hover { color: var(--ink); }
+th[aria-sort="ascending"]::after { content: " ▲"; font-size: 9px; }
+th[aria-sort="descending"]::after { content: " ▼"; font-size: 9px; }
+td.num, th.num { text-align: right; }
+tbody tr.click { cursor: pointer; }
+tbody tr.click:hover { background: var(--accent-wash); }
+tbody tr.sel { background: var(--accent-wash); }
+.tbl-frame { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: auto; max-height: 520px; }
+.tbl-frame.tall { max-height: none; }
+.tbl-frame table th { position: sticky; top: 0; background: var(--panel); z-index: 1; }
+.mono { font-family: var(--font-mono); font-size: 12px; }
+.tag { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 500; white-space: nowrap; }
+.tag::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--muted); }
+.tag.Sponsor::before { background: var(--sponsor); } .tag.Strategic::before { background: var(--strategic); }
+.flag { font-size: 12px; color: var(--warn-ink); font-weight: 600; white-space: nowrap; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 2px 9px 2px 6px; border-radius: 999px; white-space: nowrap; }
+.chip i { font-style: normal; width: 15px; height: 15px; border-radius: 50%; display: inline-grid; place-items: center; font-size: 10px; color: var(--panel); }
+.chip.use { background: var(--good-wash); color: var(--good-ink); } .chip.use i { background: var(--good-ink); }
+.chip.care { background: var(--warn-wash); color: var(--warn-ink); } .chip.care i { background: var(--warn-ink); }
+.chip.no { background: var(--bad-wash); color: var(--bad-ink); } .chip.no i { background: var(--bad-ink); }
+.chip.info { background: var(--accent-wash); color: var(--accent); } .chip.info i { background: var(--accent); }
+.callout { background: var(--accent-wash); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; }
+.callout h3 { color: var(--accent); }
+.callout.warn { background: var(--warn-wash); } .callout.warn h3 { color: var(--warn-ink); }
+.rings { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 12px; }
+.ring { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.ring .rn { font-family: var(--font-mono); font-size: 12px; color: var(--accent); }
+.ring ul { margin: 0; padding-left: 18px; font-size: 14px; }
+.ring p { font-size: 13px; color: var(--ink-2); }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 14px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.card .src { font-size: 12px; color: var(--muted); }
+.card dl { margin: 0; display: grid; grid-template-columns: 1fr; gap: 8px; }
+.card dt { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.card dd { margin: 0; font-size: 14px; }
+.card .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
+.group-label { font-size: 13px; font-weight: 600; color: var(--ink-2); display: flex; align-items: center; gap: 10px; }
+.steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0; counter-reset: s; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 40px 1fr; gap: 12px; padding-block: 14px; border-bottom: 1px solid var(--line); }
+.steps li::before { content: counter(s, decimal-leading-zero); font-family: var(--font-mono); font-size: 13px; color: var(--accent); padding-top: 2px; }
+.steps li > div { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.steps .dec { font-size: 13px; color: var(--ink-2); }
+.steps .dec b { color: var(--ink); font-weight: 600; }
+.detail { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 14px; }
+.detail .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 10px 18px; }
+.detail .stat .l { font-size: 12px; color: var(--muted); }
+.detail .stat .v { font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.outside { font-size: 13px; background: var(--warn-wash); color: var(--ink); border-radius: 8px; padding: 10px 12px; }
+.outside b { color: var(--warn-ink); }
+.small { font-size: 13px; color: var(--ink-2); }
+.muted { color: var(--muted); }
+blockquote { margin: 0; padding: 0 0 0 14px; border-left: 2px solid var(--line-2); color: var(--ink-2); font-size: 14px; max-width: 70ch; }
+ul.plain { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; max-width: 72ch; }
+.tip { position: fixed; z-index: 50; pointer-events: none; background: var(--panel); color: var(--ink); border: 1px solid var(--line-2); border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); max-width: 260px; }
+.tip .tv { font-weight: 700; font-size: 13px; }
+.tip .tr { display: flex; align-items: center; gap: 6px; }
+.tip .tk { width: 12px; height: 2px; border-radius: 1px; display: inline-block; }
+svg text { font-family: var(--font-body); }
+.ax text { fill: var(--muted); font-size: 11px; }
+.ax-l text { fill: var(--ink-2); font-size: 12px; }
+.lbl { fill: var(--ink-2); font-size: 11px; font-variant-numeric: tabular-nums; }
+.lbl-strong { fill: var(--ink); font-size: 11px; font-weight: 600; }
+.grid line { stroke: var(--line); stroke-width: 1; }
+.base { stroke: var(--line-2); stroke-width: 1; }
+.m-sponsor { fill: var(--sponsor); } .m-strategic { fill: var(--strategic); } .m-other { fill: var(--other); }
+.m-accent { fill: var(--accent); } .m-soft { fill: var(--accent-soft); } .m-muted { fill: var(--muted); } .m-muted-soft { fill: var(--line-2); }
+.ring-dot { stroke: var(--panel); stroke-width: 2; }
+.ln-accent { stroke: var(--accent); stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+.ln-muted { stroke: var(--muted); stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+.ref { stroke: var(--ink-2); stroke-width: 1; stroke-opacity: 0.6; }
+.hit { fill: transparent; }
+.hit:hover + .hl, .hl.on { opacity: 1; }
+.cell-hit:hover { stroke: var(--ink); stroke-width: 1.5; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+@media (max-width: 560px) { body { font-size: 14.5px; } .kpi .value { font-size: 24px; } section { padding-block: 34px; } }
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">Take-home prep · Acquirer identification engine</div>
+  <h1>Healthcare M&amp;A Data Review</h1>
+  <p class="lede">What the 500-deal CSV can and can't support, checked field by field, before we design the engine. Every figure on this page is computed from the file.</p>
+  <div class="meta">ma_transactions_500.csv · 500 rows × 24 fields · Target: Healthcare Services, ~$200M EV, private, regional, strong EBITDA margins</div>
+  <nav class="toc" aria-label="Sections">
+    <a href="#glance">1 · At a glance</a><a href="#acquirers">2 · Acquirers</a><a href="#sectors">3 · Sectors and adjacency</a><a href="#quality">4 · Data quality</a><a href="#claims">5 · Textbook claims</a><a href="#realworld">6 · Real world</a><a href="#dimensions">7 · Dimensions</a><a href="#mix">8 · Buyer mix</a><a href="#structure">9 · Structure</a>
+  </nav>
+</header>
+
+<section id="answers" style="border-top:0; padding-top:8px">
+  <div class="sec-head"><h2>Short answers</h2></div>
+  <div class="answers">
+    <div class="answer"><div class="q">How many acquirers are sponsors?</div><p><span data-v="overview.sponsors"></span> of the <span data-v="overview.acquirers"></span>. They did <span data-v="overview.sponsor_deals"></span> of the <span data-v="overview.deals"></span> deals (<span data-v="calc.sponsor_deal_pct" data-f="pct"></span>). The other <span data-v="overview.strategics"></span> are strategics with <span data-v="overview.strategic_deals"></span> deals between them.</p><a href="#acquirers">Full roster</a></div>
+    <div class="answer"><div class="q">What adjacency is the brief hinting at?</div><p>The ten "sectors" are sub-sectors of healthcare. Healthcare Services has four provider-services siblings that share its business model. Adding them takes the $100–400M pool from <span data-v="pool.0.all"></span> deals to <span data-v="pool.1.all"></span>.</p><a href="#sectors">Rings and evidence</a></div>
+    <div class="answer"><div class="q">Is the EBITDA mismatch deliberate? Forward multiples?</div><p>It doesn't behave like a forward or adjusted basis. It looks like a side effect of how the data was generated. A one-line note to the recruiter is cheap; build on a stated assumption either way.</p><a href="#quality">Tests</a></div>
+    <div class="answer"><div class="q">Which data points shouldn't we use?</div><p>Deal type, financing, geography, prior ownership, bidders, synergy %, days to close and most rationale tags look randomly filled. Keep them out of scoring.</p><a href="#fields">Field verdicts</a></div>
+    <div class="answer"><div class="q">Which textbook claims can we lean on?</div><p>Industry and size drive multiples, margin drives EV/Revenue, minority stakes aren't control comps, and recency matters. "Strategics pay more" is directional only. Six claims don't appear in this data.</p><a href="#claims">All fifteen</a></div>
+    <div class="answer"><div class="q">Does it need to match the real world?</div><p>The CSV is the evidence. The real world decides who each buyer is and whether it can still transact. A VP would strike a bankrupt buyer on sight.</p><a href="#realworld">Proposed rule</a></div>
+    <div class="answer key"><div class="q">The biggest design constraint</div><p>The <span data-v="overview.sponsors"></span> sponsors are statistically indistinguishable in this file: sector mix, deal size, close rate, timing and price paid all look random across them. Only deal volume separates them.</p><a href="#sponsor-test">The five tests</a></div>
+  </div>
+</section>
+
+<section id="glance">
+  <div class="sec-head"><div class="sec-num">01</div><h2>The dataset at a glance</h2></div>
+  <div class="kpis">
+    <div class="kpi"><div class="label">Deals</div><div class="value" data-v="overview.deals"></div><div class="sub"><span data-v="overview.year_min" data-f="raw"></span>–<span data-v="overview.year_max" data-f="raw"></span></div></div>
+    <div class="kpi"><div class="label">Acquirers</div><div class="value" data-v="overview.acquirers"></div><div class="sub"><span data-v="overview.sponsors"></span> sponsors · <span data-v="overview.strategics"></span> strategics</div></div>
+    <div class="kpi"><div class="label">Sub-sectors</div><div class="value" data-v="overview.sectors"></div><div class="sub">all within healthcare</div></div>
+    <div class="kpi"><div class="label">Closed deals</div><div class="value" data-v="overview.closed"></div><div class="sub"><span data-v="calc.closed_pct" data-f="pct"></span> of all; the rest withdrawn, pending, terminated or rumored</div></div>
+  </div>
+  <div class="grid-2">
+    <div class="fig">
+      <h3>Deals per year</h3>
+      <div class="legend"><span><i class="sw sw-sponsor"></i>Sponsor</span><span><i class="sw sw-strategic"></i>Strategic</span></div>
+      <div class="chart" id="c-year"></div>
+      <div class="note">Activity peaks in 2020–2021. Only <span data-v="calc.deals_2024"></span> deals are dated 2024, which matters for any "last two years" comp window.</div>
+    </div>
+    <div class="fig">
+      <h3>Outcomes</h3>
+      <div class="scroll"><table><thead><tr><th>Outcome</th><th class="num">Deals</th><th>Use</th></tr></thead><tbody id="t-outcomes"></tbody></table></div>
+      <div class="note">The brief lists four outcomes. The file has a fifth, Rumored.</div>
+    </div>
+  </div>
+</section>
+
+<section id="acquirers">
+  <div class="sec-head"><div class="sec-num">02</div><h2>Who the acquirers are</h2>
+  <p>Two different populations share the acquirer column. Each of the <span data-v="overview.sponsors"></span> sponsors appears 14 to 25 times and spreads across most sub-sectors. The <span data-v="overview.strategics"></span> strategics appear 1 to 6 times each (<span data-v="calc.st_le3"></span> of them three times or fewer), and all but two, UnitedHealth Group and R1 RCM, stay inside a single sub-sector.</p></div>
+  <div class="grid-2">
+    <div class="fig">
+      <h3>Deals per sponsor</h3>
+      <div class="legend"><span><i class="sw sw-sponsor"></i>Provider-services deals (core + ring 1)</span><span><i class="sw sw-other"></i>Other sub-sectors</span></div>
+      <div class="chart" id="c-sponsors"></div>
+    </div>
+    <div class="fig">
+      <h3>How many deals each strategic did</h3>
+      <div class="cap">Number of strategics by deal count</div>
+      <div class="chart" id="c-stdist"></div>
+      <div class="note">The busiest strategics (CenterWell Home Health and VNS Health, 6 each) did fewer deals than the least active sponsor.</div>
+    </div>
+  </div>
+  <div class="stack">
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search acquirers" aria-label="Search acquirers">
+      <div class="seg" role="group" aria-label="Filter by type"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="Sponsor" aria-pressed="false">Sponsors</button><button type="button" data-filter="Strategic" aria-pressed="false">Strategics</button><button type="button" data-filter="note" aria-pressed="false">Real-world flag</button></div>
+      <span class="small" id="roster-count"></span>
+    </div>
+    <div class="tbl-frame"><table id="t-roster"><thead></thead><tbody></tbody></table></div>
+    <div class="small">Select a row to see that acquirer's dimension values and every deal it did. "Provider" counts Healthcare Services plus the four ring-1 sub-sectors. Median EV/EBITDA uses the stated multiple on closed deals.</div>
+    <div id="detail" class="detail" hidden></div>
+  </div>
+</section>
+
+<section id="sectors">
+  <div class="sec-head"><div class="sec-num">03</div><h2>Industry breakdown and the adjacency</h2>
+  <p>The sub-sector column is the strongest signal in the file. It explains most of the spread in multiples, and it is the only field that tells strategics apart.</p></div>
+  <div class="grid-2">
+    <div class="fig">
+      <h3>Deals by sub-sector</h3>
+      <div class="legend"><span><i class="sw sw-sponsor"></i>Sponsor</span><span><i class="sw sw-strategic"></i>Strategic</span></div>
+      <div class="chart" id="c-sectors"></div>
+      <div class="note">Physician Groups has no strategic buyers at all: all 60 of its deals went to sponsors.</div>
+    </div>
+    <div class="fig">
+      <h3>Multiples by sub-sector, closed deals</h3>
+      <div class="controls"><div class="seg" role="group" aria-label="Metric" id="ff-metric"><button type="button" data-m="m" aria-pressed="true">EV/EBITDA, stated</button><button type="button" data-m="mr" aria-pressed="false">EV/EBITDA, recomputed</button><button type="button" data-m="rv" aria-pressed="false">EV/Revenue</button></div></div>
+      <div class="legend"><span><i class="sw sw-soft"></i>Interquartile range, core and ring 1</span><span><i class="sw sw-muted-soft" style="background:var(--line-2)"></i>Rings 2–3</span><span><i class="sw sw-accent" style="border-radius:50%"></i>Median</span></div>
+      <div class="chart" id="c-ff"></div>
+      <div class="note">The vertical line is the comp-set median: <span data-v="comp.n"></span> closed control deals in provider services, $100–400M.</div>
+    </div>
+  </div>
+  <div class="tbl-frame tall"><table id="t-sectors"></table></div>
+
+  <div class="stack-lg" id="adjacency">
+    <div class="stack">
+      <h3 style="font-size:20px; font-family:var(--font-display)">What the brief is hinting at</h3>
+      <blockquote>"The Healthcare Services sector has 46 transactions, with only ~12 in the $100–400M range. Strong candidates will think carefully about how to use adjacent sectors and the full dataset rather than filtering narrowly."</blockquote>
+      <p>The ten values in the sector column are not peers. In a bank's healthcare coverage, healthcare services is the umbrella for businesses that deliver care and get paid by insurers or patients: physician practices, behavioral health, home health and hospice, dental service organizations, and facility operators. Health IT, devices, pharma and insurance are separate verticals with different economics. So the adjacency is the set of sub-sectors that work the way Healthcare Services works.</p>
+    </div>
+    <div class="rings">
+      <div class="ring"><div class="rn">Core</div><ul><li>Healthcare Services</li></ul><p>The target's own sub-sector. <span data-v="pool.0.all"></span> deals in the $100–400M band, <span data-v="pool.0.closed_control"></span> of them closed control deals.</p></div>
+      <div class="ring"><div class="rn">Ring 1 · provider services</div><ul><li>Physician Groups</li><li>Behavioral Health</li><li>Home Health/Hospice</li><li>Dental</li></ul><p>Same model: multi-site, labor-heavy, reimbursement-driven, grown by regional roll-ups. Cumulative pool: <span data-v="pool.1.all"></span> deals, <span data-v="pool.1.closed_control"></span> closed control.</p></div>
+      <div class="ring"><div class="rn">Ring 2 · adjacent</div><ul><li>Revenue Cycle</li><li>Health Insurance</li></ul><p>Services sold to providers, and payers that buy providers (UnitedHealth does both in this file). Cumulative: <span data-v="pool.2.all"></span> deals.</p></div>
+      <div class="ring"><div class="rn">Ring 3 · different model</div><ul><li>Health IT</li><li>Medical Devices</li><li>Pharma/Biotech</li></ul><p>Software and product economics, with median multiples near 20–25x. Useful for buyer context, not for comps. Cumulative: <span data-v="pool.3.all"></span> deals.</p></div>
+    </div>
+    <div class="callout">
+      <h3>The numbers mostly agree with the business-model grouping</h3>
+      <p>Measured on standardized sector medians (deal size, both multiples, margin, growth), the closest sub-sectors to Healthcare Services are Home Health/Hospice, Dental and Physician Groups, and the farthest are Health IT and Pharma/Biotech. Behavioral Health is the exception to know about: its faster growth puts it about as far away as Revenue Cycle and Health Insurance, so its ring-1 place rests on business model. The distance column in the table above shows each value.</p>
+    </div>
+  </div>
+
+  <div class="fig">
+    <h3>Sponsor footprint by sub-sector</h3>
+    <div class="cap">Deal count per sponsor and sub-sector. Columns run from the core outward.</div>
+    <div class="scroll"><div class="chart" id="c-heat" style="min-width:640px"></div></div>
+    <div class="note">This grid looks like a set of preferences, such as Nordic Capital's 10 Physician Groups deals or Blackstone's 6 in Health Insurance. A chi-square test says the spread is what random assignment would produce (p = <span data-v="tests.sponsor_sector_p" data-f="raw"></span>). Cite these counts as facts; don't present them as a strategy.</div>
+  </div>
+</section>
+
+<section id="quality">
+  <div class="sec-head"><div class="sec-num">04</div><h2>Data quality: what to trust</h2>
+  <p>Three fields describe EBITDA: the dollar amount, the margin and the multiple. In most rows no two of them agree. The revenue side is clean.</p></div>
+  <div class="kpis">
+    <div class="kpi"><div class="label">EV/Revenue = deal size ÷ revenue</div><div class="value"><span data-v="recon.rev_ok"></span> / 500</div><div class="sub">within 5%</div></div>
+    <div class="kpi"><div class="label">EV/EBITDA = deal size ÷ EBITDA</div><div class="value"><span data-v="recon.mult_ok"></span> / 500</div><div class="sub">within 5%</div></div>
+    <div class="kpi"><div class="label">Margin = EBITDA ÷ revenue</div><div class="value"><span data-v="recon.margin_ok"></span> / 500</div><div class="sub">within 1 point</div></div>
+    <div class="kpi"><div class="label">Margin matches the stated multiple</div><div class="value"><span data-v="recon.mult_vs_margin_ok"></span> / 500</div><div class="sub">within 1 point</div></div>
+  </div>
+  <div class="grid-2">
+    <div class="fig">
+      <h3>Stated vs recomputed EV/EBITDA, all 500 deals</h3>
+      <div class="legend"><span><i class="sw sw-accent" style="border-radius:50%"></i>Deal</span><span><i class="sw line" style="background:var(--ink-2)"></i>Where the two would agree</span></div>
+      <div class="chart" id="c-recon"></div>
+      <div class="note">Recomputed = deal_size_mm ÷ target_ebitda_mm. Log scale; it reaches <span data-v="recon.max_recalc" data-f="x1"></span> where EBITDA is tiny.</div>
+    </div>
+    <div class="stack">
+      <div class="callout warn">
+        <h3>Why it matters for the valuation section</h3>
+        <p>On the comp set (<span data-v="comp.n"></span> closed control deals, provider services, $100–400M), the stated EV/EBITDA median is <span data-v="comp.stated.1" data-f="x1"></span> and the recomputed median is <span data-v="comp.recalc.1" data-f="x1"></span>. On $15M of EBITDA that is <span data-v="calc.val_stated" data-f="usd0"></span> versus <span data-v="calc.val_recalc" data-f="usd0"></span>. Whichever basis we pick has to be chosen on purpose and disclosed.</p>
+      </div>
+      <div class="card">
+        <h3>Could the stated multiples be forward multiples?</h3>
+        <p class="small">If the stated multiple used next year's EBITDA, the EBITDA it implies (deal size ÷ stated multiple) would sit a little above reported EBITDA, by roughly the growth rate, and the gap would track revenue growth. It doesn't.</p>
+        <ul class="plain small">
+          <li>The implied-to-reported ratio runs from <span data-v="forward_test.q05" data-f="x2"></span> to <span data-v="forward_test.q95" data-f="x2"></span> (5th to 95th percentile), median <span data-v="forward_test.q50" data-f="x2"></span>.</li>
+          <li><span data-v="forward_test.below_one" data-f="pct0"></span> of rows would mean EBITDA is expected to shrink, in a file where every deal shows positive revenue growth.</li>
+          <li>The implied growth is unrelated to revenue growth (Spearman ρ = <span data-v="forward_test.rho" data-f="r2"></span>, p = <span data-v="forward_test.p" data-f="raw"></span>).</li>
+          <li>A synergy-adjusted EBITDA doesn't fit either: the gap is unrelated to synergy_pct_of_deal.</li>
+        </ul>
+        <p class="small">So the mismatch is noise, not a different basis.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Was it sent like that on purpose?</h3>
+      <p class="small">The file looks generated. A handful of relationships were clearly built in: sub-sector drives multiples, margins and deal size; each strategic sticks to one sub-sector; the Scale tag appears on every deal above $500M and on none below it; all <span data-v="tests.carveouts"></span> carve-outs carry the Carve-out Complexity tag. Most other fields show no relationship to anything. The EBITDA mismatch fits that pattern: the multiple, the margin and the dollar EBITDA look drawn separately, each with its own noise. That reads as a by-product of the generator, not a planted trap.</p>
+      <p class="small">Either way, the rubric scores data thinking at 15%, so catching it and handling it openly is what counts.</p>
+    </div>
+    <div class="card">
+      <h3>Should you clarify?</h3>
+      <p class="small">A short factual note is cheap and shows the catch early. The brief says they won't give hints on approach, so expect little back. Send it, don't wait on the reply, and state the assumption in the README. A draft is in our chat.</p>
+    </div>
+  </div>
+
+  <div class="stack" id="fields">
+    <h3 style="font-size:20px; font-family:var(--font-display)">Field by field</h3>
+    <p class="small">How to read the tests: Cramér's V runs from 0 (no relationship) to 1, and p is the chance of seeing a pattern this strong if the field had been filled at random. A p above 0.05 means we can't tell the field from random. ρ is a rank correlation from −1 to 1.</p>
+    <div class="tbl-frame tall"><table id="t-fields"><thead><tr><th>Field</th><th>What we checked</th><th>Result</th><th>Verdict</th></tr></thead><tbody></tbody></table></div>
+  </div>
+
+  <div class="callout" id="sponsor-test">
+    <h3>The 15 sponsors can't be told apart</h3>
+    <p>Five tests, each asking whether the sponsors differ from one another more than chance would produce:</p>
+    <div class="scroll"><table style="max-width:640px"><thead><tr><th>What differs across sponsors</th><th>Test</th><th class="num">p</th></tr></thead><tbody>
+      <tr><td>Which sub-sectors they buy in</td><td>Chi-square</td><td class="num" data-v="tests.sponsor_sector_p" data-f="raw"></td></tr>
+      <tr><td>How big their deals are</td><td>Kruskal–Wallis on log size</td><td class="num" data-v="tests.sponsor_size_p" data-f="raw"></td></tr>
+      <tr><td>How often their deals close</td><td>Chi-square</td><td class="num" data-v="tests.sponsor_close_p" data-f="raw"></td></tr>
+      <tr><td>When they were active</td><td>Kruskal–Wallis on year</td><td class="num" data-v="tests.sponsor_year_p" data-f="raw"></td></tr>
+      <tr><td>What they pay vs the sub-sector median (all acquirers with 4+ closed deals)</td><td>Kruskal–Wallis</td><td class="num" data-v="tests.acq_resid_p" data-f="raw"></td></tr>
+    </tbody></table></div>
+    <p>None comes close to 0.05. In this file, a sponsor's identity predicts nothing beyond its deal count. Strategics are different: their sub-sector identity is real signal. This shapes how we rank (section 9).</p>
+  </div>
+
+  <div class="stack">
+    <h3 style="font-size:20px; font-family:var(--font-display)">Where the file conflicts with the real world</h3>
+    <p class="small">Acquirer names are real; their deal histories here are not. These are the conflicts a VP would catch. They come from general knowledge, so each needs a check before it goes into a deliverable.</p>
+    <div class="tbl-frame tall"><table id="t-notes"><thead><tr><th>Acquirer</th><th>Type</th><th class="num">Deals in file</th><th>Outside the dataset (verify)</th></tr></thead><tbody></tbody></table></div>
+  </div>
+</section>
+
+<section id="claims">
+  <div class="sec-head"><div class="sec-num">05</div><h2>Textbook claims against the data</h2>
+  <p>Fifteen claims from the interview guide and from Damodaran's work that bear on picking buyers and pricing comps. For each one: why it should hold, what the file shows, and whether we can use it. Where sector mix would distort a comparison, the test runs inside provider services only.</p></div>
+  <div class="legend" style="font-size:13px"><span class="chip use"><i>✓</i>Holds: build on it</span><span class="chip care"><i>!</i>Directional: cite with care</span><span class="chip no"><i>×</i>Not in this data</span><span class="chip info"><i>–</i>Judgment call</span></div>
+
+  <div class="group-label">Claims we can build on</div>
+  <div class="cards">
+    <div class="card"><div class="head"><h3>Industry is the first screen for precedents</h3><span class="chip use"><i>✓</i>Holds</span></div><div class="src">Interview guide, p.107</div><dl>
+      <dt>Why it should hold</dt><dd>Businesses in the same industry share growth, risk and reinvestment needs, which are what a multiple prices.</dd>
+      <dt>What the data shows</dt><dd>Sub-sector explains most of the spread (Kruskal–Wallis p <span data-v="tests.sector_mult_p" data-f="raw"></span>). Closed-deal medians run from <span data-v="calc.min_sector_mult" data-f="x1"></span> to <span data-v="calc.max_sector_mult" data-f="x1"></span>.</dd>
+      <dt>How we use it</dt><dd>Build comps from the core and ring 1 first; widen only with a stated reason.</dd></dl></div>
+    <div class="card"><div class="head"><h3>Size changes the multiple</h3><span class="chip use"><i>✓</i>Holds</span></div><div class="src">Interview guide, p.107 (financial criteria); Damodaran on size and liquidity</div><dl>
+      <dt>Why it should hold</dt><dd>Larger businesses are less risky and more liquid, and they draw more buyers.</dd>
+      <dt>What the data shows</dt><dd>Median EV/EBITDA climbs from <span data-v="claims.size_buckets.0.m" data-f="x1"></span> below $50M to <span data-v="claims.size_buckets.5.m" data-f="x1"></span> above $1B (ρ = <span data-v="tests.size_mult_rho" data-f="r2"></span>).</dd>
+      <dt>How we use it</dt><dd>Size-band the comps around $200M ($100–400M), and score buyers on size fit.</dd></dl></div>
+    <div class="card"><div class="head"><h3>EV/Revenue moves with margin</h3><span class="chip use"><i>✓</i>Holds</span></div><div class="src">Damodaran: margin is EV/Sales's companion variable</div><dl>
+      <dt>Why it should hold</dt><dd>EV/Revenue equals EV/EBITDA times margin, so a higher-margin business earns a higher revenue multiple.</dd>
+      <dt>What the data shows</dt><dd>Within provider services, margin and EV/Revenue move together (ρ = <span data-v="claims.margin_rev_rho_prov" data-f="r2"></span>, p <span data-v="claims.margin_rev_p_prov" data-f="raw"></span>). Margin and EV/EBITDA don't (ρ = <span data-v="claims.margin_mult_rho_prov" data-f="r2"></span>).</dd>
+      <dt>How we use it</dt><dd>For a strong-margin target, place EV/Revenue above the comp median and keep EV/EBITDA at the median. At ~20% margin the target's implied EV/Revenue is about <span data-v="calc.tgt_evrev" data-f="x2"></span>, just under the comp set's 75th percentile (<span data-v="comp.rev.2" data-f="x2"></span>), which is where a strong-margin business should sit.</dd></dl></div>
+    <div class="card"><div class="head"><h3>Precedents carry a control premium; minority stakes don't</h3><span class="chip use"><i>✓</i>Holds, as a rule</span></div><div class="src">Interview guide, p.111 (Q33); Damodaran on the value of control</div><dl>
+      <dt>Why it should hold</dt><dd>A buyer of the whole company pays for control of strategy and cash flows. A minority investor gets neither.</dd>
+      <dt>What the data shows</dt><dd>Within provider services, minority stakes closed at <span data-v="claims.minority_vs_control_prov.0" data-f="x1"></span> vs <span data-v="claims.minority_vs_control_prov.1" data-f="x1"></span> for control deals. (Across all sectors minority deals show <span data-v="claims.minority_all" data-f="x1"></span>, but that's sector mix.)</dd>
+      <dt>How we use it</dt><dd>Exclude minority stakes from valuation comps. Since deal type is randomly filled, this is principle more than evidence.</dd></dl></div>
+    <div class="card"><div class="head"><h3>Use recent precedents</h3><span class="chip use"><i>✓</i>Holds, but thin</span></div><div class="src">Interview guide, p.107 (past 1–2 years); Damodaran on price vs value</div><dl>
+      <dt>Why it should hold</dt><dd>Multiples reflect the market's mood and interest rates when the deal was struck.</dd>
+      <dt>What the data shows</dt><dd>Multiples drift down over time (ρ = <span data-v="tests.year_mult_rho" data-f="r2"></span>). A strict two-year window leaves only <span data-v="calc.recent_comps"></span> comps in the provider band (2023–24).</dd>
+      <dt>How we use it</dt><dd>Use all years with a recency weight, and show 2021-onward separately so the cycle is visible.</dd></dl></div>
+  </div>
+
+  <div class="fig">
+    <h3>Median stated EV/EBITDA by year, closed deals</h3>
+    <div class="legend"><span><i class="sw line sw-accent"></i>Provider services</span><span><i class="sw line sw-muted"></i>All sub-sectors</span></div>
+    <div class="chart" id="c-trend"></div>
+  </div>
+
+  <div class="group-label">Directional only</div>
+  <div class="cards">
+    <div class="card"><div class="head"><h3>Strategics pay more than sponsors</h3><span class="chip care"><i>!</i>Directional</span></div><div class="src">Interview guide, p.134 (synergies) and p.149–150 (the LBO "floor")</div><dl>
+      <dt>Why it should hold</dt><dd>A strategic can count revenue and cost synergies. A sponsor's price is capped by the return it needs, unless it owns a business to combine with.</dd>
+      <dt>What the data shows</dt><dd>Provider services: strategics <span data-v="claims.st_vs_fs_prov.0" data-f="x1"></span> vs sponsors <span data-v="claims.st_vs_fs_prov.1" data-f="x1"></span> (p = <span data-v="claims.st_vs_fs_prov.2" data-f="raw"></span>). Healthcare Services alone: <span data-v="claims.st_vs_fs_hcs.0" data-f="x1"></span> vs <span data-v="claims.st_vs_fs_hcs.1" data-f="x1"></span> (p = <span data-v="claims.st_vs_fs_hcs.2" data-f="raw"></span>). The all-sector gap (<span data-v="claims.st_vs_fs_all.0" data-f="x1"></span> vs <span data-v="claims.st_vs_fs_all.1" data-f="x1"></span>) is inflated because strategics include pharma and device buyers.</dd>
+      <dt>How we use it</dt><dd>As the reason the list includes strategics at all (price tension), not as a number in a rationale.</dd></dl></div>
+    <div class="card"><div class="head"><h3>Multiples reflect market mood</h3><span class="chip care"><i>!</i>Directional</span></div><div class="src">Damodaran: pricing vs value</div><dl>
+      <dt>Why it should hold</dt><dd>Transaction multiples are prices set by the market at a point in time, not intrinsic values.</dd>
+      <dt>What the data shows</dt><dd>A weak downward drift (ρ = <span data-v="tests.year_mult_rho" data-f="r2"></span>) and no clear 2021 spike. See the chart above.</dd>
+      <dt>How we use it</dt><dd>Mention vintage when citing a precedent; don't build a cycle story on it.</dd></dl></div>
+  </div>
+
+  <div class="group-label">Not in this data</div>
+  <div class="cards">
+    <div class="card"><div class="head"><h3>Competitive processes produce higher multiples</h3><span class="chip no"><i>×</i>Not in data</span></div><div class="src">Interview guide, p.110 (Q28)</div><dl>
+      <dt>Why it should hold</dt><dd>More bidders means more pressure on price. It's the business case for a broad auction.</dd>
+      <dt>What the data shows</dt><dd>Within provider services, single-bidder deals closed at <span data-v="claims.bidders.0.m" data-f="x1"></span> and five-bidder deals at <span data-v="claims.bidders.4.m" data-f="x1"></span> (ρ = <span data-v="claims.bidders_rho" data-f="r2"></span>). See the chart below.</dd>
+      <dt>How we use it</dt><dd>Don't claim it. num_bidders is descriptive only.</dd></dl></div>
+    <div class="card"><div class="head"><h3>High-margin companies show lower EV/EBITDA</h3><span class="chip no"><i>×</i>Not in data</span></div><div class="src">Interview guide, p.117 (Q12): screen on margins, don't normalize</div><dl>
+      <dt>Why it should hold</dt><dd>The guide argues that, by arithmetic, a high-margin business tends to show a lower EBITDA multiple.</dd>
+      <dt>What the data shows</dt><dd>No relationship inside provider services (ρ = <span data-v="claims.margin_mult_rho_prov" data-f="r2"></span>). Across all sectors it's positive (ρ = <span data-v="claims.margin_mult_rho_all" data-f="r2"></span>) because high-margin sectors trade higher.</dd>
+      <dt>How we use it</dt><dd>No margin screen is needed for EV/EBITDA comps. The guide and Damodaran disagree on normalizing; here the data makes it moot.</dd></dl></div>
+    <div class="card"><div class="head"><h3>Sponsors favor high-margin, cash-stable targets</h3><span class="chip no"><i>×</i>Not in data</span></div><div class="src">Interview guide, p.149 (the ideal LBO candidate)</div><dl>
+      <dt>Why it should hold</dt><dd>Stable cash flow and margin carry debt, and debt drives sponsor returns.</dd>
+      <dt>What the data shows</dt><dd>Provider-services targets bought by sponsors had a median margin of <span data-v="claims.target_margin.0" data-f="pctv"></span>; those bought by strategics, <span data-v="claims.target_margin.1" data-f="pctv"></span>.</dd>
+      <dt>How we use it</dt><dd>Argue it from the target's profile (strong margins support leverage), not from patterns in the file.</dd></dl></div>
+    <div class="card"><div class="head"><h3>Synergy estimates drive what strategics pay</h3><span class="chip no"><i>×</i>Not in data</span></div><div class="src">Interview guide, p.135–136 (synergies are rarely realized); Damodaran's synergy skepticism</div><dl>
+      <dt>Why it should hold</dt><dd>A buyer that underwrites more synergy can bid more. The skeptics' point is that it often shouldn't.</dd>
+      <dt>What the data shows</dt><dd>synergy_pct_of_deal has no relationship with price (ρ = <span data-v="claims.synergy_mult_rho" data-f="r2"></span>), and sponsors book slightly more than strategics (<span data-v="claims.synergy.1" data-f="pctv"></span> vs <span data-v="claims.synergy.0" data-f="pctv"></span>).</dd>
+      <dt>How we use it</dt><dd>Leave the field out. The skeptics' point stands on its own as a risk flag.</dd></dl></div>
+    <div class="card"><div class="head"><h3>Strategics pay cash; sponsors use leverage</h3><span class="chip no"><i>×</i>Not in data</span></div><div class="src">Interview guide, p.136 and p.150</div><dl>
+      <dt>Why it should hold</dt><dd>Cash is the cheapest currency for a strategic. Leverage is how a sponsor reaches its return.</dd>
+      <dt>What the data shows</dt><dd>"Leveraged" financing on <span data-v="claims.leveraged.0" data-f="pct0"></span> of sponsor deals vs <span data-v="claims.leveraged.1" data-f="pct0"></span> of strategic deals. Financing type is independent of buyer type (p = <span data-v="tests.financing_type.p_type" data-f="raw"></span>); <span data-v="tests.sponsor_stock"></span> sponsor deals are paid partly in stock.</dd>
+      <dt>How we use it</dt><dd>Don't use financing_type. Financing capacity becomes a risk flag argued from buyer type.</dd></dl></div>
+    <div class="card"><div class="head"><h3>Earnouts are common with private sellers</h3><span class="chip no"><i>×</i>Not in data</span></div><div class="src">Interview guide, p.144</div><dl>
+      <dt>Why it should hold</dt><dd>Earnouts bridge valuation gaps and keep founders engaged, which matters most for private companies.</dd>
+      <dt>What the data shows</dt><dd>Earnouts on <span data-v="claims.earnout.0" data-f="pct0"></span> of private and PE-backed targets vs <span data-v="claims.earnout.1" data-f="pct0"></span> of public ones.</dd>
+      <dt>How we use it</dt><dd>Not at all.</dd></dl></div>
+  </div>
+
+  <div class="grid-2">
+    <div class="fig">
+      <h3>Median EV/EBITDA by number of bidders</h3>
+      <div class="cap">Closed provider-services deals</div>
+      <div class="chart" id="c-bidders"></div>
+    </div>
+    <div class="stack">
+      <div class="group-label">Judgment calls</div>
+      <div class="card"><div class="head"><h3>A superior company deserves the upper quartile</h3><span class="chip info"><i>–</i>Judgment</span></div><div class="src">Interview guide, p.109 (Q24–25)</div><dl>
+        <dt>What the data allows</dt><dd>Margin supports the upper range on EV/Revenue only. Base EV/EBITDA on the median and show the 75th percentile as upside.</dd></dl></div>
+      <div class="card"><div class="head"><h3>Narrow buyers by activity, size, geography and portfolio fit</h3><span class="chip info"><i>–</i>Partly testable</span></div><div class="src">Interview guide, p.60 (Q13)</div><dl>
+        <dt>What the data allows</dt><dd>Activity and size exist. Geography is randomly filled, and there's no portfolio-company data. These become the dimensions in section 7.</dd></dl></div>
+    </div>
+  </div>
+</section>
+
+<section id="realworld">
+  <div class="sec-head"><div class="sec-num">06</div><h2>Is it supposed to match the real world?</h2></div>
+  <div class="grid-2">
+    <div class="stack">
+      <p class="small"><b>What the brief says</b></p>
+      <blockquote>"Acquirer names are real companies; target names are semi-fictional."</blockquote>
+      <blockquote>"The CSV is your only required data source. You may augment with public information (Wikipedia, SEC filings) but it is not expected or required."</blockquote>
+      <blockquote>Acquirer Overview: "Who they are: size, strategic priorities, recent M&amp;A activity implied by the dataset."</blockquote>
+      <blockquote>"Would a VP send this to an MD without editing?"</blockquote>
+    </div>
+    <div class="stack">
+      <p class="small"><b>My read</b></p>
+      <p class="small">The CSV is the system of record for deal evidence and valuation. But the overview asks for the buyer's size and strategic priorities, and the file has no acquirer-size field. That part has to come from outside the CSV. And the VP test means the output can't contradict facts a banker knows, such as a buyer that's in bankruptcy or two names that are one company.</p>
+      <p class="small"><b>Proposed rule, three layers</b></p>
+      <ul class="plain small">
+        <li><b>Dataset facts</b> carry all numbers and precedents, cited by transaction ID.</li>
+        <li><b>Public facts</b> cover identity and status only (parent company, rename, bankruptcy, investment focus), sourced and labeled.</li>
+        <li><b>Never</b> mix real deals into the precedent evidence, or state real fund sizes as numbers without a source. The file's deal histories are synthetic, so real ones would contradict them.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="dimensions">
+  <div class="sec-head"><div class="sec-num">07</div><h2>Scoring dimensions, with examples from the data</h2>
+  <p>Candidate dimensions for "how likely is this buyer to transact," each with real values from the file and a rating of how much signal the file holds for it. Values come from the roster in section 2.</p></div>
+  <div class="cards" id="dims"></div>
+</section>
+
+<section id="mix">
+  <div class="sec-head"><div class="sec-num">08</div><h2>The 7/3 buyer mix, explained</h2>
+  <p>The list has ten slots. The question is how many should go to strategics.</p></div>
+  <div class="grid-2">
+    <div class="stack">
+      <div class="card"><h3>1. With no rule, sponsors take every slot</h3>
+        <p class="small">Rank all <span data-v="overview.acquirers"></span> acquirers on one relevance score and all <span data-v="overview.sponsors"></span> sponsors come before the first strategic, <span data-v="pure_rank.first_strategic" data-f="raw"></span>, at #<span data-v="pure_rank.first_strategic_rank"></span>. Each sponsor has 14–25 deals and the busiest strategic has 6. That's how the two populations appear in the file. It doesn't mean no strategic would buy this company.</p></div>
+      <div class="card"><h3>2. A sell-side list wants both</h3>
+        <p class="small">Strategics may pay more because they can count synergies; sponsors bring depth and speed. Putting both on the list creates price tension. The guide's example process (p.57) started with 10–20 strategics and about 30 sponsors and ended with one of each competing for the deal.</p></div>
+      <div class="card"><h3>3. Let comparable deals set the ratio</h3>
+        <p class="small">Rather than picking a number, look at who bought comparable companies. Provider-services deals of $100–400M: <span data-v="mix.band_n"></span> deals, <span data-v="mix.band_st"></span> by strategics (<span data-v="calc.mix_pct" data-f="pct"></span>) and <span data-v="mix.band_fs"></span> by sponsors. That share of 10 slots is about 3. Private targets alone give the same answer (<span data-v="mix.private_st"></span> of <span data-v="mix.private_n"></span>), and so does Healthcare Services alone (<span data-v="mix.hcs_st"></span> of <span data-v="mix.hcs_n"></span>). That's the 7/3.</p></div>
+    </div>
+    <div class="stack">
+      <div class="fig">
+        <h3>Comparable deals and the ten slots</h3>
+        <div class="legend"><span><i class="sw sw-sponsor"></i>Sponsor</span><span><i class="sw sw-strategic"></i>Strategic</span></div>
+        <div class="chart" id="c-mix"></div>
+      </div>
+      <div class="tbl-frame tall"><table><thead><tr><th>Option</th><th>How it works</th><th>Trade-off</th></tr></thead><tbody>
+        <tr><td><b>A · Pure rank</b></td><td>One score, top 10 wins</td><td class="small">10 sponsors. Simple, but fails the sell-side logic.</td></tr>
+        <tr><td><b>B · Proportional</b></td><td>7 sponsor and 3 strategic slots, from the comp ratio</td><td class="small">Data-backed and easy to defend. The ratio is fixed per run.</td></tr>
+        <tr><td><b>C · Two lanes</b></td><td>Rank each lane on its own score, fill 7 + 3, show the next few in each lane as a bench</td><td class="small">Lets each lane use different features. Most useful to a banker.</td></tr>
+        <tr><td><b>D · Floor</b></td><td>Pure rank, but at least 2–3 strategics</td><td class="small">Flexible, but the floor is a judgment number.</td></tr>
+      </tbody></table></div>
+      <p class="small">My lean: C, with B's ratio setting the split. It also fits the plan for separate sponsor and strategic prompts later.</p>
+    </div>
+  </div>
+</section>
+
+<section id="structure">
+  <div class="sec-head"><div class="sec-num">09</div><h2>How we structure the engine, before the LLM</h2>
+  <p>The stages run in this order. Each one has a decision we should settle together. The LLM layer starts at stage 9 and is a separate discussion.</p></div>
+  <ol class="steps">
+    <li><div><h3>Load and check the file</h3><p class="small">Read the CSV, run the reconciliation and field checks above, and record which basis each number uses.</p><p class="dec"><b>Decide:</b> the canonical EV/EBITDA. Lean: stated as the headline, recomputed shown beside it, EV/Revenue as the cross-check since it's the only ratio that ties.</p></div></li>
+    <li><div><h3>Define the target in a config file</h3><p class="small">Sector, EV, margin, ownership and region as inputs, never hardcoded. This also delivers the "arbitrary target" stretch goal.</p><p class="dec"><b>Decide:</b> what "strong margins" means. Healthcare Services margins: median <span data-v="claims.hcs_margin_q.0" data-f="pctv"></span>, 75th percentile <span data-v="claims.hcs_margin_q.1" data-f="pctv"></span>, 90th <span data-v="claims.hcs_margin_q.2" data-f="pctv"></span>. Lean: ~20%, which at <span data-v="comp.stated.1" data-f="x1"></span> implies ~$<span data-v="calc.tgt_ebitda" data-f="raw"></span>M EBITDA and ~$<span data-v="calc.tgt_rev" data-f="raw"></span>M revenue.</p></div></li>
+    <li><div><h3>Build the comp set</h3><p class="small">Core plus ring 1, $100–400M, closed, control deals, weighted toward recent years. Produces the valuation ranges.</p><p class="dec"><b>Decide:</b> ring weights and the time window. Lean: rings as above, weights tuned by the backtest, all years with recency weighting.</p></div></li>
+    <li><div><h3>Clean the buyer universe</h3><p class="small">Start from all <span data-v="overview.acquirers"></span> names, merge duplicates (Kindred at Home and CenterWell Home Health), flag status (Steward), and assign each to a lane.</p><p class="dec"><b>Decide:</b> how much real-world overlay. Lean: a small, sourced file for identity and status only. No live web calls, which keeps runs fast and repeatable.</p></div></li>
+    <li><div><h3>Compute features per buyer</h3><p class="small">Only from fields that passed the checks: sub-sector, buyer type, deal size, year, outcome, control flag.</p><p class="dec"><b>Decide:</b> which dimensions from section 7 survive. Lean: relevance, size fit, activity and close record; drop the rest from scoring.</p></div></li>
+    <li><div><h3>Score and rank within each lane</h3><p class="small">Transparent weights that a banker can read off the page, tested against the backtest.</p><p class="dec"><b>Decide:</b> a strict 1–10 order or tiers. Because sponsors are indistinguishable here, a strict order among them would rank noise. Lean: tiers for sponsors, ranked order for strategics, with the reason written in the README.</p></div></li>
+    <li><div><h3>Fill the ten slots</h3><p class="small">Apply the buyer-mix rule from section 8.</p><p class="dec"><b>Decide:</b> option A, B, C or D. Lean: C with B's ratio.</p></div></li>
+    <li><div><h3>Set conviction</h3><p class="small">Rule-based: score, depth of evidence (how many relevant precedents), and any status flags.</p><p class="dec"><b>Decide:</b> the thresholds. Can wait until we see the score distribution.</p></div></li>
+    <li><div><h3>Assemble the evidence pack</h3><p class="small">Everything the writing step is allowed to cite, per buyer. This is where the LLM layer begins.</p><p class="dec"><b>Next discussion.</b></p></div></li>
+    <li><div><h3>Evaluate</h3><p class="small">Backtest: for each 2022–24 deal, rank buyers using only earlier deals and check whether the actual buyer makes the top 10.</p><p class="dec">First probe (<span data-v="backtest.n"></span> deals): a simple sector-and-size score hits <span data-v="backtest.naive" data-f="pct0"></span>, the same as just listing the ten most active buyers (<span data-v="backtest.active" data-f="pct0"></span>). Random picks would hit about <span data-v="backtest.random" data-f="pct0"></span>. The flat result is the sponsor finding showing up again.</p></div></li>
+  </ol>
+  <div class="callout">
+    <h3>What this means for the design</h3>
+    <p>For strategics, the file gives real signal: sub-sector identity and deal size. For sponsors, it can't separate the fifteen beyond deal count. So the structure should rank strategics, tier sponsors, let depth of evidence drive conviction, and keep a small labeled real-world layer for identity and status. Saying this plainly in the README is part of the data-thinking score.</p>
+  </div>
+  <p class="small muted">Methods: Cramér's V with chi-square tests for categorical fields, Kruskal–Wallis for differences across groups, Mann–Whitney U for two-group comparisons, Spearman ρ for rank correlation. "Provider services" means Healthcare Services plus ring 1. Ring weights used in the relevance score (1.0 / 0.6 / 0.3 / 0.1) are illustrative, for discussion.</p>
+</section>
+</div>
+
+<div id="tip" class="tip" hidden></div>
+<script type="application/json" id="data">__DATA__</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const byName = Object.fromEntries(D.roster.map(r => [r.name, r]));
+  const PROV = ['Healthcare Services', 'Physician Groups', 'Behavioral Health', 'Home Health/Hospice', 'Dental'];
+
+  // ---- derived values used in prose ----
+  const C = {};
+  C.sponsor_deal_pct = D.overview.sponsor_deals / D.overview.deals;
+  C.closed_pct = D.overview.closed / D.overview.deals;
+  C.deals_2024 = (D.by_year.find(d => d.year === 2024) || { sponsor: 0, strategic: 0 });
+  C.deals_2024 = C.deals_2024.sponsor + C.deals_2024.strategic;
+  C.st_le3 = D.strategic_count_dist.filter(d => d.deals <= 3).reduce((a, d) => a + d.acquirers, 0);
+  C.mix_pct = D.mix.band_st / D.mix.band_n;
+  C.val_stated = 15 * D.comp.stated[1];
+  C.val_recalc = 15 * D.comp.recalc[1];
+  C.recent_comps = (D.comp.by_year['2023'] || 0) + (D.comp.by_year['2024'] || 0);
+  const ms = D.sectors.map(s => s.m_med);
+  C.min_sector_mult = Math.min(...ms); C.max_sector_mult = Math.max(...ms);
+  const tE = 200 / D.comp.stated[1];
+  C.tgt_ebitda = Math.round(tE * 10) / 10; C.tgt_rev = Math.round(tE / 0.20); C.tgt_evrev = 200 / (tE / 0.20);
+  D.calc = C;
+
+  const measureCtx = document.createElement('canvas').getContext('2d');
+  const labelW = (labels, el) => { measureCtx.font = '12px ' + getComputedStyle(document.body).fontFamily; const w = Math.max(...labels.map(t => measureCtx.measureText(t).width)); return Math.min(Math.ceil(w) + 14, Math.floor(el.clientWidth * 0.5)); };
+  const get = (o, path) => path.split('.').reduce((a, k) => (a == null ? undefined : a[k]), o);
+  const fmt = (v, f) => {
+    if (v == null) return '–';
+    switch (f) {
+      case 'x1': return Number(v).toFixed(1) + 'x';
+      case 'x2': return Number(v).toFixed(2) + 'x';
+      case 'pct': return Math.round(v * 100) + '%';
+      case 'pct0': return Math.round(v * 100) + '%';
+      case 'pctv': return Number(v).toFixed(1) + '%';
+      case 'usd0': return '$' + Math.round(v) + 'M';
+      case 'r2': return Number(v).toFixed(2);
+      case 'raw': return String(v);
+      default: return typeof v === 'number' ? v.toLocaleString('en-US') : String(v);
+    }
+  };
+  document.querySelectorAll('[data-v]').forEach(el => { el.textContent = fmt(get(D, el.dataset.v), el.dataset.f); });
+
+  // ---- tooltip ----
+  const tip = document.getElementById('tip');
+  function showTip(evt, html) {
+    tip.innerHTML = html; tip.hidden = false;
+    const r = tip.getBoundingClientRect(); const pad = 12;
+    let x = evt.clientX + 14, y = evt.clientY + 14;
+    if (x + r.width > window.innerWidth - pad) x = evt.clientX - r.width - 14;
+    if (y + r.height > window.innerHeight - pad) y = evt.clientY - r.height - 14;
+    tip.style.left = Math.max(pad, x) + 'px'; tip.style.top = Math.max(pad, y) + 'px';
+  }
+  const hideTip = () => { tip.hidden = true; };
+  const tipRow = (color, value, label) => `<div class="tr"><span class="tk" style="background:${color}"></span><span class="tv">${value}</span><span>${label}</span></div>`;
+  function bindTip(sel, htmlFn) {
+    sel.on('pointermove', (e, d) => showTip(e, htmlFn(d))).on('pointerleave', hideTip)
+      .attr('tabindex', 0).on('focus', function (e, d) { const b = this.getBoundingClientRect(); showTip({ clientX: b.right, clientY: b.top }, htmlFn(d)); }).on('blur', hideTip);
+  }
+
+  // ---- svg helpers ----
+  function svgIn(el, H, label) {
+    el.innerHTML = '';
+    const W = Math.max(280, Math.floor(el.clientWidth));
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('height', H).attr('role', 'img').attr('aria-label', label);
+    return { svg, W };
+  }
+  const colV = (x, y0, y1, w, r) => { const h = y0 - y1; if (h <= 0) return ''; r = Math.min(r, h, w / 2); return `M${x},${y0}V${y1 + r}Q${x},${y1} ${x + r},${y1}H${x + w - r}Q${x + w},${y1} ${x + w},${y1 + r}V${y0}Z`; };
+  const rectV = (x, y0, y1, w) => (y0 - y1 <= 0 ? '' : `M${x},${y0}V${y1}H${x + w}V${y0}Z`);
+  const barH = (x0, x1, y, h, r) => { const w = x1 - x0; if (w <= 0) return ''; r = Math.min(r, w, h / 2); return `M${x0},${y}H${x1 - r}Q${x1},${y} ${x1},${y + r}V${y + h - r}Q${x1},${y + h} ${x1 - r},${y + h}H${x0}Z`; };
+  const rectH = (x0, x1, y, h) => (x1 - x0 <= 0 ? '' : `M${x0},${y}H${x1}V${y + h}H${x0}Z`);
+  const pill = (x0, x1, y, h) => { const w = Math.max(x1 - x0, h); const r = h / 2; return `M${x0 + r},${y}H${x0 + w - r}A${r},${r} 0 0 1 ${x0 + w - r},${y + h}H${x0 + r}A${r},${r} 0 0 1 ${x0 + r},${y}Z`; };
+  function yGrid(g, y, x0, x1, ticks, f) {
+    const gg = g.append('g').attr('class', 'grid');
+    y.ticks(ticks).forEach(t => { gg.append('line').attr('x1', x0).attr('x2', x1).attr('y1', y(t)).attr('y2', y(t)); });
+    const ax = g.append('g').attr('class', 'ax');
+    y.ticks(ticks).forEach(t => { ax.append('text').attr('x', x0 - 6).attr('y', y(t)).attr('dy', '0.32em').attr('text-anchor', 'end').text(f ? f(t) : t); });
+  }
+  function xGrid(g, x, y0, y1, ticks, f) {
+    const gg = g.append('g').attr('class', 'grid');
+    x.ticks(ticks).forEach(t => { gg.append('line').attr('x1', x(t)).attr('x2', x(t)).attr('y1', y0).attr('y2', y1); });
+    const ax = g.append('g').attr('class', 'ax');
+    x.ticks(ticks).forEach(t => { ax.append('text').attr('x', x(t)).attr('y', y1 + 16).attr('text-anchor', 'middle').text(f ? f(t) : t); });
+  }
+
+  // ---- 1. deals per year ----
+  function chartYear() {
+    const el = document.getElementById('c-year'); const data = D.by_year; const H = 240, m = { t: 22, r: 8, b: 26, l: 34 };
+    const { svg, W } = svgIn(el, H, 'Deals per year by buyer type');
+    const x = d3.scaleBand().domain(data.map(d => d.year)).range([m.l, W - m.r]).padding(0.3);
+    const y = d3.scaleLinear().domain([0, d3.max(data, d => d.sponsor + d.strategic)]).nice().range([H - m.b, m.t]);
+    yGrid(svg, y, m.l, W - m.r, 4);
+    const bw = Math.min(24, x.bandwidth()); const peak = d3.max(data, d => d.sponsor + d.strategic);
+    data.forEach(d => {
+      const cx = x(d.year) + x.bandwidth() / 2 - bw / 2, ys = y(d.sponsor), yt = y(d.sponsor + d.strategic);
+      svg.append('path').attr('d', rectV(cx, y(0), ys, bw)).attr('class', 'm-sponsor');
+      svg.append('path').attr('d', colV(cx, ys - 2, yt, bw, 4)).attr('class', 'm-strategic');
+      if (d.sponsor + d.strategic === peak) svg.append('text').attr('class', 'lbl-strong').attr('x', cx + bw / 2).attr('y', yt - 6).attr('text-anchor', 'middle').text(peak);
+      svg.append('text').attr('class', 'ax').attr('x', cx + bw / 2).attr('y', H - 8).attr('text-anchor', 'middle').style('fill', 'var(--muted)').style('font-size', '11px').text(W < 420 ? String(d.year).slice(2) : d.year);
+    });
+    svg.append('line').attr('class', 'base').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0));
+    bindTip(svg.selectAll('rect.hit').data(data).join('rect').attr('class', 'hit').attr('x', d => x(d.year)).attr('width', x.bandwidth()).attr('y', m.t).attr('height', H - m.t - m.b),
+      d => `<div style="margin-bottom:4px">${d.year}</div>${tipRow('var(--sponsor)', d.sponsor, 'sponsor')}${tipRow('var(--strategic)', d.strategic, 'strategic')}`);
+  }
+
+  // ---- 2a. sponsor bars ----
+  function chartSponsors() {
+    const el = document.getElementById('c-sponsors');
+    const rows = D.roster.filter(r => r.type === 'Sponsor').sort((a, b) => b.n - a.n || b.prov - a.prov);
+    const rh = 24, m = { t: 6, r: 34, b: 22, l: labelW(rows.map(r => r.name), el) };
+    const H = m.t + m.b + rows.length * rh;
+    const { svg, W } = svgIn(el, H, 'Deals per sponsor, provider services vs other');
+    const x = d3.scaleLinear().domain([0, d3.max(rows, r => r.n)]).nice().range([m.l, W - m.r]);
+    xGrid(svg, x, m.t, H - m.b, 5);
+    rows.forEach((r, i) => {
+      const y = m.t + i * rh + 5, h = 14;
+      svg.append('text').attr('class', 'ax-l').attr('x', m.l - 8).attr('y', y + h / 2).attr('dy', '0.32em').attr('text-anchor', 'end').style('fill', 'var(--ink-2)').style('font-size', '12px').text(r.name);
+      svg.append('path').attr('d', r.prov < r.n ? rectH(x(0), x(r.prov), y, h) : barH(x(0), x(r.prov), y, h, 4)).attr('class', 'm-sponsor');
+      if (r.prov < r.n) svg.append('path').attr('d', barH(x(r.prov) + 2, x(r.n), y, h, 4)).attr('class', 'm-other');
+      svg.append('text').attr('class', 'lbl').attr('x', x(r.n) + 6).attr('y', y + h / 2).attr('dy', '0.32em').text(r.n);
+    });
+    bindTip(svg.selectAll('rect.hit').data(rows).join('rect').attr('class', 'hit').attr('x', 0).attr('width', W).attr('y', (d, i) => m.t + i * rh).attr('height', rh),
+      d => `<div style="margin-bottom:4px">${esc(d.name)}</div>${tipRow('var(--sponsor)', d.prov, 'provider services')}${tipRow('var(--other)', d.n - d.prov, 'other sub-sectors')}`);
+  }
+
+  // ---- 2b. strategic deal-count distribution ----
+  function chartStDist() {
+    const el = document.getElementById('c-stdist'); const data = D.strategic_count_dist; const H = 220, m = { t: 22, r: 8, b: 40, l: 34 };
+    const { svg, W } = svgIn(el, H, 'Number of strategics by deal count');
+    const x = d3.scaleBand().domain(data.map(d => d.deals)).range([m.l, W - m.r]).padding(0.35);
+    const y = d3.scaleLinear().domain([0, d3.max(data, d => d.acquirers)]).nice().range([H - m.b, m.t]);
+    yGrid(svg, y, m.l, W - m.r, 4);
+    const bw = Math.min(24, x.bandwidth());
+    data.forEach(d => {
+      const cx = x(d.deals) + x.bandwidth() / 2 - bw / 2;
+      svg.append('path').attr('d', colV(cx, y(0), y(d.acquirers), bw, 4)).attr('class', 'm-strategic');
+      svg.append('text').attr('class', 'lbl-strong').attr('x', cx + bw / 2).attr('y', y(d.acquirers) - 6).attr('text-anchor', 'middle').text(d.acquirers);
+      svg.append('text').attr('x', cx + bw / 2).attr('y', H - m.b + 16).attr('text-anchor', 'middle').style('fill', 'var(--muted)').style('font-size', '11px').text(d.deals);
+    });
+    svg.append('text').attr('x', (m.l + W - m.r) / 2).attr('y', H - 6).attr('text-anchor', 'middle').style('fill', 'var(--muted)').style('font-size', '11px').text('Deals per strategic');
+    svg.append('line').attr('class', 'base').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0));
+  }
+
+  // ---- 3a. sector bars ----
+  const RING_NAME = ['Core', 'Ring 1 · provider services', 'Ring 2 · adjacent', 'Ring 3 · different model'];
+  function sectorLayout(rh, gap) {
+    let y = 0; const pos = []; let last = -1; const heads = [];
+    D.sectors.forEach(s => { if (s.ring !== last) { if (last !== -1) y += gap; heads.push({ ring: s.ring, y }); y += 18; last = s.ring; } pos.push({ s, y }); y += rh; });
+    return { pos, heads, total: y };
+  }
+  function chartSectors() {
+    const el = document.getElementById('c-sectors'); const rh = 24; const L = sectorLayout(rh, 8);
+    const m = { t: 4, r: 36, b: 22, l: labelW(D.sectors.map(x => x.sector), el) }; const H = m.t + L.total + m.b;
+    const { svg, W } = svgIn(el, H, 'Deals by sub-sector and buyer type');
+    const x = d3.scaleLinear().domain([0, d3.max(D.sectors, s => s.n)]).nice().range([m.l, W - m.r]);
+    xGrid(svg, x, m.t, H - m.b, 4);
+    L.heads.forEach(h => svg.append('text').attr('x', 0).attr('y', m.t + h.y + 12).style('fill', 'var(--accent)').style('font-size', '11px').style('font-weight', 600).text(RING_NAME[h.ring]));
+    L.pos.forEach(({ s, y }) => {
+      const yy = m.t + y + 5, h = 14;
+      svg.append('text').attr('x', m.l - 8).attr('y', yy + h / 2).attr('dy', '0.32em').attr('text-anchor', 'end').style('fill', 'var(--ink-2)').style('font-size', '12px').text(s.sector);
+      svg.append('path').attr('d', s.strategic ? rectH(x(0), x(s.sponsor), yy, h) : barH(x(0), x(s.sponsor), yy, h, 4)).attr('class', 'm-sponsor');
+      if (s.strategic) svg.append('path').attr('d', barH(x(s.sponsor) + 2, x(s.n), yy, h, 4)).attr('class', 'm-strategic');
+      svg.append('text').attr('class', 'lbl').attr('x', x(s.n) + 6).attr('y', yy + h / 2).attr('dy', '0.32em').text(s.n);
+    });
+    bindTip(svg.selectAll('rect.hit').data(L.pos).join('rect').attr('class', 'hit').attr('x', 0).attr('width', W).attr('y', d => m.t + d.y).attr('height', rh),
+      d => `<div style="margin-bottom:4px">${esc(d.s.sector)}</div>${tipRow('var(--sponsor)', d.s.sponsor, 'sponsor deals')}${tipRow('var(--strategic)', d.s.strategic, 'strategic deals')}`);
+  }
+
+  // ---- 3b. football field ----
+  let ffMetric = 'm';
+  function chartFF() {
+    const el = document.getElementById('c-ff'); const rh = 24; const L = sectorLayout(rh, 8);
+    const m = { t: 22, r: 44, b: 22, l: labelW(D.sectors.map(x => x.sector), el) }; const H = m.t + L.total + m.b;
+    const k = ffMetric; const f = k === 'rv' ? 'x2' : 'x1';
+    const { svg, W } = svgIn(el, H, 'Interquartile range and median multiple by sub-sector');
+    const lo = d3.min(D.sectors, s => s[k + '_q1']), hi = d3.max(D.sectors, s => s[k + '_q3']);
+    const x = d3.scaleLinear().domain([Math.max(0, lo * 0.85), hi * 1.05]).nice().range([m.l, W - m.r]);
+    xGrid(svg, x, m.t, H - m.b, 5, t => t + 'x');
+    const compMed = k === 'm' ? D.comp.stated[1] : k === 'mr' ? D.comp.recalc[1] : D.comp.rev[1];
+    svg.append('line').attr('class', 'ref').attr('x1', x(compMed)).attr('x2', x(compMed)).attr('y1', m.t - 4).attr('y2', H - m.b);
+    svg.append('text').attr('x', x(compMed)).attr('y', m.t - 8).attr('text-anchor', x(compMed) > W - 120 ? 'end' : 'middle').style('fill', 'var(--ink-2)').style('font-size', '11px').text('Comp median ' + fmt(compMed, f));
+    L.pos.forEach(({ s, y }) => {
+      const yy = m.t + y + 7, h = 10, core = s.ring <= 1;
+      svg.append('text').attr('x', m.l - 8).attr('y', yy + h / 2).attr('dy', '0.32em').attr('text-anchor', 'end').style('fill', 'var(--ink-2)').style('font-size', '12px').text(s.sector);
+      svg.append('path').attr('d', pill(x(s[k + '_q1']), x(s[k + '_q3']), yy, h)).attr('class', core ? 'm-soft' : 'm-muted-soft');
+      svg.append('circle').attr('cx', x(s[k + '_med'])).attr('cy', yy + h / 2).attr('r', 5).attr('class', (core ? 'm-accent' : 'm-muted') + ' ring-dot');
+      svg.append('text').attr('class', 'lbl').attr('x', x(s[k + '_q3']) + 8).attr('y', yy + h / 2).attr('dy', '0.32em').text(fmt(s[k + '_med'], f));
+    });
+    bindTip(svg.selectAll('rect.hit').data(L.pos).join('rect').attr('class', 'hit').attr('x', 0).attr('width', W).attr('y', d => m.t + d.y).attr('height', rh),
+      d => `<div style="margin-bottom:4px">${esc(d.s.sector)}</div><div class="tv">${fmt(d.s[k + '_med'], f)} median</div><div>IQR ${fmt(d.s[k + '_q1'], f)} – ${fmt(d.s[k + '_q3'], f)}</div>`);
+  }
+  document.querySelectorAll('#ff-metric button').forEach(b => b.addEventListener('click', () => {
+    ffMetric = b.dataset.m; document.querySelectorAll('#ff-metric button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); chartFF();
+  }));
+
+  // ---- 3c. sector table ----
+  function tableSectors() {
+    const t = document.getElementById('t-sectors');
+    t.innerHTML = `<thead><tr><th>Sub-sector</th><th>Ring</th><th class="num">Deals</th><th class="num">Strategic buyers</th><th class="num">Median deal</th><th class="num">Deals $100–400M</th><th class="num">EV/EBITDA median (IQR)</th><th class="num">EV/Revenue</th><th class="num">Margin</th><th class="num">Growth</th><th class="num">Distance from HC Services</th></tr></thead><tbody>` +
+      D.sectors.map(s => `<tr><td>${esc(s.sector)}</td><td>${['Core', '1', '2', '3'][s.ring]}</td><td class="num">${s.n}</td><td class="num">${s.strategic_buyers}</td><td class="num">$${Math.round(s.med_size)}M</td><td class="num">${s.in_band}</td><td class="num">${fmt(s.m_med, 'x1')} <span class="muted">(${fmt(s.m_q1, 'x1')}–${fmt(s.m_q3, 'x1')})</span></td><td class="num">${fmt(s.rv_med, 'x2')}</td><td class="num">${s.margin.toFixed(1)}%</td><td class="num">${s.growth.toFixed(1)}%</td><td class="num">${s.distance.toFixed(2)}</td></tr>`).join('') + '</tbody>';
+  }
+
+  // ---- 3d. heatmap ----
+  const ABBR = { 'Healthcare Services': 'HC Svcs', 'Home Health/Hospice': 'Home Hlth', 'Dental': 'Dental', 'Physician Groups': 'Physician', 'Behavioral Health': 'Behavioral', 'Health Insurance': 'Insurance', 'Revenue Cycle': 'Rev Cycle', 'Medical Devices': 'Devices', 'Health IT': 'Health IT', 'Pharma/Biotech': 'Pharma' };
+  function chartHeat() {
+    const el = document.getElementById('c-heat'); const H0 = D.heat; const rh = 26;
+    const m = { t: 40, r: 4, b: 4, l: 150 }; const H = m.t + m.b + H0.rows.length * rh;
+    const { svg, W } = svgIn(el, H, 'Sponsor deal counts by sub-sector');
+    const cw = (W - m.l - m.r) / H0.cols.length; const vmax = d3.max(H0.values.flat());
+    const cs = getComputedStyle(document.documentElement);
+    const lo = cs.getPropertyValue('--heat-lo').trim(), hi = cs.getPropertyValue('--heat-hi').trim();
+    const col = d3.scaleSequential(d3.interpolateLab(lo, hi)).domain([0, vmax]);
+    H0.cols.forEach((c, j) => svg.append('text').attr('x', m.l + j * cw + cw / 2).attr('y', m.t - 12).attr('text-anchor', 'middle').style('fill', 'var(--muted)').style('font-size', '11px').text(ABBR[c] || c));
+    const cells = [];
+    H0.rows.forEach((r, i) => {
+      svg.append('text').attr('x', m.l - 8).attr('y', m.t + i * rh + rh / 2).attr('dy', '0.32em').attr('text-anchor', 'end').style('fill', 'var(--ink-2)').style('font-size', '12px').text(r);
+      H0.cols.forEach((c, j) => cells.push({ r, c, v: H0.values[i][j], i, j }));
+    });
+    const g = svg.append('g');
+    g.selectAll('rect').data(cells).join('rect').attr('x', d => m.l + d.j * cw + 1).attr('y', d => m.t + d.i * rh + 1).attr('width', cw - 2).attr('height', rh - 2).attr('rx', 3)
+      .style('fill', d => d.v ? col(d.v) : 'transparent').style('stroke', d => d.v ? 'none' : 'var(--line)').attr('class', 'cell-hit');
+    g.selectAll('text').data(cells.filter(d => d.v)).join('text').attr('x', d => m.l + d.j * cw + cw / 2).attr('y', d => m.t + d.i * rh + rh / 2).attr('dy', '0.32em').attr('text-anchor', 'middle')
+      .style('font-size', '11px').style('pointer-events', 'none').style('font-variant-numeric', 'tabular-nums')
+      .style('fill', d => { const c = d3.lab(col(d.v)); return c.l > 58 ? '#0f1317' : '#ffffff'; }).text(d => d.v);
+    bindTip(g.selectAll('rect'), d => `<div class="tv">${d.v} deal${d.v === 1 ? '' : 's'}</div><div>${esc(d.r)} · ${esc(d.c)}</div>`);
+  }
+
+  // ---- 4. reconciliation scatter ----
+  function chartRecon() {
+    const el = document.getElementById('c-recon'); const pts = D.recon.points; const H = 300, m = { t: 12, r: 12, b: 36, l: 44 };
+    const { svg, W } = svgIn(el, H, 'Stated versus recomputed EV/EBITDA');
+    const x = d3.scaleLinear().domain([5, 31]).range([m.l, W - m.r]);
+    const y = d3.scaleLog().domain([4, 260]).range([H - m.b, m.t]);
+    const gg = svg.append('g').attr('class', 'grid'); const ax = svg.append('g').attr('class', 'ax');
+    [5, 10, 20, 50, 100, 200].forEach(t => { gg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(t)).attr('y2', y(t)); ax.append('text').attr('x', m.l - 6).attr('y', y(t)).attr('dy', '0.32em').attr('text-anchor', 'end').text(t + 'x'); });
+    [5, 10, 15, 20, 25, 30].forEach(t => { gg.append('line').attr('x1', x(t)).attr('x2', x(t)).attr('y1', m.t).attr('y2', H - m.b); ax.append('text').attr('x', x(t)).attr('y', H - m.b + 16).attr('text-anchor', 'middle').text(t + 'x'); });
+    ax.append('text').attr('x', (m.l + W - m.r) / 2).attr('y', H - 4).attr('text-anchor', 'middle').text('Stated ev_ebitda_multiple');
+    svg.append('line').attr('class', 'ref').attr('x1', x(5)).attr('y1', y(5)).attr('x2', x(31)).attr('y2', y(31)).style('stroke-width', 1.5);
+    svg.append('g').selectAll('circle').data(pts).join('circle').attr('cx', d => x(d[1])).attr('cy', d => y(Math.max(4, d[2]))).attr('r', 3.5).attr('class', 'm-accent').style('opacity', 0.7).style('stroke', 'var(--panel)').style('stroke-width', 1);
+    const del = d3.Delaunay.from(pts, d => x(d[1]), d => y(Math.max(4, d[2])));
+    const hl = svg.append('circle').attr('r', 6).style('fill', 'none').style('stroke', 'var(--ink)').style('stroke-width', 1.5).style('display', 'none');
+    svg.append('rect').attr('class', 'hit').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b)
+      .on('pointermove', e => { const [px, py] = d3.pointer(e); const i = del.find(px, py); const d = pts[i]; hl.style('display', null).attr('cx', x(d[1])).attr('cy', y(Math.max(4, d[2])));
+        showTip(e, `<div class="mono">${esc(d[0])}</div><div>${esc(d[3])}</div>${tipRow('var(--accent)', fmt(d[1], 'x1'), 'stated')}${tipRow('var(--ink-2)', fmt(d[2], 'x1'), 'recomputed')}`); })
+      .on('pointerleave', () => { hl.style('display', 'none'); hideTip(); });
+  }
+
+  // ---- 5a. trend lines ----
+  function chartTrend() {
+    const el = document.getElementById('c-trend'); const a = D.claims.by_year, p = D.claims.by_year_prov; const H = 230, m = { t: 14, r: 44, b: 26, l: 40 };
+    const { svg, W } = svgIn(el, H, 'Median EV/EBITDA by year');
+    const years = a.map(d => d.y);
+    const x = d3.scaleLinear().domain(d3.extent(years)).range([m.l, W - m.r]);
+    const y = d3.scaleLinear().domain([Math.min(d3.min(a, d => d.m), d3.min(p, d => d.m)) - 1, Math.max(d3.max(a, d => d.m), d3.max(p, d => d.m)) + 1]).nice().range([H - m.b, m.t]);
+    yGrid(svg, y, m.l, W - m.r, 4, t => t + 'x');
+    const ax = svg.append('g').attr('class', 'ax');
+    years.forEach(t => ax.append('text').attr('x', x(t)).attr('y', H - 8).attr('text-anchor', 'middle').text(W < 480 ? "'" + String(t).slice(2) : t));
+    const line = d3.line().x(d => x(d.y)).y(d => y(d.m));
+    svg.append('path').attr('d', line(a)).attr('class', 'ln-muted');
+    svg.append('path').attr('d', line(p)).attr('class', 'ln-accent');
+    const la = a[a.length - 1], lp = p[p.length - 1];
+    svg.append('circle').attr('cx', x(la.y)).attr('cy', y(la.m)).attr('r', 4).attr('class', 'm-muted ring-dot');
+    svg.append('circle').attr('cx', x(lp.y)).attr('cy', y(lp.m)).attr('r', 4).attr('class', 'm-accent ring-dot');
+    const dy = Math.abs(y(la.m) - y(lp.m)) < 12 ? 7 : 0;
+    svg.append('text').attr('class', 'lbl').attr('x', x(la.y) + 8).attr('y', y(la.m) + (y(la.m) >= y(lp.m) ? dy : -dy)).attr('dy', '0.32em').text(fmt(la.m, 'x1'));
+    svg.append('text').attr('class', 'lbl-strong').attr('x', x(lp.y) + 8).attr('y', y(lp.m) + (y(lp.m) > y(la.m) ? dy : -dy)).attr('dy', '0.32em').text(fmt(lp.m, 'x1'));
+    const cross = svg.append('line').attr('class', 'ref').attr('y1', m.t).attr('y2', H - m.b).style('display', 'none');
+    svg.append('rect').attr('class', 'hit').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b)
+      .on('pointermove', e => { const [px] = d3.pointer(e); const yr = Math.round(x.invert(px)); const da = a.find(d => d.y === yr), dp = p.find(d => d.y === yr); if (!da) return; cross.style('display', null).attr('x1', x(yr)).attr('x2', x(yr));
+        showTip(e, `<div style="margin-bottom:4px">${yr}</div>${dp ? tipRow('var(--accent)', fmt(dp.m, 'x1'), `provider services (${dp.n} deals)`) : ''}${tipRow('var(--muted)', fmt(da.m, 'x1'), `all sub-sectors (${da.n} deals)`)}`); })
+      .on('pointerleave', () => { cross.style('display', 'none'); hideTip(); });
+  }
+
+  // ---- 5b. bidders ----
+  function chartBidders() {
+    const el = document.getElementById('c-bidders'); const data = D.claims.bidders; const H = 220, m = { t: 22, r: 8, b: 40, l: 38 };
+    const { svg, W } = svgIn(el, H, 'Median EV/EBITDA by number of bidders');
+    const x = d3.scaleBand().domain(data.map(d => d.b)).range([m.l, W - m.r]).padding(0.35);
+    const y = d3.scaleLinear().domain([0, d3.max(data, d => d.m) * 1.1]).nice().range([H - m.b, m.t]);
+    yGrid(svg, y, m.l, W - m.r, 4, t => t + 'x');
+    const bw = Math.min(24, x.bandwidth());
+    data.forEach(d => {
+      const cx = x(d.b) + x.bandwidth() / 2 - bw / 2;
+      svg.append('path').attr('d', colV(cx, y(0), y(d.m), bw, 4)).attr('class', 'm-accent');
+      svg.append('text').attr('class', 'lbl-strong').attr('x', cx + bw / 2).attr('y', y(d.m) - 6).attr('text-anchor', 'middle').text(fmt(d.m, 'x1'));
+      svg.append('text').attr('x', cx + bw / 2).attr('y', H - m.b + 16).attr('text-anchor', 'middle').style('fill', 'var(--muted)').style('font-size', '11px').text(d.b);
+    });
+    svg.append('text').attr('x', (m.l + W - m.r) / 2).attr('y', H - 6).attr('text-anchor', 'middle').style('fill', 'var(--muted)').style('font-size', '11px').text('Number of bidders');
+    svg.append('line').attr('class', 'base').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0));
+    bindTip(svg.selectAll('rect.hit').data(data).join('rect').attr('class', 'hit').attr('x', d => x(d.b)).attr('width', x.bandwidth()).attr('y', m.t).attr('height', H - m.t - m.b),
+      d => `<div class="tv">${fmt(d.m, 'x1')}</div><div>${d.b} bidder${d.b > 1 ? 's' : ''} · ${d.n} deals</div>`);
+  }
+
+  // ---- 8. mix ----
+  function chartMix() {
+    const el = document.getElementById('c-mix');
+    const rows = [{ label: `Comparable deals (${D.mix.band_n})`, fs: D.mix.band_fs, st: D.mix.band_st, tot: D.mix.band_n },
+                  { label: 'Ten slots', fs: 10 - Math.round(10 * C.mix_pct), st: Math.round(10 * C.mix_pct), tot: 10 }];
+    const H = 120, m = { t: 6, r: 8, b: 6, l: 8 };
+    const { svg, W } = svgIn(el, H, 'Sponsor and strategic share of comparable deals and of ten slots');
+    const x = d3.scaleLinear().domain([0, 1]).range([m.l, W - m.r]);
+    rows.forEach((r, i) => {
+      const y = m.t + i * 56; const h = 22;
+      svg.append('text').attr('x', m.l).attr('y', y + 10).style('fill', 'var(--ink-2)').style('font-size', '12px').text(r.label);
+      const split = x(r.fs / r.tot);
+      svg.append('path').attr('d', rectH(x(0), split, y + 18, h)).attr('class', 'm-sponsor');
+      svg.append('path').attr('d', barH(split + 2, x(1), y + 18, h, 4)).attr('class', 'm-strategic');
+      svg.append('text').attr('x', x(0) + 8).attr('y', y + 18 + h / 2).attr('dy', '0.32em').style('fill', '#ffffff').style('font-size', '12px').style('font-weight', 600).text(r.fs + ' sponsor');
+      svg.append('text').attr('x', x(1) - 8).attr('y', y + 18 + h / 2).attr('dy', '0.32em').attr('text-anchor', 'end').style('fill', '#ffffff').style('font-size', '12px').style('font-weight', 600).text(r.st + ' strategic');
+    });
+  }
+
+  // ---- outcomes table ----
+  const OUTCOME_USE = { Closed: 'Price comps and appetite', Withdrawn: 'Appetite only', Pending: 'Appetite only', Terminated: 'Appetite only', Rumored: 'Appetite only, weakest' };
+  document.querySelector('#t-outcomes').innerHTML = D.outcomes.map(o => `<tr><td>${esc(o.outcome)}</td><td class="num">${o.n}</td><td class="small">${OUTCOME_USE[o.outcome] || ''}</td></tr>`).join('');
+
+  // ---- roster table ----
+  const COLS = [
+    ['name', 'Acquirer', 's'], ['type', 'Type', 's'], ['n', 'Deals', 'n'], ['closed', 'Closed', 'n'], ['hcs', 'HC Svcs', 'n'], ['prov', 'Provider', 'n'],
+    ['med_size', 'Median deal', 'n'], ['in_band', '$100–400M', 'n'], ['last_year', 'Last deal', 'n'], ['med_mult', 'Median EV/EBITDA', 'n'], ['note', 'Flag', 's']
+  ];
+  let sortKey = 'n', sortDir = -1, filt = 'all', q = '', selName = null;
+  const thead = document.querySelector('#t-roster thead'), tbody = document.querySelector('#t-roster tbody');
+  thead.innerHTML = '<tr>' + COLS.map(([k, l, t]) => `<th class="sortable${t === 'n' ? ' num' : ''}" data-k="${k}" aria-sort="${k === sortKey ? 'descending' : 'none'}" tabindex="0">${l}</th>`).join('') + '</tr>';
+  thead.querySelectorAll('th').forEach(th => {
+    const go = () => { const k = th.dataset.k; if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = COLS.find(c => c[0] === k)[2] === 'n' ? -1 : 1; }
+      thead.querySelectorAll('th').forEach(x => x.setAttribute('aria-sort', x.dataset.k === sortKey ? (sortDir > 0 ? 'ascending' : 'descending') : 'none')); renderRoster(); };
+    th.addEventListener('click', go); th.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+  });
+  function renderRoster() {
+    let rows = D.roster.filter(r => (filt === 'all' || (filt === 'note' ? !!r.note : r.type === filt)) && (!q || r.name.toLowerCase().includes(q)));
+    rows.sort((a, b) => { const va = a[sortKey], vb = b[sortKey]; if (va == null && vb == null) return 0; if (va == null) return 1; if (vb == null) return -1;
+      return (typeof va === 'string' ? va.localeCompare(vb) : va - vb) * sortDir || b.n - a.n; });
+    document.getElementById('roster-count').textContent = `${rows.length} of ${D.roster.length} acquirers`;
+    tbody.innerHTML = rows.map(r => `<tr class="click${r.name === selName ? ' sel' : ''}" data-name="${esc(r.name)}" tabindex="0"><td>${esc(r.name)}</td><td><span class="tag ${r.type}">${r.type}</span></td><td class="num">${r.n}</td><td class="num">${r.closed}</td><td class="num">${r.hcs}</td><td class="num">${r.prov}</td><td class="num">$${Math.round(r.med_size)}M</td><td class="num">${r.in_band}</td><td class="num">${r.last_year}</td><td class="num">${fmt(r.med_mult, 'x1')}</td><td>${r.note ? '<span class="flag">Check</span>' : ''}</td></tr>`).join('');
+    tbody.querySelectorAll('tr').forEach(tr => { const open = () => showDetail(tr.dataset.name); tr.addEventListener('click', open); tr.addEventListener('keydown', e => { if (e.key === 'Enter') open(); }); });
+  }
+  document.getElementById('q').addEventListener('input', e => { q = e.target.value.trim().toLowerCase(); renderRoster(); });
+  document.querySelectorAll('[data-filter]').forEach(b => b.addEventListener('click', () => { filt = b.dataset.filter; document.querySelectorAll('[data-filter]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); renderRoster(); }));
+
+  function showDetail(name) {
+    selName = name; const r = byName[name]; const el = document.getElementById('detail');
+    const deals = D.deals.filter(d => d.a === name).sort((a, b) => b.y - a.y);
+    const stat = (l, v) => `<div class="stat"><div class="l">${l}</div><div class="v">${v}</div></div>`;
+    el.innerHTML = `<div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline"><h3 style="font-size:20px;font-family:var(--font-display)">${esc(r.name)}</h3><span class="tag ${r.type}">${r.type}</span></div>
+      ${r.note ? `<div class="outside"><b>Outside the dataset (verify):</b> ${esc(r.note)}</div>` : ''}
+      <div class="stats">
+        ${stat('Deals / closed', `${r.n} / ${r.closed}`)}${stat('Withdrawn or terminated', r.failed)}
+        ${stat('HC Services / provider deals', `${r.hcs} / ${r.prov}`)}${stat('Ring-weighted relevance', r.relevance.toFixed(1))}
+        ${stat('Median deal (range)', `$${Math.round(r.med_size)}M <span class="muted" style="font-weight:400;font-size:13px">($${Math.round(r.min_size)}–${Math.round(r.max_size).toLocaleString('en-US')}M)</span>`)}${stat('Deals $100–400M', r.in_band)}
+        ${stat('Deals since 2022 / last deal', `${r.since_2022} / ${r.last_year}`)}${stat('Median EV/EBITDA paid', `${fmt(r.med_mult, 'x1')}${r.resid != null ? ` <span class="muted" style="font-weight:400;font-size:13px">(${r.resid >= 0 ? '+' : ''}${r.resid.toFixed(1)}x vs sector)</span>` : ''}`)}
+        ${stat('Private targets', fmt(r.private_share, 'pct0'))}${stat('Platform then bolt-on', r.platform_bolton ? 'Yes' : 'No')}
+      </div>
+      <div class="scroll"><table><thead><tr><th>ID</th><th class="num">Year</th><th>Sub-sector</th><th>Deal type</th><th class="num">EV</th><th class="num">EV/EBITDA</th><th class="num">Recomputed</th><th class="num">EV/Rev</th><th class="num">Margin</th><th>Outcome</th><th>Target owner</th></tr></thead><tbody>
+      ${deals.map(d => `<tr><td class="mono">${esc(d.id)}</td><td class="num">${d.y}</td><td>${esc(d.s)}</td><td>${esc(d.t)}</td><td class="num">$${d.ev.toLocaleString('en-US')}M</td><td class="num">${fmt(d.m, 'x1')}</td><td class="num">${fmt(d.mr, 'x1')}</td><td class="num">${fmt(d.rv, 'x2')}</td><td class="num">${d.mg.toFixed(1)}%</td><td>${esc(d.o)}</td><td>${esc(d.own)}</td></tr>`).join('')}
+      </tbody></table></div>`;
+    el.hidden = false; renderRoster();
+  }
+
+  // ---- field verdicts ----
+  const T = D.tests;
+  const r2f = v => Number(v).toFixed(2);
+  const V = { use: '<span class="chip use"><i>✓</i>Use</span>', care: '<span class="chip care"><i>!</i>Use with care</span>', no: '<span class="chip no"><i>×</i>Don\'t score on</span>', info: '<span class="chip info"><i>–</i>Filter or describe only</span>' };
+  const FIELDS = [
+    ['sector / sub_sector', 'Drives multiples? Separates strategics?', `Yes on both. Kruskal–Wallis p ${T.sector_mult_p}; buyer type vs sector V = ${T.acquirer_type.v_sector} (p ${T.acquirer_type.p_sector}). The two columns are identical.`, 'use'],
+    ['acquirer_type', 'Consistent per acquirer?', 'Every acquirer has one type. Tied to sector, as above.', 'use'],
+    ['deal_size_mm, target_revenue_mm, ev_revenue_multiple', 'Do they reconcile?', `Yes: EV/Revenue ties in ${D.recon.rev_ok} of 500 rows. The clean anchor.`, 'use'],
+    ['deal_year', 'Trend in multiples?', `Weak downward drift (ρ = ${r2f(T.year_mult_rho)}). Fine for recency weighting.`, 'use'],
+    ['ev_ebitda_multiple', 'Ties to EV ÷ EBITDA?', `Only ${D.recon.mult_ok} of 500. Not a forward basis (see above).`, 'care'],
+    ['target_ebitda_mm, ebitda_margin_pct', 'Tie to each other and to the multiple?', `Margin ties to EBITDA ÷ revenue in ${D.recon.margin_ok} rows and to the stated multiple in ${D.recon.mult_vs_margin_ok}.`, 'care'],
+    ['revenue_growth_pct', 'Linked to price within provider services?', 'Sector-linked, but no link to EV/EBITDA inside provider services.', 'info'],
+    ['outcome', 'Random vs buyer and sector?', `Yes (V = ${T.outcome.v_type}, p ${T.outcome.p_type}). The labels still mean something, so use them to filter comps.`, 'info'],
+    ['deal_type', 'Related to buyer type or sector?', `No (V = ${T.deal_type.v_type}, p ${T.deal_type.p_type}). ${T.strategic_lbo} strategic LBOs or MBOs, ${T.sponsor_moe} sponsor "mergers of equals". Keep only the minority flag, as a filter.`, 'no'],
+    ['financing_type', 'Related to buyer type?', `No (p ${T.financing_type.p_type}). ${T.nonprofit_stock} of ${T.nonprofit_deals} non-profit health-system deals are paid in stock.`, 'no'],
+    ['geography', 'Do buyers have regional footprints?', `No (p ${T.geography.p_type} vs type, ${T.geography.p_sector} vs sector). Health systems buy all over the map. Can't support regional fit or antitrust overlap.`, 'no'],
+    ['target_ownership_pre', 'Related to buyer type?', `No (p ${T.target_ownership_pre.p_type}). "Private target" preference is noise.`, 'no'],
+    ['strategic_rationale_tags', 'Buyer-specific signal?', `Scale = any deal above ~$500M; Carve-out Complexity = every carve-out; Technology Capability = Health IT only; High Growth and Margin Improvement follow sector. The rest look random, and Geographic Expansion is on 90% of deals.`, 'no'],
+    ['synergy_pct_of_deal', 'Related to price or size?', `No (ρ = ${r2f(T.synergy_pct_of_deal.rho_mult)} with EV/EBITDA, ${r2f(T.synergy_pct_of_deal.rho_size)} with size).`, 'no'],
+    ['num_bidders', 'Related to price?', `No (ρ = ${r2f(T.num_bidders.rho_mult)}).`, 'info'],
+    ['days_to_close', 'Related to anything?', `No (ρ = ${r2f(T.days_to_close.rho_mult)} with price, ${r2f(T.days_to_close.rho_size)} with size). Blank for every deal that didn't close.`, 'info'],
+    ['deal_quarter', 'Pattern?', `No (p ${T.deal_quarter.p_type}).`, 'no'],
+  ];
+  document.querySelector('#t-fields tbody').innerHTML = FIELDS.map(f => `<tr><td class="mono">${f[0]}</td><td class="small">${f[1]}</td><td class="small">${f[2]}</td><td>${V[f[3]]}</td></tr>`).join('');
+
+  // ---- real-world notes table ----
+  document.querySelector('#t-notes tbody').innerHTML = D.roster.filter(r => r.note).sort((a, b) => b.n - a.n)
+    .map(r => `<tr><td>${esc(r.name)}</td><td><span class="tag ${r.type}">${r.type}</span></td><td class="num">${r.n}</td><td class="small">${esc(r.note)}</td></tr>`).join('');
+
+  // ---- dimensions ----
+  const SIG = { strong: '<span class="chip use"><i>✓</i>Real signal</span>', mixed: '<span class="chip care"><i>!</i>Strategics only</span>', weak: '<span class="chip care"><i>!</i>Weak</span>', none: '<span class="chip no"><i>×</i>Noise here</span>', out: '<span class="chip info"><i>–</i>Outside the data</span>' };
+  const cell = (r, k) => { const v = r[k]; if (k === 'med_size' || k === 'min_size' || k === 'max_size') return '$' + Math.round(v).toLocaleString('en-US') + 'M';
+    if (k === 'close_rate' || k === 'private_share' || k === 'regional_share' || k === 'tag_platform' || k === 'tag_geo') return fmt(v, 'pct0');
+    if (k === 'med_mult') return fmt(v, 'x1'); if (k === 'resid') return v == null ? '–' : (v >= 0 ? '+' : '') + v.toFixed(1) + 'x';
+    if (k === 'platform_bolton') return v ? 'Yes' : 'No'; if (k === 'relevance') return v.toFixed(1); return v == null ? '–' : String(v); };
+  const DIMS = [
+    { t: 'Sector relevance', what: 'How much of the buyer\'s history sits in Healthcare Services and its neighbors, weighted by ring.', fields: 'sector, plus ring weights', sig: 'mixed',
+      sigText: `Strong for strategics, whose sub-sector is their identity. Weak for sponsors: their sector mix is indistinguishable from random (p = ${T.sponsor_sector_p}).`,
+      cols: [['type', 'Type'], ['hcs', 'HC Svcs'], ['prov', 'Provider'], ['relevance', 'Weighted']], names: ['Nordic Capital', 'Warburg Pincus', 'Atrium Health', 'CenterWell Home Health'] },
+    { t: 'Size fit', what: 'Whether $200M sits inside the range of deals this buyer usually does.', fields: 'deal_size_mm', sig: 'weak',
+      sigText: `Sponsors don't differ significantly in deal size (p = ${T.sponsor_size_p}). For strategics, size mostly reflects sub-sector (pharma buyers do big deals).`,
+      cols: [['med_size', 'Median'], ['min_size', 'Smallest'], ['max_size', 'Largest'], ['in_band', '$100–400M']], names: ['Blackstone', 'Nordic Capital', 'Veritas Capital', 'Amgen'] },
+    { t: 'Activity and recency', what: 'How many deals, and how recently. A buyer active since 2022 is more likely to be in market.', fields: 'deal_year, count', sig: 'weak',
+      sigText: `Sponsor timing looks random (p = ${T.sponsor_year_p}). Volume does vary, 14 to 25 deals, and it's the one thing that separates sponsors.`,
+      cols: [['n', 'Deals'], ['since_2022', 'Since 2022'], ['last_year', 'Last deal']], names: ['Blackstone', 'Welsh Carson', 'Francisco Partners', 'Novartis'] },
+    { t: 'Certainty of close', what: 'Share of announced deals that closed. A seller cares whether a bidder finishes.', fields: 'outcome', sig: 'weak',
+      sigText: `Differences across sponsors aren't significant (p = ${T.sponsor_close_p}), and strategics have too few deals to judge. Useful as a risk flag, not a ranking driver.`,
+      cols: [['closed', 'Closed'], ['n', 'Announced'], ['close_rate', 'Close rate'], ['failed', 'Withdrawn or terminated']], names: ['Veritas Capital', 'Nordic Capital', 'Warburg Pincus', 'Ascension Health'] },
+    { t: 'Willingness to pay', what: 'Whether the buyer historically pays above the sub-sector median. The seller wants the buyer who pays up.', fields: 'ev_ebitda_multiple vs sector median', sig: 'none',
+      sigText: `No acquirer pays systematically more or less than its peers (p = ${T.acq_resid_p}). Cite their precedents in the valuation section; don't score on it.`,
+      cols: [['med_mult', 'Median paid'], ['resid', 'vs sector']], names: ['Warburg Pincus', 'General Atlantic', 'Bain Capital', 'Nordic Capital'] },
+    { t: 'Thesis fit', what: 'Whether the buyer\'s past rationale tags match this target\'s story (regional platform, strong margins).', fields: 'strategic_rationale_tags', sig: 'none',
+      sigText: 'Tags are either sector and size rules or look random, so they carry no buyer-specific thesis.',
+      cols: [['tag_platform', 'Platform Build'], ['tag_geo', 'Geographic Expansion']], names: ['Blackstone', 'Nordic Capital', 'Welsh Carson', 'CenterWell Home Health'] },
+    { t: 'Platform then bolt-on', what: 'A stand-in for "has a portfolio company to bolt this onto": a platform deal followed by bolt-ons in the same sub-sector.', fields: 'deal_type, sector, deal_year', sig: 'none',
+      sigText: `Only three sponsors show the pattern, and deal type is randomly filled (p = ${T.deal_type.p_type}), so it's coincidence.`,
+      cols: [['platform_bolton', 'Pattern present']], names: ['Blackstone', 'TPG Capital', 'Veritas Capital', 'Nordic Capital'] },
+    { t: 'Target-profile fit', what: 'Whether the buyer tends to buy private, regional businesses like this one.', fields: 'target_ownership_pre, geography', sig: 'none',
+      sigText: `Both fields are independent of everything else (p = ${T.target_ownership_pre.p_type} and ${T.geography.p_type}).`,
+      cols: [['private_share', 'Private targets'], ['regional_share', 'Regional deals']], names: ['Welsh Carson', 'General Atlantic', 'KKR', 'Francisco Partners'] },
+    { t: 'Real-world fit', what: 'Can this buyer still transact, and does $200M fit how it invests? Fund size versus a ~$100M+ equity check, healthcare focus, entity status.', fields: 'none in the CSV', sig: 'out',
+      sigText: 'Not in the file at all. Has to come from a small, sourced overlay, labeled as outside the dataset.',
+      cols: [['n', 'Deals in file']], names: ['Steward Health Care', 'Kindred at Home', 'Vista Equity', 'Change Healthcare'], notes: true },
+  ];
+  document.getElementById('dims').innerHTML = DIMS.map(d => {
+    const rows = d.names.map(n => byName[n]).filter(Boolean);
+    return `<div class="card"><div class="head"><h3>${d.t}</h3>${SIG[d.sig]}</div>
+      <dl><dt>What it measures</dt><dd>${d.what}</dd><dt>Fields</dt><dd class="mono">${d.fields}</dd></dl>
+      <div class="scroll"><table><thead><tr><th>Example</th>${d.cols.map(c => `<th class="num">${c[1]}</th>`).join('')}${d.notes ? '<th>Why it matters</th>' : ''}</tr></thead><tbody>
+      ${rows.map(r => `<tr><td><span class="tag ${r.type}">${esc(r.name)}</span></td>${d.cols.map(c => `<td class="num">${c[0] === 'type' ? r.type : cell(r, c[0])}</td>`).join('')}${d.notes ? `<td class="small">${esc(r.note || '')}</td>` : ''}</tr>`).join('')}
+      </tbody></table></div>
+      <dl><dt>Signal in this data</dt><dd class="small">${d.sigText}</dd></dl></div>`;
+  }).join('');
+
+  // ---- render + re-render ----
+  function drawAll() { try { chartYear(); chartSponsors(); chartStDist(); chartSectors(); chartFF(); chartHeat(); chartRecon(); chartTrend(); chartBidders(); chartMix(); } catch (e) { console.error(e); } }
+  tableSectors(); renderRoster(); drawAll();
+  let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(drawAll, 150); });
+  try { window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => setTimeout(drawAll, 30)); } catch (e) {}
+  new MutationObserver(() => setTimeout(drawAll, 30)).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+})();
+</script>

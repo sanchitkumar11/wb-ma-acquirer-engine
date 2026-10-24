@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Warburg Pincus",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10295,
+  "output_tokens": 3217,
+  "usd": 0.052759658980000006,
+  "cached": false,
+  "seconds": 19.841151333006565
+ },
+ "output": {
+  "buyer": "Warburg Pincus",
+  "headline": "Warburg Pincus: open-platform sponsor with three closed Health IT deals, an add-on route and a 25.3% IRR at the $300M ask.",
+  "differentiator": "Three own-sub-sector deals, level with Blackstone, Evolent Health and TPG Capital and behind only Epic Systems; all closed, and an open platform gives Warburg Pincus an add-on route.",
+  "why_them": "Add-on to open Health IT platform; three own-sub-sector deals, all closed",
+  "acquirer_overview": {
+   "title": "A generalist sponsor, active since 2016, with a thin Health IT record",
+   "points": [
+    "Warburg Pincus, a financial sponsor, made 23 deals from 2016 to 2024; 16 closed (70%) and 21 of 23 (91%) were control deals [T:record, K:closed_share, K:control_share].",
+    "Home Health/Hospice is its largest sub-sector with 5 deals; Health IT has 3, and 20 deals sit outside Health IT [K:by_sub_sector, T:record].",
+    "Warburg Pincus sits at position 8 on the priority list of 10, with a likelihood of 3.5%. Fund size has not been researched [R:rank, R:FUND_SIZE_UNKNOWN]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open Health IT platform, with a technology angle",
+   "points": [
+    "Three deals in the target's own sub-sector and an open platform there make the target an add-on for Warburg Pincus rather than a new bet [T:record, A:angles].",
+    "Technology Capability drove 3 of its 23 deals, against 10% across the file, and Platform Build 5 of 23, a fit for a platform add-on [M:technology_capability, M:platform_build].",
+    "Deal count, regional record and deal size are slight factors for; the share of deals closed is a modest factor against [S:activity, S:geo_fit, S:not_smaller, S:close_rate_s]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three own-sub-sector Health IT deals, all closed, at 19.4x to 25.7x",
+   "points": [
+    "Apex EHR Solutions ($186M, 2023, Platform Investment) closed at 25.7x [D:MA-2023-0481].",
+    "Universal Health AI ($219M, 2022, Management Buyout) closed at 23.3x; Keystone EHR Solutions ($382M, 2021, Platform Investment) at 19.4x [D:MA-2022-0252, D:MA-2021-0441].",
+    "Outside Health IT, Global Pharmaceuticals ($2,124M, 2021) closed at 28.8x, while Delta BioTech ($432M, 2018) was withdrawn [D:MA-2021-0482, D:MA-2018-0413]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Anchor at the 50th percentile; the ask clears the 20% return hurdle",
+   "points": [
+    "13 comparable deals: 19.4x to 23.3x, median 21.4x. Margin of 25.0% beats their 22.2% median but not the top quarter, so the median anchors [V:comps].",
+    "Its overall median paid is 15.6x, below the comparable median, yet its three Health IT deals paid 19.4x to 25.7x [V:comps, D:MA-2023-0481, D:MA-2022-0252, D:MA-2021-0441].",
+    "Return at the $300M ask is 25.3% against a 20% target; maximum price is $356M on a $239M equity cheque. Fund size unconfirmed [V:lbo, R:FUND_SIZE_UNKNOWN]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Warburg Pincus's median deal of $106M is under half the $300M EV [T:record, C:conviction].",
+    "mitigant": "Its biggest deal is $2,124M, and 8 of 23 deals sit in the $150M-$600M band [T:record, K:size_band].",
+    "reality": "Its Health IT deals ran $186M to $382M, so $300M is within reach [D:MA-2023-0481, D:MA-2021-0441]."
+   },
+   {
+    "title": "Closing record",
+    "concern": "Only 16 of 23 deals closed (70%), a modest factor against [K:closed_share, S:close_rate_s].",
+    "mitigant": "All three Health IT deals closed [D:MA-2023-0481, D:MA-2022-0252, D:MA-2021-0441].",
+    "reality": "Withdrawals were in neighbouring sectors, such as Green Revenue Cycle and Delta BioTech [D:MA-2020-0201, D:MA-2018-0413]."
+   },
+   {
+    "title": "Capacity unconfirmed",
+    "concern": "Fund size not researched, so equity capacity is unconfirmed [R:FUND_SIZE_UNKNOWN].",
+    "mitigant": "The $239M equity cheque and 25.3% IRR at the ask suggest a workable bid [V:lbo].",
+    "reality": "Confirm fund headroom before the call; maximum price is $356M [V:lbo]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Three own-sub-sector deals and an open-platform add-on route support Warburg Pincus, but its median deal of $106M is under half the $300M EV, which holds conviction at Medium [C:conviction, T:record]."
+  }
+ }
+}

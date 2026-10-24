@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write McKesson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7797,
+  "output_tokens": 3326,
+  "usd": 0.04885373283000001,
+  "cached": false,
+  "seconds": 24.709525500016753
+ },
+ "output": {
+  "buyer": "McKesson",
+  "headline": "McKesson has bought in the target's own sub-sector and paid 25.1x, but with one deal and none in the target's region, conviction is low.",
+  "differentiator": "Paid 25.1x on its one Health IT deal, above every other buyer on the priority list, and the deal was $405M, the largest median deal on the list. Single-deal evidence. [D:MA-2017-0106]",
+  "why_them": "Health IT bolt-on precedent; paid highest multiple on the list",
+  "acquirer_overview": {
+   "title": "A very large strategic with one closed Health IT deal on file",
+   "points": [
+    "Strategic buyer with Health IT as its home sub-sector; one deal in the file (2017), and it closed [B:buyer, K:closed_share].",
+    "Annual revenue of $403,430M for the fiscal year ending 2026-03-31, far larger than a $300M target [P:1].",
+    "Recent filings show an 80% interest in PRISM Vision for $875M and a 70% interest in Core Ventures for $2.5B, both physician practices [P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Own-sub-sector focus and margin fit support a bolt-on, on thin evidence",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor, and target margin close to what it usually buys is a strong factor [S:sector_share, S:margin_fit].",
+    "Its one deal was tagged Platform Build and Technology Capability, the latter on just 10% of deals in the file, so it has bought for capability [M:platform_build, M:technology_capability].",
+    "Having bought from this kind of seller before is a slight factor against; a deal no bigger than its past one is a slight factor for [S:own_fit_s, S:not_bigger]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One relevant precedent: a $405M Health IT bolt-on in 2017",
+   "points": [
+    "Bought Southeast Medical Informatics in 2017: $405M bolt-on at 25.1x EBITDA and 5.40x revenue, closed [D:MA-2017-0106, K:median_ev_revenue].",
+    "The deal sits in the $150M-$600M comparable size band, the same band as this target [K:size_band].",
+    "No deals since 2022, and its only deal was in the Southwest, not nationally [K:recent, K:by_region]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Median multiple is defensible; McKesson has paid above the top quartile",
+   "points": [
+    "13 comparable same-sub-sector deals: 19.4x at the 25th percentile, 21.4x median, 23.3x at the 75th [V:comps].",
+    "Margin of 25.0% is above the comps' median of 22.2% but not in the top quarter, so the 50th percentile is the anchor [V:comps].",
+    "Its own 25.1x median paid exceeds the comps' 75th percentile; cost synergy headroom is $14M-$23M [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin Health IT record",
+    "concern": "Only one deal in the target's sub-sector, in 2017, so appetite today is unproven.",
+    "mitigant": "That deal closed, in the same sub-sector and size band, at a high multiple.",
+    "reality": "Conviction stays Low because the basis is a single deal [T:record, C:conviction]."
+   },
+   {
+    "title": "No deal in the target's region",
+    "concern": "Its one deal was in the Southwest; none in the National region.",
+    "mitigant": "Its 10-K describes operations across North America.",
+    "reality": "Footprint is stated, but no regional deal precedent supports it [K:by_region, P:4]."
+   },
+   {
+    "title": "Competing capital priorities",
+    "concern": "Practice acquisitions and a Medical-Surgical separation may absorb management attention and capital.",
+    "mitigant": "Revenue of $403,430M gives ample balance-sheet scale.",
+    "reality": "It ranks 10th on the priority list, so it is a long-shot call [P:1, P:2, P:3, R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only one deal in the target's own sub-sector and none in its region. The sub-sector share is the strongest factor, but a single 2017 precedent is too thin for higher conviction. [C:conviction, T:record]"
+  }
+ }
+}

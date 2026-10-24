@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Welsh Carson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10477,
+  "output_tokens": 3335,
+  "usd": 0.054303652340000015,
+  "cached": false,
+  "seconds": 20.339698083989788
+ },
+ "output": {
+  "buyer": "Welsh Carson",
+  "headline": "Welsh Carson: an add-on to an open dental platform, backed by a deep provider record, paying a 16.2x median against a 15.4x upper quartile.",
+  "differentiator": "Most adjacent provider deals of any open-platform sponsor on the priority list (14), plus an open platform in dental, so the target is an add-on rather than a new bet.",
+  "why_them": "Add-on to its dental platform; pays above upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "A provider-focused sponsor with a seven-year, mostly control record",
+   "points": [
+    "Financial sponsor with 23 deals from 2017 to 2023; 18 closed (78%), and 21 of 23 were control deals [T:record, K:closed_share, K:control_share].",
+    "Provider services dominate: 16 of 23 deals, including 2 in dental and 14 in adjacent provider sub-sectors [A:angles, T:record].",
+    "Invests in technology and healthcare, and raised over $5 billion in its largest fund to date in 2023 [P:1, P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open dental platform, backed by provider depth",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor in its likelihood, and its open platform makes the target an add-on [S:sector_rel, A:angles].",
+    "Cross-sell is a distinct motive: 8 of 23 deals, against 21% of all deals in the file. Margin Improvement appears in 7 of 23 [M:cross_sell, M:margin_improvement].",
+    "Southeast presence: 3 deals in the target's region, including Southeast Home Health in 2022 [T:record, D:MA-2022-0107]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two dental deals closed, plus larger adjacent provider transactions",
+   "points": [
+    "Alliance DSO: $57M leveraged buyout, 2023, at 16.1x. Prime Dental Solutions: $14M carve-out, 2021, at 11.8x. Both closed [D:MA-2023-0354, D:MA-2021-0262].",
+    "Southeast Home Health: $114M SPAC merger, 2022, at 16.3x. Woodland PACE: $204M management buyout, 2021, at 17.6x [D:MA-2022-0107, D:MA-2021-0025].",
+    "6 of its 23 deals sit in the comparable size band of $40M-$160M, and 8 have come since 2022 [K:size_band, K:recent]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but returns cap the bid at $68M",
+   "points": [
+    "63 comparable deals: lower quartile 11.0x, median 13.7x, upper quartile 15.4x [V:comps].",
+    "Upper quartile is defensible: 18.0% margin against a 12.4% comp median, above 92% of comps. Its own median paid is 16.2x [V:comps, T:record].",
+    "At 5.0x leverage and 8.5% interest, IRR at the ask is 14.0% against a 20% target; maximum price is $68M on either exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 14.0% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 13.7x was tested as an alternative route [V:lbo].",
+    "reality": "Maximum price stays $68M on either exit, below the $80M target EV [V:lbo, X:target]."
+   },
+   {
+    "title": "Completion record",
+    "concern": "Only 18 of 23 deals closed (78%), a slight factor against it [K:closed_share, S:close_rate_s].",
+    "mitigant": "Both of its dental deals closed [D:MA-2023-0354, D:MA-2021-0262].",
+    "reality": "Two recapitalizations were withdrawn: Clearwater Mental Health and Delta Multispecialty Group [D:MA-2023-0166, D:MA-2022-0024]."
+   },
+   {
+    "title": "Competitive process",
+    "concern": "Other open-platform sponsors on the priority list, including Blackstone, General Atlantic and TPG Capital, are also credible bidders.",
+    "mitigant": "Its 14 adjacent provider deals are the most among open-platform sponsors on the list [T:record].",
+    "reality": "Only 2 dental deals, so Heartland Dental and Advent International have deeper dental records [T:record]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Basis: 2 deals in the target's own sub-sector, 14 in adjacent provider sub-sectors, and an open platform add-on route. The 14.0% IRR at the ask and 78% completion rate are the main qualifiers [T:record, A:angles, V:lbo, K:closed_share]."
+  }
+ }
+}

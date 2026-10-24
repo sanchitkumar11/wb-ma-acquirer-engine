@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8305,
+  "output_tokens": 4701,
+  "usd": 0.06361970384,
+  "cached": false,
+  "seconds": 32.29216654202901
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Blackstone has bought twice in the target's own sub-sector, including one Midwest deal, and pays the highest median multiple on the priority list.",
+  "differentiator": "Pays the highest median multiple on the priority list (17.1x) and has the largest median deal of any sponsor listed ($342M), so it can meet an upper-quartile price.",
+  "why_them": "Scaled sponsor, pays top multiples, prior Midwest services deal",
+  "acquirer_overview": {
+   "title": "Large sponsor with a 25-deal record, mostly outside provider services",
+   "points": [
+    "Financial sponsor with 25 deals from 2015 to 2024; 22 closed (88%) and 23 were control deals [T:record, K:closed_share, K:control_share].",
+    "Private Equity segment held $416.4 billion of assets under management as of December 31, 2025 [P:1].",
+    "Home sub-sector is Health Insurance; 16 of its 25 deals sit outside provider services and 9 are provider deals [B:buyer, T:record, A:angles]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Credible fit through own-sub-sector precedents, but no open platform",
+   "points": [
+    "Deals in this or neighbouring sub-sectors and its number of past deals are each a modest factor in its likelihood [S:sector_rel, S:activity].",
+    "Platform Build in 9 of 25 deals [M:platform_build]; with no open platform in the sub-sector, the target would anchor a new one [A:angles].",
+    "The deal is not smaller than its usual range, a slight factor in its favour; its median deal is $342M [S:not_smaller, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two same-sub-sector deals, one in the Midwest, plus dental deals near this size",
+   "points": [
+    "Peak Medical Management: $342M SPAC Merger, 2021, Midwest, 10.0x EBITDA, in the target's own sub-sector [D:MA-2021-0407].",
+    "Evergreen Care Solutions: $299M Bolt-on Acquisition, 2021, Southwest, 14.6x EBITDA, also in the target's own sub-sector [D:MA-2021-0195].",
+    "North Smile Group (Dental): $222M Management Buyout, 2021, 13.5x EBITDA, close to the target's size [D:MA-2021-0453]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and Blackstone's history supports it",
+   "points": [
+    "Across 70 comparable deals (9 in the same sub-sector), EV/EBITDA runs 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th [V:comps].",
+    "The target's 16.8% margin sits above the comparable median of 12.9%, which supports the 75th percentile [V:comps].",
+    "Its median multiple paid is 17.1x; at the ask, IRR is 18.7% against a 20% target, and a platform exit lifts maximum price to $216M [T:record, V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "Same-exit maximum is $193M, so the bid works only if it underwrites an add-on exit [V:lbo]."
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Geographic history is a slight signal against; only 2 of its 25 deals were in the target's region [S:geo_fit, T:record].",
+    "mitigant": "Peak Medical Management, a $342M Midwest deal in the target's own sub-sector, closed in 2021 [D:MA-2021-0407].",
+    "reality": "Region is a slight negative, not a barrier; other sponsors on the list may have deeper Midwest records [S:geo_fit]."
+   },
+   {
+    "title": "No open platform, limited provider focus",
+    "concern": "No open platform in the sub-sector, and 16 of 25 deals were outside provider services [A:angles, T:record].",
+    "mitigant": "Platform Build motivated 9 of 25 deals, and 9 deals were in provider sub-sectors [M:platform_build, A:angles].",
+    "reality": "The target would have to anchor a new platform rather than slot into an existing one [A:angles]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Two own-sub-sector deals and seven in adjacent provider sub-sectors support the case, but no open platform in the sub-sector and a slight regional signal against hold it at Medium [C:conviction, S:geo_fit]."
+  }
+ }
+}

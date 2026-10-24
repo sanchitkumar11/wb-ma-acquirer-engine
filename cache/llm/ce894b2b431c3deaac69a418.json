@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Hellman & Friedman",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10279,
+  "output_tokens": 3002,
+  "usd": 0.050577661610000005,
+  "cached": false,
+  "seconds": 17.639996792015154
+ },
+ "output": {
+  "buyer": "Hellman & Friedman",
+  "headline": "Hellman & Friedman: a Southeast dental buyout precedent and an open platform add-on route make it the second-ranked buyer for this $80M target.",
+  "differentiator": "Hellman & Friedman has the most Southeast deals of any buyer on the priority list (6 of 15), plus an open platform route in the sub-sector and capacity for larger deals. [T:record, A:angles]",
+  "why_them": "Southeast dental precedent, open platform add-on route, pays above upper quartile",
+  "acquirer_overview": {
+   "title": "Active sponsor with a provider focus and a mostly closed record",
+   "points": [
+    "Hellman & Friedman is a financial sponsor with 15 deals from 2015 to 2024; 12 closed (80%), and 14 of 15 were control deals. [T:record, K:closed_share, K:control_share]",
+    "Median deal $187M, ranging from $9M to $994M; 5 deals since 2022 across 8 active years. [T:record, K:recent, K:years_active]",
+    "8 of 15 deals are provider services (2 dental, 6 adjacent). Fund size and firm profile not researched. [A:angles, T:record, R:FUND_SIZE_UNKNOWN]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A Southeast dental add-on for a sponsor that has bought there",
+   "points": [
+    "Buying in this or a neighbouring region is a modest factor in its likelihood of 5.4%; 6 of its 15 deals are in the Southeast. [S:geo_fit, R:rank, T:record]",
+    "Hellman & Friedman bought Maple Dental Care ($428M, 2020) in the Southeast, in the target's own sub-sector. [D:MA-2020-0286]",
+    "Margin Improvement drove 5 of 15 deals; its open platform in the sub-sector makes the target an add-on. [M:margin_improvement, A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two dental deals and a recent Southeast bolt-on",
+   "points": [
+    "Maple Dental Care: $428M Leveraged Buyout, Southeast, 2020, at 13.0x EV/EBITDA, closed. [D:MA-2020-0286]",
+    "Great Medical Associates (physician groups): $299M Bolt-on Acquisition, Southeast, 2024, at 13.3x; Harbor PACE: $81M, 2019, at 16.1x. [D:MA-2024-0002, D:MA-2019-0271]",
+    "Core Oral Health: $12M dental Recapitalization, West Coast, 2022, at 16.1x. Only 3 of 15 deals sit in the $40M-$160M size band. [D:MA-2022-0428, K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible and within this buyer's habits",
+   "points": [
+    "63 comparable deals show 11.0x at the lower quartile, 13.7x median and 15.4x at the upper quartile. [V:comps]",
+    "Target margin of 18.0% beats the comps' 12.4% median and exceeds 92% of comps, supporting the 75th percentile. [V:comps]",
+    "Its median paid of 16.1x sits above the 15.4x upper quartile; at 5.0x leverage the equity cheque is $53M. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask is 14.0%, against a 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 13.7x leaves the maximum price at $68M, no higher. [V:lbo]",
+    "reality": "The $68M ceiling is below the $80M EV, so a price or structure gap must be bridged. [V:lbo, X:target]"
+   },
+   {
+    "title": "Size and capacity",
+    "concern": "Median deal is $187M and only 3 of 15 deals fall in the $40M-$160M band. [T:record, K:size_band]",
+    "mitigant": "It has done deals as small as $9M, and Harbor PACE at $81M. [T:record, D:MA-2019-0271]",
+    "reality": "Fund size not researched, so equity capacity is unconfirmed. [R:FUND_SIZE_UNKNOWN]"
+   },
+   {
+    "title": "Completion record",
+    "concern": "Share of deals that closed is a slight factor against: 12 of 15 (80%). [S:close_rate_s, K:closed_share]",
+    "mitigant": "Both its Southeast precedents, Maple Dental Care and Great Medical Associates, closed. [D:MA-2020-0286, D:MA-2024-0002]",
+    "reality": "Meridian Medical Associates (2022) was withdrawn; a diligence point, not a bar. [D:MA-2022-0056]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Two deals in the target's own sub-sector, six in adjacent provider sub-sectors, an open platform add-on route and a #2 position on the priority list support High. [C:conviction, R:rank]"
+  }
+ }
+}

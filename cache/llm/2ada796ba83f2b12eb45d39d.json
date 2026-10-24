@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 repair1 Aledade",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7936,
+  "output_tokens": 2142,
+  "usd": 0.03729174050000001,
+  "cached": false,
+  "seconds": 12.80224674998317
+ },
+ "output": {
+  "buyer": "Aledade",
+  "headline": "Aledade is a Health IT buyer whose one deal was a $271M national investment in the target's own sub-sector, at a top-of-range multiple.",
+  "differentiator": "Its 23.9x median paid is above Epic and Evolent and second only to McKesson on the list. Its one deal sits in the target's size band and region.",
+  "why_them": "Same sub-sector, national reach; paid a top-of-range multiple before",
+  "acquirer_overview": {
+   "title": "A Health IT strategic with one closed deal on file",
+   "points": [
+    "Strategic buyer with Health IT as its home sub-sector. Its profile and revenue have not been researched [B:buyer, V:synergy].",
+    "One deal on file: a 2020 minority investment that closed, and no deals since 2022 [T:record, K:closed_share, K:recent].",
+    "Fifth on the priority list of 10, with a likelihood of 3.8% across 107 buyers scored [R:rank]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same sub-sector, and that is its strongest factor",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor in its likelihood. Its single deal was in Health IT [S:sector_share, K:by_sub_sector].",
+    "Technology Capability tags its 1 of 1 deal, a tag on only 10% of deals in the file. Vertical Integration is also tagged. The sample is thin [M:technology_capability, M:vertical_integration].",
+    "Having bought in this region and a target margin close to its usual are both modest factors in its favour [S:geo_fit, S:margin_fit]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One $271M national precedent, inside the target's size band",
+   "points": [
+    "Oak Health Informatics: $271M minority investment, 2020, at 23.9x EBITDA and 5.73x revenue. It closed [D:MA-2020-0093].",
+    "The deal falls in the $150M-$600M comparable size band, but it was a minority stake, not control (0 of 1 control deals) [K:size_band, K:control_share]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Median anchor of 21.4x; Aledade's one deal cleared the upper quartile",
+   "points": [
+    "13 comparable same-sub-sector deals in the $150M-$600M band: 19.4x at the lower quartile, 21.4x median, 23.3x at the upper quartile [V:comps].",
+    "Target margin of 25.0% beats the comps' median of 22.2% but is not in the top quarter, so the 50th percentile is defensible [V:comps].",
+    "Its one deal was at 23.9x. Synergy headroom is $14M-$23M (cost synergies of 3-5% of implied opex, half realised); buyer revenue is not researched [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin track record",
+    "concern": "Only one deal on file, from 2020, with nothing since 2022 [T:record, K:recent].",
+    "mitigant": "That deal was in the target's sub-sector, national, and in the same size band [K:size_band].",
+    "reality": "One data point supports the fit but not a pattern of buying [T:record]."
+   },
+   {
+    "title": "Minority, not control",
+    "concern": "Its only deal was a minority investment, so appetite for control is unproven [K:control_share].",
+    "mitigant": "Paying 23.9x shows it will pay full prices for Health IT assets [D:MA-2020-0093].",
+    "reality": "0 of 1 control deals; a full sale to a PE-backed seller would be new for it [K:control_share]."
+   },
+   {
+    "title": "Seller type and capacity",
+    "concern": "Having bought from this kind of seller is a slight factor against; buyer revenue is not researched [S:own_fit_s, V:synergy].",
+    "mitigant": "Synergy headroom of $14M-$23M supports a bid near the median [V:synergy].",
+    "reality": "Ability to pay is unverified until buyer revenue is researched [V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Medium because it has only 1 deal in the target's own sub-sector (neutral), offset by 1 deal in the target's region (in favour). The sample is too small to go higher [C:conviction, T:record]."
+  }
+ }
+}

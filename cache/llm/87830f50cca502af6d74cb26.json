@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Welsh Carson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8471,
+  "output_tokens": 4228,
+  "usd": 0.05922170359,
+  "cached": false,
+  "seconds": 29.200666834018193
+ },
+ "output": {
+  "buyer": "Welsh Carson",
+  "headline": "Provider specialist with an open platform in the sub-sector, six Midwest deals and a median deal of $172M, close to the target's size.",
+  "differentiator": "Second-most adjacent provider deals on the list (15, behind Nordic Capital's 18), level with GTCR at six Midwest deals, and a median deal of $172M near the target's size. [T:record]",
+  "why_them": "Add-on to open platform; Midwest provider specialist paying upper-quartile prices",
+  "acquirer_overview": {
+   "title": "A provider-focused sponsor with a closed record and fresh capital",
+   "points": [
+    "Financial sponsor with 23 deals from 2017 to 2023; 18 closed (78%) [T:record, K:closed_share].",
+    "Provider specialist: 16 of 23 deals are in provider services, and it has an open platform in the target's sub-sector [A:angles].",
+    "Capacity: a 2023 headline reports its largest private equity fund to date at over $5 Billion [P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a deep provider record",
+   "points": [
+    "The open platform makes the target an add-on. Deals in this or neighbouring sub-sectors are a modest factor in its likelihood [A:angles, S:sector_rel].",
+    "Cross-sell is a distinctive motive: 8 of 23 deals, against 21% of all deals in the file [M:cross_sell].",
+    "Six Midwest deals, including Jefferson Ambulatory Care ($75M, 2021) in the target's own sub-sector [T:record, D:MA-2021-0083]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Midwest and mid-size precedents, priced well above the comparable median",
+   "points": [
+    "Jefferson Ambulatory Care: $75M management buyout, 2021, Midwest, 17.8x, closed [D:MA-2021-0083].",
+    "Clearwater Mental Health: $398M recapitalization, 2023, Midwest, 16.8x, withdrawn [D:MA-2023-0166].",
+    "Woodland PACE: $204M management buyout, 2021, 17.6x, closed. 9 of 23 deals sit in the $100M-$400M size band [D:MA-2021-0025, K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; the bid leans on the platform exit",
+   "points": [
+    "Across 70 comparable deals the range is 10.7x to 15.3x, median 12.8x. The target's 16.8% margin beats the 12.9% comp median, supporting the 75th percentile [V:comps].",
+    "Its own median paid is 16.2x, above the 15.3x upper quartile of comparable deals [V:comps, T:record].",
+    "With 5.0x leverage and a $128M equity cheque, maximum price is $193M at the same exit and $216M at a 15.0x platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "The bid works only if it underwrites the add-on exit; same-exit maximum is $193M [V:lbo]."
+   },
+   {
+    "title": "Completion record",
+    "concern": "18 of 23 deals closed (78%); share closed is a slight factor against [K:closed_share, S:close_rate_s].",
+    "mitigant": "Both Midwest-relevant control precedents, Jefferson and Woodland PACE, closed [D:MA-2021-0083, D:MA-2021-0025].",
+    "reality": "Clearwater Mental Health ($398M, 2023) was withdrawn, so certainty of close should be tested [D:MA-2023-0166]."
+   },
+   {
+    "title": "Competitive process",
+    "concern": "Nordic Capital has 4 same-sub-sector deals and an open platform; GTCR also has six Midwest deals [T:record].",
+    "mitigant": "Welsh Carson's open platform and 15 adjacent provider deals give a credible add-on case [A:angles, T:record].",
+    "reality": "Only 1 own-sub-sector deal, and Platform Build is tagged on 1 of 23 deals [M:platform_build]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "High because it has 1 deal in the target's own sub-sector and 15 in adjacent provider sub-sectors, plus an open platform in the sub-sector, which gives an add-on route [C:conviction, A:angles]."
+  }
+ }
+}

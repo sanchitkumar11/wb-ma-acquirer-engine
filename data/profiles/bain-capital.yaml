@@ -1,0 +1,7 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Bain Capital
+buyer_type: Financial Sponsor
+facts: []
+not_researched:
+- mandate
+- fund size

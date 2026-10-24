@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7498,
+  "output_tokens": 3639,
+  "usd": 0.05138573867000001,
+  "cached": false,
+  "seconds": 25.326587832998484
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "Advent can add the target to its open platform in the sub-sector, with a 15.5x median multiple paid and 83% of deals closed.",
+  "differentiator": "Brings an open platform in the sub-sector for an add-on route, and a 15.5x median paid, above the 15.3x comparable 75th percentile. Peer lines were not available to compare.",
+  "why_them": "Add-on to its open platform; pays above the comparable 75th percentile",
+  "acquirer_overview": {
+   "title": "A sponsor with an 18-deal, provider-weighted record since 2016",
+   "points": [
+    "18 deals from 2016 to 2024; 15 closed (83%) and 17 of 18 were control deals (94%) [T:record, K:closed_share, K:control_share].",
+    "Provider record: 1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors, against 10 outside provider services [T:record].",
+    "Flagship fund Advent Global Private Equity X, about $25 billion (2022 vintage); approximately $100 billion AUM as of November 2025 [P:1, P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor, the strongest in its likelihood, with past deal count a further slight factor [S:sector_rel, S:activity].",
+    "The open platform in the sub-sector makes the target an add-on rather than a new bet, and size fits its usual range [A:angles, S:not_smaller].",
+    "Margin Improvement drove 7 of 18 deals, a motive that suits a business with a 16.8% margin [M:margin_improvement, X:target]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Closest precedent is the 2024 Crest Care Partners recapitalization",
+   "points": [
+    "Crest Care Partners: $304M Recapitalization in 2024 at 9.3x EV/EBITDA, in the target's own sub-sector [D:MA-2024-0120].",
+    "Behavioral health: Crown Addiction Treatment ($123M, 2023, 14.6x) and Principal Counseling ($163M minority, 2021, 13.2x) [D:MA-2023-0108, D:MA-2021-0341].",
+    "Summit DSO: $303M Merger of Equals in the Midwest, 2018, at 11.7x; 8 of 18 deals sit in the $100M-$400M band [D:MA-2018-0184, K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Defend the 75th percentile; the bid needs the platform exit",
+   "points": [
+    "70 comparable deals span 10.7x to 15.3x EV/EBITDA (median 12.8x). The target's 16.8% margin beats the 12.9% comps median, supporting the 75th percentile [V:comps].",
+    "Advent's own median paid is 15.5x, above the comparable 75th percentile of 15.3x [V:comps].",
+    "At 5.0x leverage and a $128M equity cheque, IRR at the ask is 18.7% against a 20% target; maximum price is $193M, or $216M on a platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "Same-exit maximum is $193M, so the bid works only if it underwrites the add-on exit [V:lbo]."
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Only 1 deal in the target's region; regional fit is a slight factor against [T:record, S:geo_fit].",
+    "mitigant": "That deal, Summit DSO, was a $303M Midwest transaction in 2018 [D:MA-2018-0184].",
+    "reality": "A slight factor; the sector and platform signals outweigh it in the likelihood [S:sector_rel, S:geo_fit]."
+   },
+   {
+    "title": "Little own-sub-sector depth",
+    "concern": "Only 1 of 18 deals is in the target's own sub-sector; 10 are outside provider services [T:record].",
+    "mitigant": "Adjacent provider deals number 7, and 83% of all deals closed [T:record, K:closed_share].",
+    "reality": "Experience is adjacent rather than direct; the open platform is the bridge [A:angles]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Based on 1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors, plus an open platform in the sub-sector giving an add-on route [T:record, A:angles]."
+  }
+ }
+}

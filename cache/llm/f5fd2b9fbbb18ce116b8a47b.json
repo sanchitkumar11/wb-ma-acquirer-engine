@@ -1,0 +1,25 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3670,
+  "output_tokens": 686,
+  "usd": 0.014199883040000002,
+  "cached": false,
+  "seconds": 5.580634457990527
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Aspen Dental (ADMI)",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:Aspen Dental (ADMI):deals"
+    ],
+    "reason": "The only evidence is 3 provider-services deals with none in Mountain West and a $176M median deal size, well above this $99M target. Nothing on the card shows a stated strategy or platform that makes a Mountain West physician group a fit. Its 0.1% likelihood is also far below the sponsors in Tier 1, so it belongs in Tier 2."
+   }
+  ]
+ }
+}

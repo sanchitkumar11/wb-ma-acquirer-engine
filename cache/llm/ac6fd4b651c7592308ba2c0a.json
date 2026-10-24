@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Privia Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7938,
+  "output_tokens": 3098,
+  "usd": 0.04685573088000001,
+  "cached": false,
+  "seconds": 23.288049667025916
+ },
+ "output": {
+  "buyer": "Privia Health",
+  "headline": "Privia Health has bought twice in the target's own sub-sector, at $205M and $256M, and pays 20.5x, close to the comparable median.",
+  "differentiator": "Both prior deals sit in the target's $150M-$600M size band and both closed. It pays 20.5x, below the other strategics' medians of 21.6x to 25.1x.",
+  "why_them": "Repeat Health IT buyer in the target's size band; pays near median",
+  "acquirer_overview": {
+   "title": "A Health IT strategic with a small but fully closed record",
+   "points": [
+    "Strategic buyer with Health IT as its home sub-sector; annual revenue of $2,123M for the year ending 2025-12-31 [B:buyer, P:1].",
+    "Two deals from 2017 to 2024, both in the target's sub-sector, both closed (2 of 2, 100%) [T:record, K:closed_share].",
+    "Bought Evolent Health's accountable care business for $100M in cash plus up to $13M, closing 2025-12-05 [P:3]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same-sub-sector buyer whose past deals were technology-led",
+   "points": [
+    "Share of its deals in the target's sub-sector is the strongest factor in its likelihood; margin fit and close rate are modest positives [S:sector_share, S:margin_fit, S:close_rate_s].",
+    "Technology Capability drove 2 of 2 deals, against 10% of all deals in the file, a distinctive motive [M:technology_capability].",
+    "Stated mandate is minority or majority ownership of provider groups or clinically integrated networks, so the target is a technology extension [P:2]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two Health IT deals of $205M and $256M, both closed",
+   "points": [
+    "Keystone Population Health: $205M minority investment in 2024 at 20.2x EBITDA and 6.29x revenue [D:MA-2024-0128].",
+    "Select EHR Solutions: $256M SPAC merger in 2017 at 20.9x EBITDA and 5.94x revenue [D:MA-2017-0427].",
+    "Both deals fall in the $150M-$600M comparable size band; median deal is $231M [K:size_band, T:record]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Median anchor of 21.4x is defensible; Privia has room to pay",
+   "points": [
+    "13 same-sub-sector comparables show 19.4x at the 25th percentile, 21.4x median and 23.3x at the 75th [V:comps].",
+    "Target margin of 25.0% is above the comps' 22.2% median but not in the top quarter, so the 50th percentile is the anchor [V:comps].",
+    "Privia's own median of 20.5x sits just under the comparable median. Cost synergy headroom is $14M-$23M against revenue of $2,123M [V:comps, V:synergy, P:1]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "The $300M target exceeds its biggest deal of $256M.",
+    "mitigant": "Revenue of $2,123M gives capacity beyond its prior cheques [P:1].",
+    "reality": "Both precedents were $205M-$256M, so this is a step up [T:record, X:target]."
+   },
+   {
+    "title": "Mandate focus",
+    "concern": "Stated mandate targets provider groups; this is a PE-backed Health IT company, and past seller fit is a slight negative [P:2, S:own_fit_s].",
+    "mitigant": "Both precedents were in the target's own sub-sector [K:by_sub_sector].",
+    "reality": "Half its deals (1 of 2) were minority stakes, so control is untested [K:control_share]."
+   },
+   {
+    "title": "Crowded process and no regional record",
+    "concern": "Blackstone and Evolent Health also rate High, and Privia has no deal in the target's region [C:conviction, T:record].",
+    "mitigant": "Footprint covers 43 states and the District of Columbia [P:4].",
+    "reality": "Ranked 5th on the priority list of 10 with a 3.8% likelihood [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Two deals in the target's own sub-sector support the call, but no deal in the target's region keeps it neutral and the record is only two deals [C:conviction, T:record]."
+  }
+ }
+}

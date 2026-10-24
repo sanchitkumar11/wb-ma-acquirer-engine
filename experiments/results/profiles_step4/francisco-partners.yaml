@@ -1,0 +1,17 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Francisco Partners
+buyer_type: Financial Sponsor
+facts:
+- kind: mandate
+  value: '"One of the largest and most active technology-focused private equity firms in the world"'
+  as_of: '2026-10-23'
+  source: https://www.franciscopartners.com/about
+  accessed: '2026-10-23'
+  focus: technology
+- kind: capital_raised
+  value: More than $75 billion of capital raised (undated on the page)
+  as_of: '2026-10-23'
+  source: https://www.franciscopartners.com/about
+  accessed: '2026-10-23'
+  amount_usd_mm: 75000
+not_researched: []

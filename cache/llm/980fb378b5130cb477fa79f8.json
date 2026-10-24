@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write General Atlantic",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8306,
+  "output_tokens": 5597,
+  "usd": 0.07258169485,
+  "cached": false,
+  "seconds": 36.11093958298443
+ },
+ "output": {
+  "buyer": "General Atlantic",
+  "headline": "Provider-focused growth investor that pays upper-quartile multiples and rarely fails to close, with physician-group and Midwest precedents.",
+  "differentiator": "Pays a median 16.5x, above every other sponsor on the list except Blackstone, and closed 13 of 14 (93%), the best completion rate among the sponsors. [T:record, K:closed_share]",
+  "why_them": "Provider-focused growth equity; pays upper-quartile prices, completes nearly every deal",
+  "acquirer_overview": {
+   "title": "Growth equity firm with a provider-heavy, high-completion record",
+   "points": [
+    "Growth equity investor across Technology, Consumer, Financial Services, Healthcare and Life Sciences, with AUM of US$125.3 billion. [P:1, P:2]",
+    "Made 14 deals from 2019 to 2024, all control stakes; 13 closed (93%). [T:record, K:control_share, K:closed_share]",
+    "9 of 14 deals were in provider services; deal sizes run from $7M to $4,563M, with a median of $158M. [A:angles, T:record]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A provider specialist with precedents in the target's sub-sector and region",
+   "points": [
+    "Deals in this or neighbouring sub-sectors and a high close rate are modest factors in its likelihood. [S:sector_rel, S:close_rate_s]",
+    "Buys for market share (5 of 14 deals, against 19% of all deals in the file) and scale (5 of 14). [M:market_share, M:scale]",
+    "Has 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; its share of own-sub-sector deals is a slight factor against. [T:record, S:sector_share]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Physician-group and Midwest precedents, from $15M to $1,708M",
+   "points": [
+    "Oak Health: $1,708M merger of equals, 2021, 18.8x, in the target's own sub-sector. [D:MA-2021-0066]",
+    "Crest Medical Practice: $121M leveraged buyout, 2023, 11.5x; Reliable Medical Associates: $71M, 2021, 13.8x; both physician groups. [D:MA-2023-0499, D:MA-2021-0392]",
+    "Harbor Home Health Partners: $15M strategic acquisition in the Midwest, 2022, 16.9x; 2 of its 14 deals were in the target's region. [D:MA-2022-0273, T:record]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but the bid needs a platform-style exit",
+   "points": [
+    "70 comparable deals show 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th; the 75th percentile is the defensible mark. [V:comps]",
+    "Target margin of 16.8% sits above the comps' median of 12.9%, supporting upper-quartile pricing; this buyer's own median paid is 16.5x. [V:comps]",
+    "At the ask, IRR is 18.7% against a 20% target; maximum price is $193M on the same exit, $216M at a 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "It has no open platform in the sub-sector, so the platform exit is unproven for this buyer. [C:conviction]"
+   },
+   {
+    "title": "Thin own-sub-sector record",
+    "concern": "Only 1 deal in the target's own sub-sector, and that share is a slight factor against. [T:record, S:sector_share]",
+    "mitigant": "8 deals in adjacent provider sub-sectors, including physician groups. [T:record, K:by_sub_sector]",
+    "reality": "Its own-sub-sector deal, Oak Health at $1,708M, is far larger than this target. [D:MA-2021-0066]"
+   },
+   {
+    "title": "Competitive process",
+    "concern": "Welsh Carson and GTCR each have 6 Midwest deals; General Atlantic has 2. [T:record]",
+    "mitigant": "Its median paid of 16.5x is above Welsh Carson's 16.2x and GTCR's 15.2x. [T:record]",
+    "reality": "Among sponsors on the list, only Blackstone, at 17.1x, pays more. [T:record]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "One deal in the target's own sub-sector and 8 in adjacent provider sub-sectors support the fit, but there is no open platform in the sub-sector, which holds the call at Medium. [C:conviction]"
+  }
+ }
+}

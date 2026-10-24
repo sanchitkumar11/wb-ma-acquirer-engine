@@ -1,0 +1,12 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Amedisys
+buyer_type: Strategic
+facts:
+- kind: merger
+  value: UnitedHealth Group completed its acquisition of Amedisys (merger agreed June 2023)
+  as_of: '2025-08-14'
+  source: https://www.sec.gov/Archives/edgar/data/896262/000110465925078145/tm2523306d1_8k.htm
+  accessed: '2026-10-23'
+  accession: 0001104659-25-078145
+  merged_into: UnitedHealth Group
+not_researched: []

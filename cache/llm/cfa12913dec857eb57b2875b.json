@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write GTCR",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8207,
+  "output_tokens": 4217,
+  "usd": 0.05858371162000001,
+  "cached": false,
+  "seconds": 28.424235332990065
+ },
+ "output": {
+  "buyer": "GTCR",
+  "headline": "Midwest-active provider specialist with a same-sub-sector precedent and a 15.2x median multiple paid, in line with upper-quartile pricing.",
+  "differentiator": "Joint-most active Midwest buyer on the priority list (6 deals, level with Welsh Carson), with a $173M median deal close to the target's size. [K:by_region, T:record]",
+  "why_them": "Midwest provider specialist; pays near upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "Provider-focused sponsor with 14 deals and a Midwest weighting",
+   "points": [
+    "Financial sponsor with 14 deals from 2015 to 2023; 11 of 14 closed (79%). [T:record, K:closed_share]",
+    "Fund XIV is $11.5 billion; the mandate covers financial services and technology, healthcare, and growth business services. [P:1, P:2]",
+    "9 of 14 deals were in provider services, and 6 of the 14 were in the Midwest. [A:angles, K:by_region]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Provider specialist whose Midwest deals and platform-build record fit the target",
+   "points": [
+    "Having bought in this or a neighbouring region is the strongest factor in its likelihood, though only a modest one. [S:geo_fit]",
+    "Platform Build in 5 of 14 deals and Margin Improvement in 6 of 14 suit a target with a 16.8% margin and 11.0% growth. [M:platform_build, M:margin_improvement, X:target]",
+    "1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; it has no open platform in the sub-sector. [T:record, A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "A same-sub-sector Midwest deal and larger Midwest buyouts on record",
+   "points": [
+    "Sterling Health Systems: $911M bolt-on, 2018, Midwest, 12.2x EBITDA, closed; its one deal in the target's own sub-sector. [D:MA-2018-0357]",
+    "Golden Orthodontics: $588M leveraged buyout, 2020, Midwest, 15.2x EBITDA, closed. [D:MA-2020-0276]",
+    "Zenith Specialty Care: $76M bolt-on, 2023, Midwest, 8.9x EBITDA, withdrawn. [D:MA-2023-0279]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible and matches GTCR's own record",
+   "points": [
+    "70 comparable deals: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th; the defensible percentile is the 75th. [V:comps]",
+    "The target's 16.8% margin beats the comparable median of 12.9%, supporting upper-quartile pricing; GTCR's median multiple paid is 15.2x. [V:comps]",
+    "At 5.0x leverage the equity cheque is $128M; IRR at the ask is 18.7% against a 20% target. Maximum price is $193M, or $216M on a 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below GTCR's 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "The bid works only if GTCR underwrites a platform exit; the same-exit maximum is $193M. [V:lbo]"
+   },
+   {
+    "title": "No open platform in the sub-sector",
+    "concern": "GTCR has no open platform, and only 1 deal in the target's own sub-sector. [A:angles, T:record]",
+    "mitigant": "It has 8 deals in adjacent provider sub-sectors and a Platform Build motive in 5 of 14 deals. [T:record, M:platform_build]",
+    "reality": "Nordic Capital, Welsh Carson and Advent International each have an open platform, so GTCR competes against better-placed sponsors."
+   },
+   {
+    "title": "Completion record",
+    "concern": "Share of deals that closed is a slight factor against; 11 of 14 closed (79%). [S:close_rate_s, K:closed_share]",
+    "mitigant": "4 deals since 2022 show it is still active, and 12 of 14 were control deals. [K:recent, K:control_share]",
+    "reality": "The 2023 Midwest bolt-on Zenith Specialty Care was withdrawn, so execution is not assured. [D:MA-2023-0279]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "One deal in the target's own sub-sector and eight in adjacent provider sub-sectors support the case, but the lack of an open platform in the sub-sector holds conviction at Medium. [C:conviction]"
+  }
+ }
+}

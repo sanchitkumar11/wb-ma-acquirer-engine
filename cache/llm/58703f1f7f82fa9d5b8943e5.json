@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Advocate Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7792,
+  "output_tokens": 4742,
+  "usd": 0.06300371882,
+  "cached": false,
+  "seconds": 32.14089441701071
+ },
+ "output": {
+  "buyer": "Advocate Health",
+  "headline": "Advocate Health has bought five times in the target's own sub-sector, closed every deal, and ranks first on the priority list.",
+  "differentiator": "Most deals in the target's own sub-sector of any buyer on the priority list (5, all closed), plus a strategic's synergy headroom of $15M-$25M. [T:record, V:synergy]",
+  "why_them": "Sub-sector specialist strategic; five of five deals closed",
+  "acquirer_overview": {
+   "title": "A nonprofit hospital system with a closed record in this sector",
+   "points": [
+    "Nonprofit system headquartered in Charlotte, NC, with 69 hospitals (2024), created by the merger of Advocate Aurora Health and Atrium Health. [P:1, P:2, P:3]",
+    "Five deals from 2016 to 2023, all closed, all control deals, all in Healthcare Services; 2 since 2022. [T:record, K:closed_share, K:control_share, K:recent]",
+    "Several precedents were booked under the Atrium Health name before the merger, so the record spans both legacy systems. [D:MA-2023-0330, D:MA-2020-0408, D:MA-2016-0065]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A sub-sector specialist whose motives are platform building and scale",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; target margin close to what it usually buys is a strong factor. [S:sector_share, S:margin_fit]",
+    "Platform Build drove 2 of 5 deals and Scale 2 of 5, well above their share of all deals in the file. [M:platform_build, M:scale]",
+    "Geography is a slight factor against: one deal in the target's region, Apex Medical Group ($1,920M, 2016). [S:geo_fit, D:MA-2016-0065]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Large platform deals, with a small buy and a mid-size buy showing range",
+   "points": [
+    "Charter Care Partners: $2,022M Platform Investment, 2023, at 18.5x. Granite Care: $336M Platform Investment, 2020, at 13.6x. [D:MA-2023-0330, D:MA-2020-0408]",
+    "Silver Health Partners: $35M Leveraged Buyout, 2022, at 13.8x. Hudson Medical Group: $436M Strategic Acquisition, 2020, at 9.3x. [D:MA-2022-0311, D:MA-2020-0496]",
+    "Only 1 of 5 deals falls in the comparable $100M-$400M size band. [K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible and synergy headroom supports it",
+   "points": [
+    "Comparable deals: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th, across 70 deals (9 in the same sub-sector). [V:comps]",
+    "The 75th percentile is justified because the target's 16.8% margin sits above the comparable median of 12.9%. [V:comps]",
+    "Advocate's own median paid is 13.8x. Synergy headroom is $15M-$25M (half of cost synergies realised); buyer revenue not researched. [V:comps, V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size mismatch",
+    "concern": "Typical deal is far larger than the $200M target; only 1 of 5 sits in the comparable size band.",
+    "mitigant": "It has bought small ($35M) and mid-size ($336M) assets.",
+    "reality": "Median deal of $436M means the target is below its usual scale. [T:record, K:size_band]"
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Geography is a slight factor against; the target is in the Midwest.",
+    "mitigant": "It did a Midwest deal (Apex Medical Group, 2016) and its footprint includes Illinois and Wisconsin.",
+    "reality": "One deal in the target's region, and it dates from 2016. [S:geo_fit, D:MA-2016-0065, P:2]"
+   },
+   {
+    "title": "Price gap in a contested process",
+    "concern": "Financial sponsors on the priority list with heavier Midwest records may bid above Advocate's usual level.",
+    "mitigant": "Synergy headroom of $15M-$25M supports a strategic bid.",
+    "reality": "Its median paid of 13.8x sits below the 15.3x comparable 75th percentile. [T:record, V:comps, V:synergy]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Five deals in the target's own sub-sector and none adjacent, one deal in the target's region, and a first-place rank among the highest-scored buyers left after review. [T:record, R:rank, C:conviction]"
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 5977,
+  "output_tokens": 1477,
+  "usd": 0.026723805920000003,
+  "cached": false,
+  "seconds": 10.385846249992028
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Intermountain Health",
+    "action": "demote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "P:Intermountain Health:2",
+     "F:Intermountain Health:deals"
+    ],
+    "reason": "Footprint is Utah, Colorado, Idaho and Montana, and it left Kansas in 2024. It has no Midwest presence and no Midwest deals. Its single deal has a $789M median, far above a $200M target."
+   },
+   {
+    "buyer": "UPMC",
+    "action": "demote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "P:UPMC:2",
+     "F:UPMC:deals"
+    ],
+    "reason": "Hospitals are in Pennsylvania, Maryland and New York only, with 0 Midwest deals. It has no footprint overlap with a Midwest target and no stated Midwest strategy."
+   },
+   {
+    "buyer": "Bon Secours Mercy Health",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "P:Bon Secours Mercy Health:2",
+     "F:Bon Secours Mercy Health:deals"
+    ],
+    "reason": "Headquartered in Cincinnati with hospitals in Ohio, so it has real Midwest overlap. Its one provider-services deal has a $212M median, in line with the $200M target size."
+   },
+   {
+    "buyer": "Bain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Bain Capital:deals"
+    ],
+    "reason": "Has 15 of 24 deals in provider services and 4 in the Midwest, the most Midwest deals among the Tier 2 sponsors. The $103M median deal size is workable for a $200M target. Fund size is still unconfirmed."
+   }
+  ]
+ }
+}

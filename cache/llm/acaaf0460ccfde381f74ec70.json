@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write GTCR",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8206,
+  "output_tokens": 5004,
+  "usd": 0.06645170378000001,
+  "cached": false,
+  "seconds": 33.57100683299359
+ },
+ "output": {
+  "buyer": "GTCR",
+  "headline": "Midwest-weighted provider sponsor that already bought a Healthcare Services bolt-on in the region, with a median deal size near the target's $200M.",
+  "differentiator": "Joint-highest Midwest deal count on the priority list (6, level with Welsh Carson) and a $173M median deal close to the target's size, backed by a same-sub-sector Midwest bolt-on.",
+  "why_them": "Midwest provider sponsor; same-sub-sector bolt-on precedent; size fits",
+  "acquirer_overview": {
+   "title": "Provider-focused sponsor with a Midwest-weighted 14-deal record",
+   "points": [
+    "Financial sponsor with 14 deals from 2015 to 2023; 11 of 14 (79%) closed and 12 of 14 (86%) were control deals [T:record, K:closed_share, K:control_share].",
+    "Mandate includes healthcare; latest fund is Fund XIV at $11.5 billion, ample against a $128M equity cheque [P:1, P:2, V:lbo].",
+    "Ranks 8th on the priority list of 10, with a likelihood of 3.8% among 107 buyers scored [R:rank]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A Midwest provider sponsor with a same-sub-sector bolt-on precedent",
+   "points": [
+    "Platform Build in 5 of 14 deals and Margin Improvement in 6 of 14 suit a target with a 16.8% margin [M:platform_build, M:margin_improvement].",
+    "Midwest history (6 deals) is the largest factor in its likelihood, though only a modest one [S:geo_fit, T:record].",
+    "Provider specialist with size fit: 9 of 14 deals are provider deals, 8 in adjacent sub-sectors, but it has no open platform [A:angles, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Sterling is the closest precedent; Midwest deals dominate",
+   "points": [
+    "Sterling Health Systems: $911M Bolt-on Acquisition, 2018, Midwest, 12.2x, closed, in the target's own sub-sector [D:MA-2018-0357].",
+    "Golden Orthodontics: $588M Leveraged Buyout, 2020, Midwest, 15.2x, closed [D:MA-2020-0276].",
+    "Zenith Specialty Care, a $76M Midwest bolt-on at 8.9x in 2023, was withdrawn [D:MA-2023-0279]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; return at the ask is the gap",
+   "points": [
+    "Comparable range is 10.7x to 15.3x, median 12.8x; the 75th percentile is defensible as the 16.8% margin beats the comps' median of 12.9% [V:comps].",
+    "GTCR's own median paid is 15.2x, close to the 75th percentile of 15.3x [V:comps].",
+    "IRR at the ask is 18.7% versus a 20% target; maximum price is $193M at the same exit, $216M at a 15.0x platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "The bid works only if it underwrites an add-on exit; the same-exit ceiling is $193M [V:lbo]."
+   },
+   {
+    "title": "Execution record",
+    "concern": "11 of 14 deals closed, and Zenith Specialty Care was withdrawn in 2023 [K:closed_share, D:MA-2023-0279].",
+    "mitigant": "Its closed Midwest deals include Sterling Health Systems and Golden Orthodontics [D:MA-2018-0357, D:MA-2020-0276].",
+    "reality": "Close rate is a slight factor against its likelihood [S:close_rate_s]."
+   },
+   {
+    "title": "No open platform",
+    "concern": "No open platform in the sub-sector, and only 1 deal in the target's own sub-sector [A:angles, T:record].",
+    "mitigant": "Eight adjacent provider deals and the Sterling bolt-on show it can enter new areas [T:record, D:MA-2018-0357].",
+    "reality": "Peers with open platforms may offer a cleaner add-on story to the seller [A:angles]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "One deal in the target's own sub-sector and eight in adjacent provider sub-sectors support the case; the absence of an open platform in the sub-sector keeps it at Medium [C:conviction]."
+  }
+ }
+}

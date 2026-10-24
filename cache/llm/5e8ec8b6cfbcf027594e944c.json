@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10144,
+  "output_tokens": 2642,
+  "usd": 0.04670766926000001,
+  "cached": false,
+  "seconds": 16.44384845899185
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "TPG Capital is an open-platform sponsor with 2 dental deals and 7 adjacent provider deals, and its $88M median deal fits the $80M target.",
+  "differentiator": "Among open-platform sponsors on the list, TPG Capital's $88M median deal is the closest to the $80M target; Blackstone, Hellman & Friedman, General Atlantic and Welsh Carson all run far larger medians. [T:record, A:angles]",
+  "why_them": "Add-on to an open platform; right-sized provider buyer",
+  "acquirer_overview": {
+   "title": "A $303.0 billion sponsor with a broad, mostly closed record",
+   "points": [
+    "TPG Capital is a financial sponsor with $303.0 billion in assets under management as of December 31, 2025. [B:buyer, P:1]",
+    "18 deals from 2016 to 2023; 15 of 18 (83%) closed and 17 of 18 (94%) were control deals. [T:record, K:closed_share, K:control_share]",
+    "9 deals sit outside provider services and its home sub-sector is Health Insurance, so dental is not its main focus. [T:record, B:buyer]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Having bought from this kind of seller is the strongest factor in its likelihood, a modest one. Sector relevance and deal count are slight factors. [S:own_fit_s, S:sector_rel, S:activity]",
+    "Platform Build in 5 of 18 deals and High Growth in 10 of 18 point to buying and scaling assets. [M:platform_build, M:high_growth]",
+    "Its open platform makes the target an add-on; 2 own sub-sector deals and 7 adjacent provider deals support the fit. [A:angles, T:record]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two dental precedents, plus a Southeast provider deal",
+   "points": [
+    "Granite Dental Network: $203M Platform Investment, 2021, at 12.2x. [D:MA-2021-0439]",
+    "Integrity Oral Health: $57M SPAC Merger, 2018, at 16.8x, the highest multiple among its dental precedents. [D:MA-2018-0420]",
+    "Quality Medical Group: $187M Minority Investment in the Southeast, 2022, at 11.2x; 3 of its deals are in the target's region. [D:MA-2022-0350, T:record]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; the bid must clear the return gap",
+   "points": [
+    "Comparable deals (63) show 11.0x at the lower quartile, 13.7x median and 15.4x at the upper quartile. [V:comps]",
+    "The 75th percentile is defensible: the 18.0% margin sits above the comps' 12.4% median, and above 92% of comps. [V:comps]",
+    "TPG Capital's own median paid is 15.7x, in line with the upper quartile. Ability to pay: 5.0x leverage at 8.5%, an equity cheque of $53M. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 14.0% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 13.7x leaves the maximum price at $68M. [V:lbo]",
+    "reality": "The gap is on returns, not capital, given $303.0 billion under management. [V:lbo, P:1]"
+   },
+   {
+    "title": "Growth fit runs against",
+    "concern": "Target growth is not close to what it usually buys, a slight factor against. [S:growth_fit]",
+    "mitigant": "High Growth is a motive in 10 of 18 deals. [M:high_growth]",
+    "reality": "The factor is slight; the target's 8.0% growth and 18.0% margin remain the pitch. [S:growth_fit, X:target]"
+   },
+   {
+    "title": "Crowded process, mid-list rank",
+    "concern": "TPG Capital ranks 7 on the priority list of 10, with a likelihood of 5.1%. [R:rank]",
+    "mitigant": "Conviction is High on its sub-sector record and open platform. [C:conviction]",
+    "reality": "Other open-platform sponsors, such as Blackstone and Hellman & Friedman, are also on the list, so expect competition. [R:rank, A:angles]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 2 deals in the target's own sub-sector, 7 in adjacent provider sub-sectors, and an open platform offering the add-on route. The return at the ask is the main hurdle. [C:conviction, A:angles, V:lbo]"
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Intermountain Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 5941,
+  "output_tokens": 3682,
+  "usd": 0.04870178495000001,
+  "cached": false,
+  "seconds": 27.274833208008204
+ },
+ "output": {
+  "buyer": "Intermountain Health",
+  "headline": "A strategic buyer whose one recorded deal, a $789M platform investment, was in the target's own sub-sector, but it has no prior Midwest deal.",
+  "differentiator": "Its $789M median deal is larger than any peer line on the priority list, and its only deal was a closed platform investment in the target's own sub-sector.",
+  "acquirer_overview": {
+   "title": "A Western hospital system with a single, closed platform deal",
+   "points": [
+    "Strategic buyer headquartered in Salt Lake City, with 33 hospitals in Utah, Colorado, Idaho and Montana; it left Kansas in 2024 [P:2].",
+    "Completed a merger with SCL Health, extending into Colorado, Kansas and Montana [P:1].",
+    "Record is one deal, in 2022, which closed (1 of 1, 100%). Buyer revenue has not been researched [K:closed_share, T:record, V:synergy]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector match is the case for it; region and depth are not",
+   "points": [
+    "The share of its deals in the target's sub-sector is the strongest factor in its likelihood [S:sector_share].",
+    "Target margin close to what it usually buys is a modest factor. A deal no bigger than its largest is a slight factor [S:margin_fit, S:not_bigger].",
+    "Against: deals in recent years is a slight negative factor, and it has no deal in the target's region [S:recency, T:record].",
+    "It sits 10th of 10 on the priority list, with a likelihood of 3.6% [R:rank]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One 2022 platform deal in the target's sub-sector, at 12.5x",
+   "points": [
+    "Paramount Care Partners: Healthcare Services, $789M, Platform Investment, 2022, 12.5x EV/EBITDA and 3.03x EV/Revenue, closed [D:MA-2022-0183].",
+    "The deal was Multi-Regional, so none of its deals are in the Midwest, and 0 of 1 fall in the $100M-$400M size band [K:by_region, K:size_band].",
+    "It was a control deal (1 of 1, 100%). There is no record in adjacent provider sub-sectors [K:control_share, T:record]."
+   ]
+  },
+  "valuation_context": {
+   "title": "A 75th-percentile ask is defensible; its own pricing sits near the median",
+   "points": [
+    "70 comparable deals in the $100M-$400M band price at 10.7x (25th percentile), 12.8x (median) and 15.3x (75th percentile) EV/EBITDA [V:comps].",
+    "The 75th percentile is defensible: the target's 16.8% margin is above the comps' median of 12.9% and above 87% of comparable deals [V:comps].",
+    "Its median paid of 12.5x is just under the comparable median. Cost synergy headroom of $15M-$25M is the only measure of ability to pay [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Its only deal, at $789M, is far from the target's $200M and outside the comparable size band.",
+    "mitigant": "A deal no bigger than its largest is a slight factor in its favour [S:not_bigger].",
+    "reality": "0 of 1 deals fall in the $100M-$400M band, so it has not shown it can do a deal this size [K:size_band]."
+   },
+   {
+    "title": "Thin record, no Midwest deal",
+    "concern": "One deal and no Midwest transaction; the footprint is Western and it left Kansas in 2024.",
+    "mitigant": "The SCL Health merger shows it has extended into new states before [P:1].",
+    "reality": "Conviction is Low, and peers show deeper sub-sector records, such as Advocate Health with 5 deals [T:record, P:2]."
+   },
+   {
+    "title": "Price below the upper quartile",
+    "concern": "A 75th-percentile ask of 15.3x is well above the 12.5x it paid before.",
+    "mitigant": "Cost synergy headroom of $15M-$25M could support a higher bid [V:synergy].",
+    "reality": "Its median paid of 12.5x is below the 75th percentile, and buyer revenue is not researched [V:comps, V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only 1 deal in the target's own sub-sector, none in adjacent provider sub-sectors, and no deal in the target's region, so the evidence is too thin for higher conviction [T:record, C:conviction]."
+  }
+ }
+}

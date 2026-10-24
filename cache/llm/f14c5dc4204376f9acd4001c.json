@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write GTCR",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7369,
+  "output_tokens": 2587,
+  "usd": 0.04060775306,
+  "cached": false,
+  "seconds": 18.981700125033967
+ },
+ "output": {
+  "buyer": "GTCR",
+  "headline": "Midwest-active sponsor with a provider record and a median 15.2x paid, able to underwrite a new platform at upper-quartile pricing.",
+  "differentiator": "Six of its 14 deals were in the Midwest, and its median 15.2x paid sits at the top of the comparable range. It would need to treat the target as a new platform.",
+  "why_them": "Midwest provider specialist; pays upper-quartile multiples; target would be a new platform",
+  "acquirer_overview": {
+   "title": "Provider-focused sponsor with deep Midwest roots and a large fund",
+   "points": [
+    "Financial sponsor with 14 deals from 2015 to 2023; 9 of 14 were provider deals, and 12 of 14 were control deals [T:record, A:angles, K:control_share].",
+    "Fund XIV is $11.5 billion, and its mandate covers healthcare among other sectors [P:1, P:2].",
+    "Median deal is $173M, with 4 of 14 in the $100M-$400M band the target sits in [T:record, K:size_band]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Provider specialist with Midwest precedents, building a new platform here",
+   "points": [
+    "It has 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; 6 deals were in the Midwest [T:record, K:by_region].",
+    "Platform Build is a motive in 5 of 14 deals, a pattern that stands out against the file as a whole [M:platform_build].",
+    "No open platform in the sub-sector, so the target would be a fresh platform rather than an add-on [A:angles, C:conviction]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Closed large Midwest provider deals at multiples near the top of the range",
+   "points": [
+    "Sterling Health Systems: $911M Bolt-on Acquisition, 2018, Midwest, same sub-sector as the target, 12.2x EV/EBITDA, closed [D:MA-2018-0357].",
+    "Golden Orthodontics: $588M Leveraged Buyout, 2020, Midwest dental, 15.2x EV/EBITDA, closed [D:MA-2020-0276].",
+    "Superior Behavioral Health, $70M, 2023, closed at 14.6x; Zenith Specialty Care, $76M, 2023, was withdrawn [D:MA-2023-0293, D:MA-2023-0279]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Target merits the 75th percentile; GTCR's own multiples can support it",
+   "points": [
+    "70 comparable deals show 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th percentile [V:comps].",
+    "Margin of 16.8% against a comps median of 12.9% supports the 75th percentile, which needs $13.1M of EBITDA [V:comps].",
+    "GTCR's median paid is 15.2x. At 5.0x leverage the equity cheque is $128M and IRR at the ask is 18.7% [V:comps, V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below its 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "On the same exit the maximum is $193M, below the $200M EV [V:lbo, X:target]."
+   },
+   {
+    "title": "Completion record",
+    "concern": "The share of its deals that closed counts slightly against it [S:close_rate_s].",
+    "mitigant": "11 of 14 deals closed (79%), including Sterling and Golden Orthodontics in the Midwest [K:closed_share, D:MA-2018-0357, D:MA-2020-0276].",
+    "reality": "One 2023 Midwest bolt-on, Zenith, was withdrawn, so process certainty needs testing [D:MA-2023-0279]."
+   },
+   {
+    "title": "No open platform",
+    "concern": "No open platform in the target's sub-sector, so no ready add-on logic [A:angles].",
+    "mitigant": "9 of 14 deals were provider deals, and 6 were in the Midwest [A:angles, K:by_region].",
+    "reality": "It is 8th on the priority list, with a likelihood of 3.8% [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Supported by 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; held back because there is no open platform in the sub-sector [C:conviction, A:angles]."
+  }
+ }
+}

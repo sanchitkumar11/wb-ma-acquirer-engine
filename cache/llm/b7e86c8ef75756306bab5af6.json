@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Welsh Carson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7635,
+  "output_tokens": 3710,
+  "usd": 0.052369733849999996,
+  "cached": false,
+  "seconds": 24.77089895802783
+ },
+ "output": {
+  "buyer": "Welsh Carson",
+  "headline": "Sponsor with an open platform in the target's sub-sector, six Midwest deals and a record of paying above the comparable upper quartile.",
+  "differentiator": "Offers an add-on route through an open platform in the sub-sector, with a median 16.2x paid against the comparable 75th percentile of 15.3x. Midwest is its largest region. [A:angles, T:record, V:comps]",
+  "why_them": "Add-on to open platform; pays above upper-quartile comps",
+  "acquirer_overview": {
+   "title": "Active provider-focused sponsor with a steady record since 2017",
+   "points": [
+    "Financial sponsor with 23 deals from 2017 to 2023, 18 of them closed (78%); 8 deals since 2022. [T:record, K:closed_share, K:recent]",
+    "Focuses on technology and healthcare; raised over $5 Billion in its largest private equity fund to date (July 2023 headline). [P:1, P:2]",
+    "Mostly control deals (21 of 23, 91%); median deal $172M, and 9 of 23 fall in the $100M-$400M band. [K:control_share, T:record, K:size_band]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor; it has 1 deal in the target's own sub-sector and 15 in adjacent provider sub-sectors. [S:sector_rel, T:record]",
+    "Its open platform in the sub-sector makes the target an add-on; its angles are provider specialist and size fit. [A:angles]",
+    "Cross-sell is a stand-out motive: 8 of 23 deals, against 21% across the file. Midwest is its top region at 6 deals. [M:cross_sell, K:by_region]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Midwest and platform-scale precedents show it can transact at this size",
+   "points": [
+    "Jefferson Ambulatory Care: $75M management buyout, 2021, Midwest, in the target's own sub-sector, closed at 17.8x EV/EBITDA. [D:MA-2021-0083]",
+    "Woodland PACE: $204M management buyout, 2021, closed at 17.6x, close to the target's $200M size. [D:MA-2021-0025]",
+    "Clearwater Mental Health: $398M Midwest recapitalization, 2023, at 16.8x, but withdrawn. [D:MA-2023-0166]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but the return at the ask is thin",
+   "points": [
+    "Across 70 comparable deals, EV/EBITDA runs from 10.7x (25th percentile) to 12.8x (median) and 15.3x (75th percentile). [V:comps]",
+    "The target's 16.8% margin beats the comps' median of 12.9% and is above 87% of comps, supporting the 75th percentile. Welsh Carson's own median paid is 16.2x. [V:comps]",
+    "With 5.0x leverage and a $128M equity cheque, IRR at the ask is 18.7% against a 20% target. Maximum price is $193M at the same exit, $216M with a platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "The bid works only if it underwrites the add-on exit; at the same exit the maximum is $193M. [V:lbo]"
+   },
+   {
+    "title": "Completion record",
+    "concern": "The share of deals that closed is a slight factor against; 18 of 23 (78%) closed. [S:close_rate_s, K:closed_share]",
+    "mitigant": "Both Midwest and own-sub-sector precedents that were in scope closed, including Jefferson Ambulatory Care. [D:MA-2021-0083]",
+    "reality": "Clearwater ($398M, Midwest) and Delta Multispecialty Group were withdrawn, so certainty of close needs testing. [D:MA-2023-0166, D:MA-2022-0024]"
+   },
+   {
+    "title": "Thin own-sub-sector depth",
+    "concern": "Only 1 of its 23 deals is in the target's own sub-sector. [T:record]",
+    "mitigant": "15 deals sit in adjacent provider sub-sectors, and the open platform gives an add-on route. [T:record, A:angles]",
+    "reality": "Fit rests on provider breadth and the platform, not a deep own-sub-sector record. [S:sector_rel]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 1 deal in the target's own sub-sector and 15 in adjacent provider sub-sectors, plus an open platform in the sub-sector that provides an add-on route. [T:record, A:angles]"
+  }
+ }
+}

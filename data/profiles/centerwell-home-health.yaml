@@ -1,0 +1,20 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: CenterWell Home Health
+buyer_type: Strategic
+facts:
+- kind: parent
+  value: Home health business of Humana (formerly Kindred at Home, fully acquired on August 17, 2021)
+  as_of: '2023-02-16'
+  source: https://www.sec.gov/Archives/edgar/data/49071/000004907123000011/hum-20221231.htm
+  accessed: '2026-10-23'
+  accession: 0000049071-23-000011
+- kind: revenue
+  value: 'Parent Humana: annual revenue $129,664M (fiscal year ending 2025-12-31)'
+  as_of: '2026-02-19'
+  source: https://data.sec.gov/api/xbrl/companyfacts/CIK0000049071.json
+  accessed: '2026-10-23'
+  accession: 0000049071-26-000009
+  amount_usd_mm: 129664
+not_researched:
+- footprint
+- stated strategy

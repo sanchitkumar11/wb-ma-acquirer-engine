@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8297,
+  "output_tokens": 3406,
+  "usd": 0.05065371703,
+  "cached": false,
+  "seconds": 24.230626291013323
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "Open-platform sponsor with two dental deals and seven adjacent provider deals; its $88M median deal fits an $80M Southeast target.",
+  "differentiator": "Open platform plus an $88M median deal, a closer size match to the $80M target than larger open-platform sponsors such as Blackstone and Hellman & Friedman. [A:angles, T:record]",
+  "why_them": "Add-on to an open dental platform; right-sized provider buyer",
+  "acquirer_overview": {
+   "title": "A $303.0 billion sponsor with a broad, mostly closed record",
+   "points": [
+    "Financial sponsor with $303.0 billion in assets under management as of December 31, 2025. [B:buyer, P:1]",
+    "18 deals from 2016 to 2023, with 15 of 18 (83%) closed and 17 of 18 (94%) control deals. [T:record, K:closed_share, K:control_share]",
+    "9 of 18 deals sit outside provider services; the home sub-sector is Health Insurance, so dental is not its core focus. [T:record, B:buyer]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Its own-fit record is the strongest factor for it, a modest one, followed by sector relevance and deal count, both slight. [S:own_fit_s, S:sector_rel, S:activity]",
+    "Platform Build in 5 of 18 deals and High Growth in 10 of 18 point to buying and scaling assets. [M:platform_build, M:high_growth]",
+    "Open platform in the sub-sector makes the target an add-on; 2 own sub-sector deals and 7 adjacent provider deals back it. [A:angles, T:record]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two dental precedents, plus a Southeast provider deal",
+   "points": [
+    "Granite Dental Network: $203M Platform Investment, 2021, at 12.2x. [D:MA-2021-0439]",
+    "Integrity Oral Health: $57M SPAC Merger, 2018, at 16.8x, a size close to the target. [D:MA-2018-0420]",
+    "Quality Medical Group: $187M Minority Investment in the Southeast, 2022, at 11.2x; 3 of its deals are in the target's region. [D:MA-2022-0350, T:record]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; the bid must clear the return gap",
+   "points": [
+    "Comparable deals (63) show 11.0x at the 25th percentile, 13.7x median and 15.4x at the 75th percentile. [V:comps]",
+    "The 75th percentile is defensible: the 18.0% margin sits above the comps' 12.4% median, and above 92% of comps. [V:comps]",
+    "Its own median paid is 15.7x, in line with the upper quartile. Ability to pay: 5.0x leverage at 8.5%, an equity cheque of $53M. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 14.0% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 13.7x does not lift the maximum price above $68M. [V:lbo]",
+    "reality": "The gap is on returns, not capital, with $303.0 billion under management. [V:lbo, P:1]"
+   },
+   {
+    "title": "Growth fit runs against",
+    "concern": "Target growth is not close to what it usually buys, a slight factor against. [S:growth_fit]",
+    "mitigant": "High Growth is a motive in 10 of 18 deals. [M:high_growth]",
+    "reality": "The factor is slight; the target's 8.0% growth and 18.0% margin remain the pitch. [S:growth_fit, X:target]"
+   },
+   {
+    "title": "Crowded process, mid-list rank",
+    "concern": "It ranks 7 on the priority list of 10, with a likelihood of 5.1%. [R:rank]",
+    "mitigant": "Conviction is High on its sub-sector record and open platform. [C:conviction]",
+    "reality": "Six other sponsors on the list are also open-platform buyers, so expect competition. [R:rank]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 2 deals in the target's own sub-sector, 7 in adjacent provider sub-sectors, and an open platform offering the add-on route. The return at the ask is the main hurdle. [C:conviction, A:angles, V:lbo]"
+  }
+ }
+}

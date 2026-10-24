@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 repair1 UPMC",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8198,
+  "output_tokens": 2747,
+  "usd": 0.04386572659,
+  "cached": false,
+  "seconds": 18.821629416022915
+ },
+ "output": {
+  "buyer": "UPMC",
+  "headline": "UPMC has bought only in the target's own sub-sector, closed every deal, and has US$27.7 billion of revenue behind a Midwest entry.",
+  "differentiator": "A full record in the target's own sub-sector with every deal closed (3 of 3); only Advocate Health and Intermountain Health also pair a 100% close rate with no adjacent-sector deals.",
+  "acquirer_overview": {
+   "title": "A US$27.7 billion-revenue health system with a clean, small deal record",
+   "points": [
+    "Strategic buyer with revenue of US$27.7 billion (2023); hospitals in Pennsylvania, Maryland and New York, and Washington Health System merged in 2024. [P:1, P:2]",
+    "Three deals between 2018 and 2020, all control transactions, all closed. [T:record, K:closed_share, K:control_share]",
+    "No deals since 2022, a slight factor against it in the likelihood ranking. [K:recent, S:recency]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Its entire deal history sits in the target's own sub-sector",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor in its likelihood: 3 deals there, 0 in adjacent provider sub-sectors. [S:sector_share, K:by_sub_sector]",
+    "The target's 16.8% margin is close to what UPMC usually buys, a strong factor for. [S:margin_fit, X:target]",
+    "Third on the priority list, with a 4.7% likelihood across 107 buyers scored; no past deal in the Midwest. [R:rank, T:record]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three closed sub-sector deals, 2018 to 2020, at 11.3x to 17.0x",
+   "points": [
+    "Principal Behavioral Health: $444M bolt-on acquisition, 2019, at 11.7x EV/EBITDA, its largest deal. [D:MA-2019-0090]",
+    "Sterling Care Network: $55M strategic acquisition, 2020, at 11.3x EV/EBITDA. [D:MA-2020-0312]",
+    "Keystone Behavioral Health: $33M recapitalization, 2018, at 17.0x EV/EBITDA. [D:MA-2018-0486]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but above UPMC's own record",
+   "points": [
+    "Across 70 comparable deals, EV/EBITDA runs from 10.7x at the lower quartile to 15.3x at the upper quartile, median 12.8x. [V:comps]",
+    "The 75th percentile is defensible: the target's 16.8% margin beats the comparable median of 12.9%. [V:comps, X:target]",
+    "UPMC's median paid is 11.7x, so it must stretch; synergy headroom of $15M-$25M supports that. [T:record, V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "No Midwest footprint, quiet since 2020",
+    "concern": "No deal in the target's region, and none since 2022. [T:record, K:recent]",
+    "mitigant": "All 3 deals closed, all in the target's own sub-sector. [K:closed_share]",
+    "reality": "Regional entry is untested; recent inactivity is a slight factor against. [S:recency]"
+   },
+   {
+    "title": "Price gap to the comparable range",
+    "concern": "Median paid of 11.7x is below the 12.8x comparable median. [V:comps]",
+    "mitigant": "Synergy headroom of $15M-$25M and US$27.7 billion revenue give capacity. [V:synergy]",
+    "reality": "Only the $33M Keystone deal, at 17.0x, priced above 15.3x. [D:MA-2018-0486]"
+   },
+   {
+    "title": "Competitive process",
+    "concern": "Advocate Health has a deeper sub-sector record; Welsh Carson and GTCR have more Midwest deals. [R:rank]",
+    "mitigant": "UPMC closed 3 of 3 deals, all in the target's own sub-sector. [K:closed_share]",
+    "reality": "UPMC has no Midwest deal, so regional credibility must come from the sub-sector record. [T:record]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Basis: 3 deals in the target's own sub-sector and 0 in adjacent provider sub-sectors, plus third place on the priority list. No Midwest deal is neutral. [T:record, R:rank, C:conviction]"
+  }
+ }
+}

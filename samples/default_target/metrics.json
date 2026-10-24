@@ -1,0 +1,143 @@
+{
+ "pages": 10,
+ "jargon_hits_first_draft": 0,
+ "pass_before_repair": 6,
+ "pass_after_repair": 10,
+ "repairs": 4,
+ "first_draft_problems": {
+  "Numbers not in the fact pack (copy numbers exactly, compute nothing)": 4
+ },
+ "thesis_overlap_max": 0.226,
+ "thesis_overlap_mean": 0.09,
+ "most_similar_pair": "Welsh Carson / Advent International",
+ "conviction": {
+  "High": 5,
+  "Medium": 3,
+  "Low": 2
+ },
+ "generic_hits_first_draft": 0,
+ "generic_hits_final": 0,
+ "words_per_page": {
+  "Advocate Health": 462,
+  "Nordic Capital": 491,
+  "UPMC": 466,
+  "Welsh Carson": 481,
+  "Advent International": 526,
+  "General Atlantic": 493,
+  "Blackstone": 526,
+  "GTCR": 479,
+  "TPG Capital": 489,
+  "Intermountain Health": 473
+ },
+ "pages_within_length_targets": 8,
+ "lengths": {
+  "Advocate Health": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 50,
+    "strategic_fit_thesis": 62,
+    "precedent_activity": 44,
+    "valuation_context": 51
+   },
+   "page": 462
+  },
+  "Nordic Capital": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 58,
+    "strategic_fit_thesis": 59,
+    "precedent_activity": 49,
+    "valuation_context": 70
+   },
+   "page": 491
+  },
+  "UPMC": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 38,
+    "strategic_fit_thesis": 66,
+    "precedent_activity": 43,
+    "valuation_context": 58
+   },
+   "page": 466
+  },
+  "Welsh Carson": {
+   "headline": 23,
+   "sections": {
+    "acquirer_overview": 51,
+    "strategic_fit_thesis": 55,
+    "precedent_activity": 40,
+    "valuation_context": 65
+   },
+   "page": 481
+  },
+  "Advent International": {
+   "headline": 20,
+   "sections": {
+    "acquirer_overview": 60,
+    "strategic_fit_thesis": 68,
+    "precedent_activity": 52,
+    "valuation_context": 69
+   },
+   "page": 526
+  },
+  "General Atlantic": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 47,
+    "strategic_fit_thesis": 62,
+    "precedent_activity": 63,
+    "valuation_context": 64
+   },
+   "page": 493
+  },
+  "Blackstone": {
+   "headline": 23,
+   "sections": {
+    "acquirer_overview": 54,
+    "strategic_fit_thesis": 64,
+    "precedent_activity": 49,
+    "valuation_context": 71
+   },
+   "page": 526
+  },
+  "GTCR": {
+   "headline": 18,
+   "sections": {
+    "acquirer_overview": 49,
+    "strategic_fit_thesis": 65,
+    "precedent_activity": 38,
+    "valuation_context": 62
+   },
+   "page": 479
+  },
+  "TPG Capital": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 52,
+    "strategic_fit_thesis": 62,
+    "precedent_activity": 53,
+    "valuation_context": 52
+   },
+   "page": 489
+  },
+  "Intermountain Health": {
+   "headline": 25,
+   "sections": {
+    "acquirer_overview": 55,
+    "strategic_fit_thesis": 70,
+    "precedent_activity": 46,
+    "valuation_context": 58
+   },
+   "page": 473
+  }
+ },
+ "input_tokens": 119880,
+ "output_tokens": 53817,
+ "usd": 0.7779,
+ "usd_per_page": 0.0778,
+ "llm_calls": 14,
+ "wall_clock_seconds": 71.6,
+ "executive_summary_usd": 0.029,
+ "note": "Live run 2026-10-23 12:16-12:18, prompt onepager_v4 + summary_v2, W3, Sonnet 5.5. Lengths, overlap and conviction recomputed from the cached pages."
+}

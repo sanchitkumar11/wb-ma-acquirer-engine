@@ -1,0 +1,25 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3457,
+  "output_tokens": 778,
+  "usd": 0.014693888510000003,
+  "cached": false,
+  "seconds": 6.30651620804565
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Bain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Bain Capital:deals"
+    ],
+    "reason": "Bain has 4 Northeast deals, tied for the most of any buyer on the list, and 15 of its 23 deals are in provider services. Its $73M median deal size is close to the $70M target. That is stronger evidence than several Tier 1 sponsors with 0 Northeast deals."
+   }
+  ]
+ }
+}

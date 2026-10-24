@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 General Atlantic",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10260,
+  "output_tokens": 2436,
+  "usd": 0.04487966784,
+  "cached": false,
+  "seconds": 13.725533917022403
+ },
+ "output": {
+  "buyer": "General Atlantic",
+  "headline": "Provider-focused sponsor that has closed 13 of 14 deals and pays a 16.5x median, enough to meet upper-quartile pricing for this target.",
+  "differentiator": "Best completion record among sponsors on the list (13 of 14 closed, 93%), and a 16.5x median price paid, second only to Blackstone. [K:closed_share, T:record]",
+  "why_them": "Provider-focused sponsor; pays upper-quartile prices; closes what it starts",
+  "acquirer_overview": {
+   "title": "A growth equity investor with a provider-heavy record since 2019",
+   "points": [
+    "Growth equity firm investing across Technology, Consumer, Financial Services, Healthcare and Life Sciences; AUM US$125.3 billion. [P:1, P:2]",
+    "14 deals from 2019 to 2024, 13 closed (93%), all control deals; 9 of 14 are provider deals. [T:record, K:closed_share, K:control_share, A:angles]",
+    "Home sub-sector is Physician Groups, where 4 of its 14 deals sit. [B:buyer, K:by_sub_sector]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Provider specialist with size fit; one deal in the target's own sub-sector",
+   "points": [
+    "Deals in this or neighbouring sub-sectors and the share of its deals that closed (93%) are modest factors in its likelihood. [S:sector_rel, S:close_rate_s, K:closed_share]",
+    "Market Share (revenue synergies) is a motive in 5 of 14 deals against 19% across the file, a distinct pattern. [M:market_share]",
+    "Against: a slight factor is its low share of deals in the target's own sub-sector, and it has no open platform. [S:sector_share, A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Record spans a $1,708M own-sub-sector merger to small provider deals",
+   "points": [
+    "Oak Health, Healthcare Services: $1,708M Merger of Equals in 2021 at 18.8x, in the target's own sub-sector. [D:MA-2021-0066]",
+    "Crest Medical Practice, Physician Groups: $121M leveraged buyout in 2023 at 11.5x; only 3 of its 14 deals fall in the $100M-$400M band. [D:MA-2023-0499, K:size_band]",
+    "Harbor Home Health Partners: $15M Midwest strategic acquisition in 2022 at 16.9x; only 2 of its 14 deals were in the target's region. [D:MA-2022-0273, T:record]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and its 16.5x median is above the range",
+   "points": [
+    "70 comparable deals: 10.7x at the lower quartile, 12.8x median, 15.3x at the upper quartile; the 75th percentile is defensible. [V:comps]",
+    "Target margin of 16.8% exceeds the comparable median of 12.9% and sits above 87% of comps, supporting upper-quartile pricing. [V:comps]",
+    "It has paid a 16.5x median; at 5.0x leverage the equity cheque is $128M, with IRR at the ask of 18.7% against a 20% target. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "Maximum price is $193M at the same exit and $216M at a 15.0x platform exit. [V:lbo]",
+    "reality": "Only the platform exit clears the $200M value, yet it has no open platform. [V:lbo, X:target, A:angles]"
+   },
+   {
+    "title": "Thin own-sub-sector depth",
+    "concern": "Only 1 deal in the target's own sub-sector; that share is a slight factor against. [T:record, S:sector_share]",
+    "mitigant": "8 deals in adjacent provider sub-sectors, and Physician Groups is its home sub-sector. [T:record, B:buyer]",
+    "reality": "Fit is real but broader than direct, which is why conviction is Medium. [C:conviction]"
+   },
+   {
+    "title": "Crowded sponsor field",
+    "concern": "Nordic Capital and Welsh Carson have open platforms; General Atlantic does not. [A:angles]",
+    "mitigant": "Its 13 of 14 closed deals (93%) top every other sponsor on the list. [K:closed_share]",
+    "reality": "Welsh Carson and GTCR each have 6 Midwest deals against its 2. [T:record]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors support fit, but having no open platform in the sub-sector is neutral, not a positive. [C:conviction, T:record]"
+  }
+ }
+}

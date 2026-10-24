@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3500,
+  "output_tokens": 456,
+  "usd": 0.011559890440000003,
+  "cached": false,
+  "seconds": 4.715742583968677
+ },
+ "output": {
+  "headline": "Health systems such as Advocate Health and UPMC, plus provider-focused sponsors, are the buyers for this Midwest healthcare services target; upper-quartile pricing at 15.3x EV/EBITDA is defensible.",
+  "sentences": [
+   "Call Advocate Health and UPMC first, as they have the most deals in the target's sub-sector and can pay comfortably; the order among the seven sponsors is close to a tie, with the winning sponsor in the top 3 only 28% of the time in back-tests. [E:tier1, E:sponsor_ordering]",
+   "The defensible price is 15.3x EV/EBITDA, the 75th percentile of 70 comparable deals, supported by the 16.8% margin; strategics can pay it with $15M-$25M of synergy headroom, while sponsors top out near $193M to $216M. [E:valuation, E:lbo]",
+   "The review removed Steward Health Care (Chapter 11, liquidated), folded Atrium Health into Advocate Health, and kept Veritas Capital, Vista Equity and Francisco Partners in Tier 2 until their appetite for tech-enabled services is confirmed. [E:review, E:tier2]",
+   "Most buyers share one motive: geographic expansion, cited in 90% of 284 provider deals, so lead the pitch with the Midwest footprint. [E:motives]"
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Nordic Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7171,
+  "output_tokens": 3464,
+  "usd": 0.04898175023000001,
+  "cached": false,
+  "seconds": 23.26144320802996
+ },
+ "output": {
+  "buyer": "Nordic Capital",
+  "headline": "Provider-focused sponsor with an open platform in the target's own sub-sector, giving a ready add-on route and capacity to pay near the upper quartile.",
+  "differentiator": "Brings an open platform in the target's own sub-sector for an add-on route, backed by 22 of 24 deals in provider services. [A:angles]",
+  "why_them": "Add-on to its open platform; provider specialist sponsor",
+  "acquirer_overview": {
+   "title": "Provider specialist sponsor with a EUR 9 billion fund and 24 deals since 2016",
+   "points": [
+    "Financial sponsor; healthcare is one of four core industries. [P:1]",
+    "Fund XI closed at its EUR 9 billion hard cap (about $11 billion). [P:2]",
+    "24 deals from 2016 to 2024, 21 closed (88%); 22 of 24 in provider services. [T:record, K:closed_share, A:angles]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Natural add-on to Nordic's open platform in the target's sub-sector",
+   "points": [
+    "Open platform in the sub-sector gives an add-on route, and Nordic is a provider specialist. [A:angles]",
+    "Platform Build is a motive in 7 of 24 deals, against 23% of all deals in the file. [M:platform_build]",
+    "4 deals in the target's own sub-sector and 18 in adjacent provider sub-sectors; sector relatedness and deal count are both modest factors in its favour. [T:record, S:sector_rel, S:activity]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Recent Midwest and same-sub-sector deals show appetite across deal sizes",
+   "points": [
+    "2024 Principal Physician Group: $76M recapitalization in the Midwest at 15.9x EV/EBITDA. [D:MA-2024-0431]",
+    "2023 Harbor Medical Center: $991M leveraged buyout at 11.1x. 2024 Harbor Health Network: $35M carve-out at 11.6x. Both in the target's sub-sector. [D:MA-2023-0466, D:MA-2024-0339]",
+    "8 of 24 deals sit in the $100M-$400M comparable size band; 2 were in the Midwest. [K:size_band, T:record]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; a platform exit gets Nordic past the ask",
+   "points": [
+    "70 comparable deals: 10.7x EV/EBITDA at the 25th percentile, 12.8x median, 15.3x at the 75th. [V:comps]",
+    "Target's 16.8% margin sits above the comps median of 12.9%, supporting the 75th percentile. Nordic's own median paid is 12.5x. [V:comps]",
+    "With 5.0x leverage and a $128M equity cheque, return at ask is 18.7% against a 20% target. Maximum price is $193M at the same exit, $216M at a 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Nordic's median deal is $77M, well under the $200M target EV.",
+    "mitigant": "It has done larger deals and 8 of 24 sit in the comparable size band.",
+    "reality": "Biggest deal is $1,304M; the size signal is only a slight factor in its favour. [T:record, K:size_band, S:not_smaller]"
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "Return at ask falls short of Nordic's hurdle.",
+    "mitigant": "A platform exit at 15.0x lifts maximum price above the $200M EV.",
+    "reality": "18.7% at ask against a 20% target; same-exit maximum is $193M, platform-exit maximum $216M. [V:lbo]"
+   },
+   {
+    "title": "Regional footprint",
+    "concern": "Few past deals are in the Midwest.",
+    "mitigant": "Principal Physician Group in 2024 was a Midwest deal, and Nordic has bought across many regions.",
+    "reality": "2 of 24 deals are in the Midwest; geography is a slight factor against. [K:by_region, D:MA-2024-0431, S:geo_fit]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Four own-sub-sector and 18 adjacent provider deals, an open platform for an add-on route, and #2 on the priority list outweigh the size gap, since its median deal of $77M is under half the $200M EV. [C:conviction, R:rank]"
+  }
+ }
+}

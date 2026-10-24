@@ -1,0 +1,21 @@
+{
+ "purpose": "comparison note",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 2257,
+  "output_tokens": 363,
+  "usd": 0.00814392866,
+  "cached": false,
+  "seconds": 4.5527450410299934
+ },
+ "output": {
+  "headline": "Health IT draws strategic and software-minded buyers, while dental draws dental platforms and sponsors, with the dental sector better able to support its price.",
+  "sentences": [
+   "Only two buyers sit on both lists, Blackstone and TPG Capital, so the overlap is small and most of each universe is specific to its own sub-sector. [Q:shared]",
+   "TPG Capital is Medium on Health IT but High on dental, because its median deal of $88M is under half the $300M EV of the first target. [Q:shared, Q:target_a]",
+   "Health IT adds strategics such as Evolent Health and Epic Systems plus sponsors like Francisco Partners, while dental adds platforms such as Heartland Dental and Aspen Dental (ADMI) and sponsors like Hellman & Friedman. [Q:only_a, Q:only_b]",
+   "Health IT is priced at a median 21.4x with sponsor returns of 25.3% at the ask, while dental sits at 13.7x and 14.0%, with a 75th percentile defensible price. [Q:target_a, Q:target_b]"
+  ]
+ }
+}

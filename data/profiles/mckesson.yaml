@@ -1,0 +1,31 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: McKesson
+buyer_type: Strategic
+facts:
+- kind: revenue
+  value: Annual revenue $403,430M (fiscal year ending 2026-03-31)
+  as_of: '2026-05-08'
+  source: https://data.sec.gov/api/xbrl/companyfacts/CIK0000927653.json
+  accessed: '2026-10-23'
+  accession: 0000927653-26-000069
+  amount_usd_mm: 403430
+- kind: size
+  value: '10-K: acquired an 80% interest in PRISM Vision for $875M in cash and a 70% controlling interest in Core Ventures for $2.5B in cash (physician practices retained the rest)'
+  as_of: '2026-05-08'
+  source: https://www.sec.gov/Archives/edgar/data/927653/000092765326000069/mck-20260331.htm
+  accessed: '2026-10-23'
+  accession: 0000927653-26-000069
+- kind: mandate
+  value: '10-K: a "separation strategy" for its Medical-Surgical Solutions segment, with Apollo Funds agreeing on 2026-04-20 to buy about a 13% minority interest for about $1.25B'
+  as_of: '2026-05-08'
+  source: https://www.sec.gov/Archives/edgar/data/927653/000092765326000069/mck-20260331.htm
+  accessed: '2026-10-23'
+  accession: 0000927653-26-000069
+- kind: footprint
+  value: '10-K: "We operate in highly competitive markets across North America"'
+  as_of: '2026-05-08'
+  source: https://www.sec.gov/Archives/edgar/data/927653/000092765326000069/mck-20260331.htm
+  accessed: '2026-10-23'
+  accession: 0000927653-26-000069
+not_researched:
+- Health IT acquisition strategy (no stated plan to buy Health IT businesses in the 10-K sentences checked)

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 McKesson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8177,
+  "output_tokens": 2472,
+  "usd": 0.04107372997,
+  "cached": false,
+  "seconds": 14.530597499979194
+ },
+ "output": {
+  "buyer": "McKesson",
+  "headline": "McKesson paid 25.1x for a $405M bolt-on in the target's own sub-sector, but with only one deal on record this is a lower-conviction call.",
+  "differentiator": "Its one deal carries the highest multiple (25.1x) and the largest median deal ($405M) on the priority list, so it has shown it can pay up. The record is a single deal, though. [T:record, B:buyer]",
+  "why_them": "Health IT bolt-on buyer; paid top multiple on its one deal",
+  "acquirer_overview": {
+   "title": "A strategic with one Health IT bolt-on on record",
+   "points": [
+    "McKesson is a strategic buyer whose home sub-sector is Health IT, the same as the target. [B:buyer]",
+    "One deal in the file, closed in 2017, in the target's own sub-sector. No deals since 2022. [T:record, K:closed_share, K:recent]",
+    "Company profile and buyer revenue are not researched, so this view rests on deal history only. [V:synergy]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Own sub-sector focus and margin match drive the fit",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor. Target margin close to what it usually buys is a strong factor. [S:sector_share, S:margin_fit]",
+    "Its one deal was tagged Technology Capability, which sits on only 10% of deals in the file, and Platform Build. [M:technology_capability, M:platform_build]",
+    "The target is not bigger than any deal it has done, a slight positive. Having bought from this kind of seller is a slight negative. [S:not_bigger, S:own_fit_s]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "One precedent: a larger same-sub-sector bolt-on at a high multiple",
+   "points": [
+    "Southeast Medical Informatics: $405M Bolt-on Acquisition, 2017, Health IT. It closed at 25.1x EV/EBITDA and 5.40x EV/revenue. [D:MA-2017-0106]",
+    "The deal falls in the comparable size band of $150M-$600M, where the $300M target also sits. [K:size_band]",
+    "That deal was in the Southwest. McKesson has no deal in the target's National region. [T:record, K:by_region]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Median is the anchor; McKesson's past multiple sits above the range",
+   "points": [
+    "13 comparable deals, all in the same sub-sector: 19.4x at the lower quartile, 21.4x median, 23.3x at the upper quartile. [V:comps]",
+    "Target margin of 25.0% beats the comps' median of 22.2% but is not in their top quarter, so the 50th percentile is defensible. [V:comps]",
+    "McKesson paid 25.1x on its one deal, above the upper quartile. Synergy headroom is $14M-$23M, but buyer revenue is not researched. [V:comps, V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin track record",
+    "concern": "One deal, in 2017, and none since 2022, is a narrow base for judging appetite.",
+    "mitigant": "That deal was a same-sub-sector bolt-on larger than this target.",
+    "reality": "The record is real but single, so intent needs a direct call. [T:record, K:recent]"
+   },
+   {
+    "title": "Ability to pay unverified",
+    "concern": "Buyer revenue is not researched, so capacity for a $300M deal is unconfirmed.",
+    "mitigant": "Synergy headroom of $14M-$23M supports a bid, and the target is smaller than its past deal.",
+    "reality": "Headroom is an estimate and does not replace balance-sheet evidence. [V:synergy, S:not_bigger]"
+   },
+   {
+    "title": "Crowded process",
+    "concern": "Evolent Health, Blackstone and Epic Systems each have more sub-sector deals than McKesson's one.",
+    "mitigant": "McKesson's 25.1x is above every peer's median paid multiple.",
+    "reality": "It ranks 9th of 10 on the priority list, with a likelihood of 3.7%. [R:rank, T:record]"
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only 1 deal in the target's own sub-sector and none in the target's region, both neutral. It ranks 9th of 10 on the priority list with a likelihood of 3.7%. [C:conviction, R:rank]"
+  }
+ }
+}

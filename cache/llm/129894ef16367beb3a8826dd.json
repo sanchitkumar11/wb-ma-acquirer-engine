@@ -1,0 +1,63 @@
+{
+ "purpose": "W3 write General Atlantic",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6645,
+  "output_tokens": 4804,
+  "usd": 0.06132975261000001,
+  "cached": false,
+  "seconds": 32.45283883396769
+ },
+ "output": {
+  "buyer": "General Atlantic",
+  "headline": "General Atlantic pairs a Physician Groups base and two Midwest deals with a 16.5x median price paid, making it a credible Tier 1 sponsor for this $200M target.",
+  "differentiator": "Among the buyers listed, General Atlantic is the sponsor with a growth-equity mandate that spans Healthcare and other sectors [P:1]. It has also already bought twice in the target's Midwest region [T:record], and its median EV/EBITDA paid of 16.5x is above the comparable 75th percentile of 15.3x [T:record, V:comps]. The open-platform sponsors (Nordic Capital, Welsh Carson, Advent) offer an add-on route that General Atlantic does not [A:angles].",
+  "acquirer_overview": {
+   "title": "General Atlantic is a growth-equity sponsor with 14 deals since 2019 and a very high close rate",
+   "body": "General Atlantic describes itself as a growth equity firm investing across Technology, Consumer, Financial Services, Healthcare and Life Sciences [P:1]. AUM is shown as US$125.3 billion in the infobox, while the body text says over $118 billion, so the sources differ [P:2]. It has 14 deals between 2019 and 2024, of which 13 closed, and all 14 were control deals [T:record, K:closed_share, K:control_share]. The median deal is $158M, in a range from $7M to $4,563M [T:record]. Its home sub-sector is Physician Groups, with 4 deals [B:buyer, K:by_sub_sector]. It sits at Tier 1 position 4, with a likelihood of 4.5% across 107 buyers scored [R:rank]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The fit rests on Physician Groups depth, Ring 1 breadth and a Midwest record, not on an open platform",
+   "body": "Deals in this or neighbouring sub-sectors lift the odds by x1.11 [S:sector_rel]. General Atlantic has 1 Core deal and 8 in Ring 1 [T:record]. The Core deal is Oak Health, a $1,708M merger of equals in 2021 at 18.8x [D:MA-2021-0066]. Its Physician Groups work includes Crest Medical Practice, a $121M leveraged buyout in 2023 at 11.5x [D:MA-2023-0499]. It has 2 Midwest deals, including Harbor Home Health Partners, a $15M acquisition in 2022 at 16.9x [T:record, D:MA-2022-0273]. A deal of this size is not smaller than its usual range, worth x1.09 [S:not_smaller]. It has no open platform, so the target would be a standalone platform investment rather than an add-on [A:angles]."
+  },
+  "precedent_activity": {
+   "title": "Recent precedents show closed sponsor deals near the target's size, with one termination",
+   "body": "General Atlantic has done 4 deals since 2022 and 3 of 14 in the $100M-$400M size band [K:recent, K:size_band]. The closest is Crest Medical Practice, $121M in 2023 at 11.5x EV/EBITDA and 2.31x EV/Revenue [D:MA-2023-0499]. Earlier Physician Groups deals include Reliable Medical Associates, $71M in 2021 at 13.8x [D:MA-2021-0392]. Metro Counseling, a $75M SPAC merger in 2021 at 14.0x, was in the Great Plains [D:MA-2021-0349]. Frontier Clinics, a $7M platform investment in 2021, was terminated [D:MA-2021-0337]. Its share of deals that closed adds x1.12 to the odds [S:close_rate_s, K:closed_share]."
+  },
+  "valuation_context": {
+   "title": "Defend the 75th percentile on margin; General Atlantic's own pricing supports it, but its return math is tight at $200M",
+   "body": "The 70 comparable deals (9 in Core) show EV/EBITDA of 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th [V:comps]. The target's 16.8% margin is above the comps' median of 12.9% and above 87% of comps, which supports the 75th percentile [V:comps, X:target]. At that level the target needs $13.1M of EBITDA [V:comps]. General Atlantic's median paid is 16.5x, with a median EV/Revenue of 2.31x on closed deals [V:comps, K:median_ev_revenue]. On ability to pay, 5.0x leverage at 8.5% and a $128M equity cheque give an IRR at the ask of 18.7% against a 20% target [V:lbo]."
+  },
+  "risk_flags": [
+   {
+    "title": "Return gap at the ask",
+    "concern": "IRR at the ask of 18.7% is below the 20% target, and the maximum price on the same exit is $193M, below the $200M EV.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, above the $200M EV.",
+    "reality": "The price works only if General Atlantic underwrites a platform exit at 15.0x. A same-exit case does not clear its target return [V:lbo]."
+   },
+   {
+    "title": "No open platform and thin sub-sector share",
+    "concern": "General Atlantic has no open platform in the sub-sector, and its share of deals in the target's sub-sector is a signal against, at x0.98.",
+    "mitigant": "It has 1 deal in the target's own sub-sector and 8 in Ring 1, which is the same business model, and neighbouring-sector deals add x1.11.",
+    "reality": "The fit is by adjacency, not by a platform to bolt onto [S:sector_share, S:sector_rel, C:conviction, A:angles]. Nordic Capital, Welsh Carson and Advent all offer an open-platform add-on route that it lacks [A:angles]."
+   },
+   {
+    "title": "Crowded sponsor process",
+    "concern": "GTCR shares General Atlantic's provider-specialist and size-fit angles, and Welsh Carson adds an open platform to both.",
+    "mitigant": "General Atlantic has 2 Midwest deals and a 16.5x median multiple paid, which allows it to compete on price.",
+    "reality": "General Atlantic sits at Tier 1 position 4, model rank 7, with a likelihood of 4.5%, so it is not the front-runner [R:rank, T:record, A:angles]."
+   },
+   {
+    "title": "Execution and size stretch",
+    "concern": "Only 3 of 14 deals sit in the $100M-$400M band, and Frontier Clinics was terminated.",
+    "mitigant": "13 of 14 deals closed, and its median deal is $158M.",
+    "reality": "Its closing record is strong, but its size-band experience is limited [K:size_band, K:closed_share, T:record, D:MA-2021-0337]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "The basis is for: 1 deal in the target's own sub-sector and 8 in Ring 1 (same business model). Against that, it is neutral because there is no open platform in the sub-sector [C:conviction]."
+  }
+ }
+}

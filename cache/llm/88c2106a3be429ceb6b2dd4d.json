@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Aspen Dental (ADMI)",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6978,
+  "output_tokens": 3720,
+  "usd": 0.051155753460000015,
+  "cached": false,
+  "seconds": 25.52585854200879
+ },
+ "output": {
+  "buyer": "Aspen Dental (ADMI)",
+  "headline": "Dental-only acquirer with three closed dental deals, one in the Southeast; the target fits its bolt-on playbook.",
+  "differentiator": "Largest median deal among the dental-only strategics on the list, with every deal closed and one already in the Southeast, so the target is a familiar kind of deal.",
+  "why_them": "Dental bolt-on to an established platform; full closing record",
+  "acquirer_overview": {
+   "title": "A dental specialist that has closed every deal it started",
+   "points": [
+    "Three deals from 2020 to 2022, all in dental and all closed (3 of 3, 100%) [T:record, K:closed_share].",
+    "Ranked 3rd on the priority list of 10 and 3rd overall among 107 buyers scored, at a likelihood of 5.3% [R:rank].",
+    "Company profile and buyer revenue not researched, so the parent's scale is unconfirmed [B:buyer, V:synergy]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same sub-sector, same region precedent, platform-build motive",
+   "points": [
+    "Share of its deals in dental is the strongest factor in its likelihood; margin fit and close rate are modest positives [S:sector_share, S:margin_fit, S:close_rate_s].",
+    "Platform Build in 2 of 3 deals, a motive on only 23% of deals in the file, points to add-on appetite [M:platform_build].",
+    "Bought Strategic Oral Health in the Southeast in 2020, so the target's region is not new to it [D:MA-2020-0159]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three dental deals, one bolt-on, all larger than the target",
+   "points": [
+    "Quality Orthodontics: $176M bolt-on, 2022, at 12.4x. Pacific Oral Health: $168M management buyout, 2020, at 13.2x [D:MA-2022-0229, D:MA-2020-0247].",
+    "Strategic Oral Health: $392M platform investment in the Southeast, 2020, at 17.0x [D:MA-2020-0159].",
+    "None of the three falls in the comparable size band of $40M-$160M [K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; its own history sits lower",
+   "points": [
+    "63 comparable deals, 12 in dental: 11.0x at the 25th percentile, 13.7x median, 15.4x at the 75th [V:comps].",
+    "Target margin of 18.0% beats the comps' median of 12.4% and sits above 92% of comps, supporting the 75th percentile [V:comps].",
+    "Its median paid is 13.2x; synergy headroom of $5M-$9M gives room to stretch toward the 75th. Buyer revenue not researched [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "All three precedents are above the target's size; the smallest was $168M against an $80M target.",
+    "mitigant": "Quality Orthodontics was a bolt-on, the same deal type as this target.",
+    "reality": "No deal in the $40M-$160M band; small-deal appetite is unproven [K:size_band, T:record, D:MA-2022-0229]."
+   },
+   {
+    "title": "Price discipline",
+    "concern": "Its median paid of 13.2x is below the comparable median of 13.7x and the 75th percentile of 15.4x.",
+    "mitigant": "It paid 17.0x for Strategic Oral Health, and synergy headroom is $5M-$9M.",
+    "reality": "Upper-quartile pricing needs a stretch beyond its usual multiple [T:record, V:comps, D:MA-2020-0159, V:synergy]."
+   },
+   {
+    "title": "Thin recent activity",
+    "concern": "Only 1 deal since 2022, and its last was in 2022; recency counts slightly against it.",
+    "mitigant": "Every deal it started has closed, 3 of 3.",
+    "reality": "Current appetite is unconfirmed; the buyer's profile was not researched [K:recent, S:recency, K:closed_share, T:record]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Three deals in the target's own sub-sector and none in adjacent ones, one deal in the Southeast, and a rank of 3rd among the highest-scored buyers after review support the call [C:conviction, R:rank]."
+  }
+ }
+}

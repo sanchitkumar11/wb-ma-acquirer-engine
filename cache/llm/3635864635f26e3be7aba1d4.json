@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Epic Systems",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7276,
+  "output_tokens": 2971,
+  "usd": 0.04426175201,
+  "cached": false,
+  "seconds": 21.243507082981523
+ },
+ "output": {
+  "buyer": "Epic Systems",
+  "headline": "Epic has made all four of its deals in the target's own sub-sector and pays 22.7x, above the comparable median of 21.4x.",
+  "differentiator": "All four deals are in the target's own sub-sector, more than any other priority-list buyer, and its 22.7x median paid exceeds every financial sponsor on the list.",
+  "why_them": "Same-sub-sector add-on; pays above the comparable median",
+  "acquirer_overview": {
+   "title": "A strategic buyer focused on Health IT, with four control deals",
+   "points": [
+    "Four deals from 2018 to 2022, all control deals, all in Health IT and all in the target's own sub-sector [T:record, K:control_share].",
+    "Three of four closed (75%); median deal $240M, ranging from $15M to $767M [K:closed_share, T:record].",
+    "Third on the priority list of 10, from 107 buyers scored; no company profile was researched [R:rank, B:buyer]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same sub-sector, similar margin profile, and a technology-led buying pattern",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor in its likelihood; margin fit is a strong factor [S:sector_share, S:margin_fit].",
+    "Technology Capability drove 4 of 4 deals, against 10% of all deals in the file, a distinct motive [M:technology_capability].",
+    "Margin Improvement also appears in 4 of 4 deals; it has one deal in the target's National region [M:margin_improvement, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Its latest and largest deals are close to the target's size",
+   "points": [
+    "Crest Digital Health: $440M Strategic Acquisition, 2022, National, 22.7x EBITDA, closed [D:MA-2022-0213].",
+    "Meridian Health Analytics: $767M Platform Investment, 2018, 22.0x, closed. Charter Clinical Systems: $40M Carve-out, 2019, 24.4x, closed [D:MA-2018-0429, D:MA-2019-0351].",
+    "Oak Clinical Analytics, a $15M Merger of Equals in 2021 at 18.1x, was terminated [D:MA-2021-0372]."
+   ]
+  },
+  "valuation_context": {
+   "title": "The median is defensible, and Epic's own pricing sits above it",
+   "points": [
+    "Comparable range is 19.4x to 23.3x EBITDA (25th to 75th percentile), median 21.4x, across 13 same-sub-sector deals [V:comps].",
+    "Target margin of 25.0% is above the comparables' 22.2% median but not in their top quarter, so the 50th percentile is the anchor [V:comps].",
+    "Epic's median paid is 22.7x, between the comparable median and 75th percentile. Synergy headroom is $14M-$23M; buyer revenue was not researched [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Execution record",
+    "concern": "One of four deals terminated, so closure is 75%.",
+    "mitigant": "The terminated deal was the smallest, a $15M Merger of Equals in 2021.",
+    "reality": "Three of four closed, including the $440M and $767M deals [K:closed_share, D:MA-2021-0372]."
+   },
+   {
+    "title": "PE-backed seller",
+    "concern": "Having bought from this kind of seller is a modest factor against Epic.",
+    "mitigant": "Sub-sector share is the strongest factor and margin fit is strong.",
+    "reality": "The seller-type signal is weaker than the factors in its favour [S:own_fit_s, S:sector_share]."
+   },
+   {
+    "title": "Capacity and recency",
+    "concern": "Buyer revenue is unresearched, and only one deal has come since 2022.",
+    "mitigant": "It has funded a $767M deal and a $440M deal.",
+    "reality": "Ability to pay is unverified beyond the $14M-$23M synergy headroom [V:synergy, K:recent, T:record]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Four deals in the target's own sub-sector, one in its region, and third on the priority list after review, so the evidence for this buyer is consistent [T:record, R:rank, C:conviction]."
+  }
+ }
+}

@@ -1,0 +1,13 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: TPG Capital
+buyer_type: Financial Sponsor
+facts:
+- kind: aum
+  value: $303.0 billion in assets under management as of December 31, 2025 (TPG Inc.)
+  as_of: '2026-02-17'
+  source: https://www.sec.gov/Archives/edgar/data/1880661/000188066126000011/tpg-20251231.htm
+  accessed: '2026-10-23'
+  accession: 0001880661-26-000011
+  amount_usd_mm: 303000
+not_researched:
+- fund size of the healthcare-relevant fund

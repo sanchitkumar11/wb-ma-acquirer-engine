@@ -1,0 +1,28 @@
+# secrets: keys live in .env (never committed); see .env.example
+.env
+.env.*
+!.env.example
+
+# local Claude Code skills and settings (may reference other work)
+.claude/
+
+# EDGAR response cache (re-fetchable; profiles cite accession numbers)
+data/edgar_cache/
+
+# generated outputs
+out/
+*.pkl
+research/eda/data.json
+
+# python / os
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+
+# package metadata from the editable install
+*.egg-info/
+
+# paid third-party guides and pitch books: kept locally, never shared
+references/

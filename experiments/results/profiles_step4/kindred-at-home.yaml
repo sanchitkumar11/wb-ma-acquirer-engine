@@ -1,0 +1,12 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Kindred at Home
+buyer_type: Strategic
+facts:
+- kind: merger
+  value: Fully acquired by Humana; now operates as CenterWell Home Health (Humana's home health business)
+  as_of: '2021-08-17'
+  source: https://www.sec.gov/Archives/edgar/data/49071/000004907123000011/hum-20221231.htm
+  accessed: '2026-10-23'
+  accession: 0000049071-23-000011
+  merged_into: CenterWell Home Health
+not_researched: []

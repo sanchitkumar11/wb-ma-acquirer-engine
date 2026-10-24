@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3519,
+  "output_tokens": 642,
+  "usd": 0.013457888010000002,
+  "cached": false,
+  "seconds": 5.193002499989234
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Veritas Capital",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:Veritas Capital:deals"
+    ],
+    "reason": "No devices and pharma deals and no Great Plains deals across 12 transactions. Median deal size is $38M, and it is a Ring 2 buyer. Nothing on the card supports a Tier 1 slot."
+   },
+   {
+    "buyer": "Bain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Bain Capital:deals"
+    ],
+    "reason": "Three of its deals are in devices and pharma and all three are in Great Plains, matching the target's sector and region. The $64M median deal size is in line with a $116M target. Its evidence is as strong as or stronger than several current Tier 1 sponsors."
+   }
+  ]
+ }
+}

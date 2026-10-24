@@ -1,0 +1,25 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3498,
+  "output_tokens": 441,
+  "usd": 0.011405890650000002,
+  "cached": false,
+  "seconds": 3.665141749952454
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Dental365",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Dental365:CAPACITY_STRETCH"
+    ],
+    "reason": "Its largest deal in the file is $73M, so a $176M target would be a stretch for it. The other Tier 1 buyers have no comparable capacity flag, so I made no other moves."
+   }
+  ]
+ }
+}

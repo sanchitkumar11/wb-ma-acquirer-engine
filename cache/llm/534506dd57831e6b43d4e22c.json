@@ -1,0 +1,25 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3205,
+  "output_tokens": 813,
+  "usd": 0.014539895720000001,
+  "cached": false,
+  "seconds": 6.706629167019855
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "AccentCare",
+    "action": "promote",
+    "code": "ARCHETYPE_FIT",
+    "fact_ids": [
+     "F:AccentCare:deals"
+    ],
+    "reason": "AccentCare is a strategic buyer with all 4 of its deals in provider services, which matches the strategic buyers already in Tier 1, such as CenterWell and BrightSpring. It also has a national deal, and a $106M median deal size that is reasonable against the $206M target. The other Tier 2 candidates have weaker or less direct evidence, so I leave them and the rest of Tier 1 unchanged."
+   }
+  ]
+ }
+}

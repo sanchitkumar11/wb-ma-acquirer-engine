@@ -1,0 +1,57 @@
+{
+ "purpose": "W3 write GTCR",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6545,
+  "output_tokens": 4674,
+  "usd": 0.05982975691000001,
+  "cached": false,
+  "seconds": 32.301500166999176
+ },
+ "output": {
+  "buyer": "GTCR",
+  "headline": "GTCR is a Midwest-heavy provider sponsor with six deals in the target's region and a Core Healthcare Services precedent, but no open platform to build on.",
+  "differentiator": "GTCR has done six Midwest deals [K:by_region], and no strategic Tier 1 buyer has more than one in the region. Its Sterling Health Systems deal (2018, $911M) is a Midwest Core Healthcare Services precedent [D:MA-2018-0357]. Unlike Nordic Capital, Welsh Carson and Advent, it has no open platform, so it would be a standalone control buyer [A:angles].",
+  "acquirer_overview": {
+   "title": "GTCR is an active healthcare control sponsor with a Dental home and a broad provider footprint",
+   "body": "GTCR has 14 deals from 2015 to 2023, and 11 closed [T:record, K:closed_share]. 12 of 14 were control deals, and 4 came since 2022 [K:control_share, K:recent]. Its home sub-sector is Dental, with 3 deals. Physician Groups and Medical Devices also have 3 each [B:buyer, K:by_sub_sector]. Fund XIV is $11.5 billion, and its stated mandate includes healthcare [P:1, P:2]. It sits at position 7 in Tier 1, with model rank 11 and a likelihood of 3.8% among 107 buyers scored [R:rank]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The fit is Midwest depth and a Core precedent, as a new platform rather than an add-on",
+   "body": "Prior buying in this or a neighbouring region is a positive signal at x1.13, and a deal not smaller than its usual range adds x1.09 [S:geo_fit, S:not_smaller]. Its Core precedent is Sterling Health Systems, a $911M Midwest bolt-on in 2018 at 12.2x [D:MA-2018-0357]. It also bought Golden Orthodontics, a $588M Midwest buyout in 2020 at 15.2x [D:MA-2020-0276]. It is a provider specialist with 9 of 14 provider deals and a size-fit angle. It has no open platform [A:angles]. A $200M target sits in its comparable band of $100M-$400M, where it has 4 of 14 deals [K:size_band]."
+  },
+  "precedent_activity": {
+   "title": "Six Midwest deals show real regional activity, but one recent Midwest bid was withdrawn",
+   "body": "Of its 14 deals, 6 are in the Midwest [T:record, K:by_region]. Recent examples: Zenith Specialty Care, a $76M Physician Groups bolt-on in 2023 at 8.9x, was withdrawn [D:MA-2023-0279]. Cascade Orthodontics, a $42M minority investment in 2022 at 11.3x, closed [D:MA-2022-0333]. Superior Behavioral Health, $70M in 2023 at 14.6x, closed in the Northeast [D:MA-2023-0293]. Only 1 deal is in Core and 8 are in Ring 1 [T:record]. The activity signal adds x1.08, but the closed share of 11 of 14 (79%) is a drag at x0.96 [S:activity, S:close_rate_s, K:closed_share]."
+  },
+  "valuation_context": {
+   "title": "Price at the 75th percentile, which GTCR's own 15.2x median paid already supports",
+   "body": "The 70 comparable deals show EV/EBITDA of 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th [V:comps]. The target's 16.8% margin beats the comps' median of 12.9% and sits above 87% of them, which supports the 75th percentile [V:comps]. GTCR's median EV/EBITDA paid is 15.2x, and its median EV/Revenue on closed deals is 2.61x against a comp median of 2.29x [T:record, K:median_ev_revenue, V:comps]. On ability to pay, 5.0x leverage at 8.5% implies a $128M equity cheque and an 18.7% IRR at the ask, against a 20% target. Maximum price is $193M on the same exit and $216M on a 15.0x platform exit [V:lbo]."
+  },
+  "risk_flags": [
+   {
+    "title": "Return gap at the ask",
+    "concern": "IRR at the ask of 18.7% is below the 20% target, and the $193M maximum price on the same exit is below the $200M EV.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, above the $200M EV.",
+    "reality": "The price only clears if GTCR underwrites a platform exit at 15.0x. A straight same-exit case does not meet its return target [V:lbo]."
+   },
+   {
+    "title": "No open platform against rivals that have one",
+    "concern": "GTCR has no open platform in the sub-sector, while Nordic Capital, Welsh Carson and Advent do. Its conviction is Medium against High for those three.",
+    "mitigant": "It has 1 deal in the target's own sub-sector and 8 in Ring 1, the same business model [C:conviction].",
+    "reality": "GTCR would pay as a new platform buyer, with no add-on synergy to justify a higher bid than platform-backed rivals [A:angles, C:conviction]."
+   },
+   {
+    "title": "Execution record",
+    "concern": "Only 11 of 14 deals (79%) closed, and the share of deals that closed lowers its odds at x0.96. Its latest Midwest bolt-on, Zenith, was withdrawn.",
+    "mitigant": "Its Midwest deals include closed control transactions at $911M and $588M [D:MA-2018-0357, D:MA-2020-0276].",
+    "reality": "The withdrawal of Zenith in 2023 is a reminder that a process can fail late, so the MD should test GTCR's appetite directly [K:closed_share, S:close_rate_s, D:MA-2023-0279]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "The basis is positive on 1 deal in the target's own sub-sector and 8 in Ring 1 (same business model), but neutral because there is no open platform in the sub-sector [C:conviction]. That is why GTCR sits below the High-conviction platform buyers."
+  }
+ }
+}

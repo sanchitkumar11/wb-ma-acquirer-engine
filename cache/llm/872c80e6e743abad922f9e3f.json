@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Intermountain Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 5741,
+  "output_tokens": 2494,
+  "usd": 0.03642180283,
+  "cached": false,
+  "seconds": 19.288429583015386
+ },
+ "output": {
+  "buyer": "Intermountain Health",
+  "headline": "Same-sub-sector precedent and a 12.5x price paid make Intermountain a credible but long-shot buyer, with no Midwest footprint.",
+  "differentiator": "Its one deal sits in the target's own sub-sector and paid 12.5x, close to the 12.8x comparable median. Peer comparison lines were not provided, so no lead is claimed. [T:record, V:comps]",
+  "why_them": "Same-sub-sector platform buyer; paid near the comparable median",
+  "acquirer_overview": {
+   "title": "A health system with a single, large 2022 platform deal",
+   "points": [
+    "Strategic buyer, home sub-sector Healthcare Services; 33 hospitals in Utah, Colorado, Idaho and Montana, headquartered in Salt Lake City [B:buyer, P:2].",
+    "Completed a merger with SCL Health in 2022 (April), extending into Colorado, Kansas and Montana; it left Kansas in 2024 [P:1, P:2].",
+    "One deal in the file, closed in 2022, a control platform investment; it sits 10th on the priority list at a 3.6% likelihood [T:record, K:closed_share, R:rank]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector focus is the case; platform intent supports it",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor in its likelihood [S:sector_share].",
+    "Its one deal was tagged Platform Build, Scale and Cross-sell (1 of 1 each), motives seen on only 23%, 23% and 21% of all deals [M:platform_build, M:scale, M:cross_sell].",
+    "Target margin is close to what it usually buys (a modest factor), and the deal is not bigger than any it has done [S:margin_fit, S:not_bigger]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One relevant precedent, much larger than this target",
+   "points": [
+    "Paramount Care Partners, 2022: $789M platform investment in Healthcare Services, closed at 12.5x EV/EBITDA and 3.03x EV/Revenue [D:MA-2022-0183].",
+    "The precedent was Multi-Regional; no deals in the Midwest and 0 of 1 in the $100M-$400M size band [K:by_region, K:size_band].",
+    "Deals in recent years count against it as a slight factor, given a single deal in one active year [S:recency, K:years_active]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and its past multiple is close",
+   "points": [
+    "Comparable range is 10.7x to 15.3x EV/EBITDA across 70 deals, median 12.8x; 9 are in the target's own sub-sector [V:comps].",
+    "A 75th percentile ask is defensible: the 16.8% margin sits above the comps' 12.9% median and above 87% of comparable deals [V:comps].",
+    "Its own median paid is 12.5x. Synergy headroom is $15M-$25M; buyer revenue was not researched, so balance-sheet capacity is unconfirmed [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "No Midwest presence",
+    "concern": "No deal in the target's region, and the footprint is Utah, Colorado, Idaho and Montana [K:by_region, P:2].",
+    "mitigant": "Its one deal was multi-regional and tagged geographic expansion [D:MA-2022-0183, M:geographic_expansion].",
+    "reality": "It exited Kansas in 2024, so Midwest appetite is unproven [P:2]."
+   },
+   {
+    "title": "Thin record",
+    "concern": "One deal, in 2022, gives little basis to predict behaviour; recency is a slight factor against [T:record, S:recency].",
+    "mitigant": "That deal was in the target's own sub-sector and closed [D:MA-2022-0183, K:closed_share].",
+    "reality": "It ranks 10th of 10 on the priority list, 15th overall of 107 scored [R:rank]."
+   },
+   {
+    "title": "Size and capacity unconfirmed",
+    "concern": "Its only deal was $789M against a $200M target, and buyer revenue was not researched [D:MA-2022-0183, V:synergy].",
+    "mitigant": "The target is not bigger than any deal it has done [S:not_bigger].",
+    "reality": "Ability to pay rests on $15M-$25M of synergy headroom, not on balance-sheet data [V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only one deal in the target's own sub-sector, none in adjacent provider sub-sectors, and none in the target's region leave the basis neutral, so this is a long-shot call. [C:conviction]"
+  }
+ }
+}

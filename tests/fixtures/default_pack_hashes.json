@@ -1,0 +1,15 @@
+{
+ "packs": {
+  "Advent International": "1ffdfa58085b959f7fda5f183e1b27612439bdc516971bcb0bf70fc53fc45bf7",
+  "Advocate Health": "b2c77a12a835dee74b388490901a7cfcebbbc621ba76039bef1be031962535b1",
+  "Blackstone": "d70eef52e2c8a6123dd254ff89420ea76284221eaccb69704f786b7290e719ed",
+  "GTCR": "fd80d2c3a7ede4b9410ded085730e0b192af4da4dc5ca7e11f1f62be96e616e3",
+  "General Atlantic": "f2f5486a657ae270500ff0fe5b2983813bf67417b92d47b307d184e54c4b4029",
+  "Intermountain Health": "aaaece7ed847fb9f48b1f40faaf2ce7c1671038d2b500e6e23cdd942e917755e",
+  "Nordic Capital": "8a5ea85a51c5f327cdc8741e3ea4339ffab35482f88eaff504eaa29f6b04b309",
+  "TPG Capital": "c1055fc6297850d18a941df3815346e3e6f5969f3181ba195e91540c9df194e7",
+  "UPMC": "5ee848d22d47da8b781bbfc5a96dbb74e67d48d4029b843c8915db98d746cab4",
+  "Welsh Carson": "85336ebe4c8c8520d3ab655aa81c87bf1aaeaacdae5d2fc80c46fbd28b9c7cad"
+ },
+ "summary": "38dd1b39ccb1ca54ac406d8926281a8257d135deba8712532d4126fa5beb6f4b"
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Evolent Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8357,
+  "output_tokens": 5023,
+  "usd": 0.06694369906,
+  "cached": false,
+  "seconds": 33.24684929201612
+ },
+ "output": {
+  "buyer": "Evolent Health",
+  "headline": "Top-ranked buyer: all three of its deals are in the target's own Health IT sub-sector, and it pays near the comparable median.",
+  "differentiator": "Every one of its deals is in the target's own sub-sector and all closed (3 of 3), at a 21.6x median paid, above the sponsor bidders on the priority list.",
+  "why_them": "Same-sub-sector Health IT add-on; pays near the comparable median",
+  "acquirer_overview": {
+   "title": "Independent public Health IT operator with a fully closed record",
+   "points": [
+    "Independent public company (NYSE EVH) with annual revenue of $1,876M (fiscal year ending 2025-12-31) [P:1, P:2].",
+    "Three deals between 2018 and 2022, all closed (3 of 3, 100%), all in Health IT, one of them a minority stake [T:record, K:closed_share].",
+    "Board refreshed under a cooperation agreement with activist Engaged Capital; accountable care business sold to Privia Health, closed 2025-12-05 [P:1, P:5]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "The target sits squarely in the sub-sector where Evolent buys",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; margin close to what it usually buys is a strong factor [S:sector_share, S:margin_fit].",
+    "Technology Capability motive in 3 of 3 deals, against 10% of all deals in the file; Margin Improvement also in 3 of 3 [M:technology_capability, M:margin_improvement].",
+    "10-K says it may buy companies that \"complement our current products and services, enhance our market coverage or technical capabilities\" [P:3]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three Health IT deals, all closed, led by a $325M recapitalization",
+   "points": [
+    "Frontier Health AI: $325M recapitalization, 2022, 19.8x EBITDA and 6.66x revenue [D:MA-2022-0353].",
+    "Eastern EHR Solutions: $31M strategic acquisition, 2022, 22.4x [D:MA-2022-0458]. Southwest EHR Solutions: $37M minority investment, 2018, 21.6x [D:MA-2018-0149].",
+    "Only 1 of 3 deals falls in the $150M-$600M comparable size band [K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Median multiple is the defensible anchor, and Evolent already pays there",
+   "points": [
+    "13 comparable same-sub-sector deals run from 19.4x to 23.3x EV/EBITDA, with a median of 21.4x [V:comps].",
+    "Target margin of 25.0% is above the comps' median of 22.2% but not in their top quarter, so the 50th percentile is defensible [V:comps].",
+    "Evolent's own median paid is 21.6x; cost synergies give headroom of $14M-$23M, set against $1,876M of revenue [V:comps, V:synergy, P:2]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal is $37M, and only 1 of 3 deals sits in the comparable size band.",
+    "mitigant": "Frontier Health AI at $325M in 2022 shows it can write a cheque this size.",
+    "reality": "Its biggest deal is $325M, close to the target's $300M, but it is a single precedent [T:record, K:size_band, D:MA-2022-0353]."
+   },
+   {
+    "title": "Quiet since 2022",
+    "concern": "Deals in recent years is a slight factor against, and it has no deal in the target's region.",
+    "mitigant": "Its 10-K keeps acquisitions open, and its 8-Ks show no merger agreement since 2025.",
+    "reality": "Two deals since 2022; the activist-driven board refresh may temper appetite [S:recency, K:recent, T:record, P:1, P:3]."
+   },
+   {
+    "title": "Competitive process",
+    "concern": "The priority list includes open-platform sponsors and strategics such as Privia Health.",
+    "mitigant": "As a strategic owner it can pay on cost synergies, with headroom of $14M-$23M.",
+    "reality": "Ranked first on the priority list of 10, at a likelihood of 5.6% across 107 buyers scored [R:rank, V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Three deals in the target's own sub-sector and the number one position on the priority list support High; having no deal in the target's region is neutral [C:conviction, T:record, R:rank]."
+  }
+ }
+}

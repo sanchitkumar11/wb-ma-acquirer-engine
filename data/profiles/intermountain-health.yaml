@@ -1,0 +1,22 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Intermountain Health
+buyer_type: Strategic
+facts:
+- kind: merger
+  value: Completed a merger with SCL Health, extending into Colorado, Kansas and Montana
+  as_of: '2022-04-01'
+  source: https://en.wikipedia.org/wiki/Intermountain_Health
+  accessed: '2026-10-23'
+- kind: footprint
+  value: 33 hospitals in Utah, Colorado, Idaho and Montana; headquartered in Salt Lake City; left Kansas in 2024
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Intermountain_Health
+  accessed: '2026-10-23'
+  states:
+  - UT
+  - CO
+  - ID
+  - MT
+not_researched:
+- annual revenue
+- stated strategy

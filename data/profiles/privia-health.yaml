@@ -1,0 +1,30 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Privia Health
+buyer_type: Strategic
+facts:
+- kind: revenue
+  value: Annual revenue $2,123M (fiscal year ending 2025-12-31)
+  as_of: '2026-02-27'
+  source: https://data.sec.gov/api/xbrl/companyfacts/CIK0001759655.json
+  accessed: '2026-10-23'
+  accession: 0001759655-26-000010
+  amount_usd_mm: 2123
+- kind: mandate
+  value: '10-K, "Disciplined and Strategic Acquisitions and Investments": "the opportunity to acquire minority or majority ownership of provider groups or clinically integrated networks in existing and new markets"'
+  as_of: '2026-02-27'
+  source: https://www.sec.gov/Archives/edgar/data/1759655/000175965526000010/prva-20251231.htm
+  accessed: '2026-10-23'
+  accession: 0001759655-26-000010
+- kind: acquisition_8k
+  value: Bought Evolent Health's accountable care business for $100M in cash plus up to $13M; closed 2025-12-05 (8-K Item 8.01)
+  as_of: '2025-12-08'
+  source: https://www.sec.gov/Archives/edgar/data/1759655/000175965525000113/
+  accessed: '2026-10-23'
+  accession: 0001759655-25-000113
+- kind: footprint
+  value: '10-K: 1,226 employees in 43 states and the District of Columbia (as of 2025-12-31)'
+  as_of: '2026-02-27'
+  source: https://www.sec.gov/Archives/edgar/data/1759655/000175965526000010/prva-20251231.htm
+  accessed: '2026-10-23'
+  accession: 0001759655-26-000010
+not_researched: []

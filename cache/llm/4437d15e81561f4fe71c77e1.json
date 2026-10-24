@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3171,
+  "output_tokens": 394,
+  "usd": 0.01028190093,
+  "cached": false,
+  "seconds": 4.977368125051726
+ },
+ "output": {
+  "headline": "Health system strategics and provider-focused sponsors with existing platforms form the buyer universe for this Midwest healthcare services target, and the strongest can pay at the upper end of the comparable range.",
+  "sentences": [
+   "Call Advocate Health first as the own-sub-sector strategic that pays above the comparable median, then Nordic Capital, UPMC, Welsh Carson and Advent International, which are all high conviction. [E:tier1, E:conviction]",
+   "Upper-quartile pricing is defensible at 15.3x EV/EBITDA, supported by the 16.8% margin; strategics such as Advocate and UPMC can pay it comfortably, while sponsors reach $193M to $216M. [E:valuation, E:lbo, E:tier1]",
+   "The review removed Steward Health Care for its bankruptcy, merged Atrium Health into Advocate Health, and set aside Veritas Capital, Vista Equity and Francisco Partners as off mandate. [E:review, E:tier2]",
+   "Geographic expansion is the motive most buyers share, at 90% of 284 provider deals, so lead every approach with the Midwest footprint this target adds. [E:motives]"
+  ]
+ }
+}

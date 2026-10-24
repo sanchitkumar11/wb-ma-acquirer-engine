@@ -1,0 +1,57 @@
+{
+ "purpose": "W3 repair1 Nordic Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8461,
+  "output_tokens": 2495,
+  "usd": 0.041871721220000005,
+  "cached": false,
+  "seconds": 13.49794545903569
+ },
+ "output": {
+  "buyer": "Nordic Capital",
+  "headline": "Nordic Capital can add this $200M Midwest Healthcare Services target to an open platform, backed by four core deals, a 2024 Midwest deal and Fund XI.",
+  "differentiator": "Welsh Carson and Advent also have open platforms. Nordic's edge is its own Healthcare Services record: two Core LBOs of $991M and $1,304M, a 2024 Midwest recapitalization, and Fund XI capital [D:MA-2023-0466, D:MA-2022-0045, D:MA-2024-0431, P:2]. It is also a provider specialist with an open platform in the sub-sector [A:angles].",
+  "acquirer_overview": {
+   "title": "Nordic Capital is an active, high-closing provider sponsor with Fund XI capital",
+   "body": "Nordic is a financial sponsor with 24 deals from 2016 to 2024, and 21 of 24 (88%) closed [T:record, K:closed_share]. 22 of 24 deals are provider deals, and 22 of 24 (92%) were control deals [A:angles, K:control_share]. Physician Groups is its largest sub-sector with 10 deals, and Healthcare Services has 4 [K:by_sub_sector]. Healthcare is one of four core industries [P:1]. Fund XI closed at its EUR 9 billion hard cap (about $11 billion) [P:2]. It has done 9 deals since 2022 [K:recent]. Its closest ring to the target is Core [B:buyer]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The target fits an existing Nordic platform in its own sub-sector, with a Midwest foothold",
+   "body": "Nordic has an open platform in the sub-sector, so the target can come in as an add-on [A:angles]. Deals in this or neighbouring sub-sectors raise its likelihood by x1.30, the strongest signal [S:sector_rel]. It has 4 core deals and 18 Ring 1 deals, which share the target's business model [T:record]. The 2024 Principal Physician Group recapitalization, at $76M, was in the Midwest [D:MA-2024-0431]. The target's 16.8% margin and 11.0% growth suit a buyer that paid a median 12.5x EBITDA [X:target, T:record]. It ranks position 2 in Tier 1 [R:rank]."
+  },
+  "precedent_activity": {
+   "title": "Nordic has bought in this sub-sector at both small and very large sizes",
+   "body": "Its four Core Healthcare Services deals span $26M to $1,304M [T:record]. Green Medical Center (2022) was a $1,304M LBO at 15.0x EBITDA [D:MA-2022-0045]. Harbor Medical Center (2023) was a $991M LBO at 11.1x [D:MA-2023-0466]. Harbor Health Network (2024) was a $35M carve-out at 11.6x [D:MA-2024-0339]. Pioneer Ambulatory Care (2016) was a $26M platform investment at 9.1x [D:MA-2016-0469]. Only 8 of its 24 deals sit in the $100M-$400M band [K:size_band]. It has 2 deals in the Midwest [T:record]."
+  },
+  "valuation_context": {
+   "title": "Price at the 75th percentile, 15.3x, is defensible; Nordic's own median is lower at 12.5x",
+   "body": "The 70 comparable deals show 10.7x at the lower quartile, 12.8x at the median and 15.3x at the 75th percentile [V:comps]. The target's 16.8% margin beats the comps' 12.9% median and sits above 87% of comps, which supports the 75th percentile [V:comps]. Nordic's median paid is 12.5x, but it paid 15.9x for Principal Physician Group and 15.0x for Green Medical Center [V:comps, D:MA-2024-0431, D:MA-2022-0045]. At 5.0x leverage and 8.5% interest, the equity cheque is $128M and IRR at ask is 18.7% against a 20% target [V:lbo]. Maximum price is $193M on the same exit and $216M on a platform exit at 15.0x [V:lbo]."
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Nordic's median deal is $77M, under half the target's $200M EV.",
+    "mitigant": "It has done much larger Core deals, at $991M and $1,304M, and the target is not smaller than its usual range.",
+    "reality": "Only 8 of 24 deals fall in the $100M-$400M band, so $200M is not its usual size [T:record, K:size_band, S:not_smaller, D:MA-2023-0466, D:MA-2022-0045]."
+   },
+   {
+    "title": "Price gap to ask",
+    "concern": "IRR at ask is 18.7%, below the 20% target, and the same-exit maximum price is $193M.",
+    "mitigant": "A platform exit at 15.0x lifts maximum price to $216M, above the $200M EV.",
+    "reality": "Nordic can only meet the ask by underwriting the add-on route to the platform exit multiple [V:lbo, A:angles]."
+   },
+   {
+    "title": "Competitive process and geography",
+    "concern": "Welsh Carson and Advent also hold open platforms, and Advocate Health is a Core strategic buyer with a Midwest deal.",
+    "mitigant": "Nordic has 2 Midwest deals, including one in 2024.",
+    "reality": "The geography signal still counts against it at x0.95, and its likelihood is 4.8% among 107 buyers scored [S:geo_fit, T:record, D:MA-2024-0431, R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "The basis is 4 deals in the target's own sub-sector, 18 in Ring 1, an open platform for the add-on route and Tier 1 position 2 [C:conviction, R:rank]. The main offset is that its $77M median deal is under half the $200M EV [C:conviction, T:record]."
+  }
+ }
+}

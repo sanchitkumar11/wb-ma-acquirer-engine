@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3214,
+  "output_tokens": 1134,
+  "usd": 0.017767892240000003,
+  "cached": false,
+  "seconds": 8.752987582993228
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Blackstone",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Blackstone:deals"
+    ],
+    "reason": "Median deal size of $342M is about 19x the $18M target, the largest of any Tier 1 buyer. Only 7 of its 19 deals are in provider services, so a small home health/hospice asset is unlikely to fit its deal profile despite 4 Northeast deals."
+   },
+   {
+    "buyer": "Bain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Bain Capital:deals"
+    ],
+    "reason": "13 of 21 deals are in provider services, with 3 in the Northeast, which is more Northeast overlap than most Tier 1 sponsors. Its $73M median deal size is also closer to the target's scale than most Tier 1 sponsors."
+   }
+  ]
+ }
+}

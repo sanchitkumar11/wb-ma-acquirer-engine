@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3080,
+  "output_tokens": 1722,
+  "usd": 0.023379890380000004,
+  "cached": false,
+  "seconds": 12.725940375006758
+ },
+ "output": {
+  "headline": "Evolent Health, Epic Systems and Blackstone lead the health IT buyer universe; the comparable median is defensible and top names can pay it.",
+  "sentences": [
+   "Call Evolent Health first, since it has 3 deals in the target's own sub-sector and closed $325M, then Blackstone and Epic Systems, the other High-conviction names. [E:tier1, E:conviction]",
+   "Defend the median of 21.4x EV/EBITDA within a 19.4x to 23.3x range; sponsors like Blackstone can reach $356M and beat their 20% target at 25.3% IRR at the ask. [E:valuation, E:lbo]",
+   "The review removed Ciox Health (now Datavant) and Cerner (now Oracle), and merged Change Healthcare into UnitedHealth Group, so none of the three is approached separately. [E:review]",
+   "Most buyers share one motive: diversification and technology capability, present in 100% of 50 Health IT deals, followed by growth at 90%. [E:motives]"
+  ]
+ }
+}

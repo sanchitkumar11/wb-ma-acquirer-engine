@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write UPMC",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6284,
+  "output_tokens": 3712,
+  "usd": 0.04968777436,
+  "cached": false,
+  "seconds": 25.047835832985584
+ },
+ "output": {
+  "buyer": "UPMC",
+  "headline": "UPMC buys only in the target's own sub-sector, closed all three of its deals, and has the scale to support upper-quartile pricing.",
+  "differentiator": "All three of its deals sit in the target's own sub-sector, the strongest factor in its ranking. Peer lines are not shown here, so no lead over other buyers is claimed.",
+  "why_them": "Same-sub-sector buyer with a clean closing record and large balance sheet",
+  "acquirer_overview": {
+   "title": "A large strategic with a short but fully closed record",
+   "points": [
+    "Strategic buyer with Revenue US$27.7 billion (2023) and hospitals in Pennsylvania, Maryland and New York [P:1, P:2].",
+    "Three deals between 2018 and 2020: all three closed and all were control deals, none minority stakes [T:record, K:closed_share, K:control_share].",
+    "Washington Health System merged with UPMC in 2024, extending its footprint [P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Own-sub-sector record and margin fit make the target a natural add-on",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; target margin close to what it usually buys is a strong factor [S:sector_share, S:margin_fit].",
+    "All three deals are in Healthcare Services, none in adjacent provider sub-sectors [K:by_sub_sector, T:record].",
+    "Platform Build appears in 1 of 3 deals, against 23% of all deals in the file, a modest add-on motive [M:platform_build]. Geographic Expansion (2 of 3) is common across the file, so it is not distinctive [M:geographic_expansion]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three same-sub-sector precedents, none in the size band or recent",
+   "points": [
+    "Sterling Care Network: $55M Strategic Acquisition, 2020, at 11.3x EBITDA [D:MA-2020-0312].",
+    "Principal Behavioral Health: $444M Bolt-on Acquisition, 2019, at 11.7x. Keystone Behavioral Health: $33M Recapitalization, 2018, at 17.0x [D:MA-2019-0090, D:MA-2018-0486].",
+    "None of the three falls in the $100M-$400M comparable size band, and none were since 2022 [K:size_band, K:recent]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible and within UPMC's capacity",
+   "points": [
+    "Across 70 comparable deals, EV/EBITDA runs from 10.7x (25th) through a 12.8x median to 15.3x (75th) [V:comps].",
+    "Target margin of 16.8% is above the comparable median of 12.9% and above 87% of comps, supporting the 75th percentile [V:comps].",
+    "UPMC's median paid is 11.7x, below that level. Cost synergies give headroom of $15M-$25M, against Revenue US$27.7 billion (2023) [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Dormant acquirer",
+    "concern": "Last deal was in 2020 and none since 2022; recency is a slight factor against [K:recent, S:recency].",
+    "mitigant": "Washington Health System merged with UPMC in 2024, showing continued appetite for combinations [P:2].",
+    "reality": "Recent activity was a merger, not a comparable acquisition, so appetite needs testing [P:2, T:record]."
+   },
+   {
+    "title": "Price gap to the 75th percentile",
+    "concern": "UPMC's median paid of 11.7x sits below the 15.3x 75th percentile the target warrants [V:comps].",
+    "mitigant": "It paid 17.0x for Keystone Behavioral Health in 2018, and cost synergy headroom is $15M-$25M [D:MA-2018-0486, V:synergy].",
+    "reality": "The 17.0x was a small $33M deal; stretching to the 75th is unproven at scale [D:MA-2018-0486]."
+   },
+   {
+    "title": "No Midwest presence",
+    "concern": "No deal in the target's region; footprint is Pennsylvania, Maryland and New York [T:record, P:2].",
+    "mitigant": "Past deals spanned Mountain West, Northeast and National regions [K:by_region].",
+    "reality": "Regional reach is neutral in the ranking, not a negative factor [C:conviction]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Three deals in the target's own sub-sector, none in adjacent provider sub-sectors, and third on the priority list after review. No deal in the target's region is neutral [C:conviction, R:rank]."
+  }
+ }
+}

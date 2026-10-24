@@ -1,0 +1,144 @@
+{
+ "pages": 10,
+ "jargon_hits_first_draft": 0,
+ "pass_before_repair": 0,
+ "pass_after_repair": 9,
+ "repairs": 10,
+ "first_draft_problems": {
+  "Numbers not in the fact pack (copy numbers exactly, compute nothing)": 8,
+  "The one-pager never names the buyer": 6,
+  "Cited fact IDs that are not in the fact pack": 1,
+  "strategic_fit_thesis needs 2-3 bullets, not 4": 1,
+  "valuation_context needs 2-3 bullets, not 4": 1
+ },
+ "thesis_overlap_max": 0.323,
+ "thesis_overlap_mean": 0.072,
+ "most_similar_pair": "Blackstone / General Atlantic",
+ "conviction": {
+  "High": 7,
+  "Medium": 3
+ },
+ "generic_hits_first_draft": 0,
+ "generic_hits_final": 0,
+ "words_per_page": {
+  "Heartland Dental": 467,
+  "Hellman & Friedman": 481,
+  "Aspen Dental (ADMI)": 474,
+  "Blackstone": 496,
+  "General Atlantic": 508,
+  "Welsh Carson": 501,
+  "TPG Capital": 490,
+  "Dental365": 536,
+  "Nordic Capital": 497,
+  "Advent International": 543
+ },
+ "pages_within_length_targets": 6,
+ "lengths": {
+  "Heartland Dental": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 50,
+    "strategic_fit_thesis": 75,
+    "precedent_activity": 42,
+    "valuation_context": 55
+   },
+   "page": 467
+  },
+  "Hellman & Friedman": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 59,
+    "strategic_fit_thesis": 59,
+    "precedent_activity": 53,
+    "valuation_context": 54
+   },
+   "page": 481
+  },
+  "Aspen Dental (ADMI)": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 55,
+    "strategic_fit_thesis": 65,
+    "precedent_activity": 43,
+    "valuation_context": 62
+   },
+   "page": 474
+  },
+  "Blackstone": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 50,
+    "strategic_fit_thesis": 69,
+    "precedent_activity": 45,
+    "valuation_context": 63
+   },
+   "page": 496
+  },
+  "General Atlantic": {
+   "headline": 18,
+   "sections": {
+    "acquirer_overview": 55,
+    "strategic_fit_thesis": 67,
+    "precedent_activity": 43,
+    "valuation_context": 68
+   },
+   "page": 508
+  },
+  "Welsh Carson": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 58,
+    "strategic_fit_thesis": 63,
+    "precedent_activity": 57,
+    "valuation_context": 58
+   },
+   "page": 501
+  },
+  "TPG Capital": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 57,
+    "strategic_fit_thesis": 65,
+    "precedent_activity": 46,
+    "valuation_context": 61
+   },
+   "page": 490
+  },
+  "Dental365": {
+   "headline": 26,
+   "sections": {
+    "acquirer_overview": 61,
+    "strategic_fit_thesis": 79,
+    "precedent_activity": 52,
+    "valuation_context": 63
+   },
+   "page": 536
+  },
+  "Nordic Capital": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 72,
+    "strategic_fit_thesis": 64,
+    "precedent_activity": 47,
+    "valuation_context": 64
+   },
+   "page": 497
+  },
+  "Advent International": {
+   "headline": 27,
+   "sections": {
+    "acquirer_overview": 63,
+    "strategic_fit_thesis": 65,
+    "precedent_activity": 53,
+    "valuation_context": 67
+   },
+   "page": 543
+  }
+ },
+ "input_tokens": 176627,
+ "output_tokens": 68809,
+ "usd": 1.0413,
+ "usd_per_page": 0.1041,
+ "llm_calls": 20,
+ "wall_clock_seconds": 59.5
+}

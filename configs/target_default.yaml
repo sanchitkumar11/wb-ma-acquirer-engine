@@ -1,0 +1,9 @@
+# Default target from the brief: "Healthcare Services | ~$200M EV | mid-market, private, regional, strong EBITDA margins".
+# The brief's words become numbers here. Decided Oct 23, 2026; reasoning in docs/experiment-log.md (Section 3.5).
+sector: Healthcare Services
+enterprise_value_mm: 200
+region: Midwest            # "regional": Midwest has the most Healthcare Services deals in the file (7). Changes 0-2 of the top 10.
+ownership: Private
+ebitda_margin_pct: 16.8    # "strong": 75th percentile of the file's 46 Healthcare Services deals. Top 10 is identical from 15.5% to 18.8%.
+revenue_growth_pct: 11.0   # median of Healthcare Services deals
+as_of: 2024Q4              # deal data ends Q4 2024; score as of the data end

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10159,
+  "output_tokens": 2979,
+  "usd": 0.050107665440000004,
+  "cached": false,
+  "seconds": 17.310318500036374
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Blackstone pays the highest median multiple on the priority list and has already bought in the Midwest in the target's own sub-sector.",
+  "differentiator": "Blackstone's median multiple paid of 17.1x is the highest on the priority list, and it has already done a Midwest deal in the target's own sub-sector (Peak Medical Management). [T:record, D:MA-2021-0407]",
+  "why_them": "Pays top multiples; Midwest precedent in the target's own sub-sector",
+  "acquirer_overview": {
+   "title": "Blackstone: large financial sponsor with a ten-year, 25-deal record",
+   "points": [
+    "Blackstone is a financial sponsor with 25 deals between 2015 and 2024; 22 closed (88%) [T:record, K:closed_share].",
+    "Blackstone's record is mostly control deals: 7 Leveraged Buyouts, 5 Bolt-on Acquisitions and 4 Platform Investments; 23 of 25 are control deals [T:record, K:control_share].",
+    "Blackstone's Private Equity segment holds $416.4 billion of Total Assets Under Management as of December 31, 2025 [P:1]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Two own-sub-sector deals and seven adjacent provider deals support the fit",
+   "points": [
+    "For Blackstone, sub-sector relevance and number of past deals are each a modest factor in its likelihood; deal size within its usual range is a slight positive [S:sector_rel, S:activity, S:not_smaller].",
+    "Platform Build is a stated motive in 9 of 25 Blackstone deals, above the 23% share across all deals in the file [M:platform_build].",
+    "Regional record is a slight negative, and Blackstone has no open platform in the sub-sector to add this target onto [S:geo_fit, A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Four relevant Blackstone precedents, two in the target's own sub-sector",
+   "points": [
+    "Peak Medical Management: $342M SPAC Merger, 2021, Midwest, 10.0x EBITDA, closed [D:MA-2021-0407].",
+    "Evergreen Care Solutions: $299M Bolt-on Acquisition, 2021, Southwest, 14.6x EBITDA, closed [D:MA-2021-0195].",
+    "Dental, both 2021: Crest Oral Health, $558M Leveraged Buyout at 13.5x; North Smile Group, $222M Management Buyout at 13.5x [D:MA-2021-0164, D:MA-2021-0453]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but Blackstone's return at the ask falls short",
+   "points": [
+    "70 comparable deals span 10.7x to 15.3x EBITDA, median 12.8x. The target's 16.8% margin versus the comps' 12.9% median supports the 75th percentile [V:comps].",
+    "Blackstone's own median multiple paid is 17.1x, above the 15.3x upper quartile of the comparable range [V:comps, T:record].",
+    "At 5.0x leverage Blackstone's equity cheque is $128M; IRR at the ask is 18.7% against a 20% target [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "Blackstone's IRR at the ask of 18.7% is below its 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "At the same exit the maximum is $193M, so the bid needs the platform exit [V:lbo]."
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Prior regional buying is a slight factor against; only 2 Blackstone deals are in the target's region [S:geo_fit, T:record].",
+    "mitigant": "One of those is Peak Medical Management, a $342M Midwest deal in the target's own sub-sector [D:MA-2021-0407].",
+    "reality": "Regional fit is a slight negative, not a barrier [S:geo_fit]."
+   },
+   {
+    "title": "No open platform, broad focus",
+    "concern": "Blackstone has no open platform in the sub-sector, and 16 of its 25 deals are outside provider services [A:angles, T:record].",
+    "mitigant": "It has 2 deals in the target's own sub-sector and 7 in adjacent provider sub-sectors [T:record].",
+    "reality": "Blackstone would likely approach this as a standalone bid, not an add-on [A:angles]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Based on Blackstone's 2 deals in the target's own sub-sector and 7 in adjacent provider sub-sectors, offset by no open platform in the sub-sector. Likelihood is 4.3%, 9th overall of 107 buyers scored [C:conviction, R:rank]."
+  }
+ }
+}

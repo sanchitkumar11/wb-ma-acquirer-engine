@@ -1,0 +1,75 @@
+{
+ "purpose": "W3 write Welsh Carson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8470,
+  "output_tokens": 3832,
+  "usd": 0.055259707580000005,
+  "cached": false,
+  "seconds": 27.158343959017657
+ },
+ "output": {
+  "buyer": "Welsh Carson",
+  "headline": "Open dental platform and a provider record; pays 16.2x median, above the 15.4x upper quartile, for an 18.0% margin asset.",
+  "differentiator": "Most adjacent provider deals of any open-platform sponsor on the list (14), alongside an open dental platform and a 16.2x median paid, above the comparable upper quartile.",
+  "why_them": "Add-on to its dental platform; pays above upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "A provider-focused sponsor with a seven-year, mostly control record",
+   "points": [
+    "Financial sponsor with 23 deals from 2017 to 2023; 18 closed (78%), and 21 of 23 were control deals [T:record, K:closed_share, K:control_share].",
+    "Provider services dominate: 16 of 23 deals, including 2 in dental and 14 in adjacent provider sub-sectors [A:angles, T:record].",
+    "Focuses on technology and healthcare and raised a $5 billion-plus fund in 2023, its largest to date [P:1, P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open dental platform, backed by provider depth",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor in its likelihood, and its open platform makes the target an add-on [S:sector_rel, A:angles].",
+    "Cross-sell is a distinct motive: 8 of 23 deals, against 21% of all deals in the file. Margin Improvement appears in 7 of 23 [M:cross_sell, M:margin_improvement].",
+    "Southeast presence: 3 deals in the target's region, including Southeast Home Health in 2022 [T:record, D:MA-2022-0107]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two dental deals closed, plus larger adjacent provider transactions",
+   "points": [
+    "Alliance DSO: $57M leveraged buyout, 2023, at 16.1x. Prime Dental Solutions: $14M carve-out, 2021, at 11.8x. Both closed [D:MA-2023-0354, D:MA-2021-0262].",
+    "Southeast Home Health: $114M SPAC merger, 2022, at 16.3x. Woodland PACE: $204M management buyout, 2021, at 17.6x [D:MA-2022-0107, D:MA-2021-0025].",
+    "6 of its 23 deals sit in the comparable size band of $40M-$160M, and 8 have come since 2022 [K:size_band, K:recent]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but returns cap the bid at $68M",
+   "points": [
+    "Comparable deals (63) show 11.0x at the 25th percentile, 13.7x at the median and 15.4x at the 75th [V:comps].",
+    "The 75th percentile is defensible: the target's 18.0% margin sits above the comparable median of 12.4% and above 92% of comps [V:comps].",
+    "Its own median paid is 16.2x, above the 75th percentile [V:comps, T:record].",
+    "At 5.0x leverage and 8.5% interest, IRR at the ask is 14.0% against a 20% target; maximum price is $68M [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 14.0% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 13.7x was tested as an alternative route [V:lbo].",
+    "reality": "Maximum price stays $68M on either exit, below the $80M target EV [V:lbo, X:target]."
+   },
+   {
+    "title": "Completion record",
+    "concern": "Only 18 of 23 deals closed (78%), a slight factor against it [K:closed_share, S:close_rate_s].",
+    "mitigant": "Both of its dental deals closed [D:MA-2023-0354, D:MA-2021-0262].",
+    "reality": "Two recapitalizations were withdrawn, Clearwater Mental Health and Delta Multispecialty Group [D:MA-2023-0166, D:MA-2022-0024]."
+   },
+   {
+    "title": "Competitive process",
+    "concern": "Blackstone (17.1x) and General Atlantic (16.5x) have higher median multiples paid than its 16.2x [T:record].",
+    "mitigant": "Its 14 adjacent provider deals exceed those of both rivals.",
+    "reality": "Only 2 dental deals, so its sub-sector depth is thinner than Advent's 3 [T:record]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Basis: 2 deals in the target's own sub-sector, 14 in adjacent provider sub-sectors, and an open platform add-on route. The 14.0% IRR at the ask and 78% completion rate are the main qualifiers [T:record, A:angles, V:lbo, K:closed_share]."
+  }
+ }
+}

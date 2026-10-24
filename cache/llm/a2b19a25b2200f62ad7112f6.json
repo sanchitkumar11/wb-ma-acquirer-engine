@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7498,
+  "output_tokens": 3201,
+  "usd": 0.04700574305,
+  "cached": false,
+  "seconds": 22.322463792050257
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "Advent can add the target to its open platform in the sub-sector, with a provider record and a median price paid above the upper quartile.",
+  "differentiator": "Its open platform in the sub-sector makes the target an add-on, and its 15.5x median multiple paid is above the comparable 75th percentile of 15.3x. Peer lines were not available for comparison. [A:angles, V:comps]",
+  "why_them": "Add-on to its open platform; pays above upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "A global sponsor with a steady, mostly control-oriented deal record",
+   "points": [
+    "Financial sponsor with 18 deals from 2016 to 2024; 15 closed (83%), and 17 of 18 were control deals (94%). [T:record, K:closed_share, K:control_share]",
+    "Median deal of $124M, with 8 of 18 deals in the comparable $100M-$400M size band and 5 deals since 2022. [T:record, K:size_band, K:recent]",
+    "Flagship fund of about $25 billion (2022 vintage) and approximately $100 billion AUM as of November 2025. [P:1, P:2]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor in its likelihood; it has 1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors. [S:sector_rel, T:record]",
+    "Margin Improvement drove 7 of 18 deals, a motive that stands out against its 31% share across the file. That fits a target with a 16.8% margin. [M:margin_improvement, X:target]",
+    "The open platform in the sub-sector makes the target an add-on rather than a new bet; size fit is a second sponsor angle. [A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Recent provider deals at sizes near the target's",
+   "points": [
+    "Crest Care Partners (Healthcare Services, 2024): $304M recapitalization at 9.3x EV/EBITDA, closed, in the target's own sub-sector. [D:MA-2024-0120]",
+    "Crown Addiction Treatment (Behavioral Health, 2023): $123M recapitalization at 14.6x, closed. Principal Counseling (2021): $163M minority investment at 13.2x. [D:MA-2023-0108, D:MA-2021-0341]",
+    "Summit DSO (Dental, 2018): $303M merger of equals at 11.7x, closed, in the Midwest. [D:MA-2018-0184]"
+   ]
+  },
+  "valuation_context": {
+   "title": "A 75th-percentile price is defensible, and Advent has paid at that level",
+   "points": [
+    "70 comparable deals show EV/EBITDA of 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th. [V:comps]",
+    "The 16.8% margin is above the comps' 12.9% median and above 87% of comps, which supports the 75th percentile. [V:comps, X:target]",
+    "Advent's median multiple paid is 15.5x. At 5.0x leverage the equity cheque is $128M, and the maximum price is $193M on a same-multiple exit or $216M on a 15.0x platform exit. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below its 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "A same-exit maximum of $193M sits below the $200M target, so the bid depends on underwriting the add-on exit. [V:lbo, X:target]"
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Only 1 of 18 deals was in the target's region, and regional fit is a slight factor against. [T:record, S:geo_fit]",
+    "mitigant": "The one Midwest deal, Summit DSO, was $303M and closed. [D:MA-2018-0184]",
+    "reality": "Regional experience is limited, but the platform and sub-sector fit carry the case. [S:geo_fit, A:angles]"
+   },
+   {
+    "title": "Broad mandate beyond provider services",
+    "concern": "10 of 18 deals were outside provider services, and only 1 was in the target's own sub-sector. [T:record]",
+    "mitigant": "7 deals were in adjacent provider sub-sectors, including the 2024 Crest Care Partners deal. [T:record, D:MA-2024-0120]",
+    "reality": "Provider activity is real, at 8 of 18 deals, but not exclusive. [A:angles]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors, plus an open platform giving an add-on route. The return at the asking price is the main caveat. [C:conviction, A:angles, V:lbo]"
+  }
+ }
+}

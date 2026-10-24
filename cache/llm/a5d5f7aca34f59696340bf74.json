@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8310,
+  "output_tokens": 4728,
+  "usd": 0.06389970342,
+  "cached": false,
+  "seconds": 32.661782625014894
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "Sponsor with three prior dental deals and the most Southeast deals on the priority list; fits the $80M target, but returns at the ask are tight.",
+  "differentiator": "Most Southeast deals on the priority list (4, against 3 at the next most active). Its median paid of 15.5x is above Heartland Dental, Aspen Dental and Dental365, though below the largest sponsors.",
+  "why_them": "Repeat dental investor, Southeast-active, pays 15.5x median",
+  "acquirer_overview": {
+   "title": "Global sponsor: 18 deals since 2016, 83% closed",
+   "points": [
+    "Financial sponsor with 18 deals from 2016 to 2024; 15 of 18 (83%) closed and 17 of 18 (94%) were control deals [T:record, K:closed_share, K:control_share].",
+    "Median deal is $124M, and 8 of 18 deals sit in the $40M-$160M comparable size band. 10 deals were outside provider services [T:record, K:size_band].",
+    "Flagship fund of about $25 billion (2022 vintage); approximately $100 billion AUM as of November 2025 [P:1, P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Prior dental platform investor, already active in the Southeast",
+   "points": [
+    "3 deals in the target's own sub-sector and 5 in adjacent provider sub-sectors; sector relevance is only a slight factor in its likelihood [T:record, S:sector_rel].",
+    "Margin Improvement was a motive in 7 of 18 deals, which suits a target with an 18.0% margin [M:margin_improvement, X:target].",
+    "4 deals in the Southeast, the target's region; an $80M deal is not smaller than its usual range, a slight factor [T:record, S:not_smaller]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two dental platform entries, one of them in the Southeast",
+   "points": [
+    "Metro Dental Care: $46M Platform Investment, Southeast, 2018, at 15.1x. Global Dental Care: $14M Platform Investment, 2016, at 17.0x [D:MA-2018-0091, D:MA-2016-0302].",
+    "Summit DSO: $303M Merger of Equals, 2018, at 11.7x. All three dental deals closed [D:MA-2018-0184].",
+    "Recent provider deals: Crest Care Partners ($304M, 2024, Southeast, 9.3x) and Crown Addiction Treatment ($123M, 2023, 14.6x) [D:MA-2024-0120, D:MA-2023-0108]."
+   ]
+  },
+  "valuation_context": {
+   "title": "75th percentile is defensible; its 15.5x median supports it",
+   "points": [
+    "63 comparable deals, 12 in the same sub-sector: 11.0x at the 25th percentile, 13.7x median, 15.4x at the 75th percentile [V:comps].",
+    "The 18.0% margin is above the comps' median of 12.4%, supporting upper-quartile pricing. Advent's own median paid is 15.5x [V:comps].",
+    "At 5.0x leverage and 8.5% interest, equity cheque is $53M. IRR at the ask is 14.0% against a 20% target; maximum price is $68M [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 14.0% is below its 20% target [V:lbo].",
+    "mitigant": "Its own median paid of 15.5x shows it pays upper-quartile multiples [V:comps].",
+    "reality": "Maximum price is $68M on both exit cases, against an $80M EV, so a platform exit does not close the gap [V:lbo, X:target]."
+   },
+   {
+    "title": "No open dental platform",
+    "concern": "Advent has no open platform in the sub-sector, so the target would not be a clear add-on [A:angles].",
+    "mitigant": "It made two Platform Investments in dental, in 2016 and 2018 [D:MA-2016-0302, D:MA-2018-0091].",
+    "reality": "Its dental deals are all from 2016 and 2018; the target would need a new platform thesis [T:record, A:angles]."
+   },
+   {
+    "title": "Crowded process, low rank",
+    "concern": "It is 10th on the priority list with a likelihood of 4.5%, and auction experience is a slight factor against [R:rank, S:bidder_exp].",
+    "mitigant": "Control deals are 17 of 18 and 15 of 18 closed [K:control_share, K:closed_share].",
+    "reality": "Heartland Dental and Aspen Dental have each closed every deal and have a dental-only record, so Advent must win on price."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Three own-sub-sector and five adjacent provider deals support the fit. Medium because there is no open platform in the sub-sector and the return at the ask is 14.0% against 20%. [C:conviction, V:lbo]"
+  }
+ }
+}

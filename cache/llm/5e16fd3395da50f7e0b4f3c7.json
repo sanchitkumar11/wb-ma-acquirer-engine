@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3558,
+  "output_tokens": 803,
+  "usd": 0.01514588523,
+  "cached": false,
+  "seconds": 6.696582917007618
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Evolent Health",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Evolent Health:deals"
+    ],
+    "reason": "Median deal is $37M, about a quarter of the $149M target, and none of its deals are in the Southeast. It has Health IT experience but little evidence it can handle this size or region."
+   },
+   {
+    "buyer": "Netsmart Technologies",
+    "action": "promote",
+    "code": "ARCHETYPE_FIT",
+    "fact_ids": [
+     "F:Netsmart Technologies:deals"
+    ],
+    "reason": "A strategic buyer with both of its deals in Health IT and a $143M median, close to the $149M target size. That is stronger sector and size evidence than Evolent Health, the buyer it replaces in Tier 1."
+   }
+  ]
+ }
+}

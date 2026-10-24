@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write GTCR",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8206,
+  "output_tokens": 3083,
+  "usd": 0.047241722990000005,
+  "cached": false,
+  "seconds": 22.265761082991958
+ },
+ "output": {
+  "buyer": "GTCR",
+  "headline": "A Midwest-active provider specialist that has paid 15.2x at the median, close to the 75th-percentile price this margin supports.",
+  "differentiator": "Among the most active Midwest buyers on the list, with 6 deals, level with Welsh Carson. Its 15.2x median paid sits near the 15.3x upper quartile of comparable deals.",
+  "why_them": "Midwest provider specialist; pays near upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "A provider-focused sponsor with a Midwest-weighted record",
+   "points": [
+    "Financial sponsor with 14 deals from 2015 to 2023; 11 of 14 closed (79%), and 12 of 14 were control deals [T:record, K:closed_share, K:control_share].",
+    "Provider-heavy: 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; Dental is its home sub-sector [T:record, B:buyer].",
+    "Fund XIV is $11.5 billion (year only); mandate covers healthcare among other sectors. It is 8th on the priority list of 10 [P:1, P:2, R:rank]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Midwest provider specialist with a margin-and-platform playbook",
+   "points": [
+    "Midwest is its largest region with 6 deals; having bought in this or a neighbouring region is a modest factor for the target [K:by_region, S:geo_fit].",
+    "Margin Improvement drove 6 of 14 deals, and Platform Build 5 of 14, which suits a target with a 16.8% margin [M:margin_improvement, M:platform_build, X:target].",
+    "Its median deal of $173M sits close to the $200M target, and the deal is not smaller than its usual range [T:record, S:not_smaller]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Relevant Midwest precedents, from bolt-ons to a $588M buyout",
+   "points": [
+    "Sterling Health Systems (Healthcare Services, Midwest): $911M bolt-on in 2018 at 12.2x, closed. This is its one deal in the target's own sub-sector [D:MA-2018-0357].",
+    "Golden Orthodontics (Dental, Midwest): $588M leveraged buyout in 2020 at 15.2x, closed [D:MA-2020-0276].",
+    "Zenith Specialty Care (Midwest, $76M bolt-on, 2023, 8.9x) was withdrawn. Only 4 of its 14 deals fall in the $100M-$400M size band [D:MA-2023-0279, K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "75th-percentile pricing is defensible, and GTCR's history is close to it",
+   "points": [
+    "70 comparable deals show 10.7x at the 25th percentile, a 12.8x median and 15.3x at the 75th percentile [V:comps].",
+    "The 16.8% margin is above the comps' 12.9% median and above 87% of comps, supporting the 75th percentile. GTCR's own median paid is 15.2x [V:comps].",
+    "At 5.0x leverage and an $128M equity cheque, IRR at the ask is 18.7% against a 20% target. Maximum price is $193M on a same-multiple exit, $216M on a 15.0x platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below its 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "The bid clears $200M only if GTCR underwrites a platform exit; a same-multiple exit caps it at $193M [V:lbo]."
+   },
+   {
+    "title": "No open platform",
+    "concern": "GTCR has no open platform in the sub-sector, and only 1 deal in the target's own sub-sector [A:angles, T:record].",
+    "mitigant": "It has 8 deals in adjacent provider sub-sectors and a home Dental platform record [T:record, B:buyer].",
+    "reality": "It reads as a provider specialist, not a dedicated add-on buyer, hence Medium conviction [A:angles, C:conviction]."
+   },
+   {
+    "title": "Execution record",
+    "concern": "Share of deals closed is a slight factor against the likelihood [S:close_rate_s].",
+    "mitigant": "11 of 14 deals closed, and 12 of 14 were control deals [K:closed_share, K:control_share].",
+    "reality": "Its 2023 Zenith Specialty Care bolt-on in the Midwest was withdrawn [D:MA-2023-0279]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Based on 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors, offset by no open platform in the sub-sector. The likelihood is 3.8%, 8th on the priority list [C:conviction, R:rank]."
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Nordic Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7171,
+  "output_tokens": 4151,
+  "usd": 0.055851743360000004,
+  "cached": false,
+  "seconds": 27.151537625002675
+ },
+ "output": {
+  "buyer": "Nordic Capital",
+  "headline": "Provider specialist with an open platform in the target's sub-sector; the add-on route fits a $200M Midwest asset.",
+  "differentiator": "Has an open platform in the target's own sub-sector for an add-on route, with 22 of 24 deals in provider services, backed by a EUR 9 billion fund. [A:angles, P:2]",
+  "why_them": "Add-on to its open platform; provider-focused sponsor with a large fund",
+  "acquirer_overview": {
+   "title": "Provider-focused sponsor, active since 2016, with a EUR 9 billion fund",
+   "points": [
+    "Financial sponsor; healthcare is one of four core industries, and 22 of 24 deals are in provider services. [P:1, A:angles]",
+    "24 deals from 2016 to 2024; 21 of 24 (88%) closed, 22 of 24 (92%) were control deals, and 9 came since 2022. [T:record, K:closed_share, K:control_share, K:recent]",
+    "Fund XI closed at its EUR 9 billion hard cap (about $11 billion), ample capacity for a $200M EV. [P:2]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Natural add-on to an open platform in the target's sub-sector",
+   "points": [
+    "The open platform in the sub-sector gives an add-on route; Platform Build was the motive in 7 of 24 deals. [A:angles, M:platform_build]",
+    "4 deals in the target's own sub-sector and 18 in adjacent provider sub-sectors; sub-sector overlap and deal count are both modest factors in its favour. [T:record, S:sector_rel, S:activity]",
+    "Second on the priority list at a 4.8% likelihood; a deal not smaller than its usual range is a slight factor in its favour. [R:rank, S:not_smaller]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Own-sub-sector buyouts show appetite for size and multiples up to 15.0x",
+   "points": [
+    "2022 Green Medical Center: $1,304M leveraged buyout at 15.0x. 2023 Harbor Medical Center: $991M leveraged buyout at 11.1x. [D:MA-2022-0045, D:MA-2023-0466]",
+    "2024 Harbor Health Network: $35M carve-out at 11.6x. 2024 Principal Physician Group: $76M recapitalization in the Midwest at 15.9x. [D:MA-2024-0339, D:MA-2024-0431]",
+    "Median deal is $77M; 8 of 24 deals fall in the comparable $100M-$400M size band. [T:record, K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but the ask sits just short of its return target",
+   "points": [
+    "70 comparable deals: EV/EBITDA of 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th. [V:comps]",
+    "Target margin of 16.8% beats the comps' 12.9% median and sits above 87% of comps, supporting the 75th percentile; this buyer's median paid is 12.5x. [V:comps, X:target]",
+    "At 5.0x leverage the IRR at the ask is 18.7% against a 20% target; maximum price is $193M on a same-multiple exit, $216M at a 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "The $200M EV is well above this buyer's typical deal size.",
+    "mitigant": "It has closed far larger deals, and 8 of 24 sit in the comparable size band.",
+    "reality": "Median deal is $77M, against a biggest of $1,304M; the size signal is only slightly favourable. [T:record, K:size_band, S:not_smaller]"
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "The IRR at the ask falls short of the sponsor's return target.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price above the $200M ask.",
+    "reality": "The IRR is 18.7% against 20%; the maximum price is $193M on a same-multiple exit and $216M on a platform exit. [V:lbo]"
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Little history in the target's region.",
+    "mitigant": "It completed a Midwest recapitalization in 2024 and has bought in neighbouring Great Plains.",
+    "reality": "Only 2 deals in the target region; region fit is a slight factor against. [T:record, S:geo_fit, D:MA-2024-0431]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "4 own-sub-sector and 18 adjacent provider deals, an open platform for an add-on, and second place on the priority list outweigh the one negative: a $77M median deal against the $200M EV. [T:record, A:angles, R:rank, C:conviction]"
+  }
+ }
+}

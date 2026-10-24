@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Advocate Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7792,
+  "output_tokens": 4581,
+  "usd": 0.06139372043000001,
+  "cached": false,
+  "seconds": 31.73208970797714
+ },
+ "output": {
+  "buyer": "Advocate Health",
+  "headline": "Advocate Health has done five deals in the target's own sub-sector, all closed, and ranks first on the priority list.",
+  "differentiator": "More deals in the target's own sub-sector than any other buyer on the priority list, and all five closed; its deal history is wholly in Healthcare Services. [T:record, K:closed_share]",
+  "why_them": "Repeat buyer in the target's own sub-sector; ranked first",
+  "acquirer_overview": {
+   "title": "A nonprofit system formed by merger, with five closed deals since 2016",
+   "points": [
+    "Nonprofit system headquartered in Charlotte, NC, created when Advocate Aurora Health and Atrium Health merged; 69 hospitals (2024). [P:1, P:2, P:3]",
+    "Five deals from 2016 to 2023, all five closed, all in the target's own sub-sector and none in adjacent ones. [T:record, K:closed_share]",
+    "Median deal of $436M at a median 13.8x EV/EBITDA; 2 deals since 2022. [T:record, K:recent]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Repeat buyer in the target's sub-sector with a platform-building record",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor in its likelihood; margin fit is a strong factor. [S:sector_share, S:margin_fit]",
+    "Platform Build in 2 of 5 deals and Scale in 2 of 5 point to appetite for add-ons to an existing base. [M:platform_build, M:scale]",
+    "Has bought from this kind of seller (a modest factor); regional history is a slight factor against. [S:own_fit_s, S:geo_fit]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Platform and strategic deals in the sub-sector, including one in the Midwest",
+   "points": [
+    "Charter Care Partners, $2,022M Platform Investment (2023) at 18.5x EV/EBITDA, closed. [D:MA-2023-0330]",
+    "Apex Medical Group, $1,920M Recapitalization (2016) in the Midwest at 17.9x. [D:MA-2016-0065]",
+    "Granite Care, $336M Platform Investment (2020) at 13.6x, the one deal in the $100M-$400M size band. [D:MA-2020-0408, K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Margin supports upper-quartile pricing, within Advocate's demonstrated range",
+   "points": [
+    "70 comparable deals: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th. [V:comps]",
+    "Target margin of 16.8% sits above the comps' median of 12.9% and above 87% of comps, supporting the 75th percentile. [V:comps]",
+    "Advocate's median paid is 13.8x; synergy headroom is $15M-$25M. Buyer revenue was not researched. [V:comps, V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Its median deal of $436M is well above the target; only 1 of 5 deals sat in the comparable size band. [T:record, K:size_band]",
+    "mitigant": "Its smallest deal was $35M, and Granite Care at $336M was in band. [T:record, D:MA-2020-0408]",
+    "reality": "It has bought across a wide size range, but the target is below its usual ticket. [K:size_band]"
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Geography is a slight factor against; only 1 of 5 deals was in the Midwest. [S:geo_fit, T:record]",
+    "mitigant": "Apex Medical Group (2016) was a Midwest deal, and its footprint includes Illinois and Wisconsin. [D:MA-2016-0065, P:2]",
+    "reality": "Geographic Expansion motivated 5 of 5 deals, so a new region is consistent with its pattern. [M:geographic_expansion]"
+   },
+   {
+    "title": "Price competition",
+    "concern": "Other buyers on the priority list may bid above its median paid of 13.8x. [V:comps]",
+    "mitigant": "Margin supports the 75th percentile at 15.3x, and synergy headroom is $15M-$25M. [V:comps, V:synergy]",
+    "reality": "It has paid 18.5x and 17.9x for platforms, so it can pay up. [D:MA-2023-0330, D:MA-2016-0065]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Five deals in the target's own sub-sector, none adjacent, one in the target's region, and #1 among the 3 highest-scored buyers left after the review, with a likelihood of 5.0%. [C:conviction, R:rank]"
+  }
+ }
+}

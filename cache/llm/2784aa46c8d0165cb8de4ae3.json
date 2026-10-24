@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 repair1 Nordic Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8832,
+  "output_tokens": 2283,
+  "usd": 0.04049371221,
+  "cached": false,
+  "seconds": 12.95901591697475
+ },
+ "output": {
+  "buyer": "Nordic Capital",
+  "headline": "Nordic Capital brings a sponsor-leading record in the target's sub-sector, an open platform for an add-on, and capacity to pay near $200M.",
+  "differentiator": "Among the financial sponsors on the list, it has the most deals in the target's own sub-sector (4) and in adjacent provider sub-sectors (18).",
+  "acquirer_overview": {
+   "title": "Provider specialist with a long, high-completion record",
+   "points": [
+    "Financial sponsor with 24 deals from 2016 to 2024; 21 of 24 (88%) closed, and 9 since 2022. [T:record, K:closed_share, K:recent]",
+    "22 of 24 deals are control deals; Physician Groups is its largest sub-sector with 10 deals. [K:control_share, K:by_sub_sector]",
+    "Healthcare is one of four focus industries; Fund XI closed at its EUR 9 billion hard cap (about $11 billion). [P:1, P:2]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Add-on to an open platform in the target's sub-sector",
+   "points": [
+    "Its angles are an add-on to an open platform in the sub-sector, and provider specialist, with 4 deals in the target's own sub-sector. [A:angles, T:record]",
+    "Deals in this or neighbouring sub-sectors and number of past deals are each a modest factor in its favour. [S:sector_rel, S:activity]",
+    "It sits second on the priority list of 10, with a likelihood of 4.8% across 107 buyers scored. [R:rank]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Closed same-sub-sector buyouts, plus a 2024 Midwest recapitalization",
+   "points": [
+    "Green Medical Center, 2022: $1,304M leveraged buyout at 15.0x; Harbor Medical Center, 2023: $991M buyout at 11.1x. Both closed. [D:MA-2022-0045, D:MA-2023-0466]",
+    "Principal Physician Group, 2024: $76M Midwest recapitalization at 15.9x, closed, in an adjacent provider sub-sector. [D:MA-2024-0431]",
+    "Harbor Health Network, 2024: $35M carve-out at 11.6x in the target's sub-sector; 8 of 24 deals sit in the $100M-$400M band. [D:MA-2024-0339, K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; Nordic's own multiples run lower",
+   "points": [
+    "70 comparable deals: 10.7x lower quartile, 12.8x median, 15.3x at the 75th. The 16.8% margin versus a 12.9% median supports the 75th. [V:comps]",
+    "Nordic's median paid is 12.5x, just under the 12.8x comparable median; its 2024 Midwest deal was struck at 15.9x. [V:comps, D:MA-2024-0431]",
+    "5.0x leverage, $128M equity cheque: 18.7% IRR at the ask against a 20% hurdle; maximum price $193M same exit, $216M at 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal is $77M, under half the $200M value.",
+    "mitigant": "It closed buyouts of $991M and $1,304M, and Fund XI is about $11 billion.",
+    "reality": "Biggest deal is $1,304M and 8 of 24 deals sit in the $100M-$400M band. [T:record, K:size_band, P:2]"
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask is 18.7%, short of the 20% hurdle.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M.",
+    "reality": "Same-exit maximum is $193M, below $200M, so the add-on route is needed to clear. [V:lbo]"
+   },
+   {
+    "title": "Thin Midwest footprint",
+    "concern": "Geography is a signal against: 2 Midwest deals, while Welsh Carson and GTCR each have 6.",
+    "mitigant": "Principal Physician Group, a Midwest deal, closed in 2024.",
+    "reality": "Its top regions are Mountain West, Great Plains and West Coast. [S:geo_fit, T:record, D:MA-2024-0431]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "High, based on 4 own-sub-sector and 18 adjacent-provider deals, an open platform for an add-on, and position 2 on the priority list; offset by a $77M median deal against $200M. [C:conviction, T:record, R:rank]"
+  }
+ }
+}

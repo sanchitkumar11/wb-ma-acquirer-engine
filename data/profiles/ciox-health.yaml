@@ -1,0 +1,11 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Ciox Health
+buyer_type: Strategic
+facts:
+- kind: merger
+  value: Merged with Datavant in a $7 billion deal
+  as_of: '2021-06-09'
+  source: https://en.wikipedia.org/wiki/Datavant
+  accessed: '2026-10-23'
+  merged_into: Datavant
+not_researched: []

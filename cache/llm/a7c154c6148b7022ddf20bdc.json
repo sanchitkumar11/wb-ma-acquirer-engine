@@ -1,0 +1,57 @@
+{
+ "purpose": "W3 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6547,
+  "output_tokens": 4154,
+  "usd": 0.054633762050000007,
+  "cached": false,
+  "seconds": 29.487323875015136
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "TPG Capital would be a new-platform bidder for this $200M Midwest target. It has a $187M Core precedent but is stretched on size, so conviction is Low.",
+  "differentiator": "Nordic Capital, Welsh Carson and Advent have open platforms and would buy this as an add-on. TPG has no open platform and would back it as a new platform, with a $187M Core Healthcare Services precedent and a $203M dental platform deal [A:angles, D:MA-2022-0350, D:MA-2021-0439].",
+  "acquirer_overview": {
+   "title": "TPG is a broad healthcare sponsor, but its typical deal is well below $200M",
+   "body": "TPG Capital is a financial sponsor with $303.0 billion in assets under management as of December 31, 2025 [P:1]. Its home sub-sector is Health Insurance, with 4 deals [B:buyer, K:by_sub_sector]. It has done 18 deals from 2016 to 2023, with a median of $88M and a range of $7M to $1,388M [T:record]. 15 of 18 closed (83%) [K:closed_share]. The model ranks it 8th in Tier 1 and 12th of 107 buyers scored, with a likelihood of 3.7% [R:rank]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The fit rests on seller type and a Core precedent, not on geography or an open platform",
+   "body": "The strongest signal is that TPG has bought from this kind of seller, at x1.14 [S:own_fit_s]. Deals in this or neighbouring sub-sectors add x1.09 [S:sector_rel]. Its one Core deal is Quality Medical Group, a $187M minority investment in 2022 at 11.2x [D:MA-2022-0350, T:record]. It also has 8 Ring 1 deals, including Granite Dental Network, a $203M platform investment in 2021 at 12.2x [T:record, D:MA-2021-0439]. It has no open platform in the sub-sector, so the target would be a new platform [A:angles]."
+  },
+  "precedent_activity": {
+   "title": "TPG is an active, mostly control buyer, with 8 of 18 deals in the target's size band",
+   "body": "8 of 18 deals sit in the $100M-$400M band, and 17 of 18 (94%) were control deals [K:size_band, K:control_share]. 4 deals have come since 2022 [K:recent]. The latest is Meridian Physician Partners, a $7M Physician Groups deal in 2023 at 12.3x [D:MA-2023-0110]. Liberty Addiction Treatment was a $118M leveraged buyout in 2021 at 8.8x [D:MA-2021-0369]. Its only Midwest deal is Metro Medical Associates, a $15M SPAC merger in 2018 [D:MA-2018-0415, T:record]."
+  },
+  "valuation_context": {
+   "title": "A 75th-percentile price is defensible, and TPG's own multiples support it",
+   "body": "70 comparable deals show EV/EBITDA of 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th [V:comps]. The target's 16.8% margin is above the comps' median of 12.9% and above 87% of comps, which supports the 75th percentile [V:comps]. TPG's own median paid is 15.7x, and Quality Medical Group went at 11.2x [V:comps, D:MA-2022-0350]. At 5.0x leverage and an 8.5% rate, the equity cheque is $128M. IRR at the ask is 18.7% against a 20% target. Maximum price is $193M on the same exit and $216M on a platform exit at 15.0x [V:lbo]."
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "TPG's median deal is $88M, against a $200M EV for this target.",
+    "mitigant": "8 of 18 deals sit in the $100M-$400M band, and the biggest deal was $1,388M.",
+    "reality": "The size is within TPG's range but not typical. The conviction basis names this as the main point against [T:record, K:size_band, C:conviction]."
+   },
+   {
+    "title": "Return gap at the ask",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. The $193M maximum price on the same exit is below the $200M EV.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M.",
+    "reality": "The price works only if TPG underwrites a platform exit at 15.0x. A straight same-exit case does not clear the target return [V:lbo]."
+   },
+   {
+    "title": "Thin regional and platform support",
+    "concern": "Geography counts against TPG at x0.94, and it has only 1 deal in the Midwest. It also has no open platform to absorb the target.",
+    "mitigant": "15 of 18 deals closed, and TPG has 1 Core deal and 8 Ring 1 deals.",
+    "reality": "The only Midwest deal is a $15M SPAC merger from 2018. Nordic Capital, Welsh Carson and Advent each have an open platform and High conviction, so TPG competes against stronger add-on bidders [S:geo_fit, T:record, K:closed_share, A:angles]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "The conviction basis shows 1 deal in the target's own sub-sector and 8 in Ring 1, but no open platform and a median deal of $88M, under half the $200M EV [C:conviction, T:record]."
+  }
+ }
+}

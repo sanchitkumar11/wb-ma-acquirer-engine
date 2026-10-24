@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7468,
+  "output_tokens": 2641,
+  "usd": 0.041345749550000005,
+  "cached": false,
+  "seconds": 18.296889999997802
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Sponsor with prior deals in the target's own sub-sector, a Midwest precedent, and a history of paying above the comparable range.",
+  "differentiator": "Its median 17.1x paid sits above the comparable 75th percentile of 15.3x, and it has bought in the target's own sub-sector and the Midwest. Peer comparison not available here. [T:record, V:comps]",
+  "why_them": "Sponsor that pays upper-quartile; bought in our sub-sector and the Midwest",
+  "acquirer_overview": {
+   "title": "Large financial sponsor with a decade of control deals",
+   "points": [
+    "Financial sponsor; Private Equity segment held $416.4 billion of Total Assets Under Management as of December 31, 2025 [P:1].",
+    "25 deals from 2015 to 2024, 22 closed; 23 of 25 were control deals; median deal $342M [T:record, K:closed_share, K:control_share].",
+    "Seventh on the priority list of 10, with a likelihood of 4.3%; most deals (16) fall outside provider services [R:rank, T:record]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Own-sub-sector precedents and platform-building history support the fit",
+   "points": [
+    "Deals in this or neighbouring sub-sectors and past deal count are each a modest factor in its likelihood [S:sector_rel, S:activity].",
+    "Platform Build was a motive in 9 of 25 deals, well above the 23% share across all deals in the file [M:platform_build].",
+    "2 deals in the target's own sub-sector and 7 in adjacent provider sub-sectors; no open platform in the sub-sector, so a new platform bet [T:record, A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two Healthcare Services deals in 2021, one in the Midwest",
+   "points": [
+    "Peak Medical Management: $342M SPAC Merger, 2021, Midwest, at 10.0x EV/EBITDA, closed [D:MA-2021-0407].",
+    "Evergreen Care Solutions: $299M Bolt-on Acquisition, 2021, Southwest, at 14.6x, closed [D:MA-2021-0195].",
+    "Adjacent dental: Crest Oral Health, $558M Leveraged Buyout, 2021, at 13.5x; North Smile Group, $222M, 2021, at 13.5x [D:MA-2021-0164, D:MA-2021-0453]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; return at the ask falls short",
+   "points": [
+    "70 comparable deals show 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th; we defend the 75th percentile [V:comps].",
+    "Target margin of 16.8% sits above the comps' median of 12.9% and above 87% of comps; Blackstone's own median paid is 17.1x [V:comps].",
+    "At 5.0x leverage and a $128M equity cheque, IRR at the ask is 18.7% against a 20% target [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "At the same exit the maximum price is $193M, so the bid needs a platform-exit case [V:lbo]."
+   },
+   {
+    "title": "Regional footprint",
+    "concern": "Having bought in this or a neighbouring region is a slight factor against it [S:geo_fit].",
+    "mitigant": "Peak Medical Management was a Midwest deal in the target's own sub-sector [D:MA-2021-0407].",
+    "reality": "Only 2 of 25 deals were in the Midwest [T:record]."
+   },
+   {
+    "title": "Provider focus and platform",
+    "concern": "16 of 25 deals were outside provider services, and there is no open platform in the sub-sector [T:record, A:angles].",
+    "mitigant": "It has 2 deals in the target's own sub-sector and 7 in adjacent provider sub-sectors [T:record].",
+    "reality": "Provider deals are 9 of 25, so the target would be a new platform [A:angles]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Support is 2 deals in the target's own sub-sector and 7 in adjacent provider sub-sectors; neutral is the absence of an open platform in the sub-sector. [C:conviction]"
+  }
+ }
+}

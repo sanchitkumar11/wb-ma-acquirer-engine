@@ -1,0 +1,20 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Mass General Brigham
+buyer_type: Strategic
+facts:
+- kind: revenue
+  value: Annual revenue $20.6 billion in 2024 (infobox says $22.6 billion; flagged in the source as needing a citation)
+  as_of: '2024-12-31'
+  source: https://en.wikipedia.org/wiki/Mass_General_Brigham
+  accessed: '2026-10-23'
+  amount_usd_mm: 20600
+- kind: footprint
+  value: Hospitals mainly in Massachusetts, plus Wentworth-Douglass Hospital in New Hampshire (acquired 2017)
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Mass_General_Brigham
+  accessed: '2026-10-23'
+  states:
+  - MA
+  - NH
+not_researched:
+- stated strategy

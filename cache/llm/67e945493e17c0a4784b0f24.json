@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8304,
+  "output_tokens": 3149,
+  "usd": 0.04809771939000001,
+  "cached": false,
+  "seconds": 22.2793636249844
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Blackstone has bought twice in the target's own sub-sector, including a Midwest deal, and historically pays well above the comparable-deal range.",
+  "differentiator": "Pays at the top of the priority list: median 17.1x, above the 75th percentile of comparable deals (15.3x), backed by $416.4 billion of private equity assets under management. [K:closed_share, V:comps, P:1]",
+  "why_them": "Pays top-of-list multiples; prior Midwest healthcare services deal",
+  "acquirer_overview": {
+   "title": "Large sponsor with a broad record and selective provider exposure",
+   "points": [
+    "Financial sponsor with 25 deals from 2015 to 2024; 22 of 25 (88%) closed, 23 of 25 (92%) were control deals. [T:record, K:closed_share, K:control_share]",
+    "Private Equity segment holds $416.4 billion of total assets under management as of December 31, 2025. [P:1]",
+    "Only 9 of 25 deals are in provider services; 16 sit outside, and its home sub-sector is Health Insurance. [A:angles, T:record, B:buyer]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same-sub-sector precedent, though sector and geography signals are only modest",
+   "points": [
+    "Deals in this or neighbouring sub-sectors and number of past deals are both modest factors in its likelihood. [S:sector_rel, S:activity]",
+    "Growth was a motive in 11 of 25 deals and platform build in 9 of 25, which suits an 11.0% grower. [M:high_growth, M:platform_build, X:target]",
+    "Two deals in the target's own sub-sector and seven in adjacent provider sub-sectors; it has no open platform, so this would be a new position. [T:record, A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Four relevant provider deals since 2021, one in the Midwest",
+   "points": [
+    "Peak Medical Management: $342M SPAC Merger, 2021, Midwest, 10.0x EBITDA, closed. Same sub-sector and region as the target. [D:MA-2021-0407]",
+    "Evergreen Care Solutions: $299M Bolt-on Acquisition, 2021, same sub-sector, 14.6x, closed. [D:MA-2021-0195]",
+    "Dental: Crest Oral Health ($558M Leveraged Buyout, 13.5x) and North Smile Group ($222M Management Buyout, 13.5x), both 2021 and closed. [D:MA-2021-0164, D:MA-2021-0453]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and Blackstone's own multiples support it",
+   "points": [
+    "Comparable deals: 25th percentile 10.7x, median 12.8x, 75th percentile 15.3x. The 75th percentile is defensible because the 16.8% margin exceeds the comps' 12.9% median. [V:comps]",
+    "Blackstone's median paid of 17.1x is above that 75th percentile; the 75th percentile needs $13.1M of EBITDA. [V:comps, T:record]",
+    "Ability to pay: 5.0x leverage and a $128M equity cheque give an IRR at the ask of 18.7% against a 20% target. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "Maximum price is $193M on the same exit, so the bid depends on an add-on exit story. [V:lbo]"
+   },
+   {
+    "title": "Regional and sector focus",
+    "concern": "Geography is a slight factor against; only 2 deals are in the target's region. [S:geo_fit, T:record]",
+    "mitigant": "One of those is Peak Medical Management, a 2021 Midwest deal in the target's sub-sector. [D:MA-2021-0407]",
+    "reality": "Most of its record sits outside provider services (16 of 25 deals). [T:record]"
+   },
+   {
+    "title": "Competitive process and platform gap",
+    "concern": "No open platform in the sub-sector, and other priority-list buyers have stronger sub-sector records. [A:angles, R:rank]",
+    "mitigant": "It has done a bolt-on and a SPAC merger in the target's sub-sector. [D:MA-2021-0195, D:MA-2021-0407]",
+    "reality": "Ranked 7th on the priority list of 10 and 9th overall, with a 4.3% likelihood. [R:rank]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Two deals in the target's own sub-sector and seven in adjacent provider sub-sectors support the case; the lack of an open platform in the sub-sector keeps it from High. [C:conviction, T:record]"
+  }
+ }
+}

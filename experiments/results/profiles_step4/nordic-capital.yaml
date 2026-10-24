@@ -1,0 +1,19 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Nordic Capital
+buyer_type: Financial Sponsor
+facts:
+- kind: mandate
+  value: Healthcare is one of four core industries (with Technology & Payments, Financial Services, Services & Industrial
+    Technology)
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Nordic_Capital
+  accessed: '2026-10-23'
+  focus: multi-sector, healthcare core
+- kind: fund_size
+  value: Fund XI closed at its EUR 9 billion hard cap (about $11 billion); cites the PR Newswire release
+  as_of: '2022-10-31'
+  source: https://en.wikipedia.org/wiki/Nordic_Capital
+  accessed: '2026-10-23'
+  amount_usd_mm: 11000
+  note: close announced October 2022; day not given, month end used
+not_researched: []

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Welsh Carson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8470,
+  "output_tokens": 4399,
+  "usd": 0.06092970191000001,
+  "cached": false,
+  "seconds": 30.455166917003226
+ },
+ "output": {
+  "buyer": "Welsh Carson",
+  "headline": "Provider-focused sponsor with an open platform in the sub-sector, Midwest depth and a record of paying upper-quartile multiples",
+  "differentiator": "Ties GTCR for the deepest Midwest record (6 deals) and, unlike GTCR, brings an open platform in the sub-sector; its 16.2x median paid sits above most sponsor peers. [T:record, A:angles]",
+  "why_them": "Add-on to open platform; Midwest depth; pays upper-quartile prices",
+  "acquirer_overview": {
+   "title": "Healthcare sponsor with 23 deals and a provider specialism",
+   "points": [
+    "Financial sponsor with 23 deals between 2017 and 2023; 18 closed (78%) [T:record, K:closed_share].",
+    "Provider deals are 16 of 23: 15 in adjacent provider sub-sectors and 1 in the target's own sub-sector [A:angles, T:record].",
+    "Healthcare and technology mandate; a 2023 headline cites over $5 Billion raised in its largest private equity fund to date [P:1, P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are its strongest positive factor in the likelihood, though only a modest one [S:sector_rel].",
+    "Cross-sell drove 8 of 23 deals, a distinct motive against 21% of all deals in the file [M:cross_sell].",
+    "Its open platform makes the target an add-on; it has 6 deals in the Midwest and bought Jefferson Ambulatory Care there [A:angles, T:record, D:MA-2021-0083]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Closest precedent is a Midwest deal in the target's own sub-sector",
+   "points": [
+    "Jefferson Ambulatory Care: $75M Management Buyout, 2021, Midwest, 17.8x EV/EBITDA, closed [D:MA-2021-0083].",
+    "Woodland PACE: $204M Management Buyout, 2021, 17.6x, closed. Clearwater Mental Health: $398M Recapitalization, 2023, Midwest, 16.8x, withdrawn [D:MA-2021-0025, D:MA-2023-0166].",
+    "9 of its 23 deals sit in the comparable $100M-$400M size band [K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Target margin supports 75th percentile; buyer's history pays above it",
+   "points": [
+    "70 comparable deals show 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th. Target margin of 16.8% against a 12.9% comps median supports the 75th [V:comps].",
+    "Its own median paid is 16.2x, above the comparable 75th percentile of 15.3x [T:record, V:comps].",
+    "Ability to pay: 5.0x leverage and a $128M equity cheque give 18.7% IRR at the ask against a 20% target; maximum price is $193M on a same-multiple exit, $216M on a platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below its 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "On a same-multiple exit the maximum is $193M, so the bid depends on underwriting the add-on exit [V:lbo]."
+   },
+   {
+    "title": "Completion record",
+    "concern": "18 of 23 deals closed (78%); closing share is a slight factor against it [K:closed_share, S:close_rate_s].",
+    "mitigant": "The listed withdrawals were recapitalizations; its listed buyouts all closed [D:MA-2023-0166, D:MA-2022-0024, D:MA-2021-0083].",
+    "reality": "Clearwater Mental Health, a $398M Midwest deal, was withdrawn in 2023, so completion risk is real [D:MA-2023-0166]."
+   },
+   {
+    "title": "Competitive process",
+    "concern": "Nordic Capital and Advent International also have open platforms, and strategics Advent Health and UPMC carry High conviction too.",
+    "mitigant": "Welsh Carson's 6 Midwest deals and 16.2x median paid support a strong bid [T:record].",
+    "reality": "It is fourth of 10 on the priority list at a 4.3% likelihood, so a competitive process is likely [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "One deal in the target's own sub-sector, 15 in adjacent provider sub-sectors, and an open platform in the sub-sector giving a direct add-on route to the target. [C:conviction, T:record, A:angles]"
+  }
+ }
+}

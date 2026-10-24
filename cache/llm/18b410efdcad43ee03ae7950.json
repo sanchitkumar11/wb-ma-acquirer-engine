@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Advocate Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6947,
+  "output_tokens": 3912,
+  "usd": 0.05301375247000001,
+  "cached": false,
+  "seconds": 25.608810250007082
+ },
+ "output": {
+  "buyer": "Advocate Health",
+  "headline": "Advocate Health has done all five of its deals in the target's own sub-sector and ranks first on the priority list.",
+  "differentiator": "All 5 of its deals are in the target's own sub-sector and all 5 closed. Its sub-sector share is the strongest factor in its likelihood. Peer comparison lines were not provided.",
+  "why_them": "Sub-sector specialist with a 100% close record; pays above the median multiple",
+  "acquirer_overview": {
+   "title": "A nonprofit system with a five-for-five closed record in Healthcare Services",
+   "points": [
+    "Nonprofit system headquartered in Charlotte, NC, with 69 hospitals (2024), created when Advocate Aurora Health and Atrium Health merged [P:1, P:2, P:3].",
+    "Five deals from 2016 to 2023, all in Healthcare Services; all 5 closed and all were control deals [T:record, K:closed_share, K:control_share].",
+    "Median deal $436M, from $35M to $2,022M; 2 deals since 2022 [T:record, K:recent]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A same-sub-sector add-on for a repeat platform builder",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; the target's margin fit is a strong one [S:sector_share, S:margin_fit].",
+    "Platform Build in 2 of 5 deals, against 23% of all deals in the file, so building on a platform is a distinct motive [M:platform_build].",
+    "Geography is a slight factor against; only 1 deal was in the target's region [S:geo_fit, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Platform deals in the target's sub-sector, including one in the Midwest",
+   "points": [
+    "Charter Care Partners, $2,022M Platform Investment, 2023, at 18.5x EBITDA; Granite Care, $336M Platform Investment, 2020, at 13.6x [D:MA-2023-0330, D:MA-2020-0408].",
+    "Apex Medical Group, $1,920M Recapitalization, 2016, in the Midwest, at 17.9x [D:MA-2016-0065].",
+    "Silver Health Partners, $35M Leveraged Buyout, 2022, at 13.8x; Hudson Medical Group, $436M Strategic Acquisition, 2020, at 9.3x [D:MA-2022-0311, D:MA-2020-0496]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and synergies give room to pay",
+   "points": [
+    "70 comparable deals: 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th percentile [V:comps].",
+    "Target margin of 16.8% is above the comps median of 12.9% and above 87% of comps, supporting the 75th percentile [V:comps].",
+    "Advocate's median multiple paid is 13.8x. Synergy headroom is $15M-$25M; buyer revenue was not researched [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size mismatch",
+    "concern": "Advocate's median deal is $436M, well above this target's $200M EV [T:record].",
+    "mitigant": "It has done a $35M deal and a $336M deal [D:MA-2022-0311, D:MA-2020-0408].",
+    "reality": "Only 1 of 5 deals sits in the $100M-$400M band [K:size_band]."
+   },
+   {
+    "title": "Limited regional footprint",
+    "concern": "Geography is a slight factor against; only 1 deal was in the target's region [S:geo_fit, T:record].",
+    "mitigant": "That deal was Apex Medical Group, a Midwest Recapitalization in 2016 [D:MA-2016-0065].",
+    "reality": "Geographic expansion is on all 5 deals, but also on 90% of all deals in the file [M:geographic_expansion]."
+   },
+   {
+    "title": "Merger integration",
+    "concern": "Advocate Health was created by a merger in December 2022, which may absorb management attention [P:1].",
+    "mitigant": "It has since closed a 2022 deal and a 2023 deal [D:MA-2022-0311, D:MA-2023-0330].",
+    "reality": "2 deals since 2022; the review raised no flags [K:recent]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "5 deals in the target's own sub-sector and none in adjacent ones, 1 deal in the target's region, and a #1 position among the highest-scored buyers after review [C:conviction, T:record, R:rank]."
+  }
+ }
+}

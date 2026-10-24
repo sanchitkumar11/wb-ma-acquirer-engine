@@ -1,0 +1,25 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3167,
+  "output_tokens": 841,
+  "usd": 0.01474389658,
+  "cached": false,
+  "seconds": 6.7019794580410235
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Blackstone",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:Blackstone:deals"
+    ],
+    "reason": "Only 7 of 19 deals are in provider services, none are in the Southeast, and the median deal size of $342M is about three times the $114M target. It is also a Ring 1 buyer, so the evidence for Tier 1 is weak."
+   }
+  ]
+ }
+}

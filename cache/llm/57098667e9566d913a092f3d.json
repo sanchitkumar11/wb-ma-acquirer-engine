@@ -1,0 +1,57 @@
+{
+ "purpose": "W3 write Advocate Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6285,
+  "output_tokens": 3889,
+  "usd": 0.051459772560000006,
+  "cached": false,
+  "seconds": 30.827204334025737
+ },
+ "output": {
+  "buyer": "Advocate Health",
+  "headline": "Advocate Health ranks first in Tier 1: five Core Healthcare Services deals, one in the Midwest, and a 13.8x median multiple that fits the defensible range.",
+  "differentiator": "Advocate is the only strategic on the list with a prior Midwest deal, Apex Medical Group in 2016 [D:MA-2016-0065]. Its strategic peers UPMC and Intermountain Health have no deals in the target's region. Advocate also has the deepest all-Core record, with 5 of 5 deals in Core and none in Ring 1 or the outer ring [T:record].",
+  "acquirer_overview": {
+   "title": "A nonprofit system formed in 2022, with a Healthcare Services-only deal record",
+   "body": "Advocate Health was created when Advocate Aurora Health and Atrium Health merged on 2022-12-02 [P:1]. It is headquartered in Charlotte, NC, with facilities in 6 states, including Illinois and Wisconsin [P:2]. It runs 69 hospitals (2024) [P:3]. Its record includes the Atrium deals, and its home sub-sector is Healthcare Services, closest ring Core [B:buyer]. It ranks 1st in Tier 1 out of 107 buyers scored, at a 5.0% likelihood [R:rank]. Buyer revenue has not been researched [V:synergy]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The fit is sub-sector depth plus a Midwest precedent no other strategic offers",
+   "body": "Share of deals in the target's sub-sector is the strongest signal, at x83.23 [S:sector_share]. All 5 of its deals are Healthcare Services [K:by_sub_sector]. Margin fit adds x1.37, because the target's 16.8% margin is close to what it usually buys [S:margin_fit, X:target]. Having bought from this kind of seller adds x1.24 [S:own_fit_s]. Its Midwest precedent is Apex Medical Group, a $1,920M recapitalization in 2016 at 17.9x [D:MA-2016-0065]. The target is a private Midwest services business with 11.0% growth [X:target]."
+  },
+  "precedent_activity": {
+   "title": "Five closed Core deals since 2016, but only one in the $100M-$400M band",
+   "body": "All 5 deals closed and all were control deals [K:closed_share, K:control_share]. The largest was Charter Care Partners, a $2,022M platform investment in 2023 at 18.5x [D:MA-2023-0330]. The most recent small deal was Silver Health Partners, a $35M leveraged buyout in 2022 at 13.8x [D:MA-2022-0311]. Hudson Medical Group was $436M in 2020 at 9.3x [D:MA-2020-0496]. Granite Care was $336M in 2020 at 13.6x [D:MA-2020-0408]. Only 1 of 5 deals sits in the comparable size band [K:size_band]. Two deals have come since 2022 [K:recent]."
+  },
+  "valuation_context": {
+   "title": "Price at the 75th percentile, 15.3x, which Advocate's own record can support",
+   "body": "The 70 comparable deals show EV/EBITDA of 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th [V:comps]. The target's 16.8% margin is above 87% of comps, whose median is 12.9%. That supports the 75th percentile [V:comps]. Advocate's median paid is 13.8x, above the comp median and below the 75th [V:comps, T:record]. Its two largest deals cleared 17.9x and 18.5x [D:MA-2016-0065, D:MA-2023-0330]. Synergy headroom is $15M-$25M, from cost synergies of 3-5% of implied opex, capitalised and half realised [V:synergy]. Balance-sheet capacity is not researched [V:synergy]."
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Advocate's median deal is $436M, against a target in the $100M-$400M band.",
+    "mitigant": "It has done a $336M deal and a $35M deal, so it can transact below its median [D:MA-2020-0408, D:MA-2022-0311].",
+    "reality": "Only 1 of 5 deals falls in the target's size band, so a $200M deal would be smaller than its typical purchase [K:size_band, T:record]."
+   },
+   {
+    "title": "Geography signal against",
+    "concern": "Having bought in this or a neighbouring region lowers the odds, at x0.93.",
+    "mitigant": "It has one Midwest deal, Apex Medical Group in 2016, and its footprint includes Illinois and Wisconsin [D:MA-2016-0065, P:2].",
+    "reality": "Just 1 of its 5 deals is in the target's region, and that deal is eight years old. Geography is a mild negative, not a barrier [S:geo_fit, T:record]."
+   },
+   {
+    "title": "Crowded process and low absolute likelihood",
+    "concern": "The likelihood is 5.0% across 107 buyers, and open-platform sponsors such as Nordic Capital, Welsh Carson and Advent will compete.",
+    "mitigant": "Advocate ranks first in Tier 1, and its all-Core record is unmatched among strategics [R:rank, T:record].",
+    "reality": "The rank is relative. Ability to pay beyond the $15M-$25M synergy headroom is untested, and buyer revenue is not researched [V:synergy]. No review flags were raised [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "The basis is 5 deals in the target's own sub-sector with 0 in Ring 1, 1 deal in the target's region, and position 1 in Tier 1 [C:conviction]. The size-band gap is the main reason to hold the call to a measured tone [K:size_band]."
+  }
+ }
+}

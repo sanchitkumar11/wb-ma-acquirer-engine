@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Epic Systems",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8781,
+  "output_tokens": 3681,
+  "usd": 0.05437169976,
+  "cached": false,
+  "seconds": 25.531280124967452
+ },
+ "output": {
+  "buyer": "Epic Systems",
+  "headline": "Epic has the deepest record in the target's own sub-sector on the list, but states it does not acquire: a long-shot call, not a lead.",
+  "differentiator": "Four deals, all in the target's own sub-sector, the most of any buyer on the priority list, and capacity to pay at $6.7B revenue. But it states it makes no acquisitions. [T:record, P:1, P:3]",
+  "why_them": "Deepest own-sub-sector record, but says it does not acquire",
+  "acquirer_overview": {
+   "title": "Largest EHR vendor, privately held, and says it does not acquire",
+   "points": [
+    "Privately held since 1979, never took venture capital or private equity; revenue $6.7B (2025, as reported by Forbes), about 14,000 employees. [P:2, P:3, P:4]",
+    "Its own site: \"We are a software factory (no acquisitions)\". A public profile says it has never acquired another company. [P:1, P:2]",
+    "The deal file nonetheless lists 4 deals from 2018 to 2022, 3 of 4 closed (75%). That conflicts with its stated position. [T:record, K:closed_share]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector fit is real; the stated mandate is the obstacle",
+   "points": [
+    "Share of its deals in the target's sub-sector is the strongest factor in its likelihood; margin fit is a strong factor. [S:sector_share, S:margin_fit]",
+    "Technology Capability is the motive in 4 of 4 deals, a tag on only 10% of all deals in the file, so it is a distinct motive. [M:technology_capability]",
+    "Having bought in this or a neighbouring region is a modest factor for; having bought from this kind of seller is a modest factor against. [S:geo_fit, S:own_fit_s]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Four Health IT deals from 2018 to 2022, only one near this size",
+   "points": [
+    "Crest Digital Health: $440M Strategic Acquisition, 2022, National, 22.7x EBITDA, closed. [D:MA-2022-0213]",
+    "Meridian Health Analytics: $767M Platform Investment, 2018, 22.0x, closed. Oak Clinical Analytics: $15M Merger of Equals, 2021, 18.1x, terminated. [D:MA-2018-0429, D:MA-2021-0372]",
+    "Only 1 of 4 deals sits in the comparable size band ($150M-$600M). [K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Median of 21.4x is the anchor; Epic's own 22.7x sits above it",
+   "points": [
+    "13 comparable deals, all in the same sub-sector: 19.4x at the 25th percentile, 21.4x median, 23.3x at the 75th. [V:comps]",
+    "Target margin of 25.0% is above the comps' median of 22.2% but not in their top quarter, so the 50th percentile is the defensible anchor. [V:comps]",
+    "Epic's median paid is 22.7x. Synergy headroom of $14M-$23M and $6.7B revenue mean ability to pay is not the constraint. [V:comps, V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Stated no-acquisitions policy",
+    "concern": "Epic's own site says it makes no acquisitions. [R:STATED_NO_ACQUISITIONS]",
+    "mitigant": "The deal file records 4 deals, 3 closed. [T:record]",
+    "reality": "The stated policy outweighs the file; the record is not evidence it would buy. [P:1, C:conviction]"
+   },
+   {
+    "title": "Execution and recency",
+    "concern": "One of four deals was terminated, and activity has faded. [D:MA-2021-0372, K:recent]",
+    "mitigant": "The $440M Crest deal closed in 2022 at 22.7x. [D:MA-2022-0213]",
+    "reality": "Only 1 deal since 2022 and the last year in the file is 2022. [K:recent, T:record]"
+   },
+   {
+    "title": "Competitive process",
+    "concern": "Other buyers rank higher on the priority list, with similar own-sub-sector records. [N:closest_peers]",
+    "mitigant": "Epic's 4 own-sub-sector deals exceed Evolent Health's 3. [T:record, N:closest_peers]",
+    "reality": "Epic would need to change its stated policy before it could compete. [P:1]"
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Capped at Low: Epic states it does not make acquisitions, so its 4 own-sub-sector deals and strongest-factor fit are not evidence it would buy. Treat as a courtesy call, not a lead. [C:conviction, P:1]"
+  }
+ }
+}

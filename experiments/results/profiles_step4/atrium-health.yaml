@@ -1,0 +1,11 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Atrium Health
+buyer_type: Strategic
+facts:
+- kind: merger
+  value: Combined with Advocate Aurora Health to form Advocate Health
+  as_of: '2022-12-02'
+  source: https://en.wikipedia.org/wiki/Advocate_Health
+  accessed: '2026-10-23'
+  merged_into: Advocate Health
+not_researched: []

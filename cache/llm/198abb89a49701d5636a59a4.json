@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Veritas Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8341,
+  "output_tokens": 5074,
+  "usd": 0.06742169903,
+  "cached": false,
+  "seconds": 33.32199058297556
+ },
+ "output": {
+  "buyer": "Veritas Capital",
+  "headline": "Veritas Capital offers a technology-focused sponsor with a Health IT precedent and a 25.3% return at the asking price, though size is a stretch.",
+  "differentiator": "Highest close rate among the financial sponsors on the priority list (15 of 16, 94%), and its returns analysis clears the 20% hurdle at the asking price, with room to pay up to $356M.",
+  "why_them": "Technology mandate sponsor; closes deals; clears 20% IRR at ask",
+  "acquirer_overview": {
+   "title": "A technology-mandate sponsor that closes nearly everything it signs",
+   "points": [
+    "Financial sponsor with 16 deals from 2015 to 2024; 15 closed (94%) and 14 were control deals rather than minority stakes. [T:record, K:closed_share, K:control_share]",
+    "Mandate: technology or technology-enabled solutions to government and commercial customers; $50B+ AUM across 3 strategies, including committed capital. [P:1, P:2]",
+    "Mostly outside Health IT: 15 of 16 deals, with 1 in the target's own sub-sector and none in adjacent Health IT sub-sectors. [T:record]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A Health IT bolt-on precedent and a technology mandate, but a thin sector record",
+   "points": [
+    "Platform Build in 8 of 16 deals, against 23% of all deals in the file, is its most distinctive motive. [M:platform_build]",
+    "Bought Great Health Informatics ($29M, 2020, bolt-on) in the target's own sub-sector; its mandate covers technology-enabled solutions. [D:MA-2020-0309, P:1]",
+    "Share of deals closed is a modest factor for; geography and deal size are slight factors for; margin fit is slightly against. [S:close_rate_s, S:geo_fit, S:not_smaller, S:margin_fit]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "One Health IT bolt-on, plus revenue cycle deals at up to 21.0x",
+   "points": [
+    "Great Health Informatics: $29M bolt-on, 2020, 20.3x EBITDA, closed; same sub-sector as the target. [D:MA-2020-0309]",
+    "Revenue cycle: Great Reimbursement ($26M, 2022, 21.0x) and Granite RCM ($34M, 2019, 14.5x), both closed. [D:MA-2022-0294, D:MA-2019-0088]",
+    "Crown Mental Health: $453M recapitalization, 2024, 8.6x. Only 2 of 16 deals fall in the $150M-$600M size band. [D:MA-2024-0079, K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "A median-anchored price clears Veritas's returns hurdle, above its usual multiples",
+   "points": [
+    "13 comparable deals, all in the same sub-sector, span 19.4x to 23.3x EV/EBITDA with a median of 21.4x. [V:comps]",
+    "Margin of 25.0% is above the comps' median of 22.2% but not in the top quarter, so the 50th percentile is the defensible anchor. [V:comps]",
+    "Veritas's median paid is 13.7x, yet 5.0x leverage gives a 25.3% IRR at the ask against a 20% target; maximum price is $356M. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $38M is far below the $300M EV; only 2 of 16 deals sit in the comparable band. [T:record, K:size_band]",
+    "mitigant": "Its biggest deal was $2,863M and AUM is $50B+, so capacity exists. [T:record, P:2]",
+    "reality": "Capacity is not the issue; precedent at this size is thin. [K:size_band]"
+   },
+   {
+    "title": "Thin sector record",
+    "concern": "Only 1 deal in the target's own sub-sector, and no open platform there. [T:record, A:angles]",
+    "mitigant": "The Great Health Informatics bolt-on closed in 2020 at 20.3x. [D:MA-2020-0309]",
+    "reality": "With no open platform, this would be a stand-alone bet rather than an add-on. [A:angles, C:conviction]"
+   },
+   {
+    "title": "Price gap",
+    "concern": "Its median paid of 13.7x sits well below the 21.4x comparable median. [V:comps]",
+    "mitigant": "Veritas has paid 21.0x for Great Reimbursement and 20.3x for Great Health Informatics. [D:MA-2022-0294, D:MA-2020-0309]",
+    "reality": "A median-priced bid means paying above its habit, but the 25.3% IRR at ask leaves room. [V:lbo]"
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only 1 deal sits in the target's own sub-sector, there is no open platform there, and the $38M median deal is well under the $300M EV. [C:conviction, T:record]"
+  }
+ }
+}

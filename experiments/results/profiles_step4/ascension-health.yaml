@@ -1,0 +1,28 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Ascension Health
+buyer_type: Strategic
+facts:
+- kind: revenue
+  value: Revenue US$28.3 billion (2023)
+  as_of: '2023-12-31'
+  source: https://en.wikipedia.org/wiki/Ascension_(healthcare_system)
+  accessed: '2026-10-23'
+  amount_usd_mm: 28300
+- kind: footprint
+  value: 90 hospitals (2025), down from 142 in 2021; 17 states and DC as of July 1, 2025; Midwest sites in Wisconsin,
+    Indiana and Michigan
+  as_of: '2025-07-01'
+  source: https://en.wikipedia.org/wiki/Ascension_(healthcare_system)
+  accessed: '2026-10-23'
+  states:
+  - WI
+  - IN
+  - MI
+- kind: divestiture
+  value: Prime Healthcare acquired eight Chicago-area Ascension hospitals
+  as_of: '2025-03-01'
+  source: https://en.wikipedia.org/wiki/Ascension_(healthcare_system)
+  accessed: '2026-10-23'
+not_researched:
+- full state list
+- stated strategy

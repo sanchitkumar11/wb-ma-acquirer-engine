@@ -1,0 +1,12 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Cerner (Oracle)
+buyer_type: Strategic
+facts:
+- kind: merger
+  value: Oracle completed its acquisition of Cerner (now Oracle Health)
+  as_of: '2022-06-08'
+  source: https://www.sec.gov/Archives/edgar/data/1341439/000119312522169835/d290344d8k.htm
+  accessed: '2026-10-23'
+  accession: 0001193125-22-169835
+  merged_into: Oracle
+not_researched: []

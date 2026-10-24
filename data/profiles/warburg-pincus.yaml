@@ -1,0 +1,29 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Warburg Pincus
+buyer_type: Financial Sponsor
+facts:
+- kind: aum
+  value: Over $100 billion in assets under management as of March 2026, investing across sectors including health care and technology
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Warburg_Pincus
+  accessed: '2026-10-23'
+  amount_usd_mm: 100000
+- kind: fund_size
+  value: Warburg Pincus Global Growth fund closed at $14.8 billion (late 2018)
+  as_of: '2018-12-31'
+  source: https://en.wikipedia.org/wiki/Warburg_Pincus
+  accessed: '2026-10-23'
+  amount_usd_mm: 14800
+- kind: capital_raised
+  value: Has raised 22 private equity funds, which with its other funds have invested over $130 billion in more than 1,100 companies across 45 countries
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Warburg_Pincus
+  accessed: '2026-10-23'
+- kind: mandate
+  value: A growth investor across sectors (retail, industrial, energy, financial services, health care, technology, media, real estate); in December 2025 agreed with Permira to buy the software company Clearwater Analytics for $8.4 billion
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Warburg_Pincus
+  accessed: '2026-10-23'
+  focus: multi-sector
+not_researched:
+- healthcare-specific fund

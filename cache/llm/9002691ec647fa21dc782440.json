@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7498,
+  "output_tokens": 3683,
+  "usd": 0.05182573823000001,
+  "cached": false,
+  "seconds": 25.044226541998796
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "A sponsor with an open platform in the sub-sector, a 2024 same-sub-sector deal and a record of paying upper-quartile multiples; the target fits as an add-on.",
+  "differentiator": "An open platform in the sub-sector gives it an add-on route, and its median 15.5x paid sits above the comparable 75th percentile of 15.3x. Peer comparison not shown here.",
+  "why_them": "Add-on to an open platform; pays upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "Global sponsor with an 18-deal healthcare record since 2016",
+   "points": [
+    "Financial sponsor with 18 deals between 2016 and 2024; 15 of 18 (83%) closed, and 17 of 18 (94%) were control deals. [T:record, K:closed_share, K:control_share]",
+    "Flagship fund Advent Global Private Equity X is about $25 billion (2022 vintage); AUM approximately $100 billion as of November 2025. [P:1, P:2]",
+    "Median deal is $124M, and 8 of 18 deals fall in the comparable $100M-$400M size band; 5 deals since 2022. [T:record, K:size_band, K:recent]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by provider deals",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor in its likelihood; it has 1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors. [S:sector_rel, T:record]",
+    "Its open platform in the sub-sector makes the target an add-on rather than a new bet, and the size fits. [A:angles]",
+    "Margin Improvement drove 7 of 18 of its deals, which suits a target with a 16.8% EBITDA margin. [M:margin_improvement, X:target]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Recent own-sub-sector and behavioral health deals at 9.3x to 14.6x",
+   "points": [
+    "Crest Care Partners, 2024: $304M recapitalization in the target's own sub-sector at 9.3x EV/EBITDA; closed. [D:MA-2024-0120]",
+    "Crown Addiction Treatment, 2023: $123M recapitalization at 14.6x, an adjacent provider sub-sector (behavioral health); closed. [D:MA-2023-0108]",
+    "Summit DSO, 2018: $303M merger of equals in the Midwest at 11.7x; closed. [D:MA-2018-0184]"
+   ]
+  },
+  "valuation_context": {
+   "title": "The 75th percentile is defensible, and its own pricing supports it",
+   "points": [
+    "70 comparable deals price at 10.7x (25th percentile), 12.8x (median) and 15.3x (75th percentile) EV/EBITDA. [V:comps]",
+    "The target's 16.8% margin is above the comps' median of 12.9% and above 87% of comps, which supports the 75th percentile. [V:comps]",
+    "Its median multiple paid is 15.5x. At 5.0x leverage, maximum price is $193M at a same-sector exit and $216M at a 15.0x platform exit. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below its 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "The bid works only if it underwrites the add-on exit; the same-exit maximum is $193M. [V:lbo]"
+   },
+   {
+    "title": "Limited Midwest footprint",
+    "concern": "Prior purchases in this or a neighbouring region are a slight factor against; it has 1 deal in the target's region. [S:geo_fit, T:record]",
+    "mitigant": "That deal, Summit DSO ($303M, 2018), was in the Midwest and closed. [D:MA-2018-0184]",
+    "reality": "Region is a minor negative, and sub-sector and platform fit carry the case. [S:geo_fit, S:sector_rel]"
+   },
+   {
+    "title": "Thin own-sub-sector record",
+    "concern": "Only 1 of 18 deals is in the target's own sub-sector, and 10 are outside provider services. [T:record]",
+    "mitigant": "7 adjacent provider deals and an open platform in the sub-sector offer a route in. [T:record, A:angles]",
+    "reality": "Provider deals total 8 of 18, so the fit is real but not concentrated. [A:angles]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Basis: 1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors, plus an open platform in the sub-sector offering an add-on route. [C:conviction, T:record, A:angles]"
+  }
+ }
+}

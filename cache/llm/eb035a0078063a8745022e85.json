@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Nordic Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10026,
+  "output_tokens": 2823,
+  "usd": 0.048281670990000004,
+  "cached": false,
+  "seconds": 15.910115791019052
+ },
+ "output": {
+  "buyer": "Nordic Capital",
+  "headline": "Nordic Capital can add the target to its open platform in the sub-sector, backed by four own-sub-sector deals and 18 adjacent provider deals.",
+  "differentiator": "Most provider deals of any sponsor on the list (4 in the target's sub-sector, 18 adjacent), plus an open platform for add-ons. Welsh Carson and Advent also have open platforms.",
+  "why_them": "Add-on to its open provider platform; deepest provider record among sponsors",
+  "acquirer_overview": {
+   "title": "Provider specialist sponsor: 22 of 24 deals in provider services",
+   "points": [
+    "Financial sponsor with 24 deals from 2016 to 2024; 21 of 24 (88%) closed and 9 since 2022. [T:record, K:closed_share, K:recent]",
+    "Healthcare is one of four core industries; Fund XI closed at its EUR 9 billion hard cap (about $11 billion). [P:1, P:2]",
+    "Median deal $77M, largest $1,304M; 22 of 24 (92%) were control deals, not minority stakes. [T:record, K:control_share]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An open platform in the sub-sector gives a ready add-on route",
+   "points": [
+    "Four deals in the target's own sub-sector and 18 in adjacent provider sub-sectors; its sponsor angles are add-on to an open platform and provider specialist. [T:record, A:angles]",
+    "Platform Build in 7 of 24 deals shows a repeated platform-and-add-on motive that matches this target. [M:platform_build]",
+    "Midwest is the gap: 2 deals there, and the regional signal is against. A 2024 Midwest recapitalization shows it will transact there. [T:record, S:geo_fit, D:MA-2024-0431]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Precedents run from $26M to $1,304M at 9.1x to 15.9x",
+   "points": [
+    "Green Medical Center, 2022: $1,304M leveraged buyout at 15.0x EV/EBITDA, in the target's own sub-sector. [D:MA-2022-0045]",
+    "Harbor Medical Center, 2023: $991M leveraged buyout at 11.1x. Harbor Health Network, 2024: $35M carve-out at 11.6x. [D:MA-2023-0466, D:MA-2024-0339]",
+    "Principal Physician Group, 2024: $76M recapitalization in the Midwest at 15.9x. [D:MA-2024-0431]"
+   ]
+  },
+  "valuation_context": {
+   "title": "75th percentile is defensible, above Nordic's usual price",
+   "points": [
+    "70 comparable deals: interquartile range 10.7x to 15.3x, median 12.8x. The 16.8% margin beats the 12.9% comps median and 87% of comps. [V:comps]",
+    "Nordic's median paid is 12.5x, but it paid 15.0x, 15.8x and 15.9x in Green Medical Center, Hudson Behavioral and Principal Physician Group. [V:comps, D:MA-2022-0045, D:MA-2023-0355, D:MA-2024-0431]",
+    "On 5.0x leverage and a $128M equity cheque, IRR at the ask is 18.7% versus 20%; ceiling $193M, or $216M at a 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $77M is under half the target's $200M EV.",
+    "mitigant": "It has done larger deals, including $991M and $1,304M buyouts, and 8 of 24 deals sit in the comparable size band.",
+    "reality": "Capacity is proven; the open question is appetite for a mid-sized add-on. [T:record, K:size_band, D:MA-2023-0466]"
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask is 18.7%, below the 20% target.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, above the $200M EV.",
+    "reality": "The ask works only on the add-on case; the same-exit ceiling of $193M falls short. [V:lbo]"
+   },
+   {
+    "title": "Thin Midwest footprint",
+    "concern": "Only 2 of its 24 deals are in the Midwest, and the regional signal is against.",
+    "mitigant": "One was a 2024 Midwest recapitalization at 15.9x, so it has recent local experience.",
+    "reality": "Its deals cluster in the Mountain West, Great Plains and West Coast, so Midwest-focused sponsors on the list may compete harder. [K:by_region, S:geo_fit, D:MA-2024-0431]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Four own-sub-sector and 18 adjacent provider deals, an open-platform add-on route, and a #2 place on the priority list after review. The $77M median deal against a $200M EV is the main offset. [C:conviction, R:rank]"
+  }
+ }
+}

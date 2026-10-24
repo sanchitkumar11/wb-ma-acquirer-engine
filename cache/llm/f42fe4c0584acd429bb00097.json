@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7173,
+  "output_tokens": 4462,
+  "usd": 0.058965740190000004,
+  "cached": false,
+  "seconds": 30.83860008296324
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Blackstone has two precedents in the target's own sub-sector, one in the Midwest, and pays the highest median multiple on the priority list (17.1x).",
+  "differentiator": "Its median multiple paid, 17.1x, is the highest among the other buyers on the priority list, so it is the most likely to meet an upper-quartile price. [T:record, V:comps]",
+  "acquirer_overview": {
+   "title": "A scaled sponsor with a long, mostly closed record",
+   "points": [
+    "Financial sponsor with 25 deals from 2015 to 2024, 22 closed (88%), active in 10 separate years. [T:record, K:closed_share, K:years_active]",
+    "Private Equity segment held $416.4 billion of Total Assets Under Management as of December 31, 2025. [P:1]",
+    "Median deal of $342M; 6 of 25 deals sit in the $100M-$400M size band, though 16 of 25 are outside provider services. [T:record, K:size_band]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Own-sub-sector precedents and a size fit, but no open platform",
+   "points": [
+    "Two deals in the target's own sub-sector and 7 in adjacent provider sub-sectors; sector relevance is a modest factor in its favour. [T:record, S:sector_rel]",
+    "Its sponsor angle is size fit: the target is not smaller than its usual range, a slight factor in its favour. [A:angles, S:not_smaller]",
+    "It has no open platform, so this would be a new investment rather than an add-on; provider deals are 9 of 25. [A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two 2021 Healthcare Services deals, one in the Midwest",
+   "points": [
+    "Peak Medical Management: $342M SPAC Merger, 2021, Midwest, 10.0x EBITDA, closed. [D:MA-2021-0407]",
+    "Evergreen Care Solutions: $299M Bolt-on Acquisition, 2021, Southwest, 14.6x EBITDA, closed. [D:MA-2021-0195]",
+    "Adjacent dental deals in 2021: Crest Oral Health ($558M Leveraged Buyout) and North Smile Group ($222M Management Buyout), both at 13.5x. [D:MA-2021-0164, D:MA-2021-0453]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and its history pays above it",
+   "points": [
+    "70 comparable deals price at 10.7x (25th percentile), 12.8x (median) and 15.3x (75th percentile) EBITDA. [V:comps]",
+    "The target's 16.8% margin beats the comparable median of 12.9% and exceeds 87% of comparables, supporting the 75th percentile. [V:comps, X:target]",
+    "Its median paid is 17.1x; at the ask its buyout returns 18.7% against a 20% target, on a $128M equity cheque. [T:record, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "Same-exit ceiling is $193M, so the bid works only if it underwrites a platform exit. [V:lbo]"
+   },
+   {
+    "title": "No open platform, thin provider focus",
+    "concern": "No open platform in the sub-sector, and 16 of 25 deals are outside provider services. [A:angles, T:record]",
+    "mitigant": "Two own-sub-sector deals and 7 adjacent provider deals show real provider experience. [T:record]",
+    "reality": "Provider deals are 9 of 25, so the buyer would be building a position rather than adding to one. [A:angles]"
+   },
+   {
+    "title": "Midwest footprint",
+    "concern": "Prior purchases in this or a neighbouring region are a slight signal against the buyer. [S:geo_fit]",
+    "mitigant": "It bought Peak Medical Management in the Midwest, in the target's own sub-sector. [D:MA-2021-0407]",
+    "reality": "Only 2 of its 25 deals were in the Midwest. [T:record]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Two own-sub-sector deals and 7 adjacent provider deals support the case; the absence of an open platform in the sub-sector is neutral, which keeps conviction at Medium. [C:conviction]"
+  }
+ }
+}

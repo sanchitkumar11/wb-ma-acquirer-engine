@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write UPMC",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7131,
+  "output_tokens": 2917,
+  "usd": 0.04343175690000001,
+  "cached": false,
+  "seconds": 22.081604750012048
+ },
+ "output": {
+  "buyer": "UPMC",
+  "headline": "UPMC has bought only in the target's own sub-sector, closed all three deals, and has US$27.7 billion of revenue behind a Midwest entry.",
+  "differentiator": "All three of its deals sit in the target's own sub-sector and all closed (3 of 3). It is a strategic buyer with no deals in adjacent sub-sectors, so its record is focused.",
+  "why_them": "Strategic with a pure same-sub-sector record; Midwest entry",
+  "acquirer_overview": {
+   "title": "A strategic provider with a focused, fully closed record",
+   "points": [
+    "Strategic buyer with revenue of US$27.7 billion (2023); hospitals in Pennsylvania, Maryland and New York [P:1, P:2].",
+    "Three deals from 2018 to 2020, all in the target's own sub-sector, all control deals, and all closed [T:record, K:closed_share, K:control_share].",
+    "Washington Health System merged with UPMC in 2024; no acquisition has been recorded since 2022 [P:2, K:recent]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same-sub-sector focus makes the target a natural fit",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor in its likelihood; the target's margin fit is a strong factor [S:sector_share, S:margin_fit].",
+    "Platform build and cross-sell each drove 1 of 3 deals, tags that are less common across the file than geographic expansion [M:platform_build, M:cross_sell].",
+    "It ranks 3rd on the priority list with a 4.7% likelihood. It has no deal in the Midwest, so this would be a regional entry [R:rank, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three same-sub-sector deals, one of them larger than the target",
+   "points": [
+    "Principal Behavioral Health: $444M bolt-on, 2019, 11.7x EBITDA, Closed [D:MA-2019-0090].",
+    "Sterling Care Network: $55M strategic acquisition, 2020, 11.3x [D:MA-2020-0312]. Keystone Behavioral Health: $33M recapitalization, 2018, 17.0x [D:MA-2018-0486].",
+    "None of the three falls in the $100M-$400M size band, and the last deal was in 2020 [K:size_band, T:record]."
+   ]
+  },
+  "valuation_context": {
+   "title": "A 75th-percentile ask is defensible; UPMC's history sits lower",
+   "points": [
+    "Comparable deals (70) show 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th [V:comps].",
+    "The target's 16.8% margin beats the comps' 12.9% median and sits above 87% of comps, supporting the 75th percentile [V:comps].",
+    "UPMC's median paid is 11.7x, but synergy headroom of $15M-$25M and US$27.7 billion of revenue support a stretch [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Price gap to the ask",
+    "concern": "UPMC's median paid of 11.7x is below the 12.8x comparable median and the 15.3x 75th percentile [V:comps].",
+    "mitigant": "Synergy headroom of $15M-$25M could bridge part of the gap [V:synergy].",
+    "reality": "Expect an opening bid below the 75th percentile unless competing bidders push it up [V:comps]."
+   },
+   {
+    "title": "No Midwest footprint",
+    "concern": "No deal in the target's region; hospitals are in Pennsylvania, Maryland and New York [T:record, P:2].",
+    "mitigant": "Geographic expansion drove 2 of its 3 deals [M:geographic_expansion].",
+    "reality": "That motive is common across the file, so it is weak evidence of a Midwest move [M:geographic_expansion]."
+   },
+   {
+    "title": "Dormant acquirer",
+    "concern": "Last deal was in 2020, and none since 2022; recency is a slight factor against [K:recent, S:recency].",
+    "mitigant": "Washington Health System merged with UPMC in 2024 [P:2].",
+    "reality": "The record is only three deals, so appetite should be tested on the call [T:record]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "All 3 deals are in the target's own sub-sector and none in adjacent ones, and UPMC is among the 3 highest-scored buyers after review (#3). Having no deal in the target's region is treated as neutral [C:conviction]."
+  }
+ }
+}

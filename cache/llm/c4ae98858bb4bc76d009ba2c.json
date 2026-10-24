@@ -1,0 +1,43 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3614,
+  "output_tokens": 1310,
+  "usd": 0.020327878480000002,
+  "cached": false,
+  "seconds": 9.873276082973462
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Aspen Dental (ADMI)",
+    "action": "promote",
+    "code": "ARCHETYPE_FIT",
+    "fact_ids": [
+     "F:Aspen Dental (ADMI):deals"
+    ],
+    "reason": "Dental strategic with all of its deals in provider services and a $280M median deal size, which covers the $222M target. It has no capacity flag."
+   },
+   {
+    "buyer": "Vista Equity",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Vista Equity:deals"
+    ],
+    "reason": "14 of 17 deals are in provider services and 3 are in Mountain West. That is a stronger regional and sector record than several current Tier 1 sponsors, and the $154M median is near the target size."
+   },
+   {
+    "buyer": "Advent International",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:Advent International:deals"
+    ],
+    "reason": "Only 6 of 14 deals are in provider services and none are in Mountain West. The card shows no dental or regional strategy, so Tier 1 placement is not supported."
+   }
+  ]
+ }
+}

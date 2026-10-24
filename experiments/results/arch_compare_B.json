@@ -1,0 +1,72 @@
+{
+ "W2": [
+  {
+   "run": 1,
+   "pass_before_repair": 5,
+   "pass_after_repair": 5,
+   "specificity": 1.7,
+   "overlap_max": 0.433,
+   "overlap_mean": 0.126,
+   "generic_final": 0,
+   "usd": 0.0,
+   "seconds": 0.0
+  },
+  {
+   "run": 2,
+   "pass_before_repair": 4,
+   "pass_after_repair": 4,
+   "specificity": 1.74,
+   "overlap_max": 0.292,
+   "overlap_mean": 0.11,
+   "generic_final": 0,
+   "usd": 0.0,
+   "seconds": 0.0
+  },
+  {
+   "run": 3,
+   "pass_before_repair": 4,
+   "pass_after_repair": 4,
+   "specificity": 1.72,
+   "overlap_max": 0.337,
+   "overlap_mean": 0.097,
+   "generic_final": 0,
+   "usd": 0.0,
+   "seconds": 0.0
+  }
+ ],
+ "W3": [
+  {
+   "run": 1,
+   "pass_before_repair": 6,
+   "pass_after_repair": 10,
+   "specificity": 1.73,
+   "overlap_max": 0.226,
+   "overlap_mean": 0.09,
+   "generic_final": 0,
+   "usd": 0.7779,
+   "seconds": 71.6
+  },
+  {
+   "run": 2,
+   "pass_before_repair": 6,
+   "pass_after_repair": 10,
+   "specificity": 1.81,
+   "overlap_max": 0.223,
+   "overlap_mean": 0.081,
+   "generic_final": 0,
+   "usd": 0.0,
+   "seconds": 0.0
+  },
+  {
+   "run": 3,
+   "pass_before_repair": 5,
+   "pass_after_repair": 10,
+   "specificity": 1.71,
+   "overlap_max": 0.239,
+   "overlap_mean": 0.054,
+   "generic_final": 0,
+   "usd": 0.0,
+   "seconds": 0.0
+  }
+ ]
+}

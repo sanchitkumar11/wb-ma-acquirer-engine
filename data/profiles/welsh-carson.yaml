@@ -1,0 +1,18 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Welsh Carson
+buyer_type: Financial Sponsor
+facts:
+- kind: mandate
+  value: Focuses on investing in technology and healthcare; US$8 billion of capital raised devoted to healthcare
+    (2016 figure)
+  as_of: '2019-07-31'
+  source: https://en.wikipedia.org/wiki/Welsh,_Carson,_Anderson_%26_Stowe
+  accessed: '2026-10-23'
+  focus: healthcare and technology
+- kind: fund_size
+  value: '"Raises Over $5 Billion in Its Largest Private Equity Fund to Date" (PR Newswire headline)'
+  as_of: '2023-07-12'
+  source: https://www.prnewswire.com/news/welsh%2C-carson%2C-anderson-%26-stowe/
+  accessed: '2026-10-23'
+  amount_usd_mm: 5000
+not_researched: []

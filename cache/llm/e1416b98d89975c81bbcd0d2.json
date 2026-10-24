@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3398,
+  "output_tokens": 410,
+  "usd": 0.01089589396,
+  "cached": false,
+  "seconds": 4.540760500007309
+ },
+ "output": {
+  "headline": "Dental strategics and healthcare-focused sponsors form the buyer universe for this Southeast dental practice; upper-quartile pricing at 15.4x EV/EBITDA is defensible.",
+  "sentences": [
+   "Call Heartland Dental and Aspen Dental (ADMI) first, since both have closed larger deals in the target's own sub-sector; the order among the seven sponsors is close to a tie, with the winner in the top 3 only 28% of the time against 20% at random [E:tier1, E:sponsor_ordering].",
+   "Upper-quartile pricing at 15.4x EV/EBITDA is defensible because the target's 18.0% margin beats the comparable median of 12.4%; strategics can pay it comfortably, while sponsors would be stretching [E:valuation, E:tier1].",
+   "The review removed and merged no one; Veritas Capital, Vista Equity and Francisco Partners stay in Tier 2 until their appetite for tech-enabled services is confirmed before outreach [E:review, E:tier2].",
+   "Most buyers in provider deals share one motive, geographic expansion, cited in 90% of 284 provider deals, so lead the pitch with the target's Southeast footprint [E:motives]."
+  ]
+ }
+}

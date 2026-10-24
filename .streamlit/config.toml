@@ -1,0 +1,10 @@
+# One small theme: navy headings (set in app.py), grey body text, a single accent colour.
+[theme]
+base = "light"
+primaryColor = "#0E7C86"
+textColor = "#3C4650"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5F8"
+
+[client]
+toolbarMode = "minimal"

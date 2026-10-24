@@ -1,0 +1,38 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Evolent Health
+buyer_type: Strategic
+facts:
+- kind: status
+  value: Independent public company (NYSE EVH); no merger agreement in its 8-Ks since 2025. A February 2025 cooperation agreement with the activist investor Engaged Capital refreshed the board
+  as_of: '2025-02-04'
+  source: https://www.sec.gov/Archives/edgar/data/1628908/000162890825000010/
+  accessed: '2026-10-23'
+  accession: 0001628908-25-000010
+  status: active
+- kind: revenue
+  value: Annual revenue $1,876M (fiscal year ending 2025-12-31)
+  as_of: '2026-02-25'
+  source: https://data.sec.gov/api/xbrl/companyfacts/CIK0001628908.json
+  accessed: '2026-10-23'
+  accession: 0001628908-26-000015
+  amount_usd_mm: 1876
+- kind: mandate
+  value: '10-K: "we may continue to acquire or invest in companies, businesses, products or technologies that complement our current products and services, enhance our market coverage or technical capabilities or offer growth opportunities"'
+  as_of: '2026-02-25'
+  source: https://www.sec.gov/Archives/edgar/data/1628908/000162890826000015/evh-20251231.htm
+  accessed: '2026-10-23'
+  accession: 0001628908-26-000015
+- kind: acquisition_8k
+  value: Completed the acquisition of National Imaging Associates (Magellan Specialty Health) for about $386.7M in cash plus 8,474,576 shares (8-K Item 2.01)
+  as_of: '2023-01-23'
+  source: https://www.sec.gov/Archives/edgar/data/1628908/000119312523012645/d331612d8k.htm
+  accessed: '2026-10-23'
+  accession: 0001193125-23-012645
+- kind: divestiture
+  value: Sold its accountable care business (Evolent Care Partners) to Privia Health for $100M plus up to $13M contingent; closed 2025-12-05 (8-K Item 8.01)
+  as_of: '2025-12-08'
+  source: https://www.sec.gov/Archives/edgar/data/1628908/000162890825000145/
+  accessed: '2026-10-23'
+  accession: 0001628908-25-000145
+not_researched:
+- footprint

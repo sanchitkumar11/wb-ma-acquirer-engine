@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3602,
+  "output_tokens": 817,
+  "usd": 0.015373883770000001,
+  "cached": false,
+  "seconds": 6.697903708030935
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Bain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Bain Capital:deals"
+    ],
+    "reason": "5 of its 23 deals are in Mountain West, tied for the most on the list, and 15 are in provider services. The $73M median is modest, but the regional and sector overlap is stronger than most Tier 1 sponsors."
+   },
+   {
+    "buyer": "Advent International",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:Advent International:deals"
+    ],
+    "reason": "Only 6 of 15 deals are in provider services, the lowest share among Tier 1 sponsors, and none are in Mountain West. The fund size does not show any behavioral health or regional focus, so it moves to Tier 2 to make room for Bain."
+   }
+  ]
+ }
+}

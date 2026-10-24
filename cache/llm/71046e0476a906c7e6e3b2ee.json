@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8337,
+  "output_tokens": 4674,
+  "usd": 0.06341370315000001,
+  "cached": false,
+  "seconds": 32.39674295904115
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "Open-platform sponsor with a 2024 deal in the target's own sub-sector, making the target a natural add-on at upper-quartile pricing.",
+  "differentiator": "Open platform in the sub-sector, plus a 15.5x median paid that is above every strategic buyer on the priority list and a behavioral health home base.",
+  "why_them": "Add-on to its open platform; pays upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "Nine active years, a control-oriented record and a roughly $25 billion fund",
+   "points": [
+    "Active since 2016 with 18 deals, 15 closed (83%), 17 of 18 control deals and 5 since 2022 [T:record, K:closed_share, K:control_share, K:recent].",
+    "Median deal is $124M, and 8 of 18 deals fall in the $100M-$400M band that brackets the target [T:record, K:size_band].",
+    "Advent Global Private Equity X is about $25 billion (2022 vintage); AUM is approximately $100 billion as of November 2025 [P:1, P:2]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor in its likelihood: 1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors [S:sector_rel, T:record].",
+    "Margin Improvement was a motive in 7 of 18 deals, and its open platform in the sub-sector makes the target an add-on [M:margin_improvement, A:angles].",
+    "Behavioral Health is its home sub-sector with 3 deals, and 8 of 18 deals are provider deals [B:buyer, K:by_sub_sector, A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "A 2024 own-sub-sector deal and a run of $100M+ provider deals",
+   "points": [
+    "Crest Care Partners: $304M Recapitalization, 2024, in the target's own sub-sector, at 9.3x EV/EBITDA [D:MA-2024-0120].",
+    "Crown Addiction Treatment ($123M, Recapitalization, 2023, 14.6x) and Principal Counseling ($163M, Minority Investment, 2021, 13.2x) [D:MA-2023-0108, D:MA-2021-0341].",
+    "Summit DSO: $303M Merger of Equals, 2018, in the Midwest at 11.7x, its one deal in the target's region [D:MA-2018-0184, T:record]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Margin supports the 75th percentile; its own multiples meet that level",
+   "points": [
+    "70 comparable deals in the $100M-$400M band: EV/EBITDA 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th [V:comps].",
+    "Target margin of 16.8% beats the comps' median of 12.9% and exceeds 87% of comps, supporting the 75th percentile [V:comps].",
+    "Its median paid is 15.5x; at 5.0x leverage the equity cheque is $128M, and maximum price is $193M at the same exit, $216M at a platform exit [V:comps, V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask is 18.7%, below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "The bid works only if Advent underwrites the add-on exit; same-exit maximum is $193M [V:lbo]."
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Only 1 deal in the target's region, and regional fit is a slight factor against [T:record, S:geo_fit].",
+    "mitigant": "Summit DSO ($303M, 2018) was a Midwest deal, and it has 3 Great Plains deals [D:MA-2018-0184, K:by_region].",
+    "reality": "Regional experience is limited, but the open platform route reduces the need for a local footprint [A:angles]."
+   },
+   {
+    "title": "Low own-sub-sector price anchor",
+    "concern": "Its latest deal in the target's sub-sector priced at 9.3x, below the comps' 25th percentile of 10.7x [D:MA-2024-0120, V:comps].",
+    "mitigant": "Its overall median paid is 15.5x, above the 75th percentile of 15.3x [T:record, V:comps].",
+    "reality": "Buyer may anchor low; the 16.8% margin is the argument for 75th-percentile pricing [V:comps]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors, plus an open platform in the sub-sector as an add-on route; thin Midwest record is the main offset [C:conviction, S:geo_fit]."
+  }
+ }
+}

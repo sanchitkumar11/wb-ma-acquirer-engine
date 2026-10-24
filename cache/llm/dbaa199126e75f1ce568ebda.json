@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 write UPMC",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7131,
+  "output_tokens": 3740,
+  "usd": 0.05166174867000001,
+  "cached": false,
+  "seconds": 25.367429916979745
+ },
+ "output": {
+  "buyer": "UPMC",
+  "headline": "UPMC is the Healthcare Services specialist: all three prior deals in the target's own sub-sector, all closed, with $15M-$25M synergy headroom.",
+  "differentiator": "Every deal sits in the target's own sub-sector and all closed (3 of 3), a clean record matching Advocate Health; its 11.7x median paid is the lowest on the priority list. [T:record, K:closed_share]",
+  "why_them": "Strategic buyer with a pure own-sub-sector deal record",
+  "acquirer_overview": {
+   "title": "A $27.7 billion strategic with a focused, fully closed deal record",
+   "points": [
+    "Strategic buyer in Healthcare Services with revenue of US$27.7 billion (2023). [P:1]",
+    "Hospitals in Pennsylvania, Maryland and New York; Washington Health System merged with UPMC in 2024. [P:2]",
+    "Three control deals from 2018 to 2020, all closed; median deal $55M. [T:record, K:closed_share, K:control_share]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Own-sub-sector focus makes the target a natural fit",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor for UPMC; target margin fit is a strong factor. [S:sector_share, S:margin_fit]",
+    "Platform Build in 1 of 3 deals and Cross-sell in 1 of 3 (21% of all deals in file) point to add-on and revenue logic. [M:platform_build, M:cross_sell]",
+    "Likelihood of 4.7%, third on the priority list of 10 and fourth overall. [R:rank]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three same-sub-sector deals, none yet in the Midwest",
+   "points": [
+    "Principal Behavioral Health: $444M bolt-on acquisition, 2019, 11.7x EBITDA. [D:MA-2019-0090]",
+    "Sterling Care Network: $55M strategic acquisition, 2020, 11.3x. Keystone Behavioral Health: $33M recapitalization, 2018, 17.0x. [D:MA-2020-0312, D:MA-2018-0486]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Defend the 75th percentile; UPMC's own history sits lower",
+   "points": [
+    "Comparable deals run 10.7x to 15.3x (median 12.8x); the target's 16.8% margin against a 12.9% comps median supports the 75th percentile. [V:comps]",
+    "UPMC's median paid is 11.7x, below the comparable median, though Keystone reached 17.0x. [V:comps, D:MA-2018-0486]",
+    "Synergy headroom of $15M-$25M (cost synergies, half realised) and US$27.7 billion revenue support the ability to pay. [V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Price gap",
+    "concern": "Median paid of 11.7x trails the 75th percentile of 15.3x. [V:comps]",
+    "mitigant": "Margin above 87% of comps supports upper-quartile pricing; Keystone paid 17.0x. [V:comps, D:MA-2018-0486]",
+    "reality": "Expect UPMC to anchor near the 12.8x median. [V:comps]"
+   },
+   {
+    "title": "No Midwest or size-band record",
+    "concern": "No deal in the target's region and 0 of 3 in the $100M-$400M band. [T:record, K:size_band]",
+    "mitigant": "The $444M Principal Behavioral Health bolt-on shows it can write a larger cheque. [D:MA-2019-0090]",
+    "reality": "Footprint is Pennsylvania, Maryland and New York; the Midwest would be new. [P:2]"
+   },
+   {
+    "title": "Quiet since 2020",
+    "concern": "No deals since 2022; the last was in 2020. [K:recent, T:record]",
+    "mitigant": "Washington Health System merged with UPMC in 2024, showing continued expansion. [P:2]",
+    "reality": "Recent activity is only a slight factor against. [S:recency]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "3 deals in the target's own sub-sector and none adjacent, and third among the highest-scored buyers after review; the absence of a deal in the target's region is neutral. [C:conviction]"
+  }
+ }
+}

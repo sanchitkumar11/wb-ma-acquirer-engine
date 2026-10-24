@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3512,
+  "output_tokens": 707,
+  "usd": 0.014093887570000001,
+  "cached": false,
+  "seconds": 5.514234290982131
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "GTCR",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:GTCR:deals"
+    ],
+    "reason": "Ring 2 buyer with 0 of 10 deals in Health IT, so there is no sector evidence to support a Tier 1 slot."
+   },
+   {
+    "buyer": "New Mountain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:New Mountain Capital:deals"
+    ],
+    "reason": "Core buyer with 2 Health IT deals and 2 Multi-Regional deals out of 16, which gives more sector and footprint evidence than the Tier 1 buyers with no Health IT deals."
+   }
+  ]
+ }
+}

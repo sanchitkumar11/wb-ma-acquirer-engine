@@ -1,0 +1,27 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Aledade
+buyer_type: Strategic
+facts:
+- kind: status
+  value: Private; became a Public Benefit Corporation in 2023, "a deliberate legal step that binds our decisions to the interests of patients, practices and society"
+  as_of: '2026-10-23'
+  source: https://aledade.com/about/
+  accessed: '2026-10-23'
+  status: active
+- kind: mandate
+  value: '"a physician-led value-based care company" that "partners with clinicians", founded "to support primary care organizations, protect clinical autonomy": a partnership model, not an owner of practices'
+  as_of: '2026-10-23'
+  source: https://aledade.com/about/
+  accessed: '2026-10-23'
+- kind: footprint
+  value: Aledade partners located in 46 states and the District of Columbia
+  as_of: '2026-10-23'
+  source: https://aledade.com/why-aledade/
+  accessed: '2026-10-23'
+- kind: size
+  value: Aledade ACOs generated more than $1B in shared savings in 2024 (CMS ACO Public Use File)
+  as_of: '2026-10-23'
+  source: https://aledade.com/about/
+  accessed: '2026-10-23'
+not_researched:
+- revenue and funding (private; not disclosed on its site)

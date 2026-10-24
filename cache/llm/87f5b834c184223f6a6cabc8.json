@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Nordic Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8007,
+  "output_tokens": 3963,
+  "usd": 0.05564372016,
+  "cached": false,
+  "seconds": 27.783186042041052
+ },
+ "output": {
+  "buyer": "Nordic Capital",
+  "headline": "Nordic Capital has an open platform in the target's sub-sector and 22 provider deals in 24, making the target a natural add-on.",
+  "differentiator": "Most deals in the target's own sub-sector (4) of any sponsor on the list, and the most in adjacent provider sub-sectors (18). It also has an open platform for add-ons. [T:record, A:angles]",
+  "why_them": "Add-on to its open platform; deepest provider record among sponsors",
+  "acquirer_overview": {
+   "title": "Provider-focused sponsor with a 24-deal record since 2016",
+   "points": [
+    "Financial sponsor; healthcare is one of four core industries. Fund XI closed at its EUR 9 billion hard cap (about $11 billion). [P:1, P:2]",
+    "24 deals from 2016 to 2024, of which 21 closed (88%); 22 of 24 are provider deals. [T:record, K:closed_share, A:angles]",
+    "Home sub-sector is Physician Groups, with 10 of 24 deals. Ranked 2 on the priority list of 10. [B:buyer, K:by_sub_sector, R:rank]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Natural add-on to an open platform in the sub-sector",
+   "points": [
+    "4 deals in the target's own sub-sector and 18 in adjacent provider sub-sectors; sub-sector relevance is a modest factor in its favour. [T:record, S:sector_rel]",
+    "Platform Build in 7 of 24 deals, against 23% of all deals in the file, supports the add-on route. [M:platform_build, A:angles]",
+    "Regional fit is the weak point: only 2 deals in the Midwest, and the regional signal works against. [T:record, S:geo_fit]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Own-sub-sector deals span $26M to $1,304M, mostly recent",
+   "points": [
+    "2022 Green Medical Center: $1,304M leveraged buyout at 15.0x, the same sub-sector as the target. [D:MA-2022-0045]",
+    "2024 Principal Physician Group: $76M recapitalization in the Midwest at 15.9x, an adjacent provider sub-sector. [D:MA-2024-0431]",
+    "2023 Harbor Medical Center: $991M leveraged buyout at 11.1x. 8 of its 24 deals sit in the $100M-$400M band. [D:MA-2023-0466, K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "75th percentile is defensible; Nordic's own median sits lower",
+   "points": [
+    "70 comparable deals run from 10.7x (25th percentile) to 15.3x (75th), median 12.8x. The target's 16.8% margin beats the comps' 12.9% median. [V:comps]",
+    "Nordic's median paid is 12.5x, below the comp median, though it paid 15.9x for a Midwest physician group in 2024. [V:comps, D:MA-2024-0431]",
+    "At 5.0x leverage the equity cheque is $128M. Maximum price is $193M at the same exit and $216M at a 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $77M is under half the target's $200M EV.",
+    "mitigant": "8 of 24 deals sit in the $100M-$400M band; its biggest is $1,304M.",
+    "reality": "Size is a stretch against its median but within its demonstrated range. [T:record, K:size_band]"
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask is 18.7%, below its 20% target.",
+    "mitigant": "A 15.0x platform exit lifts the maximum price to $216M, above the $200M EV.",
+    "reality": "Clears only on an add-on exit; at the same exit the maximum is $193M. [V:lbo]"
+   },
+   {
+    "title": "Thin Midwest footprint",
+    "concern": "Only 2 Midwest deals; its regional record leans West and Great Plains.",
+    "mitigant": "Principal Physician Group (2024, Midwest) shows it will buy in the region.",
+    "reality": "Welsh Carson and GTCR have more Midwest deals, so competition for the asset is real. [T:record, D:MA-2024-0431, S:geo_fit]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 4 own-sub-sector and 18 adjacent provider deals, an open platform add-on route, and #2 among the top-scored buyers after review. The $77M median deal against the $200M EV is the offset. [T:record, A:angles, R:rank]"
+  }
+ }
+}

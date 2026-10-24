@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Intermountain Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6586,
+  "output_tokens": 3721,
+  "usd": 0.050381765210000005,
+  "cached": false,
+  "seconds": 26.00452925002901
+ },
+ "output": {
+  "buyer": "Intermountain Health",
+  "headline": "Intermountain Health is a strategic with a deal in the target's own sub-sector, but one deal and no Midwest presence make this a low-conviction call.",
+  "differentiator": "Its single precedent, $789M, is larger than any peer's median deal, so a $200M target is no stretch in size. Same-sub-sector share is its strongest factor. [T:record, S:sector_share]",
+  "why_them": "Healthcare Services strategic with a platform precedent; Midwest entry",
+  "acquirer_overview": {
+   "title": "A single-deal strategic from Salt Lake City with Healthcare Services roots",
+   "points": [
+    "Strategic buyer whose home sub-sector is Healthcare Services; 33 hospitals in Utah, Colorado, Idaho and Montana, headquartered in Salt Lake City. [B:buyer, P:2]",
+    "Completed a merger with SCL Health in 2022, extending into Colorado, Kansas and Montana; it left Kansas in 2024. [P:1, P:2]",
+    "Record is one control deal, in 2022, and it closed: 1 of 1 (100%). [T:record, K:closed_share, K:control_share]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same-sub-sector share is the case; a thin record limits it",
+   "points": [
+    "Share of its deals in the target's sub-sector is the strongest factor in its likelihood. [S:sector_share]",
+    "Platform Build and Scale each apply to 1 of 1 deals, against 23% of all deals in the file. That is a distinct motive, though it rests on one deal. [M:platform_build, M:scale]",
+    "Target margin close to what it usually buys is a modest factor; a deal no bigger than any it has done is a slight factor. [S:margin_fit, S:not_bigger]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "One closed 2022 platform deal in the target's own sub-sector",
+   "points": [
+    "Paramount Care Partners: $789M Platform Investment, 2022, at 12.5x EBITDA and 3.03x revenue, closed. [D:MA-2022-0183]",
+    "That deal was Multi-Regional; it has no deals in the target's region and 0 of 1 in the $100M-$400M size band. [K:by_region, K:size_band]",
+    "No deals in adjacent provider sub-sectors and none outside provider services. [T:record]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; its own history sits lower",
+   "points": [
+    "70 comparable deals in the $100M-$400M band: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th. [V:comps]",
+    "Target margin of 16.8% sits above the comps' median of 12.9%, supporting the 75th percentile. Its own median paid is 12.5x. [V:comps]",
+    "Synergy headroom of $15M-$25M (cost synergies, half realised). Buyer revenue is not researched, so balance-sheet capacity is unconfirmed. [V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin track record",
+    "concern": "Only one deal in the file, in 2022, and recent activity is a slight factor against. [T:record, S:recency]",
+    "mitigant": "That deal was in the target's own sub-sector and closed.",
+    "reality": "No adjacent provider deals; this is why conviction is Low. [C:conviction, T:record]"
+   },
+   {
+    "title": "No Midwest footprint",
+    "concern": "No deal in the target's region; its hospitals are in Utah, Colorado, Idaho and Montana. [T:record, P:2]",
+    "mitigant": "The 2022 SCL Health merger and Geographic Expansion motive show it has entered new states before. [P:1, M:geographic_expansion]",
+    "reality": "It left Kansas in 2024, so Midwest commitment is unproven. [P:2]"
+   },
+   {
+    "title": "Price and competitive process",
+    "concern": "Its 12.5x median paid is below the 15.3x needed for upper-quartile pricing. [V:comps]",
+    "mitigant": "Synergy headroom of $15M-$25M could support a higher bid. [V:synergy]",
+    "reality": "It is 10th of 10 on the priority list at a 3.6% likelihood. [R:rank]"
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Low because it has only 1 deal in the target's own sub-sector, 0 in adjacent provider sub-sectors and none in the target's region. [C:conviction, T:record]"
+  }
+ }
+}

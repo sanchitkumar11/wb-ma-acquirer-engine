@@ -1,0 +1,35 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3394,
+  "output_tokens": 758,
+  "usd": 0.014367890600000002,
+  "cached": false,
+  "seconds": 5.933100833033677
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Intermountain Health",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "P:Intermountain Health:1",
+     "F:Intermountain Health:deals"
+    ],
+    "reason": "Health system, the natural acquirer of physician groups. Its completed SCL Health merger extends it into Colorado, Kansas and Montana, which overlaps the Mountain West target. It also has a provider services deal on record with a large median size, so capacity is not a concern."
+   },
+   {
+    "buyer": "CenterWell Home Health",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:CenterWell Home Health:deals"
+    ],
+    "reason": "The only evidence is 6 provider services deals, none in Mountain West. The card shows no stated strategy, no existing platform in the region and no archetype link to physician groups, so Tier 1 is not supported."
+   }
+  ]
+ }
+}

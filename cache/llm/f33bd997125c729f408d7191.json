@@ -1,0 +1,57 @@
+{
+ "purpose": "W3 write Intermountain Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 5345,
+  "output_tokens": 5168,
+  "usd": 0.06236978797000001,
+  "cached": false,
+  "seconds": 36.49852979200659
+ },
+ "output": {
+  "buyer": "Intermountain Health",
+  "headline": "Intermountain Health is a Core-ring strategic with a $789M Healthcare Services precedent, but a single deal and no Midwest footprint make this a low-conviction call.",
+  "differentiator": "Its one precedent is a $789M Healthcare Services platform, so a $200M target is no size stretch [D:MA-2022-0183, S:not_bigger]. The 2022 SCL Health merger shows it will enter new states to grow [P:1]. It is a strategic, so it can pay for cost synergies, unlike the sponsors on the list [V:synergy].",
+  "acquirer_overview": {
+   "title": "A Core-ring strategic in the target's own sub-sector, with a one-deal record",
+   "body": "Intermountain Health is a Strategic buyer. Its home sub-sector is Healthcare Services, the target's own, and its closest ring is Core [B:buyer]. Its record is one closed deal, in 2022 [T:record, K:closed_share]. It completed a merger with SCL Health in April 2022, extending into Colorado, Kansas and Montana [P:1]. It now runs 33 hospitals in Utah, Colorado, Idaho and Montana from Salt Lake City, and left Kansas in 2024 [P:2]. It sits 10th in Tier 1 and 15th of 107 buyers scored, at a likelihood of 3.6% [R:rank]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The case rests on sub-sector focus; region and deal history are thin",
+   "body": "The strongest signal is the share of its deals in the target's sub-sector, at x83.23 [S:sector_share]. Margin fit adds x1.25, and a deal no bigger than any it has done adds x1.10 [S:margin_fit, S:not_bigger]. All of this comes from one deal, Paramount Care Partners [K:by_sub_sector, D:MA-2022-0183]. The target is a private Midwest business with a 16.8% margin and 11.0% growth [X:target]. Intermountain has no deals in that region [T:record]. Advocate Health, by contrast, already has a Midwest deal."
+  },
+  "precedent_activity": {
+   "title": "One precedent: Paramount Care Partners, $789M, 12.5x, 2022",
+   "body": "Paramount Care Partners was a Core Healthcare Services platform investment in 2022. It was Multi-Regional, closed at $789M, 12.5x EBITDA and 3.03x revenue [D:MA-2022-0183]. That deal is also its median and smallest deal [T:record]. None of its deals fall in the $100M-$400M size band [K:size_band]. It took control, not a minority stake, in 1 of 1 deals [K:control_share]. It has no Ring 1 or outer-ring deals [T:record]. The one deal since 2022 gives a recency signal of x0.94, which works against it [K:recent, S:recency]."
+  },
+  "valuation_context": {
+   "title": "Defensible at the 75th percentile, above the only multiple Intermountain has paid",
+   "body": "There are 70 comparable deals, 9 of them Core, in the $100M-$400M band. EV/EBITDA runs 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th. Median EV/Revenue is 2.29x [V:comps]. The target's 16.8% margin beats the comps' 12.9% median and sits above 87% of comps, which supports the 75th percentile [V:comps, X:target]. Intermountain's own median paid is 12.5x, from one deal [V:comps, T:record]. Reaching 15.3x means paying above its only precedent. Synergy headroom is $15M-$25M, from cost synergies of 3-5% of implied opex, capitalised at the median multiple, half realised [V:synergy]. Buyer revenue is not researched."
+  },
+  "risk_flags": [
+   {
+    "title": "One-deal evidence base",
+    "concern": "The x83.23 sector signal rests on a single deal. The buyer has 1 deal in the sub-sector and 0 in Ring 1 [S:sector_share, C:conviction].",
+    "mitigant": "That deal was Core, in the same sub-sector, a control deal, and it closed [D:MA-2022-0183, K:closed_share, K:control_share].",
+    "reality": "One closed deal shows capability, not a repeatable buying pattern. Conviction is Low for this reason [C:conviction]."
+   },
+   {
+    "title": "No Midwest footprint",
+    "concern": "Intermountain has 0 deals in the target's region. Its hospitals are in Utah, Colorado, Idaho and Montana, and it left Kansas in 2024 [T:record, P:2].",
+    "mitigant": "The 2022 SCL Health merger shows it will extend into new states [P:1].",
+    "reality": "The latest move was a Kansas exit, so a Midwest entry would reverse recent direction. The MD should test appetite on the first call [P:2]."
+   },
+   {
+    "title": "Competitive process and capacity",
+    "concern": "Sponsors with open platforms in the sub-sector (Nordic Capital, Welsh Carson, Advent) can bid for the target as an add-on. Advocate already has a Midwest deal.",
+    "mitigant": "Synergy headroom of $15M-$25M gives a strategic some price room [V:synergy].",
+    "reality": "Its 12.5x median sits below the 15.3x 75th percentile, and buyer revenue is not researched, so capacity to pay is unverified [V:comps, V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only 1 deal sits in the target's own sub-sector and 0 in Ring 1, and there is no deal in the target's region [C:conviction, T:record]. The sector fit is real, but it is too thinly evidenced to rate higher."
+  }
+ }
+}

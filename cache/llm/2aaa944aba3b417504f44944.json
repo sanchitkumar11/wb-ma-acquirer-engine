@@ -1,0 +1,75 @@
+{
+ "purpose": "W3 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8339,
+  "output_tokens": 3920,
+  "usd": 0.05587771063,
+  "cached": false,
+  "seconds": 27.116126208973583
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Open dental platform route, two prior dental deals and the highest median multiple paid on the priority list make Blackstone a natural add-on buyer.",
+  "differentiator": "Pays the highest median multiple of the buyers profiled (17.1x), with 7 adjacent provider deals, an open platform and capacity for far larger deals than the $80M target. [T:record, A:angles]",
+  "why_them": "Add-on to its open dental platform; pays above-range multiples",
+  "acquirer_overview": {
+   "title": "A large sponsor with a ten-year, mostly closed record",
+   "points": [
+    "Financial sponsor with 25 deals from 2015 to 2024; 22 of 25 (88%) closed. [T:record, K:closed_share]",
+    "Home sub-sector is Health Insurance (6 deals); median deal is $342M and median EV/EBITDA paid is 17.1x. [B:buyer, K:by_sub_sector, T:record]",
+    "Private Equity segment: $416.4 billion of Total Assets Under Management as of December 31, 2025. [P:1]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by dental and provider deals",
+   "points": [
+    "Platform Build in 9 of 25 deals; its open platform in the sub-sector makes the target an add-on rather than a new bet. [M:platform_build, A:angles]",
+    "Deals in this or neighbouring sub-sectors are a modest factor in its likelihood: 2 in dental and 7 in adjacent provider sub-sectors. [S:sector_rel, T:record]",
+    "Against: dental is a small share of its deals (a slight factor against) and only 1 deal is in the Southeast. [S:sector_sh",
+    "are, T:record]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two dental buyouts in 2021, both at 13.5x",
+   "points": [
+    "Crest Oral Health: $558M leveraged buyout, 2021, 13.5x EV/EBITDA, closed. [D:MA-2021-0164]",
+    "North Smile Group: $222M management buyout, 2021, 13.5x, closed. Both dental deals date from 2021. [D:MA-2021-0453]",
+    "Adjacent: Evergreen Care Solutions, $299M bolt-on, 2021, 14.6x; Tri Home Health, $75M minority investment, 2022, 14.8x. [D:MA-2021-0195, D:MA-2022-0319]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but the return at the ask falls short",
+   "points": [
+    "Comparable deals (63) span 11.0x at the 25th percentile to 15.4x at the 75th, median 13.7x. [V:comps]",
+    "The 75th percentile is defensible: the target's 18.0% margin sits above the comps' median of 12.4%. Blackstone's own median paid is 17.1x. [V:comps]",
+    "At 5.0x leverage and 8.5% interest, the equity cheque is $53M and IRR at the ask is 14.0% against a 20% target. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 14.0% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 13.7x is available through its open platform. [V:lbo, A:angles]",
+    "reality": "Maximum price is $68M on either exit, below the $80M EV. [V:lbo]"
+   },
+   {
+    "title": "Size stretch",
+    "concern": "Median deal is $342M; only 5 of 25 deals fall in the $40M-$160M comparable band. [T:record, K:size_band]",
+    "mitigant": "Smallest deal is $10M, and deal size is a slight factor in its favour. [T:record, S:not_smaller]",
+    "reality": "The target is small for Blackstone; it fits only as an add-on. [T:record, A:angles]"
+   },
+   {
+    "title": "Thin dental and Southeast record",
+    "concern": "Only 2 dental deals and 1 Southeast deal; 16 deals are outside provider services. [T:record]",
+    "mitigant": "7 adjacent provider deals and an open platform in the sub-sector. [T:record, A:angles]",
+    "reality": "Sector focus is a slight factor against its likelihood. [S:sector_share]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Basis: 2 deals in the target's own sub-sector and 7 in adjacent provider sub-sectors, plus an open platform in the sub-sector (add-on route). Offsetting this, the return at the ask is below target. [C:conviction, V:lbo]"
+  }
+ }
+}

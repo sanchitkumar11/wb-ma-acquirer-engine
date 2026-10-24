@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write UPMC",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6284,
+  "output_tokens": 4294,
+  "usd": 0.05550776854,
+  "cached": false,
+  "seconds": 29.326638541999273
+ },
+ "output": {
+  "buyer": "UPMC",
+  "headline": "UPMC has closed all three of its deals in the target's own sub-sector and has US$27.7 billion of revenue to fund a $200M acquisition.",
+  "differentiator": "All 3 of its deals are in the target's own sub-sector and all closed. Peer lines were not available, so no lead over other buyers is claimed.",
+  "why_them": "Own-sub-sector buyer with a clean closing record and scale",
+  "acquirer_overview": {
+   "title": "A scaled provider system with a fully closed deal record",
+   "points": [
+    "Revenue US$27.7 billion (2023). Hospitals in Pennsylvania, Maryland and New York; Washington Health System merged with UPMC in 2024 [P:1, P:2].",
+    "Three control deals between 2018 and 2020, all closed [T:record, K:closed_share, K:control_share].",
+    "Ranks 3rd on the priority list of 10, with a likelihood of 4.7% across 107 buyers scored [R:rank]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same sub-sector as the target, the strongest factor in its likelihood",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; target margin close to what it usually buys is a strong factor [S:sector_share, S:margin_fit].",
+    "All 3 deals were in Healthcare Services, with none in adjacent provider sub-sectors [K:by_sub_sector, T:record].",
+    "Platform Build is a motive in 1 of 3 deals (Principal Behavioral Health bolt-on), consistent with treating the target as an add-on [M:platform_build, D:MA-2019-0090]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three closed sub-sector deals, none in the Midwest or at this size",
+   "points": [
+    "Principal Behavioral Health: $444M bolt-on acquisition, 2019, 11.7x EV/EBITDA, Northeast [D:MA-2019-0090].",
+    "Sterling Care Network: $55M strategic acquisition, 2020, 11.3x. Keystone Behavioral Health: $33M recapitalization, 2018, 17.0x [D:MA-2020-0312, D:MA-2018-0486].",
+    "0 of 3 deals fall in the $100M-$400M size band, and 0 are in the target's region [K:size_band, T:record]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible but above UPMC's usual multiple",
+   "points": [
+    "70 comparable deals: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th percentile; 9 are in the same sub-sector [V:comps].",
+    "The target's 16.8% margin beats the comps' median of 12.9% and sits above 87% of comps, which supports the 75th percentile [V:comps].",
+    "UPMC's median multiple paid is 11.7x. Synergy headroom of $15M-$25M and US$27.7 billion of revenue show capacity to pay up [V:comps, V:synergy, P:1]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Quiet since 2020",
+    "concern": "No deals since 2022; its last deal was in 2020 [K:recent, T:record].",
+    "mitigant": "The 2024 Washington Health System merger shows it is still combining with other systems [P:2].",
+    "reality": "Recent activity is only a slight factor against, outweighed by sub-sector share [S:recency, S:sector_share]."
+   },
+   {
+    "title": "Price gap to the 75th percentile",
+    "concern": "Its median multiple paid of 11.7x is below the 15.3x 75th percentile [V:comps].",
+    "mitigant": "It paid 17.0x for Keystone, and synergy headroom is $15M-$25M [D:MA-2018-0486, V:synergy].",
+    "reality": "An upper-quartile bid stretches beyond its usual range, though it has paid more before [V:comps]."
+   },
+   {
+    "title": "Unproven in the Midwest and at this size",
+    "concern": "No deals in the target's region and none in the $100M-$400M band [T:record, K:size_band].",
+    "mitigant": "It has completed a $444M deal and a national deal, and has US$27.7 billion of revenue [D:MA-2019-0090, P:1].",
+    "reality": "Region and size are untested for UPMC, so a Midwest integration is a first [K:by_region]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Three deals in the target's own sub-sector and none in adjacent provider sub-sectors; no deal in the target's region is neutral; it remains among the three highest-scored buyers after review (#3) [C:conviction]."
+  }
+ }
+}

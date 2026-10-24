@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3353,
+  "output_tokens": 813,
+  "usd": 0.014835891280000001,
+  "cached": false,
+  "seconds": 6.085264292021748
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "CenterWell Home Health",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:CenterWell Home Health:deals"
+    ],
+    "reason": "Model likelihood is only 0.1%, and the card shows 0 of 6 deals in the Midwest. Nothing on the card shows a stated strategy or platform tie to physician groups, so it does not belong in Tier 1."
+   },
+   {
+    "buyer": "KKR",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:KKR:deals"
+    ],
+    "reason": "KKR has 10 of 14 deals in provider services and 3 in the Midwest, which is more regional overlap than most Tier 1 sponsors. Its $122M median deal size is close to the $133M target. It takes the slot vacated by CenterWell."
+   }
+  ]
+ }
+}

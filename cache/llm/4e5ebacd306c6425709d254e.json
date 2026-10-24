@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write General Atlantic",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7471,
+  "output_tokens": 6188,
+  "usd": 0.07682171399000001,
+  "cached": false,
+  "seconds": 42.51684470800683
+ },
+ "output": {
+  "buyer": "General Atlantic",
+  "headline": "Growth equity investor with 9 of 14 deals in provider services and a 16.5x median price paid, able to fund this Midwest target.",
+  "differentiator": "Its median multiple paid of 16.5x is above the comparable 75th percentile of 15.3x, and 9 of 14 deals are in provider services [V:comps, A:angles].",
+  "why_them": "Provider-focused growth equity; pays upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "A growth equity firm with a six-year, provider-weighted record",
+   "points": [
+    "Growth equity firm investing across Technology, Consumer, Financial Services, Healthcare and Life Sciences; AUM US$125.3 billion per its infobox [P:1, P:2].",
+    "14 deals from 2019 to 2024, 13 closed (93%), all control deals; 4 since 2022 [T:record, K:closed_share, K:control_share, K:recent].",
+    "9 of 14 deals are in provider services, while 5 sit outside provider services [A:angles, T:record]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Provider specialist with size fit, but no open platform",
+   "points": [
+    "Its closing record and deals in neighbouring sub-sectors are modest factors for; deal size not below its usual range is a slight factor for [S:close_rate_s, S:sector_rel, S:not_smaller].",
+    "Its motives stand out in Scale (5 of 14 deals vs 23% of all deals in the file) and Market Share (5 of 14 vs 19%) [M:scale, M:market_share].",
+    "Sponsor angles are provider specialist and size fit; it ranks sixth on the priority list of 10 at a 4.5% likelihood [A:angles, R:rank]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Closest precedents: Oak Health in-sector, Crest and Harbor in adjacent provider niches",
+   "points": [
+    "Oak Health (Healthcare Services, $1,708M, Merger of Equals, 2021) was bought at 18.8x EBITDA and closed [D:MA-2021-0066].",
+    "Crest Medical Practice (Physician Groups, $121M, Leveraged Buyout, 2023) was bought at 11.5x EBITDA and closed [D:MA-2023-0499].",
+    "Harbor Home Health Partners (Midwest, $15M, 2022) was bought at 16.9x; Frontier Clinics ($7M, 2021) was terminated [D:MA-2022-0273, D:MA-2021-0337]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; return at the ask falls short",
+   "points": [
+    "70 comparable deals of $100M-$400M: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th percentile [V:comps].",
+    "Target margin of 16.8% vs comparables' median of 12.9% supports the 75th percentile; General Atlantic's median paid is 16.5x [X:target, V:comps].",
+    "Equity cheque of $128M at 5.0x leverage; IRR at ask 18.7% vs 20% target; maximum price $193M at same exit, $216M at platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, against $193M at the same exit [V:lbo].",
+    "reality": "With no open platform, the platform exit must be underwritten, not assumed [A:angles, V:lbo]."
+   },
+   {
+    "title": "Thin record in the target's own sub-sector",
+    "concern": "Only 1 deal in the target's own sub-sector; its share of deals there is a slight factor against [T:record, S:sector_share].",
+    "mitigant": "8 deals in adjacent provider sub-sectors, including 4 in Physician Groups [T:record, K:by_sub_sector].",
+    "reality": "The one in-sector deal was a $1,708M merger, far larger than this target [D:MA-2021-0066]."
+   },
+   {
+    "title": "Size and region depth",
+    "concern": "Only 3 of 14 deals fall in the $100M-$400M band and 2 in the Midwest [K:size_band, T:record].",
+    "mitigant": "Its median deal of $158M sits within that band [T:record, V:comps].",
+    "reality": "Crest ($121M, 2023) and Harbor (Midwest, 2022) show execution near this profile [D:MA-2023-0499, D:MA-2022-0273]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "One deal in the target's own sub-sector and 8 in adjacent provider sub-sectors support the fit, but there is no open platform in the sub-sector, which leaves the add-on case neutral [C:conviction, A:angles]."
+  }
+ }
+}

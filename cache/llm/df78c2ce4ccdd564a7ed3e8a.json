@@ -1,0 +1,57 @@
+{
+ "purpose": "W3 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6569,
+  "output_tokens": 5294,
+  "usd": 0.06607774999,
+  "cached": false,
+  "seconds": 36.911790832993574
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Blackstone brings scale, a closed $342M Midwest Healthcare Services precedent and a 17.1x median price paid, but needs a platform-style exit to clear $200M.",
+  "differentiator": "Blackstone's median deal of $342M is larger than any other sponsor's on the Tier 1 list, and it has closed a Core Midwest Healthcare Services deal, Peak Medical Management in 2021 [T:record, D:MA-2021-0407]. It has no open platform, so it would buy the target as a standalone platform. Nordic Capital, Welsh Carson and Advent need an add-on case [A:angles].",
+  "acquirer_overview": {
+   "title": "A scale sponsor with a Health Insurance home base and a 10-year healthcare record",
+   "body": "Blackstone is a financial sponsor whose Private Equity segment held $416.4 billion of Total Assets Under Management as of December 31, 2025 [P:1]. Its home sub-sector is Health Insurance, with 6 of its 25 deals there, and its closest ring to the target is Core [B:buyer, K:by_sub_sector]. It has done 25 deals from 2015 to 2024, and 22 closed (88%) [T:record, K:closed_share]. Six have come since 2022 [K:recent]. Deal sizes run from $10M to $14,354M [T:record]. It ranks 5th in Tier 1 (model rank 9 of 107 buyers scored), with a likelihood of 4.3% [R:rank]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The fit is a standalone Midwest Core platform, backed by Ring 1 depth",
+   "body": "Deals in this or neighbouring sub-sectors are Blackstone's strongest signal, at x1.14, followed by deal count at x1.11 [S:sector_rel, S:activity]. It has two Core Healthcare Services deals, both in 2021: Peak Medical Management ($342M, Midwest, 10.0x) and Evergreen Care Solutions ($299M, Southwest, 14.6x) [D:MA-2021-0407, D:MA-2021-0195]. It also has 7 Ring 1 deals, including Crest Oral Health ($558M, 2021) and North Smile Group ($222M, 2021) [T:record, D:MA-2021-0164, D:MA-2021-0453]. The sponsor angle is size fit, with no open platform, so the target would be a new platform rather than an add-on [A:angles]."
+  },
+  "precedent_activity": {
+   "title": "Core precedents are few but recent, and the $100M-$400M band is familiar",
+   "body": "Of 25 deals, 2 are Core, 7 are Ring 1 and 16 are outer ring [T:record]. Six sit in the $100M-$400M band that brackets the $200M target [K:size_band]. Deal types are 7 leveraged buyouts, 5 bolt-ons and 4 platform investments [T:record]. Beyond Health Insurance, its sub-sector counts are Revenue Cycle (4) and Health IT (3) [K:by_sub_sector]. Smaller recent healthcare services-adjacent deals include Tri Home Health, a $75M minority investment in 2022 at 14.8x, and Great Substance Use, a $10M deal in 2023 that is only rumored [D:MA-2022-0319, D:MA-2023-0456]."
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and Blackstone has paid above it before",
+   "body": "The 70 comparable deals (9 Core) show EV/EBITDA of 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th percentile [V:comps]. The target's 16.8% margin is above the 12.9% comp median and above 87% of comps, which supports the 75th percentile [V:comps]. At that level a $200M EV needs $13.1M of EBITDA [V:comps]. Blackstone's median multiple paid is 17.1x, above that 75th percentile [T:record, V:comps]. On ability to pay, 5.0x leverage at 8.5% means an equity cheque of $128M. IRR at the ask is 18.7% against a 20% target. The maximum price is $193M on the same exit and $216M on a platform exit at 15.0x [V:lbo]."
+  },
+  "risk_flags": [
+   {
+    "title": "Return gap at the ask",
+    "concern": "IRR at the ask of 18.7% is below the 20% target, and the $193M maximum price on the same exit is below the $200M EV.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, above the $200M EV.",
+    "reality": "The price works only if Blackstone underwrites a platform exit at 15.0x. A straight same-exit case does not clear its return target [V:lbo]."
+   },
+   {
+    "title": "No open platform, and rivals have one",
+    "concern": "Blackstone has no open platform in the sub-sector, and only 2 of its 25 deals are Core Healthcare Services [A:angles, T:record].",
+    "mitigant": "It has 7 Ring 1 deals and size fit, and its Core record includes the $342M Midwest deal for Peak Medical Management [T:record, D:MA-2021-0407].",
+    "reality": "Nordic Capital, Welsh Carson and Advent all hold open platforms, so they can bid with add-on logic that Blackstone cannot match. Blackstone must win on scale and certainty [A:angles]."
+   },
+   {
+    "title": "Geography and size signals are mixed",
+    "concern": "The regional signal counts against Blackstone at x0.98, and only 2 of its 25 deals are in the Midwest [S:geo_fit, T:record].",
+    "mitigant": "One of those Midwest deals is a Core Healthcare Services deal, Peak Medical Management, which closed at $342M [D:MA-2021-0407].",
+    "reality": "Its median deal of $342M is above the $200M target, though the deal is not smaller than its usual range (x1.09) [T:record, S:not_smaller]. Its 88% close rate leaves some execution risk [K:closed_share]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Blackstone has 2 deals in the target's own sub-sector and 7 in Ring 1, which supports the fit. That is held back because it has no open platform in the sub-sector, which makes the basis neutral rather than positive [C:conviction, A:angles]."
+  }
+ }
+}

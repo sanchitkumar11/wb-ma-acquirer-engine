@@ -1,0 +1,52 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3502,
+  "output_tokens": 954,
+  "usd": 0.016543885400000003,
+  "cached": false,
+  "seconds": 6.468545707990415
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Steward Health Care",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Steward Health Care:deals"
+    ],
+    "reason": "Only 2 deals, with a median of $1130M against a $68M target, and none in the Southwest. The deal size and footprint don't match."
+   },
+   {
+    "buyer": "Intermountain Health",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Intermountain Health:deals"
+    ],
+    "reason": "A single deal with a median of $789M, roughly 10x the target's size, and no Southwest presence. This is thin evidence for Tier 1."
+   },
+   {
+    "buyer": "Warburg Pincus",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Warburg Pincus:deals"
+    ],
+    "reason": "10 of 16 deals are in provider services, with 2 in the Southwest and a median of $91M, which is close to the target's size."
+   },
+   {
+    "buyer": "New Mountain Capital",
+    "action": "promote",
+    "code": "ARCHETYPE_FIT",
+    "fact_ids": [
+     "F:New Mountain Capital:deals"
+    ],
+    "reason": "11 of 16 deals are in provider services, with a median of $118M that fits the target's size and 1 deal in the Southwest."
+   }
+  ]
+ }
+}

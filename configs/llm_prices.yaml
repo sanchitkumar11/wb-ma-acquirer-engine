@@ -1,0 +1,25 @@
+# Per-token prices for the cost ledger. Databricks bills Foundation Model APIs in DBUs per 1M tokens;
+# USD = DBUs x the workspace's $/DBU rate. Sources opened 2026-10-23:
+#   https://www.databricks.com/product/pricing/proprietary-foundation-model-serving
+#   https://www.databricks.com/product/pricing/foundation-model-serving
+# usd_per_dbu: the pages show $0.07/DBU as the example rate (AWS US East). Azure is billed by
+# Microsoft and may differ: confirm from the workspace's billing before the first paid run.
+usd_per_dbu: 0.07
+budget_usd: 50.0
+models:          # key = role alias used in the code; endpoint = Databricks serving endpoint name (confirm after login)
+  writer:
+    label: Claude Sonnet 5.5
+    endpoint: databricks-claude-sonnet-5-5
+    dbu_per_m: {input: 28.571, output: 142.857, cache_read: 2.857}
+  writer_dev:
+    label: Claude Haiku 5.5 (short context)
+    endpoint: databricks-claude-haiku-5-5
+    dbu_per_m: {input: 1.429, output: 7.143, cache_read: 0.143}
+  judge:
+    label: GPT-6.1 Sol
+    endpoint: databricks-gpt-6-1-sol
+    dbu_per_m: {input: 28.571, output: 142.857, cache_read: 1.429}
+  open_weight:
+    label: GPT-OSS-120B
+    endpoint: databricks-gpt-oss-120b
+    dbu_per_m: {input: 2.143, output: 8.571, cache_read: 0.0}

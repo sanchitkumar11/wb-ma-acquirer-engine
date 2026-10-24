@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8285,
+  "output_tokens": 3851,
+  "usd": 0.05507971294000001,
+  "cached": false,
+  "seconds": 27.207344125024974
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "Price-forward sponsor with provider deals in the target's sub-sector and adjacent ones, but a smaller typical deal size and no open platform.",
+  "differentiator": "Pays at the top of the range: its 15.7x median exceeds the comparable-deal 75th percentile of 15.3x, and sits above the medians of Advocate, Nordic, UPMC, Advent and GTCR. [V:comps, B:buyer]",
+  "why_them": "Pays upper-quartile multiples; provider record, but smaller typical cheques",
+  "acquirer_overview": {
+   "title": "A global sponsor with a mixed record, half of it in provider services",
+   "points": [
+    "Financial sponsor with 18 deals from 2016 to 2023; 15 closed (83%). Parent reports $303.0 billion in assets under management as of December 31, 2025. [T:record, K:closed_share, P:1]",
+    "Home sub-sector is Health Insurance (4 deals); 9 of 18 deals are provider services and 9 sit outside it. [K:by_sub_sector, A:angles, T:record]",
+    "Median deal $88M, largest $1,388M; 17 of 18 were control deals (94%). [T:record, K:control_share]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A credible provider buyer, but without a platform to add this onto",
+   "points": [
+    "Holds 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; prior purchases from this kind of seller are a modest factor in its likelihood. [T:record, S:own_fit_s]",
+    "Growth was a stated motive in 10 of 18 deals (41% of all deals in the file), which fits the target's 11.0% revenue growth. [M:high_growth, X:target]",
+    "No open platform in the sub-sector, so this would be a new investment rather than an add-on. Prior Midwest purchasing is a slight factor against. [A:angles, S:geo_fit]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Relevant precedents are near the target's size, but mostly priced below 15.7x",
+   "points": [
+    "Quality Medical Group (Healthcare Services, $187M, Minority Investment, 2022) at 11.2x is the same-sub-sector precedent, but a minority stake rather than control. [D:MA-2022-0350]",
+    "Granite Dental Network ($203M, Platform Investment, 2021) at 12.2x; Liberty Addiction Treatment ($118M, Leveraged Buyout, 2021) at 8.8x. [D:MA-2021-0439, D:MA-2021-0369]",
+    "8 of 18 deals fall in the $100M-$400M size band; only one deal, the $15M Metro Medical Associates in 2018, was in the Midwest. [K:size_band, D:MA-2018-0415]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Margin supports the 75th percentile; TPG has paid there before",
+   "points": [
+    "Comparable deals (70) price at 10.7x to 15.3x EBITDA, median 12.8x; the 75th percentile needs $13.1M of EBITDA. [V:comps]",
+    "Margin of 16.8% sits above the comps' median of 12.9% and above 87% of comps, supporting upper-quartile pricing; TPG's own median paid is 15.7x. [V:comps]",
+    "At 5.0x leverage and an equity cheque of $128M, IRR at the ask is 18.7% against a 20% target; maximum price is $193M, or $216M on a 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $88M is under half the $200M EV. [T:record]",
+    "mitigant": "8 of 18 deals sit in the $100M-$400M band and the largest was $1,388M. [K:size_band, T:record]",
+    "reality": "It has the capacity but not a typical-size record, which is why conviction is Low. [C:conviction]"
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "The bid works only if it underwrites that exit, yet it has no open platform. [V:lbo, A:angles]"
+   },
+   {
+    "title": "Midwest and control fit",
+    "concern": "Only one past deal in the target's region, and the same-sub-sector precedent was a minority stake. [T:record, D:MA-2022-0350]",
+    "mitigant": "Control deals were 17 of 18, and the Midwest is not a barrier to a sponsor with national reach. [K:control_share, K:by_region]",
+    "reality": "Sponsors on the priority list with deeper Midwest records are likely to compete. [S:geo_fit, R:rank]"
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "One same-sub-sector and eight adjacent provider deals support the case. No open platform in the sub-sector is neutral. A median deal of $88M, under half the $200M EV, weighs against. [C:conviction, T:record]"
+  }
+ }
+}

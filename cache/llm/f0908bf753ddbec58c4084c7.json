@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write General Atlantic",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8306,
+  "output_tokens": 6035,
+  "usd": 0.07696169047,
+  "cached": false,
+  "seconds": 41.39400037500309
+ },
+ "output": {
+  "buyer": "General Atlantic",
+  "headline": "Provider-focused growth investor paying 16.5x at the median, with 13 of 14 deals closed and a size range that fits a $200M target.",
+  "differentiator": "Among the highest payers on the priority list at a 16.5x median, and the best closing record of any sponsor on it: 13 of 14 deals.",
+  "why_them": "Provider-focused growth investor; pays upper-quartile multiples, closes deals",
+  "acquirer_overview": {
+   "title": "Growth equity firm with a 14-deal, provider-weighted record since 2019",
+   "points": [
+    "Growth equity firm investing across Technology, Consumer, Financial Services, Healthcare and Life Sciences; AUM US$125.3 billion [P:1, P:2].",
+    "14 deals from 2019 to 2024, 13 closed (93%), all control deals rather than minority stakes [T:record, K:closed_share, K:control_share].",
+    "Provider services account for 9 of 14 deals; Physician Groups is its largest sub-sector with 4 deals [A:angles, K:by_sub_sector]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Provider specialist with the right size, but no open platform",
+   "points": [
+    "Deals in this or neighbouring sub-sectors and its closing record are modest positive factors in its likelihood [S:sector_rel, S:close_rate_s].",
+    "Revenue synergies (Market Share) drove 5 of 14 deals, against 19% of deals across the file: a distinct share-gain motive [M:market_share].",
+    "Angles are provider specialist and size fit; no open platform, so the target would be a stand-alone investment [A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Closest precedents: Oak Health at 18.8x and Crest Medical Practice at 11.5x",
+   "points": [
+    "Oak Health (Healthcare Services, $1,708M, Merger of Equals, 2021) at 18.8x EBITDA, its one deal in the target's own sub-sector [D:MA-2021-0066].",
+    "Crest Medical Practice (Physician Groups, $121M, Leveraged Buyout, 2023) at 11.5x, inside the comparable size band [D:MA-2023-0499, K:size_band].",
+    "Harbor Home Health Partners ($15M, Midwest Strategic Acquisition, 2022) at 16.9x shows regional reach [D:MA-2022-0273]."
+   ]
+  },
+  "valuation_context": {
+   "title": "75th percentile is defensible, but returns at $200M need a platform exit",
+   "points": [
+    "Comps (70 deals): 12.8x median, 15.3x at the 75th percentile; the target's 16.8% margin versus the 12.9% comps median supports the 75th [V:comps].",
+    "Its own 16.5x median paid is above the comps' 75th percentile, so it has paid above the range [T:record, V:comps].",
+    "IRR at the ask is 18.7% versus a 20% target; maximum price is $193M at the same exit, $216M at a 15.0x platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "The bid works only with a platform exit, and it has no open platform [V:lbo, A:angles]."
+   },
+   {
+    "title": "Thin record in the target's sub-sector",
+    "concern": "Only 1 deal in the target's own sub-sector; that share is a slight factor against [T:record, S:sector_share].",
+    "mitigant": "8 deals in adjacent provider sub-sectors, 4 in Physician Groups [T:record, K:by_sub_sector].",
+    "reality": "Provider fit is real, but the Healthcare Services record is a single 2021 deal [D:MA-2021-0066]."
+   },
+   {
+    "title": "Execution and regional depth",
+    "concern": "Frontier Clinics ($7M, 2021) was terminated, and only 2 deals were in the Midwest [D:MA-2021-0337, T:record].",
+    "mitigant": "13 of 14 deals closed (93%) [K:closed_share].",
+    "reality": "Closing risk looks low; Midwest depth is limited [K:closed_share, T:record]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors support fit, but there is no open platform in the sub-sector, which is neutral [C:conviction]."
+  }
+ }
+}

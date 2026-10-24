@@ -1,0 +1,63 @@
+{
+ "purpose": "W3 repair1 Nordic Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7273,
+  "output_tokens": 2958,
+  "usd": 0.04412575223,
+  "cached": false,
+  "seconds": 20.48944458301412
+ },
+ "output": {
+  "buyer": "Nordic Capital",
+  "headline": "Nordic Capital is a healthcare services specialist with an open platform in the sub-sector, a Midwest physician-group deal from 2024, and the fund size to take on a $200M add-on.",
+  "differentiator": "Nordic Capital is the Tier 1 buyer with an open platform in the target's own sub-sector. It can offer an add-on route and a platform-based exit at 15.0x, and it already has a Midwest deal: Principal Physician Group in 2024 [D:MA-2024-0431, V:lbo].",
+  "acquirer_overview": {
+   "title": "Nordic Capital is a healthcare-focused sponsor with 24 deals since 2016 and a fund that can absorb this cheque",
+   "body": "Nordic Capital is a financial sponsor. Healthcare is one of its four core industries [P:1]. Fund XI closed at its EUR 9 billion hard cap (about $11 billion), as of 2022 [P:2]. It has 24 deals from 2016 to 2024, of which 21 closed, and its home sub-sector is Physician Groups [S:activity]. Four deals are Core, 18 are Ring 1 and 2 are outer ring [S:sector_rel]. It ranks 2nd among Tier 1 buyers and 3rd of 107 scored, with a likelihood of 4.8% [S:activity]."
+  },
+  "strategic_fit_thesis": {
+   "title": "The fit is an add-on to an open platform, backed by a provider-specialist record",
+   "body": "Deals in this or neighbouring sub-sectors are the strongest signal for Nordic Capital, at x1.30 [S:sector_rel]. It has done Healthcare Services deals in Core: Harbor Health Network in 2024 ($35M), Harbor Medical Center in 2023 ($991M) and Green Medical Center in 2022 ($1,304M) [D:MA-2024-0339, D:MA-2023-0466, D:MA-2022-0045]. Its most recent Midwest deal is Principal Physician Group, a $76M recapitalization in 2024 at 15.9x [D:MA-2024-0431]. Deal count adds x1.11, and a deal not smaller than its usual range adds x1.09 [S:activity, S:not_smaller]. Its sponsor angles are an add-on to an open platform in the sub-sector, and provider specialist."
+  },
+  "precedent_activity": {
+   "title": "Nordic Capital has bought in Healthcare Services every year from 2022 to 2024, but mostly outside the Midwest",
+   "body": "The six listed precedents run from Pioneer Ambulatory Care in 2016 ($26M, Platform Investment, 9.1x) to Harbor Health Network in 2024 ($35M, Carve-out, 11.6x) [D:MA-2016-0469, D:MA-2024-0339]. Its two largest are Leveraged Buyouts: Green Medical Center in 2022 at $1,304M and 15.0x, and Harbor Medical Center in 2023 at $991M and 11.1x [D:MA-2022-0045, D:MA-2023-0466]. Its Ring 1 deals include Principal Physician Group in 2024 and Hudson Behavioral Services in 2023 ($16M, Merger of Equals, 15.8x, still Pending) [D:MA-2024-0431, D:MA-2023-0355]. Only 2 of its deals are in the target's region. Its top regions are Mountain West (5), Great Plains (4) and West Coast (4) [S:geo_fit]."
+  },
+  "valuation_context": {
+   "title": "Defend the 75th percentile at 15.3x; Nordic Capital's own median of 12.5x is the likely opening position",
+   "body": "The comparable set is 70 deals in the $100M-$400M band, 9 of them Core. EV/EBITDA runs from 10.7x at the lower quartile to 12.8x at the median and 15.3x at the 75th [V:comps]. The target's 16.8% margin is above the comps' median of 12.9% and above 87% of comparable deals, which supports upper-quartile pricing [V:comps]. Nordic Capital's median paid is 12.5x, slightly below the comps' median, though it paid 15.0x for Green Medical Center and 15.9x for Principal Physician Group [V:comps, D:MA-2022-0045, D:MA-2024-0431]. On ability to pay, 5.0x leverage at 8.5% implies a $128M equity cheque. IRR at the ask is 18.7% against a 20% target. The maximum price is $193M on the same exit and $216M on a platform exit at 15.0x [V:lbo]."
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "The $200M EV is well above Nordic Capital's usual deal size.",
+    "mitigant": "It has written much larger cheques in Healthcare Services, including $991M in 2023 and $1,304M in 2022.",
+    "reality": "Its median deal is $77M, under half the $200M EV, and this is the one point against it in the conviction basis. The deal is still not smaller than its usual range [S:not_smaller, D:MA-2023-0466, D:MA-2022-0045]."
+   },
+   {
+    "title": "Return gap at the ask",
+    "concern": "IRR at the ask of 18.7% is below the 20% target, and the $193M maximum price on the same exit is below the $200M EV.",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, which is above the $200M EV.",
+    "reality": "The price only works if Nordic Capital underwrites the add-on route and a platform exit at 15.0x. A straight same-exit case does not clear the target return [V:lbo]."
+   },
+   {
+    "title": "Limited Midwest footprint",
+    "concern": "Geographic fit is a negative signal, at x0.95, and only 2 of its deals are in the target's region.",
+    "mitigant": "Principal Physician Group, a Midwest deal closed in 2024, shows it can execute locally.",
+    "reality": "Its activity is concentrated in Mountain West, Great Plains and West Coast. The Midwest case rests on one recent deal and the platform's reach [S:geo_fit, D:MA-2024-0431]."
+   },
+   {
+    "title": "Competitive process",
+    "concern": "Nordic Capital is 2nd among Tier 1 buyers and 3rd overall, with a likelihood of 4.8%, so it is not the only credible bidder.",
+    "mitigant": "Its open sub-sector platform and 21 closed deals out of 24 support a credible, executable bid.",
+    "reality": "Other Tier 1 buyers can bid up the price. The review raised no flags on this buyer [S:activity, S:sector_rel]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "The basis is 4 deals in the target's own sub-sector, 18 in Ring 1, an open platform for the add-on route, and position 2 in Tier 1 [S:sector_rel, S:activity]. The one point against is the $77M median deal against the $200M EV [S:not_smaller]."
+  }
+ }
+}

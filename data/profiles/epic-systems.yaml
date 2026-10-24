@@ -1,0 +1,29 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Epic Systems
+buyer_type: Strategic
+facts:
+- kind: mandate
+  value: 'Epic on its own site: "We are a software factory (no acquisitions)"'
+  as_of: '2026-10-23'
+  source: https://www.epic.com/about/
+  accessed: '2026-10-23'
+  stance: no_acquisitions
+- kind: status
+  value: Privately held, founded 1979 by Judith Faulkner; never took venture capital or private equity; "they have never acquired another company, and Faulkner has stated they will never go public"
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Judith_Faulkner
+  accessed: '2026-10-23'
+  status: active
+- kind: revenue
+  value: Revenue $6.7B (2025, as reported by Forbes)
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Epic_Systems
+  accessed: '2026-10-23'
+  amount_usd_mm: 6700
+- kind: size
+  value: About 14,000 employees (2025); the largest electronic health records vendor by market share; more than 325 million patients have an Epic record
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Epic_Systems
+  accessed: '2026-10-23'
+not_researched:
+- the four deals the file credits to Epic could not be matched to any public record (the file is synthetic)

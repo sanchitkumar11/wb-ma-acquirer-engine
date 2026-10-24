@@ -1,0 +1,215 @@
+{
+ "live": {
+  "A1": {
+   "tier1": [
+    "Advocate Health",
+    "Nordic Capital",
+    "UPMC",
+    "General Atlantic",
+    "Blackstone",
+    "Welsh Carson",
+    "GTCR",
+    "TPG Capital",
+    "Advent International",
+    "Intermountain Health"
+   ],
+   "stability": 1.0,
+   "usd": 0.0
+  },
+  "A2": {
+   "tier1s": [
+    [
+     "Advocate Health",
+     "Nordic Capital",
+     "General Atlantic",
+     "Blackstone",
+     "Welsh Carson",
+     "GTCR",
+     "TPG Capital",
+     "Advent International",
+     "Bon Secours Mercy Health",
+     "Bain Capital"
+    ],
+    [
+     "Advocate Health",
+     "Nordic Capital",
+     "General Atlantic",
+     "Blackstone",
+     "Welsh Carson",
+     "GTCR",
+     "TPG Capital",
+     "Advent International",
+     "Bain Capital",
+     "Bon Secours Mercy Health"
+    ],
+    [
+     "Advocate Health",
+     "Nordic Capital",
+     "General Atlantic",
+     "Blackstone",
+     "Welsh Carson",
+     "GTCR",
+     "TPG Capital",
+     "Advent International",
+     "Bon Secours Mercy Health",
+     "Bain Capital"
+    ]
+   ],
+   "stability": 1.0,
+   "accepted": [
+    [
+     {
+      "buyer": "Bon Secours Mercy Health",
+      "action": "promote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:Bon Secours Mercy Health:2"
+      ],
+      "reason": "A health system headquartered in Cincinnati, OH with hospitals in Ohio and Kentucky overlaps the Midwest target's region. Its one deal had a median of $212M, in line with the $200M target size."
+     },
+     {
+      "buyer": "UPMC",
+      "action": "demote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:UPMC:2",
+       "F:UPMC:deals"
+      ],
+      "reason": "UPMC's hospitals are in Pennsylvania, Maryland and New York, with no Midwest presence. None of its 3 deals were in the Midwest, so it has no footprint overlap with the target."
+     },
+     {
+      "buyer": "Intermountain Health",
+      "action": "demote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:Intermountain Health:2",
+       "F:Intermountain Health:deals"
+      ],
+      "reason": "Intermountain's footprint is Utah, Colorado, Idaho and Montana, and it left Kansas in 2024. It has no Midwest deals, and its only deal had a median of $789M, far above the target's size."
+     }
+    ],
+    [
+     {
+      "buyer": "Intermountain Health",
+      "action": "demote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:Intermountain Health:2",
+       "F:Intermountain Health:deals"
+      ],
+      "reason": "Footprint is Utah, Colorado, Idaho and Montana, and it left Kansas in 2024. It has no Midwest presence and no Midwest deals. Its single deal has a $789M median, far above a $200M target."
+     },
+     {
+      "buyer": "UPMC",
+      "action": "demote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:UPMC:2",
+       "F:UPMC:deals"
+      ],
+      "reason": "Hospitals are in Pennsylvania, Maryland and New York only, with 0 Midwest deals. It has no footprint overlap with a Midwest target and no stated Midwest strategy."
+     },
+     {
+      "buyer": "Bon Secours Mercy Health",
+      "action": "promote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:Bon Secours Mercy Health:2",
+       "F:Bon Secours Mercy Health:deals"
+      ],
+      "reason": "Headquartered in Cincinnati with hospitals in Ohio, so it has real Midwest overlap. Its one provider-services deal has a $212M median, in line with the $200M target size."
+     },
+     {
+      "buyer": "Bain Capital",
+      "action": "promote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "F:Bain Capital:deals"
+      ],
+      "reason": "Has 15 of 24 deals in provider services and 4 in the Midwest, the most Midwest deals among the Tier 2 sponsors. The $103M median deal size is workable for a $200M target. Fund size is still unconfirmed."
+     }
+    ],
+    [
+     {
+      "buyer": "UPMC",
+      "action": "demote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:UPMC:2",
+       "F:UPMC:deals"
+      ],
+      "reason": "Hospitals are in Pennsylvania, Maryland and New York, and none of its 3 deals were in the Midwest. There is no overlap with a Midwest target."
+     },
+     {
+      "buyer": "Intermountain Health",
+      "action": "demote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:Intermountain Health:2",
+       "F:Intermountain Health:deals"
+      ],
+      "reason": "Footprint is Utah, Colorado, Idaho and Montana, it left Kansas in 2024, and its single deal was outside the Midwest. It has no Midwest presence to build on."
+     },
+     {
+      "buyer": "Bon Secours Mercy Health",
+      "action": "promote",
+      "code": "FOOTPRINT_OVERLAP",
+      "fact_ids": [
+       "P:Bon Secours Mercy Health:2",
+       "F:Bon Secours Mercy Health:deals"
+      ],
+      "reason": "It is headquartered in Cincinnati with hospitals in Ohio, so it has a Midwest base. Its $212M median deal size is in line with a $200M target."
+     }
+    ]
+   ],
+   "rejected": [
+    0,
+    0,
+    0
+   ],
+   "changed_vs_A1": [
+    [
+     "Bain Capital",
+     "Bon Secours Mercy Health",
+     "Intermountain Health",
+     "UPMC"
+    ],
+    [
+     "Bain Capital",
+     "Bon Secours Mercy Health",
+     "Intermountain Health",
+     "UPMC"
+    ],
+    [
+     "Bain Capital",
+     "Bon Secours Mercy Health",
+     "Intermountain Health",
+     "UPMC"
+    ]
+   ],
+   "usd": 0,
+   "seconds_per_run": 0.0
+  }
+ },
+ "backtest": {
+  "A1": {
+   "deals": 30,
+   "winner_in_tier1": 0.467,
+   "winner_in_list": 0.933,
+   "winner_moved_out": 0,
+   "tier1_checks_pass": 0.987,
+   "moves_per_deal": 0.0
+  },
+  "A2": {
+   "deals": 30,
+   "winner_in_tier1": 0.467,
+   "winner_in_list": 0.933,
+   "winner_moved_out": 2,
+   "tier1_checks_pass": 1.0,
+   "moves_per_deal": 1.77,
+   "usd": 0.458,
+   "seconds_total": 196.2
+  }
+ },
+ "note": "A2 rescored from cached replies after the refill fix; cost and time as measured on the live run"
+}

@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3595,
+  "output_tokens": 1141,
+  "usd": 0.01859988074,
+  "cached": false,
+  "seconds": 8.997368375014048
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Bain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Bain Capital:deals"
+    ],
+    "reason": "Bain has 3 West Coast deals, tied for the second most among all buyers. It also has 15 provider services deals out of 23 and a $73M median deal size, which is closer to this small target than most large sponsors. That is stronger overlap evidence than several Tier 1 buyers with 0 or 1 West Coast deals."
+   },
+   {
+    "buyer": "Blackstone",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Blackstone:deals"
+    ],
+    "reason": "Blackstone's median deal size is $320M, the largest of any Tier 1 buyer and far above a $16M-margin target. Only 9 of its 24 deals are in provider services, so it is a weaker fit than the Tier 2 sponsor that replaces it."
+   }
+  ]
+ }
+}

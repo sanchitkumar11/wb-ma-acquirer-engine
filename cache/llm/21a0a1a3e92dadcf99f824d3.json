@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7468,
+  "output_tokens": 3977,
+  "usd": 0.05470573619,
+  "cached": false,
+  "seconds": 26.218195708002895
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "Sponsor with two Healthcare Services precedents, one in the Midwest, and a 17.1x median multiple paid, above the comparable 75th percentile.",
+  "differentiator": "Its 17.1x median multiple paid sits above the comparable 75th percentile of 15.3x. Peer lines were not provided, so no lead over other buyers is claimed. [T:record, V:comps]",
+  "why_them": "Healthcare Services precedents, one Midwest; pays above comparable upper quartile",
+  "acquirer_overview": {
+   "title": "Large sponsor with a long, mostly closed record",
+   "points": [
+    "Financial sponsor; Private Equity segment assets under management of $416.4 billion as of December 31, 2025 [P:1].",
+    "25 deals from 2015 to 2024; 22 closed (88%) and 23 of 25 (92%) were control deals [T:record, K:closed_share, K:control_share].",
+    "Home sub-sector is Health Insurance (6 deals); 16 of its 25 deals were outside provider services [B:buyer, K:by_sub_sector, T:record]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Own-sub-sector and adjacent provider deals, but no open platform",
+   "points": [
+    "Sector relevance is a modest factor: 2 deals in the target's own sub-sector, 7 in adjacent provider sub-sectors [S:sector_rel, T:record].",
+    "Platform Build in 9 of 25 deals, against 23% of all deals in the file, is its distinct motive; it has no open platform in the sub-sector [M:platform_build, A:angles].",
+    "Geography is a slight factor against; only 2 of its deals were in the Midwest [S:geo_fit, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two Healthcare Services deals, one in the Midwest, at 10.0x and 14.6x",
+   "points": [
+    "Peak Medical Management: $342M SPAC Merger, 2021, Midwest, 10.0x EBITDA [D:MA-2021-0407].",
+    "Evergreen Care Solutions: $299M Bolt-on Acquisition, 2021, Southwest, 14.6x EBITDA [D:MA-2021-0195].",
+    "Adjacent dental: Crest Oral Health, $558M Leveraged Buyout, 13.5x; North Smile Group, $222M Management Buyout, 13.5x, both 2021 [D:MA-2021-0164, D:MA-2021-0453]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and Blackstone has paid above it",
+   "points": [
+    "Comparable range is 10.7x to 15.3x EBITDA, median 12.8x; the 75th percentile is defensible as the 16.8% margin beats the comps' 12.9% median [V:comps].",
+    "Blackstone's own median paid is 17.1x, above the comparable 75th percentile of 15.3x [T:record, V:comps].",
+    "Ability to pay: equity cheque $128M; maximum price $193M at the same exit, $216M at a platform exit of 15.0x [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "The bid works only if it underwrites a platform exit, and no open platform exists [V:lbo, A:angles]."
+   },
+   {
+    "title": "Regional fit",
+    "concern": "Having bought in this or a neighbouring region is a slight factor against its likelihood [S:geo_fit].",
+    "mitigant": "Peak Medical Management, a Midwest Healthcare Services deal, closed in 2021 [D:MA-2021-0407].",
+    "reality": "Only 2 of its 25 deals were in the target's region [T:record]."
+   },
+   {
+    "title": "Low likelihood on a crowded list",
+    "concern": "Seventh on the priority list of 10, with a likelihood of 4.3% [R:rank].",
+    "mitigant": "Two own-sub-sector precedents and 7 adjacent provider deals support the approach [T:record].",
+    "reality": "Most of its deals (16 of 25) were outside provider services [T:record]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Two deals in the target's own sub-sector and 7 in adjacent provider sub-sectors support the call, but there is no open platform in the sub-sector, which keeps it neutral rather than strong. [C:conviction]"
+  }
+ }
+}

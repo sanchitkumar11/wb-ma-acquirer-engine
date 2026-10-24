@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3698,
+  "output_tokens": 769,
+  "usd": 0.015085881370000002,
+  "cached": false,
+  "seconds": 6.267676540999673
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "TPG Capital",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:TPG Capital:deals"
+    ],
+    "reason": "Only 1 of 17 deals was in devices and pharma and only 1 was in Great Plains. That is the thinnest sector and footprint evidence in Tier 1."
+   },
+   {
+    "buyer": "Bain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Bain Capital:deals"
+    ],
+    "reason": "3 deals in devices and pharma and 3 in Great Plains, with a $73M median. Its sector and regional overlap matches or beats several Tier 1 sponsors, so it earns a Tier 1 spot."
+   }
+  ]
+ }
+}

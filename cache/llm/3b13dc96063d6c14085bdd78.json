@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7449,
+  "output_tokens": 3224,
+  "usd": 0.047137744290000005,
+  "cached": false,
+  "seconds": 23.457386749971192
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "Sponsor with provider deal history and upper-quartile pricing; size and Midwest reach are the stretch, so a lower-priority call.",
+  "differentiator": "Its median 15.7x paid sits above the comparable 75th percentile of 15.3x, so it can meet upper-quartile pricing. Peer lines were not available, so no lead over other buyers is claimed. [V:comps]",
+  "why_them": "Provider-experienced sponsor that has paid upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "A large sponsor with a steady, mostly control-oriented record",
+   "points": [
+    "Financial sponsor with $303.0 billion in assets under management as of December 31, 2025 (TPG Inc.) [P:1].",
+    "18 deals between 2016 and 2023, of which 15 closed (83%); 17 of 18 were control deals [T:record, K:closed_share, K:control_share].",
+    "Ranks 9th on the priority list of 10, with a likelihood of 3.7% across 107 buyers scored [R:rank]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Provider experience supports fit, but the target would be a new bet",
+   "points": [
+    "Prior purchases from similar sellers are a modest factor in its favour; deals in neighbouring sub-sectors are a slight one [S:own_fit_s, S:sector_rel].",
+    "Growth was a motive in 10 of 18 deals, against 41% across all deals in the file; the target grows 11.0% [M:high_growth, X:target].",
+    "It has 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors, but no open platform to add onto [T:record, A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Comparable-size provider deals exist, but few in the target's own space",
+   "points": [
+    "Quality Medical Group: $187M minority investment in 2022, in the target's own sub-sector, at 11.2x EV/EBITDA [D:MA-2022-0350].",
+    "Granite Dental Network: $203M platform investment in 2021 at 12.2x; Liberty Addiction Treatment: $118M leveraged buyout in 2021 at 8.8x [D:MA-2021-0439, D:MA-2021-0369].",
+    "8 of 18 deals fall in the $100M-$400M size band, but the median deal is $88M [K:size_band, T:record]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but returns at the ask fall short",
+   "points": [
+    "70 comparable deals show 10.7x, 12.8x and 15.3x EV/EBITDA at the 25th percentile, median and 75th percentile [V:comps].",
+    "Target margin of 16.8% against a comps median of 12.9% supports the 75th percentile; TPG's own median paid is 15.7x [V:comps].",
+    "At 5.0x leverage and a $128M equity cheque, IRR at the ask is 18.7% against a 20% target; maximum price is $216M with a 15.0x platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $88M is under half the $200M EV [C:conviction].",
+    "mitigant": "8 of 18 deals sit in the $100M-$400M band, and the biggest was $1,388M [K:size_band, T:record].",
+    "reality": "It can write the cheque, but the target is well above its typical deal [T:record]."
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M, against $193M at the same exit [V:lbo].",
+    "reality": "The bid works only if it underwrites a platform exit [V:lbo]."
+   },
+   {
+    "title": "Thin Midwest and sub-sector footprint",
+    "concern": "Only 1 of 18 deals was in the target's region, and buying there is a slight factor against [T:record, S:geo_fit].",
+    "mitigant": "Geographic expansion was a motive in 14 of 18 deals, though that tag is common across the file [M:geographic_expansion].",
+    "reality": "It has 1 deal in the target's own sub-sector, a minority stake, and no open platform [D:MA-2022-0350, A:angles]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Provider deal history is a positive (1 own-sub-sector deal, 8 adjacent), and there is no open platform. The median deal of $88M is under half the $200M EV, which weighs against. [C:conviction, T:record]"
+  }
+ }
+}

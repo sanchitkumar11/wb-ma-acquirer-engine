@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3864,
+  "output_tokens": 792,
+  "usd": 0.015647876160000004,
+  "cached": false,
+  "seconds": 6.153358708019368
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "GTCR",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:GTCR:deals"
+    ],
+    "reason": "5 of its 12 deals are in the Midwest, 7 are in provider services, and its $312M median is the closest to the $398M target size among Tier 2 sponsors."
+   },
+   {
+    "buyer": "Veritas Capital",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:Veritas Capital:deals"
+    ],
+    "reason": "It has 0 Midwest deals and a $38M median deal size, far below the $398M target, so it has the weakest footprint and size evidence in Tier 1."
+   }
+  ]
+ }
+}

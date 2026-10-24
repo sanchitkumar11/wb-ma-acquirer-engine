@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3215,
+  "output_tokens": 930,
+  "usd": 0.015729894250000005,
+  "cached": false,
+  "seconds": 7.482120374974329
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Blackstone",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Blackstone:deals"
+    ],
+    "reason": "Median deal size of $342M is far above this $75M target, and only 7 of its 19 deals are in provider services. It is a Ring 1 buyer with a weak size and sector match, so Tier 2 is more appropriate."
+   },
+   {
+    "buyer": "Warburg Pincus",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Warburg Pincus:deals"
+    ],
+    "reason": "It has 2 Southwest deals and 10 of 16 in provider services. Its $91M median deal size is close to the $75M target. That is a better size and region fit than several current Tier 1 sponsors with no Southwest deals."
+   }
+  ]
+ }
+}

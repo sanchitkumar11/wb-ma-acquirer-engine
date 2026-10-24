@@ -1,0 +1,21 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: UPMC
+buyer_type: Strategic
+facts:
+- kind: revenue
+  value: Revenue US$27.7 billion (2023)
+  as_of: '2023-12-31'
+  source: https://en.wikipedia.org/wiki/University_of_Pittsburgh_Medical_Center
+  accessed: '2026-10-23'
+  amount_usd_mm: 27700
+- kind: footprint
+  value: Hospitals in Pennsylvania, Maryland and New York; Washington Health System merged with UPMC in 2024
+  as_of: '2024-12-31'
+  source: https://en.wikipedia.org/wiki/University_of_Pittsburgh_Medical_Center
+  accessed: '2026-10-23'
+  states:
+  - PA
+  - MD
+  - NY
+not_researched:
+- stated strategy

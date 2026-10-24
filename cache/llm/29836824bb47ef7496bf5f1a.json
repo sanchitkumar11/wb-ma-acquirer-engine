@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Francisco Partners",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10327,
+  "output_tokens": 4540,
+  "usd": 0.06605364479,
+  "cached": false,
+  "seconds": 26.845978166966233
+ },
+ "output": {
+  "buyer": "Francisco Partners",
+  "headline": "Francisco Partners can add the target to its open Health IT platform, and returns clear its 20% target at the ask.",
+  "differentiator": "Francisco Partners closes 86% of its deals, ahead of TPG Capital and Warburg Pincus, with more than $75 billion raised; its sub-sector record is thinner than most peers'.",
+  "why_them": "Add-on to open Health IT platform; returns clear at asking price",
+  "acquirer_overview": {
+   "title": "Francisco Partners is a large technology sponsor that closes most deals",
+   "points": [
+    "Francisco Partners, a financial sponsor, made 14 deals from 2017 to 2023; 12 closed (86%), all control deals [T:record, K:closed_share, K:control_share].",
+    "Calls itself \"One of the largest and most active technology-focused private equity firms in the world\"; raised more than $75 billion, undated [P:1, P:2].",
+    "Median deal is $192M, and 6 of 14 deals fall in the $150M-$600M band around the target's $300M [T:record, K:size_band]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "The target is an add-on to Francisco Partners' open platform",
+   "points": [
+    "Francisco Partners' open platform in the sub-sector makes the target an add-on, not a new bet; size fit is the second angle [A:angles].",
+    "High Growth is a motive in 6 of 14 of its deals, matching the target's 20.0% growth [M:high_growth].",
+    "Slight factors favour it (bought from similar sellers, deal size, deal count); low share of deals in the sub-sector counts against [S:own_fit_s, S:not_smaller, S:activity, S:sector_share]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One Francisco Partners deal in the target's sub-sector, larger ones nearby",
+   "points": [
+    "Hudson Care Analytics: $16M management buyout, 2020, 18.9x, closed. It is its only Health IT deal [D:MA-2020-0260, T:record].",
+    "Prime Medical Technologies (devices): $446M leveraged buyout, 2021, 15.3x, closed [D:MA-2021-0297].",
+    "Pacific Biopharma (pharma): $724M merger of equals, 2021, 23.6x, closed. A high multiple paid in a neighbouring sector [D:MA-2021-0465]."
+   ]
+  },
+  "valuation_context": {
+   "title": "The median anchor is defensible and the return clears at the ask",
+   "points": [
+    "13 comparables span 19.4x to 23.3x (median 21.4x); the 25.0% margin beats the 22.2% comps median, not the top quarter, so the 50th percentile anchors [V:comps].",
+    "Francisco Partners' median paid is 16.2x, below the 19.4x lower quartile, yet it paid 20.6x for Highland Instruments and 23.6x for Pacific Biopharma [V:comps, D:MA-2020-0151, D:MA-2021-0465].",
+    "At 5.0x leverage the equity cheque is $239M and IRR at the ask is 25.3% against a 20% target. Maximum price is $356M [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin sub-sector record",
+    "concern": "Only 1 of 14 deals is in Health IT; 13 are outside it [T:record].",
+    "mitigant": "An open platform in the sub-sector gives an add-on route [A:angles].",
+    "reality": "Conviction is Medium, not High, because the sub-sector record is neutral [C:conviction]."
+   },
+   {
+    "title": "Price discipline",
+    "concern": "Its median paid of 16.2x sits below the comps' 19.4x lower quartile [V:comps].",
+    "mitigant": "It paid 23.6x and 20.6x in closed 2020-2021 neighbouring-sector deals [D:MA-2021-0465, D:MA-2020-0151].",
+    "reality": "Expect pushback below the 21.4x median; the 25.3% IRR at the ask leaves room to bid [V:lbo]."
+   },
+   {
+    "title": "Equity capacity unconfirmed",
+    "concern": "Fund size was not researched, so equity capacity is unconfirmed [R:FUND_SIZE_UNKNOWN].",
+    "mitigant": "More than $75 billion raised, undated [P:2].",
+    "reality": "The deal needs a $239M equity cheque; confirm fund headroom before the call [V:lbo]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Medium for Francisco Partners: one deal in the target's own sub-sector is neutral, while the open platform add-on route counts in its favour. Returns clear the target at the ask [C:conviction, T:record, A:angles, V:lbo]."
+  }
+ }
+}

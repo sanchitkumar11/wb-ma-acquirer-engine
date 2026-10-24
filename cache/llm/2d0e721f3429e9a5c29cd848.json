@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Francisco Partners",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8424,
+  "output_tokens": 4737,
+  "usd": 0.06421769991000001,
+  "cached": false,
+  "seconds": 32.42599504097598
+ },
+ "output": {
+  "buyer": "Francisco Partners",
+  "headline": "Technology-focused sponsor with an open platform in the target's sub-sector; returns clear the 20% target at the ask, with a maximum price of $356M.",
+  "differentiator": "Closes 86% of its deals, ahead of TPG Capital and Warburg Pincus, and has more than $75 billion raised. Its sub-sector record is thinner than most peers'.",
+  "why_them": "Add-on to open Health IT platform; returns clear at asking price",
+  "acquirer_overview": {
+   "title": "A large technology-focused sponsor that closes most of what it starts",
+   "points": [
+    "Financial sponsor with 14 deals from 2017 to 2023; 12 closed (86%), all control deals [T:record, K:closed_share, K:control_share].",
+    "Describes itself as \"One of the largest and most active technology-focused private equity firms in the world\"; more than $75 billion raised, undated [P:1, P:2].",
+    "Median deal is $192M, and 6 of 14 deals fall in the $150M-$600M band around the target's $300M [T:record, K:size_band]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform in the target's sub-sector",
+   "points": [
+    "An open platform in the sub-sector makes the target an add-on rather than a new bet; size fit is the second named angle [A:angles].",
+    "High Growth is a motive in 6 of 14 deals, matching the target's 20.0% growth [M:high_growth].",
+    "Slight factors for: has bought from this kind of seller, deal not smaller than usual, deal count. Share of deals in the sub-sector is a slight factor against [S:own_fit_s, S:not_smaller, S:activity, S:sector_share]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One deal in the target's sub-sector, larger precedents in neighbouring sectors",
+   "points": [
+    "Hudson Care Analytics: $16M management buyout, 2020, 18.9x, closed. It is the only Health IT deal [D:MA-2020-0260, T:record].",
+    "Prime Medical Technologies (devices): $446M leveraged buyout, 2021, 15.3x, closed [D:MA-2021-0297].",
+    "Pacific Biopharma (pharma): $724M merger of equals, 2021, 23.6x, closed. Shows it will pay a high multiple for growth [D:MA-2021-0465]."
+   ]
+  },
+  "valuation_context": {
+   "title": "The median anchor is defensible and the return clears at the ask",
+   "points": [
+    "13 same-sub-sector comparables show 19.4x to 23.3x, median 21.4x. The target's 25.0% margin beats the comps' 22.2% median but is not top quartile, so the 50th percentile anchors [V:comps].",
+    "Its own median paid is 16.2x, below the comps' lower quartile of 19.4x. It has paid 20.6x for Highland Instruments and 23.6x for Pacific Biopharma [V:comps, D:MA-2020-0151, D:MA-2021-0465].",
+    "At 5.0x leverage the equity cheque is $239M and IRR at the ask is 25.3% against a 20% target. Maximum price is $356M [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin sub-sector record",
+    "concern": "Only 1 of 14 deals is in Health IT; 13 are outside it [T:record].",
+    "mitigant": "An open platform in the sub-sector gives an add-on route [A:angles].",
+    "reality": "Conviction is Medium, not High, because the sub-sector record is neutral [C:conviction]."
+   },
+   {
+    "title": "Price discipline",
+    "concern": "Its median paid of 16.2x sits below the comps' 19.4x lower quartile [V:comps].",
+    "mitigant": "It paid 23.6x, 21.1x and 20.6x in 2020-2022 neighbouring-sector deals [D:MA-2021-0465, D:MA-2022-0398, D:MA-2020-0151].",
+    "reality": "Expect pushback below the 21.4x median; the 25.3% IRR at the ask leaves room to bid [V:lbo]."
+   },
+   {
+    "title": "Equity capacity unconfirmed",
+    "concern": "Fund size was not researched, so equity capacity is unconfirmed [R:FUND_SIZE_UNKNOWN].",
+    "mitigant": "More than $75 billion raised, undated [P:2].",
+    "reality": "The deal needs a $239M equity cheque; confirm fund headroom before the call [V:lbo]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Medium: one deal in the target's own sub-sector is neutral, while the open platform add-on route counts in its favour. Returns clear the target at the ask [C:conviction, T:record, A:angles, V:lbo]."
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Intermountain Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8386,
+  "output_tokens": 2292,
+  "usd": 0.039691725500000004,
+  "cached": false,
+  "seconds": 14.001385584007949
+ },
+ "output": {
+  "buyer": "Intermountain Health",
+  "headline": "Intermountain Health is a strategic whose one recorded deal, a 2022 platform investment, sits in the target's own sub-sector, though it has no Midwest deal history.",
+  "differentiator": "Intermountain Health's one deal, at $789M, is larger than the median deal of every other buyer on the list. Advocate Health and UPMC, the other strategics, have deeper sub-sector records.",
+  "why_them": "Sub-sector strategic with platform precedent; no Midwest presence yet",
+  "acquirer_overview": {
+   "title": "Intermountain Health: Salt Lake City system with one recorded deal",
+   "points": [
+    "Intermountain Health is headquartered in Salt Lake City, with 33 hospitals in Utah, Colorado, Idaho and Montana; it left Kansas in 2024 [P:2].",
+    "It completed a merger with SCL Health in 2022, extending into Colorado, Kansas and Montana [P:1].",
+    "One deal on record, which closed (1 of 1), all in Healthcare Services. Buyer revenue is not researched [K:closed_share, K:by_sub_sector, V:synergy]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Intermountain Health's sub-sector focus is the strongest factor in its likelihood",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor. Margin fit is a modest factor, and a deal no bigger than its largest is a slight one [S:sector_share, S:margin_fit, S:not_bigger].",
+    "Its one deal carried Platform Build and Scale motives (1 of 1 each), tags found on only 23% of all deals in the file [M:platform_build, M:scale].",
+    "Against: deals in recent years is a slight negative signal, and it has no deal in the target's region [S:recency, K:by_region]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One 2022 platform deal at 12.5x, far larger than the target",
+   "points": [
+    "Paramount Care Partners: $789M Platform Investment in Healthcare Services, 2022, multi-regional, closed [D:MA-2022-0183].",
+    "Intermountain Health paid 12.5x EBITDA and 3.03x revenue [D:MA-2022-0183, K:median_ev_revenue].",
+    "None of its deals fall in the comparable $100M-$400M size band (0 of 1); the target's $200M is below its one deal [K:size_band, T:record]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Defend the 75th percentile; its own 12.5x is just under the median",
+   "points": [
+    "70 comparable deals show 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th [V:comps].",
+    "The target's 16.8% margin is above the comps' 12.9% median and above 87% of comps, which supports the 75th percentile [V:comps].",
+    "Intermountain Health's own 12.5x rests on one deal. Cost-synergy headroom is $15M-$25M; buyer revenue is not researched, so capacity is unconfirmed [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "No Midwest foothold",
+    "concern": "Intermountain Health has no deal in the target's region and no Midwest hospitals in its footprint [K:by_region, P:2].",
+    "mitigant": "The SCL Health merger shows it has entered new states by combination [P:1].",
+    "reality": "It left Kansas in 2024, so Midwest commitment is unproven [P:2]."
+   },
+   {
+    "title": "Thin acquisition record",
+    "concern": "Only one deal, in 2022, with recent activity a slight negative signal [T:record, S:recency].",
+    "mitigant": "That deal closed (1 of 1) and sits in the target's own sub-sector [K:closed_share, D:MA-2022-0183].",
+    "reality": "One data point sets a Low conviction on its pricing and process behaviour [C:conviction]."
+   },
+   {
+    "title": "Low place on the priority list",
+    "concern": "It sits last on the priority list of 10, with a likelihood of 3.6% [R:rank].",
+    "mitigant": "Its sub-sector focus is the strongest factor and the target is no bigger than its largest deal [S:sector_share, S:not_bigger].",
+    "reality": "Sponsors and strategics with more relevant records will set the competitive tension [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Intermountain Health has only 1 deal in the target's own sub-sector, none in adjacent provider sub-sectors and none in the target's region, so the evidence is too thin to rate higher [C:conviction]."
+  }
+ }
+}

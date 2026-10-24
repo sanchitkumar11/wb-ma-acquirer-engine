@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3049,
+  "output_tokens": 341,
+  "usd": 0.009507905120000004,
+  "cached": false,
+  "seconds": 3.1364622919936664
+ },
+ "output": {
+  "headline": "Call Advocate Health and UPMC first, then Nordic Capital; price at the top of the range",
+  "sentences": [
+   "Call Advocate Health first, then Nordic Capital and UPMC: Advocate pays above the comparable median, UPMC has a perfect close record, and Nordic Capital has the deepest sponsor provider record. [E:tier1]",
+   "Upper-quartile pricing of 15.3x EBITDA is defensible given our margin, and the strategics can clearly pay it; sponsors reach about $193M to $216M, so synergy-backed strategics are better placed. [E:valuation, E:lbo]",
+   "The review removed Steward Health Care (bankrupt), folded Atrium Health into Advocate Health, and set aside Veritas Capital, Vista Equity and Francisco Partners as off-mandate. [E:review, E:tier2]",
+   "Most buyers in provider deals are after geographic expansion, which our Midwest footprint serves, so lead every call with that. [E:motives, E:target]"
+  ]
+ }
+}

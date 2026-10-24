@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Heartland Dental",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7071,
+  "output_tokens": 4147,
+  "usd": 0.05561174640000001,
+  "cached": false,
+  "seconds": 30.466002667031717
+ },
+ "output": {
+  "buyer": "Heartland Dental",
+  "headline": "Heartland Dental has closed all four of its deals in the target's own sub-sector, ranks first on the priority list, and pays near upper-quartile multiples.",
+  "differentiator": "Every one of its four deals is in the target's own sub-sector, and all four closed. Its 15.3x median paid sits just under the comparable upper quartile. [T:record, K:closed_share, V:comps]",
+  "why_them": "Dental specialist; closes every deal; pays near upper quartile",
+  "acquirer_overview": {
+   "title": "A dental-only strategic buyer with a clean closing record",
+   "points": [
+    "Strategic buyer with dental as its home sub-sector. All 4 deals are in dental; none are in adjacent provider sub-sectors. [B:buyer, T:record]",
+    "All 4 deals closed between 2017 and 2022, all as control deals. Median deal size is $75M. [K:closed_share, K:control_share, T:record]",
+    "Company profile and buyer revenue were not researched, so its scale is unconfirmed. [V:synergy]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "The target sits squarely in its dental buying pattern",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor in its likelihood. Margin fit and close rate are modest positives. [S:sector_share, S:margin_fit, S:close_rate_s]",
+    "Cost synergies and scale drove 2 of 4 deals, against 21% of all deals in the file, so this is a distinct motive. [M:cost_synergies]",
+    "It has one Southeast deal, Valley Dental Network (2021). Geographic expansion tags 4 of 4 deals but also 90% of the file, so it does not set it apart. [D:MA-2021-0356, M:geographic_expansion]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Four dental precedents, from $16M to $409M",
+   "points": [
+    "Madison Dental Solutions: $119M management buyout, 2022, at 16.1x EV/EBITDA. [D:MA-2022-0084]",
+    "Eastern Orthodontics: $409M management buyout, 2021, at 16.0x. Valley Dental Network: $31M recapitalization, 2021, Southeast, at 10.7x. [D:MA-2021-0434, D:MA-2021-0356]",
+    "Only 1 of its 4 deals falls in the comparable size band of $40M-$160M. [K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Its 15.3x median supports pricing near the 75th percentile",
+   "points": [
+    "63 comparable deals show 11.0x at the 25th percentile, 13.7x at the median and 15.4x at the 75th percentile. [V:comps]",
+    "The target's 18.0% margin is above the comparable median of 12.4%, which supports upper-quartile pricing. [V:comps]",
+    "Its own median paid is 15.3x. Cost-synergy headroom is $5M-$9M; buyer revenue is not researched, so capacity to pay needs confirming. [V:comps, V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin recent activity",
+    "concern": "Only one deal since 2022, and its last deal was in 2022.",
+    "mitigant": "All 4 deals closed, and recency is only a slight factor against it.",
+    "reality": "Appetite looks proven but not current; confirm it is still buying. [K:recent, S:recency, K:closed_share]"
+   },
+   {
+    "title": "Capacity unverified",
+    "concern": "Buyer revenue is not researched, and only 1 of 4 deals is in the comparable size band.",
+    "mitigant": "Median deal of $75M is close to the target's $80M EV; synergy headroom is $5M-$9M.",
+    "reality": "Fit on size looks reasonable; ability to fund is unconfirmed. [V:synergy, T:record, K:size_band]"
+   },
+   {
+    "title": "Low Southeast precedent price",
+    "concern": "Its only Southeast deal was struck at 10.7x, below the 11.0x comparable 25th percentile.",
+    "mitigant": "Its median paid across all deals is 15.3x.",
+    "reality": "The target's margin supports upper-quartile pricing; the buyer must accept it. [D:MA-2021-0356, V:comps]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Four deals in the target's own sub-sector, none in adjacent ones, one deal in the target's region, and a first-place position among the highest-scored buyers after review. [C:conviction, T:record, R:rank]"
+  }
+ }
+}

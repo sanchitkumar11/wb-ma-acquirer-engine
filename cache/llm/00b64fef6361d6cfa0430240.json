@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3951,
+  "output_tokens": 792,
+  "usd": 0.015821873550000004,
+  "cached": false,
+  "seconds": 6.410159499966539
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "UPMC",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:UPMC:CAPACITY_STRETCH"
+    ],
+    "reason": "UPMC's largest deal in the file is $444M, so a $1304M target would be a stretch. It also has 0 Mid-Atlantic deals on its card, so nothing offsets the size concern."
+   },
+   {
+    "buyer": "KKR",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:KKR:deals"
+    ],
+    "reason": "KKR has 10 of 14 deals in provider services and 3 in the Mid-Atlantic, more regional overlap than most Tier 1 sponsors. Its $122M median deal size is in line with the other Tier 1 sponsors."
+   }
+  ]
+ }
+}

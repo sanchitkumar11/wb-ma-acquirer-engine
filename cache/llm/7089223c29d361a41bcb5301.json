@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Francisco Partners",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10364,
+  "output_tokens": 2948,
+  "usd": 0.05020765960000001,
+  "cached": false,
+  "seconds": 18.826039500010666
+ },
+ "output": {
+  "buyer": "Francisco Partners",
+  "headline": "Francisco Partners: an open-platform technology sponsor with a Health IT precedent and a 25.3% IRR at the asking price.",
+  "differentiator": "Among the sponsors with an open platform, Francisco Partners has closed a higher share of its deals than TPG Capital and Warburg Pincus, and its median multiple paid is above both.",
+  "why_them": "Add-on to an open platform; 25.3% IRR at the ask",
+  "acquirer_overview": {
+   "title": "Francisco Partners: a technology-focused sponsor with 14 control deals since 2017",
+   "points": [
+    "14 deals from 2017 to 2023, all control deals; 12 closed (86%) [T:record, K:closed_share, K:control_share].",
+    "Describes itself as \"one of the largest and most active technology-focused private equity firms in the world\"; more than $75 billion raised, undated [P:1, P:2].",
+    "Only 1 deal in Health IT and 13 outside it; Physician Groups and Medical Devices lead with 3 deals each [T:record, K:by_sub_sector]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Francisco Partners can add the target to an open platform, backed by growth and margin motives",
+   "points": [
+    "Growth drove 6 of 14 deals and margin improvement 5 of 14, matching the target's 20.0% growth and 25.0% margin [M:high_growth, M:margin_improvement].",
+    "Its sponsor angles are an add-on to an open platform in the sub-sector and size fit; 6 of 14 deals sit in the $150M-$600M band [A:angles, K:size_band].",
+    "Slight factors for: prior purchases from this kind of seller, deal size and activity; against: its low share of sub-sector deals [S:own_fit_s, S:not_smaller, S:activity, S:sector_share]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One Health IT precedent, plus larger deals at 15.3x to 24.8x",
+   "points": [
+    "Hudson Care Analytics, same sub-sector: $16M Management Buyout, 2020, 18.9x, closed [D:MA-2020-0260].",
+    "Prime Medical Technologies ($446M Leveraged Buyout, 2021, 15.3x) and Pacific Biopharma ($724M Merger of Equals, 2021, 23.6x) both closed [D:MA-2021-0297, D:MA-2021-0465].",
+    "Coastal Gene Therapy: $9,980M Platform Investment, 2023, 24.8x, closed. Taft Device Solutions ($153M, 2022, 21.1x) is only rumored [D:MA-2023-0236, D:MA-2022-0398]."
+   ]
+  },
+  "valuation_context": {
+   "title": "The median is the defensible anchor, and returns clear at the ask",
+   "points": [
+    "13 comparable deals, all in the sub-sector: 19.4x at the 25th percentile, 21.4x median, 23.3x at the 75th [V:comps].",
+    "The target's 25.0% margin is above the comps' 22.2% median but not in their top quarter, so the 50th percentile is defensible [V:comps].",
+    "Francisco Partners' median paid is 16.2x; at 5.0x leverage, IRR at the ask is 25.3% against a 20% target, with maximum price $356M [T:record, V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin Health IT record",
+    "concern": "Only 1 of 14 deals is in Health IT, and none are in the National region [T:record].",
+    "mitigant": "Its open platform in the sub-sector gives an add-on route [A:angles].",
+    "reality": "Fit rests on the platform, not repeated sub-sector deals; sub-sector share counts against it [S:sector_share]."
+   },
+   {
+    "title": "Price behaviour below the comps",
+    "concern": "Its median paid of 16.2x is well below the 21.4x comp median [T:record, V:comps].",
+    "mitigant": "IRR at the ask is 25.3% against a 20% target [V:lbo].",
+    "reality": "Returns leave room to reach the median; maximum price is $356M [V:lbo]."
+   },
+   {
+    "title": "Equity capacity unconfirmed",
+    "concern": "Fund size was not researched, so equity capacity is unconfirmed [R:FUND_SIZE_UNKNOWN].",
+    "mitigant": "More than $75 billion raised, undated, against an equity cheque of $239M [P:2, V:lbo].",
+    "reality": "Capital raised is a good sign, but fund capacity needs checking before the call [R:FUND_SIZE_UNKNOWN]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Neutral on sub-sector depth, with only 1 deal in the target's own sub-sector for Francisco Partners; supported by an open platform in the sub-sector, which gives an add-on route [C:conviction, A:angles]."
+  }
+ }
+}

@@ -1,0 +1,9 @@
+# Contrasting sample target: a national Health IT business, larger and faster-growing than the default.
+# Used to check that rings, comparable deals, percentiles and the technology-investor rule re-centre on the target.
+sector: Health IT
+enterprise_value_mm: 300
+region: National
+ownership: PE-Backed
+ebitda_margin_pct: 25.0
+revenue_growth_pct: 20.0
+as_of: 2024Q4              # deal data ends Q4 2024; score as of the data end

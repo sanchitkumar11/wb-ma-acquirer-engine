@@ -1,0 +1,14 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Ardent Health Services
+buyer_type: Strategic
+facts:
+- kind: revenue
+  value: Annual revenue $6,324M (fiscal year ending 2025-12-31)
+  as_of: '2026-03-16'
+  source: https://data.sec.gov/api/xbrl/companyfacts/CIK0001756655.json
+  accessed: '2026-10-23'
+  accession: 0001628280-26-018174
+  amount_usd_mm: 6324
+not_researched:
+- acquisition 8-K (no Item 2.01 8-K in the EDGAR submissions index, checked 2026-10-23)
+- footprint

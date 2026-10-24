@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Welsh Carson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 10430,
+  "output_tokens": 2559,
+  "usd": 0.04644966151000001,
+  "cached": false,
+  "seconds": 15.405563707987312
+ },
+ "output": {
+  "buyer": "Welsh Carson",
+  "headline": "Welsh Carson: a provider-focused sponsor with an open platform and six Midwest deals, positioned to pay upper-quartile pricing for this $200M, 16.8%-margin target.",
+  "differentiator": "Among the most active Midwest buyers on the priority list with 6 deals, level with GTCR, and it also has an open platform in the sub-sector, which GTCR lacks.",
+  "why_them": "Add-on to its open platform; pays upper-quartile prices",
+  "acquirer_overview": {
+   "title": "A healthcare-focused sponsor with 23 deals and a Midwest footprint",
+   "points": [
+    "Welsh Carson is a financial sponsor with 23 deals from 2017 to 2023; 18 closed (78%), and 8 came since 2022 [T:record, K:closed_share, K:recent].",
+    "Its mandate covers technology and healthcare; a press headline cites its largest private equity fund to date (2023) [P:1, P:2].",
+    "Provider specialist: 16 of 23 deals in provider services, 6 in the Midwest, median deal $172M [A:angles, T:record]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to its open platform, backed by a provider record",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are the strongest factor in its favour: 1 in the target's own sub-sector, 15 in adjacent provider sub-sectors [S:sector_rel, T:record].",
+    "Cross-sell is a distinct motive: 8 of 23 deals, against 21% of all deals in the file [M:cross_sell].",
+    "It bought Jefferson Ambulatory Care in the target's own sub-sector and region; its open platform makes the target an add-on [D:MA-2021-0083, A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Midwest and provider precedents at multiples above the comparable range",
+   "points": [
+    "Jefferson Ambulatory Care: $75M Management Buyout, 2021, Midwest, 17.8x EBITDA, closed [D:MA-2021-0083].",
+    "Woodland PACE: $204M Management Buyout, 2021, 17.6x EBITDA, closed; the closest in size to the target [D:MA-2021-0025].",
+    "Clearwater Mental Health: $398M Recapitalization, 2023, Midwest, 16.8x, withdrawn. 9 of 23 deals sit in the $100M-$400M size band [D:MA-2023-0166, K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and this buyer has paid it",
+   "points": [
+    "70 comparable deals show 10.7x at the lower quartile, a 12.8x median and 15.3x at the 75th percentile [V:comps].",
+    "The target's 16.8% margin sits above the comps' median of 12.9% and above 87% of comps, supporting the 75th percentile [V:comps].",
+    "Welsh Carson's median paid is 16.2x [T:record]. At 5.0x leverage the equity cheque is $128M; maximum price is $193M at the same exit, $216M at a 15.0x platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "At the same exit the maximum is $193M, so the bid depends on the add-on exit [V:lbo]."
+   },
+   {
+    "title": "Completion record",
+    "concern": "The share of its deals that closed, 18 of 23 (78%), is a slight factor against it [S:close_rate_s, K:closed_share].",
+    "mitigant": "It closed Jefferson Ambulatory Care, a Midwest deal in the target's own sub-sector [D:MA-2021-0083].",
+    "reality": "Two of its six listed precedents were withdrawn, including Clearwater Mental Health at $398M [D:MA-2023-0166, D:MA-2022-0024]."
+   },
+   {
+    "title": "Thin record in the target's own sub-sector",
+    "concern": "Only 1 deal in the target's own sub-sector; Advocate Health, Nordic Capital and UPMC each have more [T:record].",
+    "mitigant": "It has 15 deals in adjacent provider sub-sectors and an open platform [T:record, A:angles].",
+    "reality": "Nordic Capital also has an open platform and a deeper adjacent-provider record, so expect competition [A:angles]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 1 deal in the target's own sub-sector, 15 in adjacent provider sub-sectors, and an open platform offering an add-on route; the completion record is the main offset [C:conviction, S:close_rate_s]."
+  }
+ }
+}

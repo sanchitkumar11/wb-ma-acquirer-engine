@@ -1,0 +1,75 @@
+{
+ "purpose": "W3 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8368,
+  "output_tokens": 3577,
+  "usd": 0.05250571319000001,
+  "cached": false,
+  "seconds": 25.607369082979858
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "Advent offers a fund of about $25 billion and five National deals, but a thin Health IT record makes it a secondary call.",
+  "differentiator": "Advent has done more deals in the target's National region than any other buyer on the priority list (5), and its return at the ask clears the 20% hurdle.",
+  "why_them": "Deep-pocketed sponsor with National reach; Health IT record thin",
+  "acquirer_overview": {
+   "title": "A large-fund sponsor with a broad, mostly non-Health IT record",
+   "points": [
+    "18 deals from 2016 to 2024, 15 closed (83%), and 17 of 18 were control deals [T:record, K:closed_share, K:control_share].",
+    "Home sub-sector is Behavioral Health; 17 of 18 deals were outside Health IT, with Dental, Health Insurance and Revenue Cycle at 3 each [B:buyer, T:record, K:by_sub_sector].",
+    "Advent Global Private Equity X, about $25 billion (2022 vintage), gives it capacity for a $300M target [P:1]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Credible on region and size, weak on sub-sector focus",
+   "points": [
+    "Margin Improvement drove 7 of 18 deals, and the target's 25.0% margin suits that playbook [M:margin_improvement, X:target].",
+    "Past buying in this or a neighbouring region is a modest factor for; its low share of deals in the target's sub-sector is a slight factor against [S:geo_fit, S:sector_share].",
+    "Only 1 of 18 deals was Health IT, and Advent has no open platform, so the target would be a new bet, not an add-on [A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One Health IT precedent, withdrawn; neighbouring deals show appetite at scale",
+   "points": [
+    "Cascade Health Informatics (Health IT, $125M, Bolt-on, 2018) was priced at 22.6x but withdrawn [D:MA-2018-0206].",
+    "Vantage Therapeutics ($315M, SPAC Merger, 2021, National) closed at 19.5x, close to the target's $300M size [D:MA-2021-0203].",
+    "Star Practice Management ($106M, Recapitalization, 2022) closed at 20.3x; 4 of 18 deals sit in the $150M-$600M size band [D:MA-2022-0419, K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Median anchor of 21.4x is affordable, though above Advent's usual price",
+   "points": [
+    "13 same-sub-sector comparables show 19.4x at the 25th percentile, 21.4x median and 23.3x at the 75th [V:comps].",
+    "The 50th percentile is defensible: the 25.0% margin beats the comparables' 22.2% median but is not in their top quarter [V:comps].",
+    "Advent's own median paid is 15.5x, below the comparables' median, so it must stretch beyond its habit [T:record, V:comps].",
+    "At 5.0x leverage and an equity cheque of $239M, IRR at the ask is 25.3% against a 20% target; maximum price is $356M [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size and focus stretch",
+    "concern": "Median deal of $124M is under half the $300M EV, and Health IT is 1 of 18 deals [T:record].",
+    "mitigant": "Its biggest deal was $5,537M, and 4 of 18 deals sit in the comparable size band [T:record, K:size_band].",
+    "reality": "Size is feasible, but this would be a new sub-sector bet with no open platform [A:angles]."
+   },
+   {
+    "title": "Pricing habit below the market",
+    "concern": "Advent's median paid of 15.5x trails the comparables' 21.4x median [T:record, V:comps].",
+    "mitigant": "It paid 20.3x for Star Practice Management and 19.5x for Vantage Therapeutics [D:MA-2022-0419, D:MA-2021-0203].",
+    "reality": "A bid near the median is possible, but the one Health IT deal at 22.6x was withdrawn [D:MA-2018-0206]."
+   },
+   {
+    "title": "Crowded process",
+    "concern": "Advent ranks 10th of 10 on the priority list, 13th overall, at a 3.5% likelihood [R:rank].",
+    "mitigant": "Past buying in this or a neighbouring region is a modest factor in its favour [S:geo_fit].",
+    "reality": "Buyers with deeper Health IT records will likely lead the process [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only 1 deal sits in the target's own sub-sector, there is no open platform, and the $124M median deal is under half the $300M EV, so the case rests on capacity and return rather than fit [C:conviction, T:record]."
+  }
+ }
+}

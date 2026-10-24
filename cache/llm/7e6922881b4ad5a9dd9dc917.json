@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8286,
+  "output_tokens": 4194,
+  "usd": 0.05851170948000001,
+  "cached": false,
+  "seconds": 29.609903457982
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "Sponsor with a same-sub-sector precedent and upper-quartile pricing, but a thin Midwest record and smaller typical deal make it a lower-priority call.",
+  "differentiator": "Pays a median 15.7x, ahead of Advent (15.5x) and GTCR (15.2x). Its same-sub-sector precedent, Quality Medical Group at $187M, is close to the target's size. [V:comps, D:MA-2022-0350]",
+  "why_them": "Pays above upper-quartile comps; adjacent provider record; lower-priority call",
+  "acquirer_overview": {
+   "title": "Large sponsor with a half-provider record since 2016",
+   "points": [
+    "Financial sponsor with $303.0 billion in assets under management as of December 31, 2025 [P:1].",
+    "18 deals from 2016 to 2023; 15 closed, and 17 of 18 were control deals [K:closed_share, K:control_share, T:record].",
+    "Provider services made up 9 of 18 deals; its home sub-sector is Health Insurance, and it has no open platform [A:angles, B:buyer]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Growth appetite and a same-sub-sector deal, offset by weak Midwest fit",
+   "points": [
+    "Growth was a motive in 10 of 18 deals, matching the target's 11.0% revenue growth [M:high_growth, X:target].",
+    "Has bought from this kind of seller (a modest factor), with 1 deal in the target's sub-sector and 8 in adjacent provider sub-sectors [S:own_fit_s, T:record].",
+    "Past buying in this or a neighbouring region is a slight factor against; only 1 deal was in the Midwest [S:geo_fit, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Closest precedent is a $187M same-sub-sector deal, but a minority stake",
+   "points": [
+    "Quality Medical Group: $187M minority investment, 2022, at 11.2x EV/EBITDA, in the target's own sub-sector [D:MA-2022-0350].",
+    "Granite Dental Network: $203M platform investment, 2021, at 12.2x, an adjacent provider sub-sector deal in the target's size band [D:MA-2021-0439].",
+    "Only Midwest deal: Metro Medical Associates, $15M, 2018, at 8.8x, far below the target's size [D:MA-2018-0415]."
+   ]
+  },
+  "valuation_context": {
+   "title": "75th percentile pricing is defensible and within TPG's own pricing range",
+   "points": [
+    "70 comparable deals: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th [V:comps].",
+    "Target margin of 16.8% against a comparable median of 12.9% supports the 75th percentile [V:comps].",
+    "TPG's median paid is 15.7x; IRR at the ask is 18.7% against a 20% target, on a $128M equity cheque [V:comps, V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $88M is under half the target's $200M EV [T:record].",
+    "mitigant": "8 of 18 deals sit in the $100M-$400M band; the biggest was $1,388M [K:size_band, T:record].",
+    "reality": "Capacity exists, but this is a larger-than-typical cheque for TPG [T:record, C:conviction]."
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "At the same exit the maximum is $193M, below $200M; the bid needs a platform exit [V:lbo]."
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Only 1 deal in the target region, and geography is a signal against [T:record, S:geo_fit].",
+    "mitigant": "Growth and adjacent provider buying are signals for; one Midwest deal exists [S:activity, S:sector_rel, D:MA-2018-0415].",
+    "reality": "Welsh Carson and GTCR each have 6 Midwest deals, a stronger regional claim."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Ranked 9th on the priority list of 10, with a likelihood of 3.7%. The record is relevant (1 own-sub-sector and 8 adjacent provider deals), but the $88M median deal is under half the $200M EV. [R:rank, C:conviction]"
+  }
+ }
+}

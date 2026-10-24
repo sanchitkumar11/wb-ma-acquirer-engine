@@ -1,0 +1,18 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Advent International
+buyer_type: Financial Sponsor
+facts:
+- kind: fund_size
+  value: 'Advent Global Private Equity X, about $25 billion (2022 vintage; PEI: ''close world''s second-largest
+    PE fund'')'
+  as_of: '2022-05-24'
+  source: https://en.wikipedia.org/wiki/Advent_International
+  accessed: '2026-10-23'
+  amount_usd_mm: 25000
+- kind: aum
+  value: Approximately $100 billion AUM as of November 2025
+  as_of: '2025-11-25'
+  source: https://en.wikipedia.org/wiki/Advent_International
+  accessed: '2026-10-23'
+  amount_usd_mm: 100000
+not_researched: []

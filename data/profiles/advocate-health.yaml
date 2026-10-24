@@ -1,0 +1,30 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Advocate Health
+buyer_type: Strategic
+facts:
+- kind: merger
+  value: Created when Advocate Aurora Health and Atrium Health merged
+  as_of: '2022-12-02'
+  source: https://en.wikipedia.org/wiki/Advocate_Health
+  accessed: '2026-10-23'
+- kind: footprint
+  value: 'Nonprofit system headquartered in Charlotte, NC; facilities in 6 states: Alabama, Illinois, Georgia, North
+    Carolina, South Carolina, Wisconsin'
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Advocate_Health
+  accessed: '2026-10-23'
+  states:
+  - AL
+  - IL
+  - GA
+  - NC
+  - SC
+  - WI
+- kind: size
+  value: 69 hospitals (2024)
+  as_of: '2024-12-31'
+  source: https://en.wikipedia.org/wiki/Advocate_Health
+  accessed: '2026-10-23'
+not_researched:
+- annual revenue (source figures inconsistent)
+- stated strategy

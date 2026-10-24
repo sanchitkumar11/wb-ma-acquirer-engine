@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3621,
+  "output_tokens": 768,
+  "usd": 0.01492188369,
+  "cached": false,
+  "seconds": 5.800250125001185
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "HCA Healthcare",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:HCA Healthcare:CAPACITY_STRETCH"
+    ],
+    "reason": "HCA's largest deal in the file is $37M, so a $187M target would be a stretch. It does have Southeast presence, but the size gap puts it in Tier 2."
+   },
+   {
+    "buyer": "Vista Equity",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Vista Equity:deals"
+    ],
+    "reason": "Vista has 14 of 17 deals in provider services and 3 in the Southeast. Its $154M median is close to the target's $187M size, so it fits better than several current Tier 1 buyers with no Southeast activity."
+   }
+  ]
+ }
+}

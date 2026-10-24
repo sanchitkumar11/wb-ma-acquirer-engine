@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary repair",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3536,
+  "output_tokens": 2111,
+  "usd": 0.028181872809999998,
+  "cached": false,
+  "seconds": 13.349716332973912
+ },
+ "output": {
+  "headline": "Dental strategics and financial sponsors form the buyer universe for this Southeast practice; upper-quartile pricing is defensible, though mainly strategics can pay it.",
+  "sentences": [
+   "Call Heartland Dental and Aspen Dental first: both are High conviction, have deals in the target's own sub-sector, and closed $409M and $392M deals, so size is no obstacle. [E:tier1]",
+   "Defensible pricing is the 75th percentile, 15.4x EBITDA against a 13.7x median, given the 18.0% margin; sponsors top out at $68M for a 20% return, so strategics must carry it. [E:valuation, E:lbo, E:tier1]",
+   "The review removed and merged no one; Veritas Capital, Vista Equity and Francisco Partners stay in Tier 2 as technology investors, so confirm their appetite for tech-enabled services before outreach. [E:review, E:tier2]",
+   "Most buyers share one motive, geographic expansion, seen in 90% of 284 provider deals, so lead the pitch with the Southeast footprint. [E:motives]"
+  ]
+ }
+}

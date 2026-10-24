@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 write GTCR",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7154,
+  "output_tokens": 3844,
+  "usd": 0.052747746940000007,
+  "cached": false,
+  "seconds": 26.153416000015568
+ },
+ "output": {
+  "buyer": "GTCR",
+  "headline": "A provider-focused sponsor with six Midwest deals and a median deal size of $173M, close to this $200M Midwest target.",
+  "differentiator": "Joint-most active Midwest buyer on the priority list, with 6 deals alongside Welsh Carson, and its median deal of $173M sits close to the target's $200M size.",
+  "acquirer_overview": {
+   "title": "A provider-heavy sponsor with a healthcare mandate and a sizeable fund",
+   "points": [
+    "Financial sponsor investing from Fund XIV of $11.5 billion; its mandate includes healthcare [P:1, P:2].",
+    "14 deals from 2015 to 2023; 11 of 14 (79%) closed and 12 of 14 (86%) were control deals [T:record, K:closed_share, K:control_share].",
+    "Provider deals are 9 of 14, and 6 of its deals were in the Midwest [A:angles, K:by_region]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A provider specialist with a Midwest record and matching deal size",
+   "points": [
+    "Having bought in this or a neighbouring region is a modest factor in its likelihood; it has 6 Midwest deals [S:geo_fit, K:by_region].",
+    "1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; the target is not smaller than its usual range [T:record, S:not_smaller].",
+    "Its angles are provider specialist and size fit, but it has no open platform, so the target would be a standalone investment [A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Midwest precedents range from $42M to $911M, most of them closed",
+   "points": [
+    "Sterling Health Systems: $911M bolt-on in the target's own sub-sector, Midwest, 2018, at 12.2x; closed [D:MA-2018-0357].",
+    "Golden Orthodontics: $588M leveraged buyout, Midwest dental, 2020, at 15.2x; closed [D:MA-2020-0276].",
+    "2023 deals: Zenith Specialty Care ($76M, 8.9x, Midwest) was withdrawn; Superior Behavioral Health ($70M, 14.6x) closed [D:MA-2023-0279, D:MA-2023-0293]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible and sits close to GTCR's own history",
+   "points": [
+    "70 comparable deals span 10.7x to 15.3x, with a median of 12.8x; GTCR's own median paid is 15.2x [V:comps].",
+    "The 75th percentile is defensible: the target's 16.8% margin sits above the comparable deals' median of 12.9% [V:comps].",
+    "Ability to pay: 5.0x leverage and a $128M equity cheque produce an IRR at the ask of 18.7%, against a 20% target [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% falls short of the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "At the same exit multiple the maximum price is $193M, below the $200M target value [V:lbo]."
+   },
+   {
+    "title": "No open platform",
+    "concern": "No open platform in the sub-sector, so the target would be a new standalone bet [C:conviction].",
+    "mitigant": "It has 8 adjacent provider deals and 1 in the target's own sub-sector [T:record].",
+    "reality": "The one same-sub-sector deal, Sterling, was $911M, much larger than this target [D:MA-2018-0357]."
+   },
+   {
+    "title": "Execution record",
+    "concern": "Share of deals that closed is a slight factor against it, at 11 of 14 (79%) [S:close_rate_s, K:closed_share].",
+    "mitigant": "4 deals since 2022 show it remains active [K:recent].",
+    "reality": "Its most recent Midwest provider bid, Zenith in 2023, was withdrawn [D:MA-2023-0279]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Supported by 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors, but neutral because it has no open platform in the sub-sector [C:conviction]."
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 write Advocate Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6903,
+  "output_tokens": 2977,
+  "usd": 0.04357576314000001,
+  "cached": false,
+  "seconds": 22.094231667055283
+ },
+ "output": {
+  "buyer": "Advocate Health",
+  "headline": "Advocate Health has bought only in the target's own sub-sector, closed all five deals, and has a Midwest precedent.",
+  "differentiator": "Every one of its five deals is in the target's own sub-sector, the most on the priority list, and all five closed. Its 13.8x median paid sits above the comparable-deal median.",
+  "acquirer_overview": {
+   "title": "A nonprofit system with a pure Healthcare Services deal record",
+   "points": [
+    "Nonprofit system formed when Advocate Aurora Health and Atrium Health merged; 69 hospitals in 2024 [P:1, P:3]",
+    "Five deals from 2016 to 2023, all control deals, all closed, all in Healthcare Services, none in adjacent sub-sectors [T:record, K:closed_share, K:control_share]",
+    "Ranked first on the priority list of 10 and first overall among 107 buyers scored, at a likelihood of 5.0% [R:rank]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same sub-sector, similar margin profile, and experience buying from this kind of seller",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor in its likelihood; all five precedents match [S:sector_share, K:by_sub_sector]",
+    "The target's margin is close to what it usually buys, a strong factor, and it has bought from this kind of seller, a modest factor [S:margin_fit, S:own_fit_s]",
+    "Apex Medical Group (2016) is a Midwest precedent; the region signal is a slight factor against [D:MA-2016-0065, S:geo_fit]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Large, repeat Healthcare Services deals, with multiples from 9.3x to 18.5x",
+   "points": [
+    "Charter Care Partners: $2,022M Platform Investment, 2023, at 18.5x EBITDA, bought as Atrium Health [D:MA-2023-0330]",
+    "Apex Medical Group: $1,920M Recapitalization in the Midwest, 2016, at 17.9x; Hudson Medical Group: $436M Strategic Acquisition, 2020, at 9.3x [D:MA-2016-0065, D:MA-2020-0496]",
+    "Two deals since 2022, including Silver Health Partners ($35M Leveraged Buyout, 13.8x); only 1 of 5 sits in the $100M-$400M size band [K:recent, D:MA-2022-0311, K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Defend the 75th percentile; Advocate's own pricing supports it",
+   "points": [
+    "Comparable deals (70 in all) show 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th percentile [V:comps]",
+    "The target's 16.8% margin is above the comparables' 12.9% median and above 87% of comparable deals, supporting upper-quartile pricing [V:comps]",
+    "Advocate's median paid is 13.8x; synergy headroom is $15M-$25M; buyer revenue is not researched [V:comps, V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size mismatch",
+    "concern": "Median deal of $436M is well above the $200M target, and only 1 of 5 deals fell in the comparable size band [T:record, K:size_band].",
+    "mitigant": "Its smallest deal was $35M (Silver Health Partners), so it has bought below the target's size [D:MA-2022-0311].",
+    "reality": "Scale is not a barrier, but a $200M deal would be small for this buyer [T:record]."
+   },
+   {
+    "title": "Limited Midwest footprint",
+    "concern": "Only 1 of 5 deals was in the target's region; regional fit is a slight factor against [T:record, S:geo_fit].",
+    "mitigant": "That deal was the $1,920M Apex Medical Group recapitalization, a Midwest precedent [D:MA-2016-0065].",
+    "reality": "The region is a modest drag, outweighed by the sub-sector signals [S:sector_share, S:geo_fit]."
+   },
+   {
+    "title": "Price discipline in a contested process",
+    "concern": "Its 13.8x median may fall short if sponsors bid toward the 75th percentile of 15.3x [V:comps].",
+    "mitigant": "Headroom of $15M-$25M gives room to stretch [V:synergy].",
+    "reality": "Advocate's multiples ranged from 9.3x to 18.5x, and its financing capacity is unresearched [T:record, V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Five deals in the target's own sub-sector, none in adjacent ones, one deal in the target's region, and first position on the priority list [T:record, R:rank, C:conviction]."
+  }
+ }
+}

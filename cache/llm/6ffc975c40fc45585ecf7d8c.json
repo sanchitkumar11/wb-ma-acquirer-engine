@@ -1,0 +1,75 @@
+{
+ "purpose": "W2 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7449,
+  "output_tokens": 3334,
+  "usd": 0.04823774319000001,
+  "cached": false,
+  "seconds": 23.38083633396309
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "TPG Capital brings $303.0 billion of assets and an upper-quartile pricing record to a $200M Midwest target, but has no open platform.",
+  "differentiator": "Its 15.7x median multiple paid sits above the 15.3x upper quartile of comparable deals, so it has a record of paying where this target's margin supports. Peer lines were not provided. [T:record, V:comps]",
+  "why_them": "Deep-pocketed sponsor with provider record; pays 15.7x median",
+  "acquirer_overview": {
+   "title": "A large sponsor with a steady, mostly control-oriented record",
+   "points": [
+    "Financial sponsor with $303.0 billion in assets under management as of December 31, 2025 (TPG Inc.) [P:1]",
+    "18 deals from 2016 to 2023, of which 15 closed (83%); 17 of 18 were control deals [T:record, K:closed_share, K:control_share]",
+    "Home sub-sector is Health Insurance; 9 of 18 deals were provider services, and 9 were outside provider services [B:buyer, A:angles, T:record]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Adjacent provider experience and a growth motive, but no open platform",
+   "points": [
+    "Growth was a stated motive in 10 of 18 deals, against 41% of all deals in the file, which matches the target's 11.0% growth [M:high_growth, X:target]",
+    "One deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; having bought from this kind of seller is a modest factor [T:record, S:own_fit_s]",
+    "No open platform in the sub-sector, so the target would be a new position rather than an add-on; buying in this or a neighbouring region is a slight factor against [A:angles, S:geo_fit]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Relevant deals cluster at $100M-$400M, with one in the target's own sub-sector",
+   "points": [
+    "Quality Medical Group, $187M minority investment in 2022, same sub-sector as the target, at 11.2x EV/EBITDA [D:MA-2022-0350]",
+    "Granite Dental Network, $203M platform investment in 2021, at 12.2x; Liberty Addiction Treatment, $118M leveraged buyout in 2021, at 8.8x [D:MA-2021-0439, D:MA-2021-0369]",
+    "8 of 18 deals fall in the $100M-$400M size band; Metro Medical Associates ($15M, 2018) is its only Midwest deal [K:size_band, D:MA-2018-0415]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and TPG's record supports paying it",
+   "points": [
+    "70 comparable deals show 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th percentile [V:comps]",
+    "The target's 16.8% margin is above the comparable median of 12.9%, which supports the 75th percentile [V:comps]",
+    "TPG's median paid is 15.7x. At the ask, IRR is 18.7% against a 20% target, on a $128M equity cheque at 5.0x leverage [V:comps, V:lbo]",
+    "Maximum price is $193M at the same exit multiple and $216M with a platform exit at 15.0x [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $88M is under half the $200M EV [C:conviction].",
+    "mitigant": "8 of 18 deals fall in the $100M-$400M band, and the biggest deal was $1,388M [K:size_band, T:record].",
+    "reality": "Capacity exists, but the typical TPG deal is smaller than this target [T:record]."
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "There is no open platform, so that exit case would have to be built from scratch [A:angles]."
+   },
+   {
+    "title": "Thin Midwest and own-sub-sector record",
+    "concern": "Only 1 deal in the target's region and 1 in its sub-sector [T:record].",
+    "mitigant": "8 deals in adjacent provider sub-sectors show comfort with the wider provider space [T:record].",
+    "reality": "Buying in this or a neighbouring region is a slight factor against [S:geo_fit]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "TPG has 1 deal in the target's sub-sector and 8 in adjacent provider sub-sectors, but no open platform, and its median deal of $88M is under half the $200M EV. It ranks 9th on the priority list. [C:conviction, R:rank]"
+  }
+ }
+}

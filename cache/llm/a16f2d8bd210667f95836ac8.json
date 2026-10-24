@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3241,
+  "output_tokens": 437,
+  "usd": 0.0108518984,
+  "cached": false,
+  "seconds": 4.662080124951899
+ },
+ "output": {
+  "headline": "Own-sub-sector strategics Advocate Health and UPMC, plus provider-focused sponsors led by Nordic Capital, form the buyer universe for this Midwest healthcare services target; upper-quartile pricing is defensible and the strongest buyers can pay it.",
+  "sentences": [
+   "Call Advocate Health first, then Nordic Capital and UPMC: Advocate and UPMC are own-sub-sector strategics that have closed far larger deals, and Nordic has the deepest sponsor provider record. [E:tier1]",
+   "The defensible price is the 75th percentile, 15.3x EV/EBITDA against a 12.8x median, supported by the 16.8% margin; sponsors reach $193M to $216M, strategics add $15M-$25M of synergy headroom. [E:valuation, E:lbo]",
+   "The review removed Steward Health Care (Chapter 11, liquidated), merged Atrium Health into Advocate Health, and kept Veritas Capital, Vista Equity and Francisco Partners in Tier 2 pending a check on appetite for tech-enabled services. [E:review, E:tier2]",
+   "Most buyers share one motive: geographic expansion, present in 90% of 284 provider deals, so lead with Midwest entry and footprint fit. [E:motives]"
+  ]
+ }
+}

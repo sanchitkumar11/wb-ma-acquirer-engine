@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write UPMC",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6284,
+  "output_tokens": 2858,
+  "usd": 0.0411477829,
+  "cached": false,
+  "seconds": 20.669209000014234
+ },
+ "output": {
+  "buyer": "UPMC",
+  "headline": "UPMC has closed three Healthcare Services deals, all in the target's own sub-sector, and has US$27.7 billion of revenue behind a $200M Midwest purchase. [B:buyer, T:record, P:1]",
+  "differentiator": "Its deal record is entirely in the target's own sub-sector, 3 of 3 closed, and its US$27.7 billion revenue base is ample to fund the ask. No peer comparison was provided. [T:record, K:closed_share, P:1]",
+  "why_them": "Same sub-sector as the target; every past deal closed; large balance sheet",
+  "acquirer_overview": {
+   "title": "A large strategic with a short, fully closed record",
+   "points": [
+    "Strategic buyer with hospitals in Pennsylvania, Maryland and New York; Washington Health System merged with UPMC in 2024. [B:buyer, P:2]",
+    "Three deals from 2018 to 2020, all closed and all control deals, with a median size of $55M. [T:record, K:closed_share, K:control_share]",
+    "Ranks 3rd on the priority list of 10 and 4th of 107 buyers scored, at a likelihood of 4.7%. [R:rank]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Home sub-sector buyer for a high-margin Healthcare Services asset",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; margin fit is a strong factor. All 3 deals were Healthcare Services. [S:sector_share, S:margin_fit, K:by_sub_sector]",
+    "Motives: Platform Build in 1 of 3 deals (23% of all deals in file) and Cross-sell in 1 of 3 (21%), so the target could be an add-on. [M:platform_build, M:cross_sell]",
+    "Geographic Expansion appears in 2 of 3 deals but also in 90% of all deals in file, so it is not a distinct motive. [M:geographic_expansion]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three same-sub-sector deals, one near the target's size",
+   "points": [
+    "Principal Behavioral Health, $444M Bolt-on Acquisition (2019) at 11.7x EV/EBITDA, its largest deal. [D:MA-2019-0090]",
+    "Sterling Care Network, $55M Strategic Acquisition (2020) at 11.3x. Keystone Behavioral Health, $33M Recapitalization (2018) at 17.0x. [D:MA-2020-0312, D:MA-2018-0486]",
+    "None of the 3 deals falls in the $100M-$400M comparable size band, and none was in the Midwest. [K:size_band, T:record]"
+   ]
+  },
+  "valuation_context": {
+   "title": "A 75th percentile case, within reach of its capacity",
+   "points": [
+    "Comparable deals (70) show 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th percentile. [V:comps]",
+    "The 16.8% margin is above the 12.9% comp median and above 87% of comps, supporting the 75th percentile. [V:comps, X:target]",
+    "Its median paid is 11.7x, below the 75th percentile, but synergy headroom of $15M-$25M can bridge the gap. [V:comps, V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Dormant acquirer",
+    "concern": "No deals since 2022 and the last deal was in 2020; recency is a slight factor against. [K:recent, S:recency]",
+    "mitigant": "The 2024 Washington Health System merger shows continued corporate activity. [P:2]",
+    "reality": "Three deals in total is a thin record; appetite should be tested on the call. [T:record]"
+   },
+   {
+    "title": "Size and region stretch",
+    "concern": "None of its 3 deals falls in the $100M-$400M band, and none was in the Midwest. [K:size_band, T:record]",
+    "mitigant": "Its $444M deal shows it can transact above the target's size. [D:MA-2019-0090]",
+    "reality": "Its stated footprint is Pennsylvania, Maryland and New York, so the Midwest is a new region. [P:2]"
+   },
+   {
+    "title": "Price gap to the defensible level",
+    "concern": "Its median paid of 11.7x sits below the 15.3x 75th percentile we would defend. [V:comps]",
+    "mitigant": "Synergy headroom of $15M-$25M and one 17.0x precedent show room to stretch. [V:synergy, D:MA-2018-0486]",
+    "reality": "At the 75th percentile, EBITDA of $13.1M is needed at the $200M EV. [V:comps]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "All 3 deals are in the target's own sub-sector, none in adjacent provider sub-sectors; no Midwest deal is neutral; it remains #3 on the priority list after review. [C:conviction, R:rank]"
+  }
+ }
+}

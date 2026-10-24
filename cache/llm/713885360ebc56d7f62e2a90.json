@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3409,
+  "output_tokens": 1814,
+  "usd": 0.024957879590000003,
+  "cached": false,
+  "seconds": 13.530103500001132
+ },
+ "output": {
+  "headline": "Health systems led by Advocate Health and UPMC, plus provider-focused sponsors, form the buyer universe; upper-quartile pricing is defensible and strategics can pay it.",
+  "sentences": [
+   "Call Advocate Health first (5 deals in the sub-sector, closed $436M), then UPMC; the order among the sponsors, Nordic Capital first, is close to a tie (back-test 28% versus 20% random). [E:tier1, E:sponsor_ordering]",
+   "Upper-quartile pricing of 15.3x EBITDA is defensible given the 16.8% margin; strategics can pay it, while sponsors reach only $193M, or $216M with a platform exit. [E:valuation, E:lbo, E:tier1]",
+   "The review removed Steward Health Care (Chapter 11) and folded Atrium Health into Advocate Health; Veritas Capital, Vista Equity and Francisco Partners stay in the second list pending confirmation of their appetite for tech-enabled services. [E:review, E:tier2]",
+   "Most buyers share one motive: geographic expansion, cited in 90% of 284 provider deals, so lead outreach with the target's Midwest footprint. [E:motives]"
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Nordic Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7949,
+  "output_tokens": 3267,
+  "usd": 0.04856772886000001,
+  "cached": false,
+  "seconds": 25.271644332970027
+ },
+ "output": {
+  "buyer": "Nordic Capital",
+  "headline": "Provider-focused sponsor whose $77M median deal matches the $80M dental target; its 12.5x median price is the hurdle.",
+  "differentiator": "Most adjacent provider deals (20) of any buyer on the priority list, and a $77M median deal closer to the target's $80M than any other sponsor's.",
+  "why_them": "Provider specialist sponsor; size fits; must stretch on price",
+  "acquirer_overview": {
+   "title": "Provider-heavy sponsor with a steady, high-closing record",
+   "points": [
+    "Financial sponsor with 24 deals from 2016 to 2024; 21 of 24 (88%) closed and 22 of 24 (92%) were control deals. [T:record, K:closed_share, K:control_share]",
+    "Two deals in dental, 20 in adjacent provider sub-sectors; physician groups lead with 10. Provider deals are 22 of 24. [T:record, K:by_sub_sector, A:angles]",
+    "Healthcare is one of four core industries; Fund XI closed at its EUR 9 billion hard cap (about $11 billion). [P:1, P:2]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Dental experience plus size fit, with no open platform",
+   "points": [
+    "Platform Build is a stated motive in 7 of 24 deals, giving a basis for a dental add-on thesis. [M:platform_build]",
+    "Signals for: modest factors on sub-sector relevance and deal count, and a slight factor that $80M is not below its usual range. [S:sector_rel, S:activity, S:not_smaller]",
+    "Against: a slight factor on region, with only 1 of 24 deals in the Southeast. No open platform in the sub-sector. [S:geo_fit, K:by_region, A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two prior dental bolt-ons, both far larger than this target",
+   "points": [
+    "Highland Dental Solutions, 2022: $222M bolt-on at 11.6x EV/EBITDA, closed. [D:MA-2022-0103]",
+    "Horizon Dental Management, 2020: $249M bolt-on at 16.4x, closed, showing it will pay up in dental. [D:MA-2020-0386]",
+    "Principal Physician Group, 2024: $76M recapitalization at 15.9x, closed; this is the closest in size to the target. [D:MA-2024-0431]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but this buyer pays less",
+   "points": [
+    "63 comparable deals show 11.0x at the 25th percentile, 13.7x median and 15.4x at the 75th percentile. [V:comps]",
+    "The 75th percentile is defensible: the target's 18.0% margin is above the comps' median of 12.4%, and above 92% of comps. [V:comps]",
+    "Its own median is 12.5x. At 5.0x leverage and an equity cheque of $53M, IRR at the ask is 14.0% against a 20% target. [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Price gap",
+    "concern": "Its returns do not clear at the $80M ask.",
+    "mitigant": "The 18.0% margin supports upper-quartile pricing in the comparable set.",
+    "reality": "IRR at the ask is 14.0% against 20%; maximum price is $68M on either exit. [V:lbo, V:comps]"
+   },
+   {
+    "title": "No open dental platform",
+    "concern": "It has no open platform in the sub-sector to absorb the target.",
+    "mitigant": "It has completed two dental bolt-ons and has a stated platform-build motive.",
+    "reality": "Open platform is no; both dental deals were bolt-ons, and those are the only two in the file. [A:angles, D:MA-2022-0103, D:MA-2020-0386]"
+   },
+   {
+    "title": "Southeast and priority",
+    "concern": "Little regional footprint, and low standing on the list.",
+    "mitigant": "Its size fit and provider record are strong, and 21 of 24 deals closed.",
+    "reality": "One Southeast deal; ranked 9th of 10 with a 4.7% likelihood. [K:by_region, R:rank, K:closed_share]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Based on 2 deals in the target's own sub-sector and 20 in adjacent provider sub-sectors, offset by no open platform in the sub-sector. Return shortfall at the ask keeps this a lower-priority call. [C:conviction, T:record, V:lbo]"
+  }
+ }
+}

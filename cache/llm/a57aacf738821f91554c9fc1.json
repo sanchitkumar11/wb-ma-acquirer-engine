@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Aledade",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7484,
+  "output_tokens": 3955,
+  "usd": 0.05451773593,
+  "cached": false,
+  "seconds": 27.64443620800739
+ },
+ "output": {
+  "buyer": "Aledade",
+  "headline": "Aledade's $271M same-sub-sector Health IT deal in 2020 and national partner network make it a credible, high-paying strategic for this target.",
+  "differentiator": "Its one deal was in the National region, where Evolent Health and Privia Health have none, and its 23.9x median paid is above both and above every financial sponsor on the list.",
+  "why_them": "Same-sub-sector buyer with a national footprint; paid up before",
+  "acquirer_overview": {
+   "title": "Physician-led value-based care partner with a single prior deal",
+   "points": [
+    "Private; became a Public Benefit Corporation in 2023. It describes itself as physician-led and partners with clinicians rather than owning practices [P:1, P:2].",
+    "Partners are located in 46 states and the District of Columbia; its ACOs generated more than $1B in shared savings in 2024 [P:3, P:4].",
+    "Record: 1 deal, 1 of 1 closed (100%), in 2020 [T:record, K:closed_share]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Same-sub-sector focus is the strongest factor in its likelihood",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; regional and margin fit are modest factors in its favour [S:sector_share, S:geo_fit, S:margin_fit].",
+    "Its 2020 deal was tagged Technology Capability (1 of 1 deals, against 10% of all deals in the file) and Vertical Integration [M:technology_capability, M:vertical_integration].",
+    "Having bought from this kind of seller is a slight factor against. It sits 4th on the priority list, likelihood 3.8% [S:own_fit_s, R:rank]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One precedent, in the target's own sub-sector and size band",
+   "points": [
+    "Oak Health Informatics: $271M, 2020, Minority Investment, 23.9x EV/EBITDA, 5.73x EV/Revenue, closed [D:MA-2020-0093].",
+    "That deal sits in the comparable size band ($150M-$600M) and in the National region [K:size_band, K:by_region].",
+    "No deals since 2022, and no control deals: 0 of 1 (0%) [K:recent, K:control_share]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Anchor at the median; this buyer has paid above the upper quartile",
+   "points": [
+    "13 comparable deals, all in the same sub-sector: 19.4x at the 25th percentile, 21.4x median, 23.3x at the 75th [V:comps].",
+    "Target margin of 25.0% is above the comps' median of 22.2% but not in their top quarter, so the 50th percentile is the defensible anchor [V:comps].",
+    "Its own median paid is 23.9x, above the 75th percentile. Synergy headroom is $14M-$23M; buyer revenue not researched [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin acquisition record",
+    "concern": "Only 1 deal on file, with none since 2022, so repeat appetite is unproven.",
+    "mitigant": "That deal was in the target's own sub-sector and size band, and it closed.",
+    "reality": "A single 2020 precedent; no deals since 2022 [T:record, K:recent, K:size_band]."
+   },
+   {
+    "title": "Minority and partnership model",
+    "concern": "A full control purchase of a PE-backed company would depart from how it has invested.",
+    "mitigant": "Its 2020 deal was $271M, similar in size to this target's $300M.",
+    "reality": "0 of 1 deals were control deals; it describes itself as a partner, not an owner of practices [K:control_share, P:2]."
+   },
+   {
+    "title": "Price and capacity",
+    "concern": "Its 23.9x median paid is above the comps' 75th percentile of 23.3x.",
+    "mitigant": "Synergy headroom of $14M-$23M supports a bid above the median.",
+    "reality": "The defensible anchor is the median; its balance-sheet capacity is not researched [V:comps, V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Only 1 deal in the target's own sub-sector keeps the sub-sector basis neutral; that deal in the target's region is the one point in its favour [C:conviction, T:record]."
+  }
+ }
+}

@@ -1,0 +1,18 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: CHRISTUS Health
+buyer_type: Strategic
+facts:
+- kind: footprint
+  value: More than 60 hospitals and long-term care facilities; headquartered in Irving, TX; Texas, Arkansas, Louisiana,
+    New Mexico, plus Chile, Mexico and Colombia
+  as_of: '2026-10-23'
+  source: https://en.wikipedia.org/wiki/Christus_Health
+  accessed: '2026-10-23'
+  states:
+  - TX
+  - AR
+  - LA
+  - NM
+not_researched:
+- annual revenue
+- stated strategy

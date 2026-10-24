@@ -1,0 +1,13 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: Blackstone
+buyer_type: Financial Sponsor
+facts:
+- kind: aum
+  value: 'Private Equity segment: $416.4 billion of Total Assets Under Management as of December 31, 2025'
+  as_of: '2026-02-27'
+  source: https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm
+  accessed: '2026-10-23'
+  accession: 0001193125-26-082531
+  amount_usd_mm: 416400
+not_researched:
+- healthcare-specific fund

@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3483,
+  "output_tokens": 783,
+  "usd": 0.014795887680000001,
+  "cached": false,
+  "seconds": 6.826885999995284
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Centene",
+    "action": "promote",
+    "code": "ARCHETYPE_FIT",
+    "fact_ids": [
+     "F:Centene:deals"
+    ],
+    "reason": "Strategic health insurer whose 3 deals are all in health insurance. It has done a deal in Great Plains, and its $2472M median deal size comfortably covers a $638M target. This is a better fit than several sponsors in Tier 1 with only 1-2 health insurance deals."
+   },
+   {
+    "buyer": "Nordic Capital",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:Nordic Capital:deals"
+    ],
+    "reason": "None of its 20 deals are in health insurance and it is a Ring 2 buyer. Its Great Plains presence and large fund do not show any sector thesis for this target, so Tier 1 is not supported."
+   }
+  ]
+ }
+}

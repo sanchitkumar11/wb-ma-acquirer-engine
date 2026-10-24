@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3076,
+  "output_tokens": 1937,
+  "usd": 0.025521888350000004,
+  "cached": false,
+  "seconds": 14.490046833001543
+ },
+ "output": {
+  "headline": "Health IT strategics and sponsors form the buyer universe, and the comparable median is a defensible price that the leading buyers can pay.",
+  "sentences": [
+   "Call Evolent Health first, then Blackstone and Epic Systems. All three are high conviction: Evolent and Epic already do deals in the sub-sector, and Blackstone has a platform company there. [E:tier1, E:conviction]",
+   "Anchor at the 21.4x median EBITDA multiple from 13 comparable deals. Sponsors earn 25.3% at the ask versus a 20% target, with a $356M ceiling, and Evolent and Epic closed $325M and $767M deals. [E:valuation, E:lbo, E:tier1]",
+   "The review removed Ciox Health and Cerner (Oracle), now inside Datavant and Oracle, and merged Change Healthcare into UnitedHealth Group; Tier 2 holds sponsors without a distinct angle and thin-record health IT strategics. [E:review, E:tier2]",
+   "Diversification and technology capability appear in 100% of 50 Health IT deals, and high growth in 90%, so lead the pitch with the growth story. [E:motives]"
+  ]
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "purpose": "W3 repair1 Welsh Carson",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 9277,
+  "output_tokens": 2796,
+  "usd": 0.04651369373000001,
+  "cached": false,
+  "seconds": 17.361986999982037
+ },
+ "output": {
+  "buyer": "Welsh Carson",
+  "headline": "Welsh Carson is a provider-focused sponsor with an open platform and six Midwest deals, including a prior buyout in the target's own sub-sector.",
+  "differentiator": "Welsh Carson ties GTCR for the most Midwest deals on the priority list (6) and has the second-deepest adjacent provider record (15 deals), plus an open platform for an add-on route.",
+  "acquirer_overview": {
+   "title": "A healthcare-focused sponsor with a steady, control-oriented record",
+   "points": [
+    "Welsh Carson is a financial sponsor with 23 deals from 2017 to 2023; 18 closed (78%), and 8 have come since 2022 [T:record, K:closed_share, K:recent].",
+    "Its mandate covers technology and healthcare; its largest private equity fund to date raised over $5 billion in 2023 [P:1, P:2].",
+    "21 of 23 deals (91%) were control transactions, with a median deal of $172M [K:control_share, T:record]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A provider specialist with an open platform for an add-on route",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor in its favour: 1 deal in the target's own sub-sector, 15 in adjacent provider sub-sectors [S:sector_rel, T:record].",
+    "Six Midwest deals match the target's region, and 9 of 23 deals sit in the $100M-$400M size band [T:record, K:size_band].",
+    "Its open platform makes the target an add-on rather than a new bet; stated angles are provider specialist and size fit [A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Midwest deals at 16.8x to 17.8x, but two withdrawals",
+   "points": [
+    "Jefferson Ambulatory Care: $75M management buyout, 2021, Midwest, same sub-sector as the target, 17.8x EBITDA, closed [D:MA-2021-0083].",
+    "Woodland PACE: $204M management buyout, 2021, 17.6x, closed. Clearwater Mental Health: $398M recapitalization, 2023, Midwest, 16.8x, withdrawn [D:MA-2021-0025, D:MA-2023-0166].",
+    "Delta Multispecialty Group, a $38M recapitalization in 2022, was also withdrawn [D:MA-2022-0024]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Its usual price clears the comparable range; the ask is a stretch",
+   "points": [
+    "70 comparable deals show 10.7x at the lower quartile, a 12.8x median and 15.3x at the 75th percentile EBITDA [V:comps].",
+    "The 75th percentile is defensible: the 16.8% margin beats the 12.9% comps median and 87% of comps. Its own median paid is 16.2x [V:comps].",
+    "At 5.0x leverage the equity cheque is $128M; IRR at the ask is 18.7% against a 20% target [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below its 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "Same-exit maximum is $193M; the bid works only if it underwrites the add-on exit [V:lbo]."
+   },
+   {
+    "title": "Execution record",
+    "concern": "Only 18 of 23 deals closed (78%), and the close rate counts slightly against it [K:closed_share, S:close_rate_s].",
+    "mitigant": "Its closed deals include Midwest and same-sub-sector buyouts at 17.6x-17.8x [D:MA-2021-0083, D:MA-2021-0025].",
+    "reality": "Two of the six listed precedents were withdrawn, including the $398M Midwest recapitalization [D:MA-2023-0166, D:MA-2022-0024]."
+   },
+   {
+    "title": "Competing open-platform sponsors",
+    "concern": "Nordic Capital and Advent International also have open platforms and High conviction.",
+    "mitigant": "Welsh Carson's Midwest depth (6 deals) and 15 adjacent provider deals support its case [T:record].",
+    "reality": "It ranks sixth on the priority list at a 4.3% likelihood, so the process needs competitive tension [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Rests on 1 deal in the target's own sub-sector and 15 in adjacent provider sub-sectors, plus an open platform in the sub-sector that gives an add-on route [C:conviction, T:record, A:angles]."
+  }
+ }
+}

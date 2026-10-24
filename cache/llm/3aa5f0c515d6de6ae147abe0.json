@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7449,
+  "output_tokens": 5032,
+  "usd": 0.06521772621000001,
+  "cached": false,
+  "seconds": 32.4012812920264
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "TPG pays upper-quartile multiples and has 8 adjacent provider deals, but this is a low-conviction call: its median deal is under half the target's size.",
+  "differentiator": "Pays above the comparable 75th percentile (median paid 15.7x against 15.3x) with $303.0 billion in assets under management behind it. Peer lines were not available for comparison.",
+  "why_them": "Large sponsor paying upper-quartile multiples; adjacent provider record",
+  "acquirer_overview": {
+   "title": "Large sponsor with an 18-deal record, mostly outside the target's sub-sector",
+   "points": [
+    "Financial sponsor with $303.0 billion in assets under management as of December 31, 2025 (TPG Inc.); its home sub-sector is Health Insurance. [P:1, B:buyer]",
+    "18 deals from 2016 to 2023, of which 15 closed (83%); 4 deals since 2022. [T:record, K:closed_share, K:recent]",
+    "Ranks 9th on the priority list of 10, with a likelihood of 3.7% across 107 buyers scored. [R:rank]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Adjacent provider record and growth focus, but little in the target's niche",
+   "points": [
+    "Having bought from this kind of seller is a modest factor; 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors. [S:own_fit_s, T:record]",
+    "High Growth was a motive in 10 of 18 deals, relevant to the target's 11.0% revenue growth. [M:high_growth, X:target]",
+    "No open platform in the sub-sector, so the target would be a new position rather than an add-on. [A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Closest precedents: $187M and $203M deals at 11.2x and 12.2x",
+   "points": [
+    "Quality Medical Group: $187M minority investment, 2022, same sub-sector as the target, 11.2x EV/EBITDA. [D:MA-2022-0350]",
+    "Granite Dental Network: $203M platform investment, 2021, 12.2x EV/EBITDA. [D:MA-2021-0439]",
+    "8 of 18 deals sit in the $100M-$400M size band; median deal is $88M and the biggest $1,388M. [K:size_band, T:record]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but the return at the ask is thin",
+   "points": [
+    "Comparable deals (70): EV/EBITDA of 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th percentile. [V:comps]",
+    "The target's 16.8% margin against a comparable median of 12.9% supports the 75th percentile; TPG's own median paid is 15.7x. [V:comps]",
+    "At the ask, IRR is 18.7% against a 20% target; maximum price is $193M at the same exit, $216M at a 15.0x platform exit. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $88M is under half the $200M EV. [T:record, X:target]",
+    "mitigant": "8 of 18 deals sit in the $100M-$400M size band. [K:size_band]",
+    "reality": "Reach is proven at $187M and $203M, though the $187M deal was a minority stake. [D:MA-2022-0350, D:MA-2021-0439]"
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "The bid works only if it underwrites a platform exit, and no open platform exists today. [V:lbo, A:angles]"
+   },
+   {
+    "title": "Thin Midwest and own-sub-sector record",
+    "concern": "Only 1 deal in the target's region; geography is a slight factor against. [S:geo_fit, T:record]",
+    "mitigant": "It has a Midwest precedent: Metro Medical Associates, 2018. [D:MA-2018-0415]",
+    "reality": "Just 1 deal in the target's own sub-sector, against 4 in its home Health Insurance. [T:record, K:by_sub_sector]"
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only 1 deal in the target's own sub-sector and 8 adjacent, no open platform, and a median deal of $88M under half the $200M EV. [C:conviction]"
+  }
+ }
+}

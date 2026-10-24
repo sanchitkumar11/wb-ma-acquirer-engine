@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write GTCR",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7369,
+  "output_tokens": 3005,
+  "usd": 0.044787748880000006,
+  "cached": false,
+  "seconds": 20.749571416992694
+ },
+ "output": {
+  "buyer": "GTCR",
+  "headline": "Provider-focused sponsor with a Midwest record and an upper-quartile pricing history; the target would be a new platform in healthcare services.",
+  "differentiator": "Midwest is its largest region (6 of 14 deals), its median multiple paid of 15.2x is near the upper-quartile comparable, and 9 of 14 deals are provider businesses. [K:by_region, V:comps, A:angles]",
+  "why_them": "Midwest provider specialist; pays upper-quartile multiples",
+  "acquirer_overview": {
+   "title": "A provider-weighted sponsor with a Midwest-heavy record",
+   "points": [
+    "Financial sponsor targeting healthcare, financial services and technology, and growth business services; Fund XIV is $11.5 billion. [P:1, P:2]",
+    "14 deals across 7 active years, 11 closed (79%); 12 of 14 were control deals. [T:record, K:closed_share, K:years_active, K:control_share]",
+    "Provider deals are 9 of 14, and 6 of 14 were in the Midwest. [A:angles, K:by_region]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A new platform bet in a sub-sector it knows",
+   "points": [
+    "Platform Build is a stated motive in 5 of 14 deals, a pattern that stands out against 23% of all deals in the file. [M:platform_build]",
+    "Margin Improvement drove 6 of 14 deals, which suits a target with a 16.8% margin and 11.0% growth. [M:margin_improvement, X:target]",
+    "Has bought in this or a neighbouring region (a modest factor). It has no open platform in the sub-sector, so the target would be a new platform. [S:geo_fit, A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Midwest provider precedents, including one in the target's own sub-sector",
+   "points": [
+    "Sterling Health Systems: $911M bolt-on, 2018, Midwest, same sub-sector as the target, 12.2x EBITDA, closed. [D:MA-2018-0357]",
+    "Golden Orthodontics: $588M leveraged buyout, 2020, Midwest, 15.2x EBITDA, closed. [D:MA-2020-0276]",
+    "Zenith Specialty Care: $76M Midwest bolt-on in 2023 at 8.9x, withdrawn. Only 4 of 14 deals sit in the $100M-$400M size band. [D:MA-2023-0279, K:size_band]"
+   ]
+  },
+  "valuation_context": {
+   "title": "A 75th-percentile price is defensible, but the return at the ask is tight",
+   "points": [
+    "Comparable deals (70) range from 10.7x at the 25th percentile to 15.3x at the 75th, with a median of 12.8x. [V:comps]",
+    "The target's 16.8% margin beats the comparable median of 12.9%, which supports the 75th percentile. Its own median paid is 15.2x. [V:comps]",
+    "At 5.0x leverage the equity cheque is $128M and IRR at the ask is 18.7% against a 20% target. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "At the same exit multiple the maximum is $193M, so the bid depends on a platform exit. [V:lbo]"
+   },
+   {
+    "title": "No open platform",
+    "concern": "It has no open platform in the target's sub-sector. [A:angles]",
+    "mitigant": "Provider specialist, with 1 own-sub-sector deal and 8 in adjacent provider sub-sectors. [T:record]",
+    "reality": "It would be buying a new platform, not an add-on, which weakens the conviction. [C:conviction]"
+   },
+   {
+    "title": "Execution and priority",
+    "concern": "Only 11 of 14 deals closed, and share of deals closed is a slight factor against. [K:closed_share, S:close_rate_s]",
+    "mitigant": "12 of 14 were control deals, and 5 closed bolt-ons are on record. [K:control_share, T:record]",
+    "reality": "It ranks 8th on the priority list of 10, with a likelihood of 3.8%. [R:rank]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "One deal in the target's own sub-sector and eight in adjacent provider sub-sectors support the fit. There is no open platform in the sub-sector, and GTCR ranks 8th on the priority list. [C:conviction, R:rank]"
+  }
+ }
+}

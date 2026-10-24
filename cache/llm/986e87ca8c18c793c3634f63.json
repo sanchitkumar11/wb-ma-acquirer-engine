@@ -1,0 +1,45 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6231,
+  "output_tokens": 1069,
+  "usd": 0.02315180238,
+  "cached": false,
+  "seconds": 9.06547887501074
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "UPMC",
+    "action": "demote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:UPMC:deals",
+     "P:UPMC:2"
+    ],
+    "reason": "UPMC's hospitals are in Pennsylvania, Maryland and New York, and none of its 3 deals were in the Midwest. It has no footprint overlap with a Midwest target, so it does not belong in Tier 1."
+   },
+   {
+    "buyer": "Intermountain Health",
+    "action": "demote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "P:Intermountain Health:2",
+     "F:Intermountain Health:deals"
+    ],
+    "reason": "Intermountain's footprint is Utah, Colorado, Idaho and Montana, and it left Kansas in 2024. Its single deal was not in the Midwest, so it has no current Midwest presence to support a Tier 1 ranking."
+   },
+   {
+    "buyer": "Bain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Bain Capital:deals"
+    ],
+    "reason": "Bain has the most Midwest deals of any sponsor on the list (4 of 24) and 15 in provider services, at a median size of $103M. That is well suited to a $200M Midwest healthcare services target. Fund size is unconfirmed, but the deal sizes suggest it can afford the target."
+   }
+  ]
+ }
+}

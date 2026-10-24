@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write General Atlantic",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7471,
+  "output_tokens": 4932,
+  "usd": 0.06426172655000001,
+  "cached": false,
+  "seconds": 32.42966679204255
+ },
+ "output": {
+  "buyer": "General Atlantic",
+  "headline": "Growth equity investor with a provider-heavy record and pricing history above the comparable-deal 75th percentile, suited to a 16.8% margin Midwest asset.",
+  "differentiator": "Pays a median 16.5x, above the comparable-deal 75th percentile of 15.3x, with 9 of 14 deals in provider businesses. [V:comps, A:angles]",
+  "why_them": "Provider specialist; has paid above the comparable 75th percentile",
+  "acquirer_overview": {
+   "title": "Growth equity firm with a provider-heavy 14-deal record",
+   "points": [
+    "Growth equity firm investing across Technology, Consumer, Financial Services, Healthcare and Life Sciences; AUM US$125.3 billion (infobox). [P:1, P:2]",
+    "14 deals from 2019 to 2024; 13 of 14 (93%) closed, and all were control deals. [T:record, K:closed_share, K:control_share]",
+    "Median deal $158M, within a range of $7M to $4,563M; 3 of 14 deals sit in the $100M-$400M band. [T:record, K:size_band]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Provider specialist with a size fit and two Midwest deals",
+   "points": [
+    "Deals in this or neighbouring sub-sectors are a modest factor in its likelihood: 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors. [S:sector_rel, T:record]",
+    "Revenue synergies (Market Share) drove 5 of 14 deals and cost synergies and scale another 5 of 14. [M:market_share, M:scale]",
+    "Its angles are provider specialist and size fit; with no open platform, the target would be a new investment rather than an add-on. [A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Precedents run from a same-sub-sector merger to mid-size provider buyouts",
+   "points": [
+    "Oak Health: $1,708M merger of equals, 2021, 18.8x EV/EBITDA, in the target's own sub-sector. [D:MA-2021-0066]",
+    "Crest Medical Practice: $121M leveraged buyout, 2023, 11.5x, a physician group inside the comparable size band. [D:MA-2023-0499]",
+    "Harbor Home Health Partners: $15M strategic acquisition, 2022, 16.9x, a Midwest home health deal. [D:MA-2022-0273]"
+   ]
+  },
+  "valuation_context": {
+   "title": "75th percentile is defensible on margin and on this buyer's history",
+   "points": [
+    "70 comparable deals in the $100M-$400M band: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th percentile. [V:comps]",
+    "Target margin of 16.8% beats the comps' median of 12.9% and exceeds 87% of comps, supporting the 75th percentile; $13.1M EBITDA is needed there. [V:comps]",
+    "Its median paid of 16.5x exceeds that level. At 5.0x leverage and a $128M equity cheque, max price is $193M (same exit) or $216M (platform exit). [V:comps, V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "At the same exit the maximum is $193M, below the $200M target value; the bid needs the platform exit. [V:lbo, X:target]"
+   },
+   {
+    "title": "Thin own-sub-sector record",
+    "concern": "Only 1 deal in the target's own sub-sector; share of deals there is a slight factor against. [T:record, S:sector_share]",
+    "mitigant": "8 adjacent provider deals, and sub-sector relatedness is a modest factor for it. [T:record, S:sector_rel]",
+    "reality": "No open platform, so there is no add-on logic; conviction stays Medium. [A:angles]"
+   },
+   {
+    "title": "Broad mandate, one terminated deal",
+    "concern": "Healthcare is one of five sectors, and 5 of 14 deals were outside provider services. [P:1, T:record]",
+    "mitigant": "13 of 14 deals closed. [K:closed_share]",
+    "reality": "The 2021 Frontier Clinics platform investment was terminated. [D:MA-2021-0337]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Supported by 1 deal in the target's own sub-sector and 8 in adjacent provider sub-sectors; held back because there is no open platform in the sub-sector. [T:record, A:angles]"
+  }
+ }
+}

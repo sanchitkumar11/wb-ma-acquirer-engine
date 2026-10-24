@@ -1,0 +1,25 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3475,
+  "output_tokens": 809,
+  "usd": 0.015039887660000003,
+  "cached": false,
+  "seconds": 6.298781374993268
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "VNS Health",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:VNS Health:deals"
+    ],
+    "reason": "VNS Health has no Great Plains deals (0 of 5), and its likelihood is 0.1% at model rank 16. Nothing on the card shows a footprint overlap or stated strategy that would justify Tier 1 over the Tier 2 sponsors ranked 10-15."
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3239,
+  "output_tokens": 235,
+  "usd": 0.00882790048,
+  "cached": false,
+  "seconds": 2.740534958022181
+ },
+ "output": {
+  "moves": []
+ }
+}

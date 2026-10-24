@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Privia Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6593,
+  "output_tokens": 4298,
+  "usd": 0.05616575923,
+  "cached": false,
+  "seconds": 30.43555545801064
+ },
+ "output": {
+  "buyer": "Privia Health",
+  "headline": "Both of Privia Health's deals are in the target's own Health IT sub-sector and in its size band, and both closed.",
+  "differentiator": "Its whole record sits in the target's sub-sector and size band, and every deal closed. Its median deal is larger than those of Evolent, Francisco Partners, TPG, Warburg Pincus and Veritas.",
+  "why_them": "Same-sub-sector strategic with a fully closed record",
+  "acquirer_overview": {
+   "title": "A Health IT strategic with a short, fully closed record since 2017",
+   "points": [
+    "Strategic buyer with 2 deals between 2017 and 2024; 2 of 2 (100%) closed [T:record, K:closed_share].",
+    "Median deal $231M, ranging from $205M to $256M; 2 of 2 deals sit in the comparable size band ($150M-$600M) [T:record, K:size_band].",
+    "Control deals were 1 of 2 (50%); only 1 deal has come since 2022, so the record is thin [K:control_share, K:recent]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector focus and a technology-led buying motive point to this target",
+   "points": [
+    "Share of its deals in the target's sub-sector is the strongest factor in its likelihood; both deals are in Health IT [S:sector_share, K:by_sub_sector].",
+    "Technology Capability drove 2 of 2 deals, yet appears on only 10% of deals in the file, so it is a distinct motive [M:technology_capability].",
+    "Target margin close to what it usually buys is a modest factor for; having bought from this kind of seller is a slight factor against [S:margin_fit, S:own_fit_s]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Two Health IT deals of $205M and $256M, both closed",
+   "points": [
+    "Keystone Population Health: $205M minority investment, 2024, 20.2x EBITDA, 6.29x revenue [D:MA-2024-0128].",
+    "Select EHR Solutions: $256M SPAC merger, 2017, 20.9x EBITDA, 5.94x revenue [D:MA-2017-0427].",
+    "Neither deal was in the target's region; 0 deals in the National market, so the geography is untested [T:record, K:by_region]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Median multiple is the defensible anchor; Privia's history sits just below it",
+   "points": [
+    "13 comparable deals, all in the same sub-sector: 19.4x at the 25th percentile, 21.4x median, 23.3x at the 75th [V:comps].",
+    "Target margin of 25.0% is above the comparable median of 22.2% but not in their top quarter, so the 50th percentile is defensible [V:comps].",
+    "Privia's median paid is 20.5x, below the comparable median. Synergy headroom is $14M-$23M; buyer revenue is not researched [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "The target's $300M EV exceeds Privia's biggest deal to date of $256M.",
+    "mitigant": "Both prior deals sit in the $150M-$600M comparable size band, so the target is within range.",
+    "reality": "Largest deal so far is $256M; this would be a new high for Privia [T:record, K:size_band, X:target]."
+   },
+   {
+    "title": "Capacity unverified",
+    "concern": "Buyer revenue is not researched and only 1 of 2 deals was a control deal.",
+    "mitigant": "Synergy headroom of $14M-$23M supports a bid at the median multiple.",
+    "reality": "Profile is not researched, so funding capacity stays unconfirmed until its financials are checked [V:synergy, K:control_share]."
+   },
+   {
+    "title": "Outbid on price",
+    "concern": "Its median paid of 20.5x sits under the comparable median of 21.4x.",
+    "mitigant": "Its two deals were at 20.2x and 20.9x, close to the median anchor.",
+    "reality": "Epic, Aledade and McKesson have paid more at the median, so Privia may be outbid [V:comps, D:MA-2024-0128, D:MA-2017-0427]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Two deals in the target's own sub-sector support the call, but no deal in the target's region and an unresearched profile keep it at Medium [C:conviction, T:record]."
+  }
+ }
+}

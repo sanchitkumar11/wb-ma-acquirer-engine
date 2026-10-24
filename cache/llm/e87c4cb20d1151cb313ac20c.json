@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Warburg Pincus",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8708,
+  "output_tokens": 5225,
+  "usd": 0.06966568651,
+  "cached": false,
+  "seconds": 36.020480250008404
+ },
+ "output": {
+  "buyer": "Warburg Pincus",
+  "headline": "Warburg Pincus has bought three Health IT companies and has an open platform for an add-on; the $300M price sits within its returns.",
+  "differentiator": "Matches Blackstone and TPG on three deals in the target's sub-sector and an open platform. Only TPG has more National-region deals than its three, so its footprint matches the target's.",
+  "why_them": "Add-on to open Health IT platform; three sub-sector deals",
+  "acquirer_overview": {
+   "title": "A growth investor with a sub-sector record, though most deals lie elsewhere",
+   "points": [
+    "23 deals from 2016 to 2024, 16 closed (70%); 21 of 23 were control deals rather than minority stakes [K:closed_share, K:control_share].",
+    "Over $100 billion in assets under management, and 22 private equity funds raised, so capital is not the constraint [P:1, P:3].",
+    "Home sub-sector is Home Health/Hospice; only 3 of 23 deals were in Health IT, and 20 were outside it [B:buyer, T:record]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A Health IT add-on for an open platform, backed by a growth motive",
+   "points": [
+    "Three deals in the target's own sub-sector, and an open platform there makes the target an add-on route [T:record, A:angles].",
+    "Growth was a motive in 11 of 23 deals, which suits the target's 20.0% revenue growth [M:high_growth].",
+    "Platform Build appears in 5 of 23 deals, in line with the file overall; activity, regional fit and deal size are only slight factors for it [M:platform_build, S:activity, S:geo_fit, S:not_smaller]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three Health IT deals, all closed, at 19.4x to 25.7x EBITDA",
+   "points": [
+    "Apex EHR Solutions ($186M, 2023, Platform Investment) at 25.7x, and Universal Health AI ($219M, 2022, Management Buyout) at 23.3x [D:MA-2023-0481, D:MA-2022-0252].",
+    "Keystone EHR Solutions ($382M, 2021, Platform Investment) at 19.4x, the largest of the three and above the target's $300M [D:MA-2021-0441].",
+    "8 of 23 deals sit in the $150M-$600M comparable size band, and 7 have come since 2022 [K:size_band, K:recent]."
+   ]
+  },
+  "valuation_context": {
+   "title": "The 50th percentile is defensible, and the returns clear the hurdle",
+   "points": [
+    "13 comparable deals price at 19.4x to 23.3x, median 21.4x; the 25.0% margin beats the comps' 22.2% median, so the 50th percentile holds [V:comps].",
+    "Its overall median paid is 15.6x, below the comps, yet its three Health IT deals cleared 19.4x to 25.7x [T:record, D:MA-2023-0481, D:MA-2021-0441].",
+    "At 5.0x leverage and 8.5% interest, a $239M equity cheque returns 25.3% IRR at the ask against a 20% target; maximum price is $356M [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $106M is under half the $300M EV [T:record].",
+    "mitigant": "Its Health IT deals ran from $186M to $382M, and 8 of 23 deals sit in the size band [D:MA-2023-0481, D:MA-2021-0441, K:size_band].",
+    "reality": "The stretch is against its typical deal, not its Health IT record; its biggest deal was $2,124M [T:record]."
+   },
+   {
+    "title": "Closing record",
+    "concern": "Only 16 of 23 deals closed (70%), a modest factor against it [K:closed_share, S:close_rate_s].",
+    "mitigant": "All three Health IT precedents closed [D:MA-2023-0481, D:MA-2022-0252, D:MA-2021-0441].",
+    "reality": "Both withdrawn deals among its listed precedents were in neighbouring sectors, not Health IT [D:MA-2020-0201, D:MA-2018-0413]."
+   },
+   {
+    "title": "Competitive process and price",
+    "concern": "Seventh on a priority list of 10; Blackstone and Evolent Health also rate High [R:rank].",
+    "mitigant": "IRR of 25.3% at the ask clears the 20% target, leaving room to bid [V:lbo].",
+    "reality": "Its 15.6x median paid is below the 21.4x comps median, so it must pay above habit [T:record, V:comps]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Three deals in the target's own sub-sector and an open platform support an add-on route, but its median deal of $106M is under half the $300M EV. [C:conviction, T:record, A:angles]"
+  }
+ }
+}

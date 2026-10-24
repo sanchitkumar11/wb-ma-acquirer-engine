@@ -1,0 +1,142 @@
+{
+ "pages": 10,
+ "jargon_hits_first_draft": 0,
+ "pass_before_repair": 5,
+ "pass_after_repair": 10,
+ "repairs": 6,
+ "first_draft_problems": {
+  "Numbers not in the fact pack (copy numbers exactly, compute nothing)": 4,
+  "The one-pager never names the buyer": 1
+ },
+ "thesis_overlap_max": 0.204,
+ "thesis_overlap_mean": 0.094,
+ "most_similar_pair": "Blackstone / Warburg Pincus",
+ "conviction": {
+  "High": 2,
+  "Medium": 5,
+  "Low": 3
+ },
+ "generic_hits_first_draft": 0,
+ "generic_hits_final": 0,
+ "words_per_page": {
+  "Evolent Health": 504,
+  "Blackstone": 521,
+  "Francisco Partners": 499,
+  "Aledade": 485,
+  "Privia Health": 473,
+  "TPG Capital": 530,
+  "Warburg Pincus": 527,
+  "Epic Systems": 492,
+  "Veritas Capital": 504,
+  "McKesson": 500
+ },
+ "pages_within_length_targets": 4,
+ "lengths": {
+  "Evolent Health": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 59,
+    "strategic_fit_thesis": 68,
+    "precedent_activity": 43,
+    "valuation_context": 59
+   },
+   "page": 504
+  },
+  "Blackstone": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 61,
+    "strategic_fit_thesis": 61,
+    "precedent_activity": 48,
+    "valuation_context": 67
+   },
+   "page": 521
+  },
+  "Francisco Partners": {
+   "headline": 21,
+   "sections": {
+    "acquirer_overview": 62,
+    "strategic_fit_thesis": 63,
+    "precedent_activity": 47,
+    "valuation_context": 74
+   },
+   "page": 499
+  },
+  "Aledade": {
+   "headline": 21,
+   "sections": {
+    "acquirer_overview": 57,
+    "strategic_fit_thesis": 67,
+    "precedent_activity": 43,
+    "valuation_context": 67
+   },
+   "page": 485
+  },
+  "Privia Health": {
+   "headline": 22,
+   "sections": {
+    "acquirer_overview": 54,
+    "strategic_fit_thesis": 65,
+    "precedent_activity": 44,
+    "valuation_context": 63
+   },
+   "page": 473
+  },
+  "TPG Capital": {
+   "headline": 23,
+   "sections": {
+    "acquirer_overview": 52,
+    "strategic_fit_thesis": 62,
+    "precedent_activity": 44,
+    "valuation_context": 72
+   },
+   "page": 530
+  },
+  "Warburg Pincus": {
+   "headline": 23,
+   "sections": {
+    "acquirer_overview": 61,
+    "strategic_fit_thesis": 63,
+    "precedent_activity": 58,
+    "valuation_context": 69
+   },
+   "page": 527
+  },
+  "Epic Systems": {
+   "headline": 25,
+   "sections": {
+    "acquirer_overview": 66,
+    "strategic_fit_thesis": 73,
+    "precedent_activity": 43,
+    "valuation_context": 64
+   },
+   "page": 492
+  },
+  "Veritas Capital": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 61,
+    "strategic_fit_thesis": 59,
+    "precedent_activity": 48,
+    "valuation_context": 66
+   },
+   "page": 504
+  },
+  "McKesson": {
+   "headline": 24,
+   "sections": {
+    "acquirer_overview": 60,
+    "strategic_fit_thesis": 79,
+    "precedent_activity": 47,
+    "valuation_context": 59
+   },
+   "page": 500
+  }
+ },
+ "input_tokens": 9241,
+ "output_tokens": 2102,
+ "usd": 0.0395,
+ "usd_per_page": 0.004,
+ "llm_calls": 1,
+ "wall_clock_seconds": 19.8
+}

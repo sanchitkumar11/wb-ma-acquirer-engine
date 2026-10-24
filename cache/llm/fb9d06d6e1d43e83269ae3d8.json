@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write UPMC",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7133,
+  "output_tokens": 4028,
+  "usd": 0.054545745730000005,
+  "cached": false,
+  "seconds": 29.02304587495746
+ },
+ "output": {
+  "buyer": "UPMC",
+  "headline": "UPMC has bought only in the target's own sub-sector, closed every deal, and has the scale to fund a $200M Midwest add-on.",
+  "differentiator": "All three of its deals are in the target's own sub-sector and all closed. Only Advocate and Nordic Capital have more deals there, and UPMC's revenue is US$27.7 billion (2023).",
+  "why_them": "Pure sub-sector strategic with a perfect close record",
+  "acquirer_overview": {
+   "title": "A large strategic with a short, fully closed record",
+   "points": [
+    "Strategic buyer with Revenue US$27.7 billion (2023); hospitals in Pennsylvania, Maryland and New York [P:1, P:2].",
+    "Three deals between 2018 and 2020: all closed, all control deals [T:record, K:closed_share, K:control_share].",
+    "No deals since 2022, a slight factor against its likelihood [K:recent, S:recency]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector focus is the strongest factor in its likelihood",
+   "points": [
+    "Share of its deals in the target's sub-sector is the strongest factor; all three of its deals are in Healthcare Services [S:sector_share, K:by_sub_sector].",
+    "The target's 16.8% margin is close to what UPMC usually buys, a strong factor [S:margin_fit, X:target].",
+    "Platform Build and Cross-sell each appear in 1 of 3 deals, above their file shares. Geographic expansion (2 of 3) is on 90% of deals, so not distinct [M:platform_build, M:cross_sell, M:geographic_expansion]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three sub-sector deals from 2018 to 2020, median 11.7x",
+   "points": [
+    "Sterling Care Network: $55M Strategic Acquisition, 2020, at 11.3x EV/EBITDA [D:MA-2020-0312].",
+    "Principal Behavioral Health: $444M Bolt-on Acquisition, 2019, at 11.7x. Keystone Behavioral Health: $33M Recapitalization, 2018, at 17.0x [D:MA-2019-0090, D:MA-2018-0486].",
+    "No deal in the Midwest and none in the $100M-$400M size band [T:record, K:size_band]."
+   ]
+  },
+  "valuation_context": {
+   "title": "75th percentile is defensible, but above UPMC's usual price",
+   "points": [
+    "Comparable range is 10.7x to 15.3x with a median of 12.8x. The target's 16.8% margin beats the comps' median of 12.9%, supporting the 75th percentile [V:comps].",
+    "UPMC's median paid is 11.7x, below the 12.8x comparable median, so an upper-quartile bid stretches its pattern [V:comps, T:record].",
+    "Synergy headroom of $15M-$25M and Revenue US$27.7 billion (2023) show capacity to pay [V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Price expectations",
+    "concern": "UPMC's median paid of 11.7x sits well below the 15.3x upper quartile the target can defend [V:comps].",
+    "mitigant": "Synergy headroom of $15M-$25M can fund a higher bid [V:synergy].",
+    "reality": "It paid 17.0x for Keystone in 2018, so a premium is not unprecedented [D:MA-2018-0486]."
+   },
+   {
+    "title": "No Midwest record, quiet since 2020",
+    "concern": "No deal in the target's region and none since 2022 [T:record, K:recent].",
+    "mitigant": "Geographic expansion drove 2 of 3 deals, and Washington Health System merged with UPMC in 2024 [M:geographic_expansion, P:2].",
+    "reality": "Expansion appetite exists, but the Midwest would be new ground [T:record]."
+   },
+   {
+    "title": "Size and competing bidders",
+    "concern": "None of its three deals sits in the $100M-$400M band, and the priority list has other sub-sector buyers [K:size_band].",
+    "mitigant": "It closed a $444M deal in 2019, larger than this $200M target [D:MA-2019-0090].",
+    "reality": "Scale is proven, but only once and not in the Midwest [D:MA-2019-0090, T:record]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Three deals in the target's own sub-sector and none adjacent, plus a place among the three highest-scored buyers after review (#3). No Midwest deal is neutral [C:conviction, R:rank]."
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Intermountain Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8374,
+  "output_tokens": 2205,
+  "usd": 0.03879772673,
+  "cached": false,
+  "seconds": 13.121215957973618
+ },
+ "output": {
+  "buyer": "Intermountain Health",
+  "headline": "Intermountain Health is a same-sub-sector platform buyer for this target, but it has a single prior deal and no Midwest footprint.",
+  "differentiator": "Intermountain Health's one precedent, a $789M platform investment, is larger than every peer's median deal, so the $200M target is well within its size range. Its record is thinner than the peers'.",
+  "why_them": "Same-sub-sector platform buyer; the Midwest would be new ground",
+  "acquirer_overview": {
+   "title": "A 33-hospital system with one acquisition on file",
+   "points": [
+    "Intermountain Health is a Salt Lake City-headquartered strategic with 33 hospitals in Utah, Colorado, Idaho and Montana [P:2].",
+    "It merged with SCL Health in 2022, extending into Colorado, Kansas and Montana, and left Kansas in 2024 [P:1, P:2].",
+    "One deal on file, in 2022, and it closed. Buyer revenue has not been researched [T:record, K:closed_share, V:synergy]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A platform buyer already operating in the target's own sub-sector",
+   "points": [
+    "The share of Intermountain Health's deals in the target's sub-sector is the strongest factor in its likelihood [S:sector_share].",
+    "Platform Build applies to 1 of 1 of its deals, against 23% of all deals in the file, so it is a distinct motive. Scale and Cross-sell also apply [M:platform_build, M:scale, M:cross_sell].",
+    "Margin fit is a modest factor and deal size within its range a slight one. Few deals in recent years count slightly against it [S:margin_fit, S:not_bigger, S:recency]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "One precedent: Paramount Care Partners, a $789M platform deal",
+   "points": [
+    "Bought Paramount Care Partners in 2022: a Healthcare Services Platform Investment of $789M at 12.5x EBITDA. It closed [D:MA-2022-0183].",
+    "That deal was Multi-Regional. It has no deal in the target's region and none in the $100M-$400M comparable size band [K:by_region, K:size_band].",
+    "It has no adjacent provider sub-sector deals. Its only deal was a control purchase [T:record, K:control_share]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Defend the 75th percentile; its own 12.5x sits below it",
+   "points": [
+    "Comparable range from 70 deals, 9 of them in the same sub-sector: 10.7x at the 25th percentile, 12.8x median, 15.3x at the 75th [V:comps].",
+    "The target's 16.8% margin is above the comps' 12.9% median and above 87% of comps, which supports upper-quartile pricing [V:comps].",
+    "Its median paid is 12.5x. Cost synergy headroom is $15M-$25M, with half realised; buyer revenue is not researched [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin track record",
+    "concern": "Only one deal on file and none in adjacent provider sub-sectors, so its appetite is hard to read.",
+    "mitigant": "That one deal was a same-sub-sector platform investment that closed.",
+    "reality": "Conviction is Low on this basis, and recent activity counts slightly against it [T:record, S:recency, C:conviction]."
+   },
+   {
+    "title": "No Midwest presence",
+    "concern": "No deal in the target's region, and it left Kansas in 2024.",
+    "mitigant": "Its 2022 merger shows it will extend into new states.",
+    "reality": "Its footprint remains Utah, Colorado, Idaho and Montana, so the Midwest would be a new entry [K:by_region, P:1, P:2]."
+   },
+   {
+    "title": "Price gap to the upper quartile",
+    "concern": "The target's case rests on the 75th percentile, and the buyer's own median paid is lower.",
+    "mitigant": "The 16.8% margin and the $15M-$25M synergy headroom support a higher price.",
+    "reality": "It paid 12.5x against a 75th percentile of 15.3x, so it may be outbid on price [V:comps, V:synergy]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only 1 deal in the target's own sub-sector, none in adjacent provider sub-sectors and none in the target's region, so the evidence is neutral rather than supportive [C:conviction, T:record]."
+  }
+ }
+}

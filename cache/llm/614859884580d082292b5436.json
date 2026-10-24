@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 repair1 Evolent Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8739,
+  "output_tokens": 2364,
+  "usd": 0.04111771419000001,
+  "cached": false,
+  "seconds": 14.523987707972992
+ },
+ "output": {
+  "buyer": "Evolent Health",
+  "headline": "Evolent Health has done three deals, all in the target's own Health IT sub-sector, all closed, at prices close to the comparable median.",
+  "differentiator": "All 3 deals are in the target's own sub-sector, and all closed. Its 21.6x median paid is just above the 21.4x comparable median and above every financial sponsor on the list.",
+  "why_them": "Pure Health IT buyer; three for three closed; pays median-plus",
+  "acquirer_overview": {
+   "title": "A Health IT strategic with three closed deals, 2018 to 2022",
+   "points": [
+    "Strategic buyer with 3 deals between 2018 and 2022, all closed: 3 of 3 (100%) [T:record, K:closed_share].",
+    "All 3 deals are in the target's own sub-sector; none are adjacent or outside Health IT [K:by_sub_sector, T:record].",
+    "Ranked 1 on the priority list of 10, from 107 buyers scored, with a likelihood of 5.6% [R:rank]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector focus is the strongest factor behind this match",
+   "points": [
+    "Share of its deals in the target's sub-sector is the strongest factor; target margin close to what it usually buys is a strong factor [S:sector_share, S:margin_fit].",
+    "Technology Capability drove 3 of 3 deals, a motive on only 10% of deals in the file, so it is a distinct pattern [M:technology_capability].",
+    "Margin Improvement also drove 3 of 3 deals, consistent with a target running a 25.0% margin [M:margin_improvement]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Three Health IT precedents at 19.8x to 22.4x, one near target size",
+   "points": [
+    "Frontier Health AI, $325M, 2022, Recapitalization, 19.8x EBITDA; closed, and its one deal in the comparable size band [D:MA-2022-0353, K:size_band].",
+    "Eastern EHR Solutions, $31M, 2022, Strategic Acquisition, 22.4x EBITDA, closed [D:MA-2022-0458].",
+    "Southwest EHR Solutions, $37M, 2018, Minority Investment, 21.6x EBITDA, closed [D:MA-2018-0149]."
+   ]
+  },
+  "valuation_context": {
+   "title": "A median anchor of 21.4x matches Evolent's own 21.6x pricing",
+   "points": [
+    "13 comparable deals, all in the same sub-sector: 19.4x at the lower quartile, 21.4x median, 23.3x at the upper quartile [V:comps].",
+    "Target margin of 25.0% is above the comps' median of 22.2% but not in their top quarter, so the 50th percentile is defensible [V:comps].",
+    "Evolent's median paid is 21.6x; synergy headroom is $14M-$23M, but buyer revenue is not researched, so capacity is unconfirmed [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $37M is far below a $300M target; only 1 of 3 deals sat in the size band [T:record, K:size_band].",
+    "mitigant": "Its biggest deal, Frontier Health AI at $325M, was above the target's size [D:MA-2022-0353].",
+    "reality": "That $325M deal was a recapitalization, not an outright acquisition, so full-control scale is unproven [D:MA-2022-0353]."
+   },
+   {
+    "title": "Ability to pay unverified",
+    "concern": "Buyer revenue is not researched, so funding capacity cannot be tested [V:synergy].",
+    "mitigant": "Synergy headroom of $14M-$23M supports a bid near the median multiple [V:synergy].",
+    "reality": "Capacity needs confirming before the call; the profile has not been researched [V:synergy]."
+   },
+   {
+    "title": "Thin recent record and competition",
+    "concern": "Deals in recent years are a slight factor against, and no deal sits in the target's region [S:recency, T:record].",
+    "mitigant": "2 of its 3 deals came since 2022 [K:recent].",
+    "reality": "Epic Systems and Blackstone also carry High conviction, so Evolent will face strong rivals [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Three deals in the target's own sub-sector and a #1 place on the priority list after review support High; the absence of any deal in the target's region is neutral. [T:record, R:rank, C:conviction]"
+  }
+ }
+}

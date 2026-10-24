@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3839,
+  "output_tokens": 682,
+  "usd": 0.014497878010000001,
+  "cached": false,
+  "seconds": 5.253587041981518
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Universal Health Services",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Universal Health Services:CAPACITY_STRETCH"
+    ],
+    "reason": "Largest deal on file is $111M, so a $489M target is a clear stretch. It also has no Great Plains deals."
+   },
+   {
+    "buyer": "New Mountain Capital",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:New Mountain Capital:deals"
+    ],
+    "reason": "14 of 19 deals are in provider services, which matches the target's sector. It has 2 Great Plains deals and a $122M median, and it is the strongest Tier 2 sponsor on both sector focus and regional overlap."
+   }
+  ]
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "purpose": "W2 write Intermountain Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 12967,
+  "output_tokens": 5607,
+  "usd": 0.08200355492000001,
+  "cached": false,
+  "seconds": 35.79613162501482
+ },
+ "output": {
+  "buyer": "Intermountain Health",
+  "headline": "Same-sub-sector platform buyer with a 2022 Healthcare Services deal, but a single-deal record and no deal in the Midwest keep conviction low.",
+  "differentiator": "Its one deal is in the target's own sub-sector, at 12.5x, close to the 12.8x comparable median. Peer lines are not available, so no lead is claimed. [D:MA-2022-0183, V:comps]",
+  "why_them": "Same-sub-sector platform buyer; no deal in the Midwest yet",
+  "acquirer_overview": {
+   "title": "A hospital system with one closed deal on file",
+   "points": [
+    "Strategic buyer with 33 hospitals in Utah, Colorado, Idaho and Montana, headquartered in Salt Lake City; it left Kansas in 2024 [P:2].",
+    "Completed a merger with SCL Health, extending into Colorado, Kansas and Montana [P:1].",
+    "Record on file is 1 deal, closed, in 2022 (1 of 1, 100%). Buyer revenue is not researched [T:record, K:closed_share, V:synergy]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector match is the strongest factor, on a one-deal record",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; margin fit is a modest factor in favour [S:sector_share, S:margin_fit].",
+    "Platform Build in 1 of 1 deals, a motive on 23% of all deals in the file, alongside Scale and Cross-sell [M:platform_build, M:scale, M:cross_sell].",
+    "The deal is not bigger than any it has done (slight factor for); deals in recent years are a slight factor against [S:not_bigger, S:recency]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Paramount Care Partners is the one relevant precedent",
+   "points": [
+    "Paramount Care Partners, Healthcare Services, $789M Platform Investment in 2022, at 12.5x EV/EBITDA and 3.03x EV/Revenue; closed [D:MA-2022-0183].",
+    "It was a control deal and Multi-Regional; 0 of 1 deals fall in the $100M-$400M size band, and none are in the target's region [K:control_share, K:size_band, K:by_region]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; its own 12.5x sits just below the median",
+   "points": [
+    "Comparable deals (70) price at 10.7x (25th percentile), 12.8x median and 15.3x (75th percentile) [V:comps].",
+    "The target's 16.8% margin is above the comparable median of 12.9%, supporting the 75th percentile; this buyer's median paid is 12.5x [V:comps].",
+    "Synergy headroom of $15M-$25M (cost synergies of 3-5% of implied opex, half realised); buyer revenue not researched, so capacity is unconfirmed [V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Thin track record",
+    "concern": "Only one deal on file, so the sub-sector signal rests on a single data point.",
+    "mitigant": "That deal is in the target's own sub-sector and closed.",
+    "reality": "1 same-sub-sector deal and 0 adjacent provider deals; conviction is Low [T:record, C:conviction]."
+   },
+   {
+    "title": "Size and region stretch",
+    "concern": "Its only deal was far larger than the target and was not in the Midwest.",
+    "mitigant": "The deal is not bigger than any it has done, a slight factor in favour.",
+    "reality": "0 of 1 deals in the comparable size band; 0 in the target's region; it left Kansas in 2024 [K:size_band, T:record, P:2]."
+   },
+   {
+    "title": "Low priority on the list",
+    "concern": "It sits last on the priority list of 10, with a low likelihood.",
+    "mitigant": "Sub-sector share is the strongest factor behind its ranking.",
+    "reality": "Position 10 on the list, overall rank 15 of 107 scored, likelihood 3.6%; recency works against it [R:rank, S:recency]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Only 1 deal in the target's own sub-sector and 0 in adjacent provider sub-sectors, and no deal in the target's region, so the sub-sector fit rests on thin evidence [C:conviction]."
+  }
+ }
+}

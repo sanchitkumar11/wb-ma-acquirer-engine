@@ -1,0 +1,9 @@
+# Contrasting sample target: a small regional dental group in the Southeast.
+# Used to check that rings, comparable deals and percentiles re-centre on a small provider target.
+sector: Dental
+enterprise_value_mm: 80
+region: Southeast
+ownership: Private
+ebitda_margin_pct: 18.0
+revenue_growth_pct: 8.0
+as_of: 2024Q4              # deal data ends Q4 2024; score as of the data end

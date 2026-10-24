@@ -1,0 +1,18 @@
+# Buyer profile: real-world facts the CSV can't contain. Every fact: value, source opened, as-of date.
+name: General Atlantic
+buyer_type: Financial Sponsor
+facts:
+- kind: mandate
+  value: Growth equity firm; invests across Technology, Consumer, Financial Services, Healthcare and Life Sciences
+  as_of: '2025-09-30'
+  source: https://en.wikipedia.org/wiki/General_Atlantic
+  accessed: '2026-10-23'
+  focus: growth equity, multi-sector
+- kind: aum
+  value: AUM US$125.3 billion (infobox, citing SEC Form ADV; body text says over $118 billion as of September 2025)
+  as_of: '2026-03-31'
+  source: https://en.wikipedia.org/wiki/General_Atlantic
+  accessed: '2026-10-23'
+  amount_usd_mm: 125300
+not_researched:
+- fund size

@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Advocate Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7794,
+  "output_tokens": 4360,
+  "usd": 0.05918772258000001,
+  "cached": false,
+  "seconds": 30.53652212501038
+ },
+ "output": {
+  "buyer": "Advocate Health",
+  "headline": "Same-sub-sector strategic with five closed deals and a Midwest precedent; ranked first on the priority list and able to support upper-quartile pricing.",
+  "differentiator": "Five deals in the target's own sub-sector, more than any other buyer on the priority list, all closed; its median multiple paid sits above the comparable-deal median. [T:record, K:closed_share, V:comps]",
+  "why_them": "Own-sub-sector strategic; pays above the comparable median",
+  "acquirer_overview": {
+   "title": "Nonprofit system formed by merger, with five closed deals",
+   "points": [
+    "Nonprofit system headquartered in Charlotte, NC, created when Advocate Aurora Health and Atrium Health merged; 69 hospitals (2024). [P:1, P:2, P:3]",
+    "Five deals, 2016 to 2023: all closed, all control, all in the target's sub-sector, none in adjacent provider sub-sectors. [T:record, K:closed_share, K:control_share]",
+    "Median deal $436M, ranging from $35M to $2,022M; 2 deals since 2022. [T:record, K:recent]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Sub-sector focus is the strongest factor, backed by platform-build history",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; target margin close to what it usually buys is a strong one. [S:sector_share, S:margin_fit]",
+    "Platform Build in 2 of 5 deals and Scale in 2 of 5, motives that fit a target of this kind. [M:platform_build, M:scale]",
+    "Has bought from this kind of seller (a modest factor); its regional history is a slight factor against. [S:own_fit_s, S:geo_fit]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Precedents run from $35M to $2,022M at 9.3x to 18.5x",
+   "points": [
+    "Charter Care Partners ($2,022M, Platform Investment, 2023) at 18.5x; Apex Medical Group ($1,920M, Recapitalization, 2016, Midwest) at 17.9x. [D:MA-2023-0330, D:MA-2016-0065]",
+    "Silver Health Partners ($35M, Leveraged Buyout, 2022) at 13.8x; Granite Care ($336M, Platform Investment, 2020) at 13.6x. [D:MA-2022-0311, D:MA-2020-0408]",
+    "Hudson Medical Group ($436M, Strategic Acquisition, 2020) at 9.3x. [D:MA-2020-0496]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; its own median sits below that level",
+   "points": [
+    "Comparable deals run 10.7x to 15.3x, median 12.8x; 75th percentile is defensible as the 16.8% margin beats the 12.9% comp median. [V:comps]",
+    "Its median paid of 13.8x is above the comparable median of 12.8x and below the 15.3x upper quartile. [V:comps, T:record]",
+    "Cost-synergy headroom of $15M-$25M supports a stretch bid; buyer revenue not researched. [V:synergy]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size mismatch",
+    "concern": "Only 1 of 5 deals sits in the $100M-$400M comparable size band, against a median deal of $436M.",
+    "mitigant": "It has done a $35M deal and a $336M deal in the same sub-sector.",
+    "reality": "Target size is within its range but not its usual pattern. [K:size_band, D:MA-2022-0311, D:MA-2020-0408]"
+   },
+   {
+    "title": "Thin Midwest record",
+    "concern": "Only 1 deal in the target's region, and regional history is a slight factor against.",
+    "mitigant": "That deal, Apex Medical Group (2016), was in the Midwest; its footprint includes Illinois and Wisconsin.",
+    "reality": "Regional evidence is limited and dated. [S:geo_fit, D:MA-2016-0065, P:2]"
+   },
+   {
+    "title": "Price gap to sponsors",
+    "concern": "A 75th-percentile bid of 15.3x is above its 13.8x median paid.",
+    "mitigant": "It paid 18.5x and 17.9x in two deals, and synergy headroom is $15M-$25M.",
+    "reality": "Stretching is possible, but buyer revenue is not researched, so capacity is unconfirmed. [V:comps, T:record, V:synergy]"
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "Five deals in the target's own sub-sector, one in its region, and a first-place rank on the priority list drive the call; the thin Midwest record and size pattern are the offsets. [T:record, R:rank, C:conviction]"
+  }
+ }
+}

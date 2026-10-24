@@ -1,0 +1,21 @@
+{
+ "purpose": "comparison note",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 2533,
+  "output_tokens": 407,
+  "usd": 0.00913591994,
+  "cached": false,
+  "seconds": 4.40170362504432
+ },
+ "output": {
+  "headline": "Health IT draws strategics and sponsors at a higher multiple that sponsors can pay, while dental draws mostly high-conviction buyers at a lower multiple that sponsors cannot.",
+  "sentences": [
+   "Only two buyers sit on both lists, Blackstone and TPG Capital, so the two universes barely overlap and each target needs its own outreach. [Q:shared]",
+   "Blackstone is High on both targets, while TPG Capital is Medium for Health IT but High for Dental, because its median deal of $88M is under half the $300M EV. [Q:shared, Q:target_a]",
+   "Health IT's own buyers include Evolent Health as High-conviction strategic and Francisco Partners as sponsor at Medium; Dental's include Heartland Dental and Aspen Dental (ADMI) as High-conviction strategics, plus High-conviction sponsors Hellman & Friedman, General Atlantic and Welsh Carson. [Q:only_a, Q:only_b]",
+   "Health IT's defensible multiple is 21.4x and sponsors clear their 20% target return at the ask; Dental's is 15.4x and sponsors do not clear 20%. [Q:target_a, Q:target_b]"
+  ]
+ }
+}

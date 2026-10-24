@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Advocate Health",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 6947,
+  "output_tokens": 4446,
+  "usd": 0.05835374713000001,
+  "cached": false,
+  "seconds": 30.572586167021655
+ },
+ "output": {
+  "buyer": "Advocate Health",
+  "headline": "Advocate Health has done five deals, all in the target's own Healthcare Services sub-sector, and ranks first on the priority list of 10.",
+  "differentiator": "Every one of its 5 deals is in the target's own sub-sector, none falls outside provider services, and all 5 closed, including two platform investments.",
+  "why_them": "Pure sub-sector acquirer with a platform-build record",
+  "acquirer_overview": {
+   "title": "Nonprofit system with 69 hospitals and a record entirely in Healthcare Services",
+   "points": [
+    "Nonprofit system headquartered in Charlotte, NC, created when Advocate Aurora Health and Atrium Health merged; 69 hospitals (2024) [P:1, P:2, P:3].",
+    "Five deals between 2016 and 2023, all control deals, and all 5 closed [T:record, K:closed_share, K:control_share].",
+    "Buyer revenue is not researched, so size comparisons rest on its deal history only [V:synergy]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Own-sub-sector specialist with a platform-build motive",
+   "points": [
+    "Share of deals in the target's sub-sector is the strongest factor; margin close to what it usually buys is a strong factor [S:sector_share, S:margin_fit].",
+    "Platform Build in 2 of 5 deals and Scale in 2 of 5, so the target reads as an add-on to a platform [M:platform_build, M:scale].",
+    "Prior purchases in this or neighbouring regions are a slight factor against; 1 of its deals was in the target's region [S:geo_fit, T:record]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Five same-sub-sector precedents, two of them platform investments",
+   "points": [
+    "Charter Care Partners ($2,022M, Platform Investment, 2023, 18.5x) and Granite Care ($336M, Platform Investment, 2020, 13.6x) [D:MA-2023-0330, D:MA-2020-0408].",
+    "Apex Medical Group ($1,920M, Recapitalization, 2016, 17.9x) was in the Midwest; Hudson Medical Group ($436M, 2020) was at 9.3x [D:MA-2016-0065, D:MA-2020-0496].",
+    "Smallest deal was Silver Health Partners ($35M, Leveraged Buyout, 2022, 13.8x); 2 deals since 2022 [D:MA-2022-0311, K:recent]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible; the buyer's own median sits below it",
+   "points": [
+    "Comparable range is 10.7x to 15.3x EV/EBITDA with a median of 12.8x, across 70 comparable deals [V:comps].",
+    "Defensible percentile is the 75th: the 16.8% margin sits above the comps' median of 12.9% and above 87% of comparable deals [V:comps].",
+    "Its median multiple paid is 13.8x; synergy headroom is $15M-$25M from cost synergies, half realised [V:comps, V:synergy]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $436M is above the target's $200M; only 1 of 5 deals is in the $100M-$400M band [T:record, K:size_band].",
+    "mitigant": "It has gone smaller: Granite Care at $336M and Silver Health Partners at $35M [D:MA-2020-0408, D:MA-2022-0311].",
+    "reality": "The target is below its usual deal size, but it has precedent for smaller deals [T:record]."
+   },
+   {
+    "title": "Price gap at the 75th percentile",
+    "concern": "The upper-quartile multiple of 15.3x is above its median paid of 13.8x [V:comps].",
+    "mitigant": "It paid 18.5x and 17.9x in larger platform and recapitalization deals [D:MA-2023-0330, D:MA-2016-0065].",
+    "reality": "Top-of-range pricing needs a platform rationale, as in its higher-multiple precedents [D:MA-2023-0330]."
+   },
+   {
+    "title": "Regional fit",
+    "concern": "Region fit is a slight factor against, and only 1 deal was in the target's region [S:geo_fit, T:record].",
+    "mitigant": "Apex Medical Group (2016) was a Midwest deal [D:MA-2016-0065].",
+    "reality": "Its deals span Great Plains, Midwest, Northeast and Southwest, so it has bought across regions [K:by_region]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "All 5 deals are in the target's own sub-sector, 1 is in its region, and it is among the 3 highest-scored buyers left after the review (#1) [T:record, C:conviction, R:rank]."
+  }
+ }
+}

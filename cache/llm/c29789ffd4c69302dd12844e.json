@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write Advent International",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8336,
+  "output_tokens": 5249,
+  "usd": 0.06916169743000002,
+  "cached": false,
+  "seconds": 36.480787999986205
+ },
+ "output": {
+  "buyer": "Advent International",
+  "headline": "Open-platform sponsor with 7 adjacent provider deals and a 15.5x median paid; the $200M Midwest target fits as an add-on at its usual deal size.",
+  "differentiator": "One of few sponsors on the priority list with an open platform for an add-on route, and it pays a median 15.5x, above the 12.8x comparable median.",
+  "why_them": "Add-on to its open platform; pays above the comparable median",
+  "acquirer_overview": {
+   "title": "A global sponsor with 18 deals since 2016 and a strong close rate",
+   "points": [
+    "Financial sponsor with 18 deals from 2016 to 2024; 15 of 18 (83%) closed and 17 of 18 (94%) were control deals [T:record, K:closed_share, K:control_share].",
+    "Raised Advent Global Private Equity X, about $25 billion (2022 vintage), and reports approximately $100 billion AUM as of November 2025 [P:1, P:2].",
+    "Deals range from $14M to $5,537M with a median of $124M; 8 of 18 sit in the $100M-$400M band [T:record, K:size_band]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by a provider record",
+   "points": [
+    "Sector relevance is a modest factor in its likelihood: 1 deal in the target's sub-sector and 7 in adjacent provider sub-sectors [S:sector_rel, T:record].",
+    "Its open platform in the sub-sector makes the target an add-on rather than a new bet, and size fit is a stated angle [A:angles].",
+    "Margin Improvement is its most frequent distinguishing motive, in 7 of 18 deals, relevant to a target with a 16.8% margin [M:margin_improvement, X:target]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Same-sub-sector deal in 2024 and a behavioral health base",
+   "points": [
+    "Crest Care Partners: $304M recapitalization in 2024, same sub-sector as the target, at 9.3x EV/EBITDA [D:MA-2024-0120].",
+    "Crown Addiction Treatment: $123M recapitalization in 2023 at 14.6x. Principal Counseling: $163M minority investment in 2021 (Great Plains) at 13.2x [D:MA-2023-0108, D:MA-2021-0341].",
+    "Summit DSO: $303M merger of equals in 2018, its one Midwest deal, at 11.7x [D:MA-2018-0184]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but the return at the ask is tight",
+   "points": [
+    "70 comparable deals show EV/EBITDA of 10.7x at the 25th percentile, 12.8x at the median and 15.3x at the 75th [V:comps].",
+    "The target's 16.8% margin beats the comparables' median of 12.9%, supporting the 75th percentile; Advent's own median paid is 15.5x [V:comps].",
+    "At the ask, IRR is 18.7% against a 20% target; maximum price is $193M on the same exit and $216M on a platform exit [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "The bid works only if it underwrites the add-on exit; the same-exit ceiling of $193M is below $200M [V:lbo, X:target]."
+   },
+   {
+    "title": "Thin Midwest footprint",
+    "concern": "Prior purchases in this or a neighbouring region are a slight factor against; it has 1 deal in the target's region [S:geo_fit, T:record].",
+    "mitigant": "Summit DSO (Midwest, 2018) and Principal Counseling (Great Plains, 2021) show regional experience [D:MA-2018-0184, D:MA-2021-0341].",
+    "reality": "Geographic expansion motivated 13 of 18 deals, so a new region is familiar ground [M:geographic_expansion]."
+   },
+   {
+    "title": "Competing platform sponsors",
+    "concern": "Nordic Capital and Welsh Carson, also open-platform sponsors on the priority list, can pursue the same add-on [R:rank].",
+    "mitigant": "Advent's median paid of 15.5x sits above the comparable median of 12.8x [V:comps].",
+    "reality": "It closed 15 of 18 deals (83%); price will decide the process [K:closed_share]."
+   }
+  ],
+  "conviction": {
+   "level": "High",
+   "rationale": "1 deal in the target's own sub-sector and 7 in adjacent provider sub-sectors, plus an open platform in the sub-sector giving an add-on route [C:conviction, T:record, A:angles]."
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "purpose": "executive summary repair",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3927,
+  "output_tokens": 1464,
+  "usd": 0.02249386755,
+  "cached": false,
+  "seconds": 9.614646915986668
+ },
+ "output": {
+  "headline": "Health IT strategics and platform-backed sponsors form the buyer universe for this national target; median pricing at 21.4x EV/EBITDA is defensible.",
+  "sentences": [
+   "Call Evolent Health first, with 3 deals in the sub-sector and a closed $325M; the order among sponsors such as Blackstone is close to a tie, with back-tests at 28% against 20% random [E:tier1, E:sponsor_ordering].",
+   "A median multiple of 21.4x EV/EBITDA is defensible because the 25.0% margin is above the comparable median but not top quarter; Evolent Health, Blackstone, Francisco Partners and Epic Systems can pay it comfortably [E:valuation, E:tier1].",
+   "The review removed Ciox Health and Cerner (Oracle) because they now sit inside Datavant and Oracle, and merged Change Healthcare into UnitedHealth Group [E:review].",
+   "Most buyers share diversification and technology capability as a motive, seen in 100% of 50 Health IT deals, so frame the pitch around it [E:motives]."
+  ]
+ }
+}

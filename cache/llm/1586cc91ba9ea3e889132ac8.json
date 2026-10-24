@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3816,
+  "output_tokens": 1065,
+  "usd": 0.018281874870000003,
+  "cached": false,
+  "seconds": 7.436353042023256
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Blackstone",
+    "action": "demote",
+    "code": "CAPACITY_CONCERN",
+    "fact_ids": [
+     "F:Blackstone:deals"
+    ],
+    "reason": "Median deal size of $320M is roughly eight times the $39M target. Only 9 of its 24 deals were in provider services and only 2 were in the Mid-Atlantic, so the target is a poor fit for its typical deal."
+   },
+   {
+    "buyer": "Behavioral Health Group",
+    "action": "promote",
+    "code": "FOOTPRINT_OVERLAP",
+    "fact_ids": [
+     "F:Behavioral Health Group:deals"
+    ],
+    "reason": "All 3 of its deals were in provider services, it has 1 Mid-Atlantic deal, and its $78M median is much closer to the target's size than the large sponsors in Tier 1. As a strategic with a behavioral health focus, it is a more realistic buyer than the Tier 1 name it replaces."
+   }
+  ]
+ }
+}

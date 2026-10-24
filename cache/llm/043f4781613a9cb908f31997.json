@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7154,
+  "output_tokens": 3749,
+  "usd": 0.05179774789000001,
+  "cached": false,
+  "seconds": 26.4618325830088
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "TPG pairs a same-sub-sector precedent and 8 adjacent provider deals with upper-range pricing, but ranks 8th of 10 on the priority list.",
+  "differentiator": "Pays a median 15.7x, ahead of Nordic Capital, Advent International, GTCR and all three strategics, and brings $303.0 billion of assets under management for firepower [T:record, P:1].",
+  "acquirer_overview": {
+   "title": "A large, closing-oriented sponsor with a mostly smaller-deal record",
+   "points": [
+    "Financial sponsor with $303.0 billion in assets under management as of December 31, 2025; home sub-sector is Health Insurance [P:1, B:buyer].",
+    "18 deals from 2016 to 2023, of which 15 closed (83%); 4 deals since 2022 [T:record, K:closed_share, K:recent].",
+    "17 of 18 were control deals, and 9 of 18 were in provider services. Median deal is $88M; the biggest is $1,388M [K:control_share, A:angles, T:record]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A credible but not compelling fit; the sub-sector precedent is a minority stake",
+   "points": [
+    "Its record of buying from this kind of seller is a modest factor in its likelihood. Deal count and sector relevance are slight positives [S:own_fit_s, S:activity, S:sector_rel].",
+    "Bought Quality Medical Group ($187M, 2022) in the target's own sub-sector, but as a minority investment [D:MA-2022-0350].",
+    "Geography is a slight factor against: only 1 Midwest deal, and it has no open platform. 8 of 18 deals sit in the $100M-$400M size band [S:geo_fit, T:record, A:angles, K:size_band]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Relevant precedents at $118M-$203M, at 8.8x to 12.2x",
+   "points": [
+    "Granite Dental Network: $203M Platform Investment, 2021, at 12.2x EBITDA [D:MA-2021-0439].",
+    "Liberty Addiction Treatment: $118M Leveraged Buyout, 2021, at 8.8x EBITDA [D:MA-2021-0369].",
+    "Quality Medical Group: $187M minority investment, 2022, at 11.2x EBITDA. All three closed [D:MA-2022-0350]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Target merits upper-quartile pricing; TPG's history and capacity can reach it",
+   "points": [
+    "70 comparable deals: 25th percentile 10.7x, median 12.8x, 75th percentile 15.3x EBITDA [V:comps].",
+    "The 16.8% margin is above the comps' 12.9% median and above 87% of comps, which supports the 75th percentile [V:comps].",
+    "TPG's median paid is 15.7x, above the 75th percentile of 15.3x [T:record, V:comps].",
+    "At 5.0x leverage the equity cheque is $128M; IRR at the ask is 18.7% against a 20% target [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $88M is under half the $200M EV [C:conviction].",
+    "mitigant": "8 of 18 deals sit in the $100M-$400M band; the biggest is $1,388M [K:size_band, T:record].",
+    "reality": "Capable of the cheque, but the typical TPG deal is smaller than this target [T:record]."
+   },
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "At the same exit, the maximum is $193M; a bid at $200M needs the platform exit [V:lbo]."
+   },
+   {
+    "title": "Thin Midwest and sub-sector presence",
+    "concern": "Only 1 Midwest deal and 1 in the target's own sub-sector; no open platform [T:record, A:angles].",
+    "mitigant": "8 adjacent provider deals show it can underwrite provider businesses [T:record].",
+    "reality": "Ranks 8th of 10 on the priority list, behind Welsh Carson and GTCR, which have 6 Midwest deals each [R:rank]."
+   }
+  ],
+  "conviction": {
+   "level": "Low",
+   "rationale": "Low: 1 own-sub-sector deal and 8 adjacent deals support the case, but there is no open platform and the $88M median deal is under half the $200M EV. Likelihood is 3.7% [C:conviction, R:rank]."
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write General Atlantic",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7471,
+  "output_tokens": 3531,
+  "usd": 0.05025174056000001,
+  "cached": false,
+  "seconds": 26.04652591701597
+ },
+ "output": {
+  "buyer": "General Atlantic",
+  "headline": "Growth equity firm with 9 provider deals and a 16.5x median price paid, able to underwrite upper-quartile pricing for this $200M Midwest asset.",
+  "differentiator": "Its 16.5x median price paid sits above the 15.3x upper quartile of comparable deals, and a platform exit lifts its maximum price to $216M. Peer comparison lines were not provided. [V:comps, V:lbo]",
+  "why_them": "Provider-focused growth equity; pays above comparable-deal range",
+  "acquirer_overview": {
+   "title": "A provider-active growth equity firm with a six-year record",
+   "points": [
+    "Growth equity firm investing across Technology, Consumer, Financial Services, Healthcare and Life Sciences; AUM US$125.3 billion per the infobox [P:1, P:2].",
+    "14 deals from 2019 to 2024, with 13 of 14 (93%) closed and 14 of 14 (100%) control deals [T:record, K:closed_share, K:control_share].",
+    "Provider services is the core of the record: 9 of 14 deals, with Physician Groups its largest sub-sector at 4 deals [A:angles, K:by_sub_sector]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "A provider specialist with a size-appropriate fit for the target",
+   "points": [
+    "Deals in this or neighbouring sub-sectors and the share of deals that closed are modest factors in its likelihood [S:sector_rel, S:close_rate_s].",
+    "Revenue synergies drove 5 of 14 deals, against 19% across all deals in the file, a distinct motive for a growth-led target [M:market_share].",
+    "One deal in the target's own sub-sector (Oak Health) and 8 in adjacent provider sub-sectors; no open platform, so this would be a new investment [T:record, A:angles]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Provider deals at a range of sizes, two in the Midwest",
+   "points": [
+    "Crest Medical Practice: $121M leveraged buyout, 2023, at 11.5x EV/EBITDA, in the comparable size band [D:MA-2023-0499].",
+    "Harbor Home Health Partners: $15M strategic acquisition, 2022, Midwest, at 16.9x. Oak Health, same sub-sector as the target: $1,708M merger of equals, 2021, 18.8x [D:MA-2022-0273, D:MA-2021-0066].",
+    "Only 3 of 14 deals sit in the $100M-$400M band, and 2 of 14 are in the Midwest [K:size_band, K:by_region]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, and the buyer has paid at that level",
+   "points": [
+    "70 comparable deals show 10.7x to 15.3x EV/EBITDA, median 12.8x. We defend the 75th percentile because the 16.8% margin exceeds the comps' 12.9% median [V:comps].",
+    "Its median price paid is 16.5x, above the comparable upper quartile. At the 75th percentile the target needs $13.1M of EBITDA [V:comps].",
+    "At 5.0x leverage the equity cheque is $128M. IRR at the ask is 18.7% against a 20% target; a 15.0x platform exit lifts maximum price to $216M [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below the 20% target [V:lbo].",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M [V:lbo].",
+    "reality": "Same-exit maximum is $193M and it has no open platform, so the bid needs an add-on thesis [V:lbo, A:angles]."
+   },
+   {
+    "title": "Thin record in the target's own sub-sector",
+    "concern": "Only 1 deal in the target's own sub-sector; that share is a slight factor against [T:record, S:sector_share].",
+    "mitigant": "8 further deals in adjacent provider sub-sectors, and sector relevance is a modest factor for [T:record, S:sector_rel].",
+    "reality": "Fit rests on adjacent provider experience, not a repeated own-sub-sector strategy [T:record]."
+   },
+   {
+    "title": "Uneven deal size and limited Midwest presence",
+    "concern": "Only 3 of 14 deals sit in the comparable size band, and 2 of 14 are in the Midwest [K:size_band, K:by_region].",
+    "mitigant": "Median deal of $158M sits close to the $200M target, and deal not being smaller than its range is a slight factor for [T:record, S:not_smaller].",
+    "reality": "Size is workable, but regional depth is not a proven strength [K:by_region]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Supported by 1 own-sub-sector deal and 8 in adjacent provider sub-sectors; neutral because it has no open platform in the sub-sector, and the return at the ask is below target. [C:conviction, V:lbo]"
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "purpose": "W2 write Blackstone",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 7468,
+  "output_tokens": 2963,
+  "usd": 0.04456574633000001,
+  "cached": false,
+  "seconds": 21.345604249974713
+ },
+ "output": {
+  "buyer": "Blackstone",
+  "headline": "A sponsor with prior deals in the target's own sub-sector, including one in the Midwest, and a record of paying above the comparable upper quartile.",
+  "differentiator": "Its 17.1x median multiple paid sits above the comparable-deal upper quartile of 15.3x, and it has already bought in the target's own sub-sector, including a Midwest deal. [T:record, V:comps, D:MA-2021-0407]",
+  "why_them": "Prior Healthcare Services deals; pays above the upper quartile",
+  "acquirer_overview": {
+   "title": "A large sponsor with a ten-year, mostly closed deal record",
+   "points": [
+    "Financial sponsor with 25 deals from 2015 to 2024; 22 of 25 (88%) closed and 23 of 25 (92%) were control deals. [T:record, K:closed_share, K:control_share]",
+    "Private Equity segment manages $416.4 billion of Total Assets Under Management as of December 31, 2025. [P:1]",
+    "Home sub-sector is Health Insurance (6 deals), so the target is a step into services rather than its core. [B:buyer, K:by_sub_sector]"
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "Services precedents give a credible, if not core, fit",
+   "points": [
+    "Two deals in the target's own sub-sector and 7 in adjacent provider sub-sectors; sector relevance is a modest factor for it. [T:record, S:sector_rel]",
+    "Platform Build is a stated motive in 9 of 25 deals, against 23% of all deals in the file. [M:platform_build]",
+    "No open platform in the sub-sector, so the target would be a new position rather than an add-on. Size fit is its one sponsor angle. [A:angles]"
+   ]
+  },
+  "precedent_activity": {
+   "title": "Relevant precedents are recent, mid-sized and priced at 10.0x to 14.6x",
+   "points": [
+    "Peak Medical Management: $342M SPAC Merger, 2021, Midwest, Healthcare Services, 10.0x EBITDA. [D:MA-2021-0407]",
+    "Evergreen Care Solutions: $299M Bolt-on Acquisition, 2021, Healthcare Services, 14.6x EBITDA. [D:MA-2021-0195]",
+    "Dental deals: Crest Oral Health, $558M LBO, 13.5x; North Smile Group, $222M Management Buyout, 13.5x; both 2021. [D:MA-2021-0164, D:MA-2021-0453]"
+   ]
+  },
+  "valuation_context": {
+   "title": "Upper-quartile pricing is defensible, but returns at the ask are thin",
+   "points": [
+    "Comparable range across 70 deals: 10.7x at the 25th percentile, 12.8x median and 15.3x at the 75th. [V:comps]",
+    "The 75th percentile is defensible: the target's 16.8% margin sits above the comps' median of 12.9%. Blackstone's own median paid is 17.1x. [V:comps]",
+    "With 5.0x leverage at 8.5%, the equity cheque is $128M and IRR at the ask is 18.7% against a 20% target. [V:lbo]"
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Return at the asking price",
+    "concern": "IRR at the ask of 18.7% is below its 20% target. [V:lbo]",
+    "mitigant": "A platform exit at 15.0x lifts the maximum price to $216M. [V:lbo]",
+    "reality": "Maximum price at the same exit is $193M, so the bid depends on underwriting the platform exit. [V:lbo]"
+   },
+   {
+    "title": "Thin regional and platform fit",
+    "concern": "Prior purchases in this or a neighbouring region are a slight factor against, and there is no open platform. [S:geo_fit, A:angles]",
+    "mitigant": "Peak Medical Management was a Midwest deal in the target's own sub-sector. [D:MA-2021-0407]",
+    "reality": "Only 2 of its 25 deals were in the Midwest. [T:record]"
+   },
+   {
+    "title": "Core focus elsewhere",
+    "concern": "16 of its 25 deals were outside provider services, and its home sub-sector is Health Insurance. [T:record, B:buyer]",
+    "mitigant": "It has 2 own-sub-sector deals and 7 in adjacent provider sub-sectors. [T:record]",
+    "reality": "Provider deals are 9 of 25, a real but secondary part of its record. [A:angles]"
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Supported by 2 deals in the target's own sub-sector and 7 in adjacent provider sub-sectors; held back because there is no open platform in the sub-sector. [C:conviction]"
+  }
+ }
+}

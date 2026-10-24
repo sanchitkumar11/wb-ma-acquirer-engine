@@ -1,0 +1,34 @@
+{
+ "purpose": "A2 reviewer",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3870,
+  "output_tokens": 844,
+  "usd": 0.016179875460000003,
+  "cached": false,
+  "seconds": 6.577763000037521
+ },
+ "output": {
+  "moves": [
+   {
+    "buyer": "Mass General Brigham",
+    "action": "demote",
+    "code": "WEAK_EVIDENCE",
+    "fact_ids": [
+     "F:Mass General Brigham:deals"
+    ],
+    "reason": "Only one deal on file, with a median of $1,418M against a $35M target and none in National. That is thin evidence for a Tier 1 slot."
+   },
+   {
+    "buyer": "UPMC",
+    "action": "promote",
+    "code": "ARCHETYPE_FIT",
+    "fact_ids": [
+     "F:UPMC:deals"
+    ],
+    "reason": "A health system with 3 deals, all in provider services, and a $55M median close to the $35M target size. It also has one National deal, which fits the national scope."
+   }
+  ]
+ }
+}

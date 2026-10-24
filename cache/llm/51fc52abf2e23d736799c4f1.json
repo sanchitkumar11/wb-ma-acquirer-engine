@@ -1,0 +1,74 @@
+{
+ "purpose": "W3 write TPG Capital",
+ "alias": "writer",
+ "endpoint": "databricks-claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 8293,
+  "output_tokens": 3847,
+  "usd": 0.055055712740000005,
+  "cached": false,
+  "seconds": 27.29080887499731
+ },
+ "output": {
+  "buyer": "TPG Capital",
+  "headline": "TPG has an open platform in the target's sub-sector, three deals there, and capacity to pay up to $356M against a $300M value.",
+  "differentiator": "Most National-region deals on the priority list (4), plus three Health IT deals and an open platform in the sub-sector. It also has the capacity to pay up to $356M.",
+  "why_them": "Add-on to an open platform; most National-region deals on the list",
+  "acquirer_overview": {
+   "title": "A large-cap sponsor with an 18-deal record, mostly outside Health IT",
+   "points": [
+    "Financial sponsor with 18 deals from 2016 to 2023; 15 closed (83%). Home sub-sector is Health Insurance [B:buyer, T:record, K:closed_share].",
+    "$303.0 billion in assets under management as of December 31, 2025 (TPG Inc.) [P:1].",
+    "Deals range from $7M to $1,388M with a median of $88M; 15 of 18 sit outside Health IT [T:record]."
+   ]
+  },
+  "strategic_fit_thesis": {
+   "title": "An add-on to an open platform, backed by same-sub-sector deals",
+   "points": [
+    "Open platform in the sub-sector makes the target an add-on; Platform Build is a motive in 5 of 18 deals [A:angles, M:platform_build].",
+    "Technology Capability drives 3 of 18 deals, a distinct motive; it has 3 deals in the target's own sub-sector [M:technology_capability, T:record].",
+    "Prior National-region buying is a modest factor for; having bought from this kind of seller is a slight factor against [S:geo_fit, S:own_fit_s]."
+   ]
+  },
+  "precedent_activity": {
+   "title": "Health IT precedents at 19.6x to 23.5x, plus one very large deal",
+   "points": [
+    "Select Health Data: $149M carve-out, 2018, 23.3x, closed [D:MA-2018-0003].",
+    "Paramount Care Management Tech: $22M bolt-on, 2021, 23.5x, closed. Eastern Digital Health: $28M platform investment, 2021, 19.6x, withdrawn [D:MA-2021-0113, D:MA-2021-0380].",
+    "Cardinal Bio: $1,388M management buyout, 2022, 29.7x, closed, showing it can write much larger cheques [D:MA-2022-0172]."
+   ]
+  },
+  "valuation_context": {
+   "title": "Median anchor of 21.4x is justified, and TPG can pay it",
+   "points": [
+    "13 same-sub-sector comparables show 19.4x to 23.3x with a 21.4x median; the 25.0% margin beats the 22.2% comps median, so the 50th percentile is defensible [V:comps].",
+    "TPG's own median paid is 15.7x, below the comparable median, though it paid 23.3x and 23.5x in its closed Health IT deals [V:comps, D:MA-2018-0003, D:MA-2021-0113].",
+    "At 5.0x leverage and an $239M equity cheque, IRR at the ask is 25.3% against a 20% target; maximum price is $356M [V:lbo]."
+   ]
+  },
+  "risk_flags": [
+   {
+    "title": "Size stretch",
+    "concern": "Median deal of $88M is under half the $300M EV; only 6 of 18 deals sit in the comparable size band [T:record, K:size_band].",
+    "mitigant": "Cardinal Bio at $1,388M shows it can underwrite far larger transactions [D:MA-2022-0172].",
+    "reality": "Size is not a capacity constraint, but the target is above its usual range [T:record, V:lbo]."
+   },
+   {
+    "title": "Price discipline",
+    "concern": "Its 15.7x median paid sits well below the 21.4x comparable median, so it may bid low [V:comps].",
+    "mitigant": "It paid 23.3x and 23.5x for Health IT assets, and the IRR at the ask of 25.3% leaves room [D:MA-2018-0003, D:MA-2021-0113, V:lbo].",
+    "reality": "A bid near the median looks affordable, with a $356M ceiling [V:lbo]."
+   },
+   {
+    "title": "Crowded process, thin Health IT focus",
+    "concern": "15 of 18 deals are outside Health IT, and it ranks 6th on the priority list at 3.7% likelihood [T:record, R:rank].",
+    "mitigant": "Other sponsors, such as Blackstone, also show three deals in the sub-sector; TPG's open platform gives it an add-on route [A:angles].",
+    "reality": "One Health IT deal was withdrawn; execution record is 15 of 18 closed [D:MA-2021-0380, K:closed_share]."
+   }
+  ],
+  "conviction": {
+   "level": "Medium",
+   "rationale": "Three deals in the target's own sub-sector and an open platform support the add-on route, but a median deal of $88M is under half the $300M EV [C:conviction, T:record, A:angles]."
+  }
+ }
+}
